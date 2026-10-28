@@ -13,3 +13,4 @@ dist/
 .env.*
 !.env.example
 __pycache__/
+lessons/003/audio/clips/

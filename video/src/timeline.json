@@ -1,0 +1,1157 @@
+{
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "durationInFrames": 15914,
+ "plannedFrames": 108000,
+ "timing_note": "estimate unless beat.timing == 'audio'",
+ "scenes": [
+  {
+   "id": "ch00-s01",
+   "chapter": "ch00",
+   "title": "Класска кирүү",
+   "from": 0,
+   "frames": 474,
+   "board": [
+    "Доска таза"
+   ],
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "beats": [
+    {
+     "key": "ch00-s01#0",
+     "type": "visual",
+     "speaker": null,
+     "text": "Класстын жалпы көрүнүшү, терезеден күн нуру; музыка жок, жеңил куштардын үнү",
+     "from": 0,
+     "frames": 120,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch00-s01#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ассалому алейкум, балдар!",
+     "from": 120,
+     "frames": 69,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch00-s01#2",
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Ваалейкум ассалам, устаз!",
+     "from": 189,
+     "frames": 78,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch00-s01#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бүгүн биз абдан кызыктуу сабакка чогулдук. Мен доскага үч суроо жазам.",
+     "from": 267,
+     "frames": 207,
+     "timing": "estimate",
+     "audio": null
+    }
+   ]
+  },
+  {
+   "id": "ch00-s02",
+   "chapter": "ch00",
+   "title": "Үч суроо жана беш жылдыз",
+   "from": 474,
+   "frames": 1436,
+   "board": [
+    "КАЙДАН?",
+    "ЭМНЕГЕ?",
+    "КАЙДА?",
+    "Доскада ылдыйда беш бош жылдыз"
+   ],
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "beats": [
+    {
+     "key": "ch00-s02#0",
+     "type": "visual",
+     "speaker": null,
+     "text": "Доскага үч суроо бирден жазылат: КАЙДАН? · ЭМНЕГЕ? · КАЙДА?",
+     "from": 0,
+     "frames": 150,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch00-s02#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Кайдан? Эмнеге? Кайда? Бул суроолор жөнөкөй көрүнөт. Бирок дүйнөдөгү эң акылдуу адамдар да ушулар жөнүндө ойлонушат.",
+     "from": 150,
+     "frames": 292,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch00-s02#2",
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Устаз, бул суроолорго жооп барбы?",
+     "from": 442,
+     "frames": 118,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch00-s02#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бар, Айзада. Жоопту бүгүн бирге табабыз. Анан мен силерге беш максатты айтып берем. Ар бир адам бул дүйнөгө ушул беш максат үчүн келген.",
+     "from": 560,
+     "frames": 412,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch00-s02#4",
+     "type": "visual",
+     "speaker": null,
+     "text": "Доскада беш боз жылдыз пайда болот",
+     "from": 972,
+     "frames": 90,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch00-s02#5",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Сабактын аягында бул беш жылдыздын баары жанат. Даярсыңарбы?",
+     "from": 1062,
+     "frames": 155,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch00-s02#6",
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Даярбыз!",
+     "from": 1217,
+     "frames": 38,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch00-s02#7",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Анда «Бисмиллахир рахманир рахим» деп баштайлы.",
+     "from": 1255,
+     "frames": 121,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch00-s02#8",
+     "type": "pause",
+     "speaker": null,
+     "text": "тынч башталыш",
+     "from": 1376,
+     "frames": 60,
+     "timing": "estimate",
+     "audio": null
+    }
+   ]
+  },
+  {
+   "id": "ch01-s01",
+   "chapter": "ch01",
+   "title": "Кайдан келдик?",
+   "from": 1910,
+   "frames": 653,
+   "board": [
+    "КАЙДАН? (жашыл менен белгиленет)",
+    "Тоолор, дарыялар, жаныбарлар — адамсыз жер"
+   ],
+   "characters": [
+    "ustaz"
+   ],
+   "beats": [
+    {
+     "key": "ch01-s01#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Биринчи суроо: биз кайдан келдик? Окумуштуулар айтат: илгери-илгери жер бетинде адамдар болгон эмес.",
+     "from": 0,
+     "frames": 241,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch01-s01#1",
+     "type": "visual",
+     "speaker": null,
+     "text": "Доскада адамсыз жер: тоолор, дарыя, бугу, куштар",
+     "from": 241,
+     "frames": 120,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch01-s01#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Тоолор бар, суулар бар, жаныбарлар бар. Бирок бир да адам жок. Анан Аллах Таала адамды жаратты.",
+     "from": 361,
+     "frames": 292,
+     "timing": "estimate",
+     "audio": null
+    }
+   ]
+  },
+  {
+   "id": "ch01-s02",
+   "chapter": "ch01",
+   "title": "Эмнеге келдик?",
+   "from": 2563,
+   "frames": 909,
+   "board": [
+    "ЭМНЕГЕ? (жашыл)"
+   ],
+   "characters": [
+    "ustaz",
+    "bektur"
+   ],
+   "beats": [
+    {
+     "key": "ch01-s02#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Экинчи суроо: биз эмнеге келдик? Биз жөн эле келе бербейбиз. Бир нерсе үчүн келдик. Ар бир нерсенин себеби бар.",
+     "from": 0,
+     "frames": 344,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch01-s02#1",
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Устаз, мен мектепке окуганы келем. Анда бул дүйнөгө эмне үчүн келдик?",
+     "from": 344,
+     "frames": 238,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch01-s02#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Мына, азамат! Сен мектепке максат менен келесиң. Адам да бул дүйнөгө максат менен келген. Ошол максатты бүгүн табабыз.",
+     "from": 582,
+     "frames": 327,
+     "timing": "estimate",
+     "audio": null
+    }
+   ]
+  },
+  {
+   "id": "ch01-s03",
+   "chapter": "ch01",
+   "title": "Кайда барабыз?",
+   "from": 3472,
+   "frames": 1267,
+   "board": [
+    "КАЙДА? (жашыл)",
+    "Эки эшиктин сүрөтү: бирөөнөн бөбөк кирет, экинчисинен чоң ата чыгат"
+   ],
+   "characters": [
+    "ustaz",
+    "aizada"
+   ],
+   "beats": [
+    {
+     "key": "ch01-s03#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Үчүнчү суроо: биз кайда барабыз? Карагылачы, балдар. Бир эшиктен бирөө кирет, экинчи эшиктен бирөө чыгат.",
+     "from": 0,
+     "frames": 275,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch01-s03#1",
+     "type": "visual",
+     "speaker": null,
+     "text": "Эки эшик: бирөөнөн бөбөк кирет, экинчисинен чоң ата жылмайып чыгат",
+     "from": 275,
+     "frames": 120,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch01-s03#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бирөө төрөлөт, бирөө бул дүйнөдөн кетет. Бул тынбай улана берет.",
+     "from": 395,
+     "frames": 189,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch01-s03#3",
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Устаз, адамдар кайда кетет?",
+     "from": 584,
+     "frames": 98,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch01-s03#4",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ар бир адамдын бул дүйнөдө жашай турган убактысы бар. Аны Аллах гана билет. Убактысы бүткөндө адам Аллахка кайтат.",
+     "from": 682,
+     "frames": 327,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch01-s03#5",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Жер бетинде эң күчтүү, эң бай падышалар да болгон. Алар да түбөлүк жашаган эмес.",
+     "from": 1009,
+     "frames": 258,
+     "timing": "estimate",
+     "audio": null
+    }
+   ]
+  },
+  {
+   "id": "ch01-s04",
+   "chapter": "ch01",
+   "title": "Эмне үчүн дароо бейишке эмес?",
+   "from": 4739,
+   "frames": 1141,
+   "board": [
+    "«Бол!» → жылдыз пайда болот",
+    "Бешинчи жылдыздын жанында «?»"
+   ],
+   "characters": [
+    "ustaz",
+    "bektur"
+   ],
+   "beats": [
+    {
+     "key": "ch01-s04#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Анан силерге дагы бир суроо берем. Аллах Таала бардык нерсеге кудуреттүү. «Бол!» десе, ошол замат болот.",
+     "from": 0,
+     "frames": 292,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch01-s04#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Анда эмне үчүн Аллах бизди дароо бейишке киргизбей, жерде жашатат? Ар кандай кыйынчылыктан өткөрөт?",
+     "from": 292,
+     "frames": 258,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch01-s04#2",
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Билбейм, устаз…",
+     "from": 550,
+     "frames": 58,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch01-s04#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Жакшы суроо, туурабы? Жоопту сабактын аягында, бешинчи жылдызда табабыз.",
+     "from": 608,
+     "frames": 172,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch01-s04#4",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Азыр ойлонуп көргүлөчү: силер өзүңөргө «Мен эмнеге жашап жатам?» деп суроо бердиңер беле?",
+     "from": 780,
+     "frames": 241,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch01-s04#5",
+     "type": "pause",
+     "speaker": null,
+     "text": "балдар ойлонот",
+     "from": 1021,
+     "frames": 120,
+     "timing": "estimate",
+     "audio": null
+    }
+   ]
+  },
+  {
+   "id": "ch02-s01",
+   "chapter": "ch02",
+   "title": "Баары адам үчүн",
+   "from": 5880,
+   "frames": 688,
+   "board": [
+    "Чоң тегерек: жер, дарак, суу, жаныбарлар, күн",
+    "Ортодо кичинекей адам; жебелер адамга карай"
+   ],
+   "characters": [
+    "ustaz",
+    "aizada"
+   ],
+   "beats": [
+    {
+     "key": "ch02-s01#0",
+     "type": "visual",
+     "speaker": null,
+     "text": "Доскада тегерек толот: дарак, суу, алма, күн, жаныбарлар",
+     "from": 0,
+     "frames": 120,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch02-s01#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Балдар, карагылачы: дарактар, суулар, жаныбарлар, жемиштер. Аллах Таала жер бетиндеги бардык нерсени адам үчүн жаратты.",
+     "from": 120,
+     "frames": 275,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch02-s01#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Алманы биз жейбиз, суудан ичебиз, күндүн жылуулугун сезебиз.",
+     "from": 395,
+     "frames": 155,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch02-s01#3",
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Анда адам эмне үчүн жаратылган, устаз?",
+     "from": 550,
+     "frames": 138,
+     "timing": "estimate",
+     "audio": null
+    }
+   ]
+  },
+  {
+   "id": "ch02-s02",
+   "chapter": "ch02",
+   "title": "Аят 51:56",
+   "from": 6568,
+   "frames": 1243,
+   "board": [
+    "«Зарият» сүрөсү, 56-аят (51:56) — арабча жазуусуз, номер гана"
+   ],
+   "characters": [
+    "ustaz",
+    "bektur"
+   ],
+   "beats": [
+    {
+     "key": "ch02-s02#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Мына ушул эң маанилүү суроо. Аллах Таала Куранда мындай дейт:",
+     "from": 0,
+     "frames": 189,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch02-s02#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "«Ва ма халактул-жинна вал-инса илла лияъбудун».",
+     "from": 189,
+     "frames": 121,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch02-s02#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Мааниси: «Мен жиндерди жана адамдарды Мага ибадат кылыш үчүн гана жараттым».",
+     "from": 310,
+     "frames": 207,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch02-s02#3",
+     "type": "pause",
+     "speaker": null,
+     "text": "аяттан кийин тыныштык",
+     "from": 517,
+     "frames": 60,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch02-s02#4",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Демек, бардык нерсе биз үчүн, ал эми биз Аллахка кулчулук кылуу үчүн жаратылганбыз.",
+     "from": 577,
+     "frames": 241,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch02-s02#5",
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Кулчулук деген эмне, устаз?",
+     "from": 818,
+     "frames": 98,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch02-s02#6",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Кулчулук — бул Аллахты таанып, Аны сүйүп, Ал буйруган жакшы иштерди кылуу. Бүгүн биз муну беш максатка бөлүп үйрөнөбүз.",
+     "from": 916,
+     "frames": 327,
+     "timing": "estimate",
+     "audio": null
+    }
+   ]
+  },
+  {
+   "id": "ch02-s03",
+   "chapter": "ch02",
+   "title": "Аллахка эч нерсе керек эмес",
+   "from": 7811,
+   "frames": 705,
+   "board": [
+    "«Аллах — бардык нерсенин Ээси»",
+    "«Таануу — БИЗГЕ керек»"
+   ],
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "beats": [
+    {
+     "key": "ch02-s03#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллахка биздин ибадатыбыз керекпи? Жок! Аллах бардык байлыктын, бардык мүлктүн Ээси. Ага эч нерсе керек эмес.",
+     "from": 0,
+     "frames": 292,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch02-s03#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллахты таануу, Ага ибадат кылуу — бул бизге керек. Ошондо биз эмне үчүн жашап жатканыбызды билебиз.",
+     "from": 292,
+     "frames": 275,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch02-s03#2",
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Мен азыр түшүндүм!",
+     "from": 567,
+     "frames": 78,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch02-s03#3",
+     "type": "pause",
+     "speaker": null,
+     "text": "өтүү",
+     "from": 645,
+     "frames": 60,
+     "timing": "estimate",
+     "audio": null
+    }
+   ]
+  },
+  {
+   "id": "ch03-s01",
+   "chapter": "ch03",
+   "title": "Таануу деген эмне?",
+   "from": 8516,
+   "frames": 986,
+   "board": [
+    "1-жылдыз жанат: «1. ТААНУУ»"
+   ],
+   "characters": [
+    "ustaz",
+    "aizada"
+   ],
+   "beats": [
+    {
+     "key": "ch03-s01#0",
+     "type": "visual",
+     "speaker": null,
+     "text": "Биринчи жылдыз жанып, жанына «1. ТААНУУ» жазылат",
+     "from": 0,
+     "frames": 90,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s01#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Биринчи максатыбыз — Аллах Тааланы таануу.",
+     "from": 90,
+     "frames": 104,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s01#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Таануу деген эмне? Бирөөнү тааныш үчүн эмне кылабыз, Айзада?",
+     "from": 194,
+     "frames": 172,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s01#3",
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Аны көрөбүз, аты ким экенин билебиз.",
+     "from": 366,
+     "frames": 138,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s01#4",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Туура. Аллахты биз көзүбүз менен көрө албайбыз. Бирок Аллахтын жараткан нерселерин көрөбүз. Айланабыздагы ар бир нерсе Аллахты таанытып турат.",
+     "from": 504,
+     "frames": 344,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s01#5",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ошол жөнүндө ойлонушубуз керек. Келгиле, бирге карайлы.",
+     "from": 848,
+     "frames": 138,
+     "timing": "estimate",
+     "audio": null
+    }
+   ]
+  },
+  {
+   "id": "ch03-s02",
+   "chapter": "ch03",
+   "title": "Терезеден керемет",
+   "from": 9502,
+   "frames": 674,
+   "board": [
+    "(доска эмес — терезе)"
+   ],
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "beats": [
+    {
+     "key": "ch03-s02#0",
+     "type": "visual",
+     "speaker": null,
+     "text": "Терезеден кең көрүнүш ачылат",
+     "from": 0,
+     "frames": 120,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s02#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бак-дарактар… суулар, таштар… тоолор… агып жаткан дарыялар… деңиздер, океандар…",
+     "from": 120,
+     "frames": 172,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s02#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Булуттар асманда жылып баратат. Жаныбарлар өз алдынча кыймылдап жашайт. Шамал согот. Биз жашаган жер — бир керемет!",
+     "from": 292,
+     "frames": 292,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s02#3",
+     "type": "pause",
+     "speaker": null,
+     "text": "балдар карап турат",
+     "from": 584,
+     "frames": 90,
+     "timing": "estimate",
+     "audio": null
+    }
+   ]
+  },
+  {
+   "id": "ch03-s03",
+   "chapter": "ch03",
+   "title": "Космостон караганда",
+   "from": 10176,
+   "frames": 752,
+   "board": [
+    "(толук экран анимация)"
+   ],
+   "characters": [
+    "ustaz",
+    "bektur"
+   ],
+   "beats": [
+    {
+     "key": "ch03-s03#0",
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Устаз, космосто да ушундай жер барбы?",
+     "from": 0,
+     "frames": 138,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s03#1",
+     "type": "visual",
+     "speaker": null,
+     "text": "Ракета космоско чыгат; боз планеталар жанынан өтөт",
+     "from": 138,
+     "frames": 150,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s03#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Космоско чыгып карасаң, Жерге окшош эч нерсе жок.",
+     "from": 288,
+     "frames": 155,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s03#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Эгер Жер өзүнөн-өзү пайда болсо, ага окшогон жерлер жаныбызда толтура болмок. Бирок жок — мындай Жер бирөө гана.",
+     "from": 443,
+     "frames": 309,
+     "timing": "estimate",
+     "audio": null
+    }
+   ]
+  },
+  {
+   "id": "ch03-s04",
+   "chapter": "ch03",
+   "title": "Мөңгүдөн дарыяга",
+   "from": 10928,
+   "frames": 795,
+   "board": [
+    "Тоо → зоо → кар/мөңгү",
+    "Мөңгүдөн тамчылар → булак → дарыя"
+   ],
+   "characters": [
+    "ustaz",
+    "both_children"
+   ],
+   "beats": [
+    {
+     "key": "ch03-s04#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Эми бизде эмне бар экенин карайлы. Тоолор бар. Тоолордун үстүндө зоолор турат. Зоолордун үстүндө эмне бар?",
+     "from": 0,
+     "frames": 292,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s04#1",
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Кар!",
+     "from": 292,
+     "frames": 38,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s04#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Кар бар, мөңгүлөр бар. Мөңгүлөр аз-аздан эрийт. Аз-аздан суу болуп тамчылайт.",
+     "from": 330,
+     "frames": 207,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s04#3",
+     "type": "visual",
+     "speaker": null,
+     "text": "Мөңгүдөн тамчылар → булак → дарыя агат",
+     "from": 537,
+     "frames": 120,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s04#4",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ошол сууну биз жыл бою пайдаланабыз, ичебиз.",
+     "from": 657,
+     "frames": 138,
+     "timing": "estimate",
+     "audio": null
+    }
+   ]
+  },
+  {
+   "id": "ch03-s05",
+   "chapter": "ch03",
+   "title": "Шаарлар дарыянын боюнда",
+   "from": 11723,
+   "frames": 1156,
+   "board": [
+    "Карта: Бишкек, Ош, Жалал-Абад, Нарын, Талас — ар биринин жанында көк дарыя сызыгы"
+   ],
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "beats": [
+    {
+     "key": "ch03-s05#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Анан карагылачы: илгертен эле адамдар суу аккан жерге, суунун жээгине жайгашкан.",
+     "from": 0,
+     "frames": 207,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s05#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бишкек — дарыялардын боюнда. Ош — дарыянын боюнда. Жалал-Абад, Нарын, Талас — баары дарыянын боюнда жайгашкан.",
+     "from": 207,
+     "frames": 241,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s05#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Силер кайсы шаарда же айылда жашайсыңар? Жаныңарда кайсы дарыя агат?",
+     "from": 448,
+     "frames": 189,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s05#3",
+     "type": "pause",
+     "speaker": null,
+     "text": "балдар ойлонот",
+     "from": 637,
+     "frames": 120,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s05#4",
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Биздин айылдын жанында да кичинекей суу агат!",
+     "from": 757,
+     "frames": 158,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s05#5",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Мына, Аллах Таала адамдарга ырыскы кылып, Өзүн таанытыш үчүн ушундай кереметтерди кылып койгон.",
+     "from": 915,
+     "frames": 241,
+     "timing": "estimate",
+     "audio": null
+    }
+   ]
+  },
+  {
+   "id": "ch03-s06",
+   "chapter": "ch03",
+   "title": "Урук — керемет",
+   "from": 12879,
+   "frames": 1310,
+   "board": [
+    "Урук → өскөн → дарак → гүл → жемиш (ыкчам сүрөттөр)"
+   ],
+   "characters": [
+    "ustaz",
+    "aizada"
+   ],
+   "beats": [
+    {
+     "key": "ch03-s06#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Кээ бир адамдар «Керемет көрсөт, далил келтир» деп сурашат экен.",
+     "from": 0,
+     "frames": 189,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s06#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бирок айланабызда өсүп турган ар бир нерсе — өзү эле керемет, мужиза.",
+     "from": 189,
+     "frames": 207,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s06#2",
+     "type": "visual",
+     "speaker": null,
+     "text": "Ыкчам анимация: урук → көчөт → дарак → гүл → алма",
+     "from": 396,
+     "frames": 180,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s06#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Биз аларды күндө көргөндүктөн, кадимки нерсе деп ойлойбуз. Эгер бир уруктун дарак болуп чыгып жатканын өз көзүбүз менен биринчи жолу көрсөк, чыныгы мужиза көрмөкпүз.",
+     "from": 576,
+     "frames": 429,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s06#4",
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Чын эле керемет экен!",
+     "from": 1005,
+     "frames": 98,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s06#5",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Алардын бардыгы — Аллахтын керемети, мужизасы. Аллах Таала Өзүн таанытыш үчүн жаратты.",
+     "from": 1103,
+     "frames": 207,
+     "timing": "estimate",
+     "audio": null
+    }
+   ]
+  },
+  {
+   "id": "ch03-s07",
+   "chapter": "ch03",
+   "title": "Пайгамбарлар жана китептер",
+   "from": 14189,
+   "frames": 1319,
+   "board": [
+    "Китептин белгиси (сүрөтсүз)",
+    "«Аллахты тааныган адам — кайдан келгенин жана эмнеге келгенин билет»"
+   ],
+   "characters": [
+    "ustaz",
+    "bektur"
+   ],
+   "beats": [
+    {
+     "key": "ch03-s07#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллах Таала абдан Улуу. Биз Анын улуулугун толук түшүнө албайбыз.",
+     "from": 0,
+     "frames": 189,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s07#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ошондуктан Аллах бизге пайгамбарларды жана китептерди жиберип, Өзүн таанытты, көп нерсени үйрөттү. Ошентсе да биз Аллахты таанууну үйрөнүшүбүз керек.",
+     "from": 189,
+     "frames": 344,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s07#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Эми ойлонуп көргүлө: эгер адам бул дүйнөдө жашап, Аллахты тааныбай, Аны сүйбөй өтүп кетсе — ал адам эмне болот?",
+     "from": 533,
+     "frames": 327,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s07#3",
+     "type": "pause",
+     "speaker": null,
+     "text": "балдар ойлонот",
+     "from": 860,
+     "frames": 120,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s07#4",
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Эмнеге келгенин билбей калат?",
+     "from": 980,
+     "frames": 98,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s07#5",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Азаматсың, Бектур! Аллах Тааланы тааныбаган адам эмнеге келгенин да, кайдан келгенин да билбейт.",
+     "from": 1078,
+     "frames": 241,
+     "timing": "estimate",
+     "audio": null
+    }
+   ]
+  },
+  {
+   "id": "ch03-s08",
+   "chapter": "ch03",
+   "title": "Үй тапшырмасы",
+   "from": 15508,
+   "frames": 406,
+   "board": [
+    "Биринчи жылдыз толук жанат"
+   ],
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "beats": [
+    {
+     "key": "ch03-s08#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бүгүн үйгө барганда терезеден карап, Аллахтын бир кереметин тапкыла. Эртең мага айтып бересиңер, макулбу?",
+     "from": 0,
+     "frames": 258,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s08#1",
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Макул, устаз!",
+     "from": 258,
+     "frames": 58,
+     "timing": "estimate",
+     "audio": null
+    },
+    {
+     "key": "ch03-s08#2",
+     "type": "visual",
+     "speaker": null,
+     "text": "Биринчи жылдыз толук жаркырайт",
+     "from": 316,
+     "frames": 90,
+     "timing": "estimate",
+     "audio": null
+    }
+   ]
+  }
+ ]
+}
