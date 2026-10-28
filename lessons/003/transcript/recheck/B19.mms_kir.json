@@ -1,0 +1,9 @@
+{
+ "clip": "B19",
+ "source_start": "00:32:33",
+ "source_end": "00:32:49",
+ "model": "facebook/mms-1b-all",
+ "adapter": "kir",
+ "text": "мисалы сен бирөнүн бир ишин бүтүрүп бердиң айа бирук тңн электриксин сасетиң сивет өчүп калыптыр манан чакырдыдагы шу сивет моңдоп берип койча деди сен бир сагат у",
+ "note": "machine cross-check, not human listening; audio_verified stays false"
+}

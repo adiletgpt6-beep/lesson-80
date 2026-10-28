@@ -1,0 +1,9 @@
+{
+ "clip": "B11",
+ "source_start": "00:53:17",
+ "source_end": "00:53:30",
+ "model": "facebook/mms-1b-all",
+ "adapter": "kir",
+ "text": "мн кыйызылкун бардыгын жоле мен максатым деп калыналыскере бүттө максатым мен будан өтүшүм керек аллатала мени пышырып атат демек дагы мине бир нерсеге даярдаботат бул дүняда сен ахыр этте шүкүрчүлүккө даярланат",
+ "note": "machine cross-check, not human listening; audio_verified stays false"
+}
