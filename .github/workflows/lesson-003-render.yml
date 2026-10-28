@@ -1,0 +1,108 @@
+name: Lesson 003 — render preview film
+
+# Renders every chapter of lesson 003 in parallel (Remotion, 1920×1080, 30 fps, no music), concatenates them
+# without re-encoding, verifies the MP4 and publishes it to the pre-release `lesson-003-preview-v1`
+# (the same release mechanism as balago-video). Voice clips come from lessons/003/audio/clips (ElevenLabs output).
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag"
+        required: false
+        default: "lesson-003-preview-v1"
+  push:
+    branches:
+      - "claude/lesson-003-animation-production-*"
+    paths:
+      - "video/src/**"
+      - "video/public/**"
+      - "lessons/003/audio/clips/**"
+      - ".github/workflows/lesson-003-render.yml"
+
+permissions:
+  contents: write
+
+env:
+  TAG: ${{ github.event.inputs.tag || 'lesson-003-preview-v1' }}
+  OUT: lesson-80-003-full-ky-preview-v1
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        chapter: [ch00, ch01, ch02, ch03, ch04, ch05, ch06, ch07, ch08, ch09, ch10, ch11, ch12, ch13, ch14, ch15, ch16]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: video/package-lock.json
+      - name: Install
+        working-directory: video
+        run: |
+          npm ci
+          ln -sfn ../../lessons/003/audio/clips public/audio
+          npx remotion browser ensure
+      - name: Render ${{ matrix.chapter }}
+        working-directory: video
+        run: |
+          mkdir -p out
+          npx remotion render src/index.ts Lesson003-${{ matrix.chapter }} out/${{ matrix.chapter }}.mp4 \
+            --concurrency=4 --codec=h264 --crf=20 --jpeg-quality=85 --pixel-format=yuv420p --audio-codec=aac --log=warn
+          ffprobe -v error -show_entries format=duration:stream=codec_name,width,height,r_frame_rate -of default=nw=1 out/${{ matrix.chapter }}.mp4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: chapter-${{ matrix.chapter }}
+          path: video/out/${{ matrix.chapter }}.mp4
+          if-no-files-found: error
+          retention-days: 14
+
+  publish:
+    needs: render
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: chapter-*
+          path: chapters
+          merge-multiple: true
+      - name: Concatenate chapters (no re-encoding) and verify
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          ls -la chapters
+          for n in $(seq -w 0 16); do echo "file '$PWD/chapters/ch$n.mp4'"; done > concat.txt
+          ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i concat.txt -c copy -movflags +faststart "$OUT.mp4"
+          ffmpeg -hide_banner -loglevel error -y -i "$OUT.mp4" -vf scale=960:540:flags=lanczos -c:v libx264 -preset fast -crf 24 \
+            -pix_fmt yuv420p -c:a aac -b:a 96k -movflags +faststart "$OUT-preview-960x540.mp4"
+          python3 scripts/verify_mp4.py "$OUT.mp4" --expect-min-seconds 3300 --expect-max-seconds 3900 | tee verify.txt
+          sha256sum "$OUT.mp4" "$OUT-preview-960x540.mp4" chapters/*.mp4 | tee SHA256SUMS.txt
+          cd lessons/003/audio && zip -q -r "$GITHUB_WORKSPACE/lesson-003-audio-clips-v1.zip" clips manifest.json voices.json -x "*.v0.mp3" "*.v1.mp3"
+      - name: Publish to pre-release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          NOTES="Урок 003 — просмотровая версия v1 (preview). Кыргызский, 1920×1080, 30 fps, H.264/AAC, без музыки. Ветка ${GITHUB_REF_NAME}, коммит ${GITHUB_SHA::7}, прогон ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}. Не утверждённый исламский учебный материал: см. lessons/003/script/PREVIEW_REGISTER.md.
+
+$(cat verify.txt)"
+          if gh release view "$TAG" -R "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release edit "$TAG" -R "$GITHUB_REPOSITORY" --notes "$NOTES" --prerelease --target "$GITHUB_SHA"
+          else
+            gh release create "$TAG" -R "$GITHUB_REPOSITORY" --title "Урок 003 — просмотровая версия v1 (preview)" --notes "$NOTES" --prerelease --target "$GITHUB_SHA"
+          fi
+          gh release upload "$TAG" -R "$GITHUB_REPOSITORY" --clobber "$OUT.mp4" "$OUT-preview-960x540.mp4" SHA256SUMS.txt lesson-003-audio-clips-v1.zip chapters/*.mp4
+          for f in "$OUT.mp4" "$OUT-preview-960x540.mp4" SHA256SUMS.txt; do echo "- ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases/download/$TAG/$f" >> "$GITHUB_STEP_SUMMARY"; done
+      - uses: actions/upload-artifact@v4
+        with:
+          name: lesson-003-full
+          path: |
+            ${{ env.OUT }}.mp4
+            SHA256SUMS.txt
+            verify.txt
+          retention-days: 14

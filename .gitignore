@@ -13,4 +13,8 @@ dist/
 .env.*
 !.env.example
 __pycache__/
-lessons/003/audio/clips/
+
+# Voice clips of lesson 003 (ElevenLabs output, ~44 MB): kept in Git so CI can render without re-spending credits.
+!lessons/003/audio/clips/*.mp3
+lessons/003/audio/clips/*.v0.mp3
+lessons/003/audio/clips/*.v1.mp3
