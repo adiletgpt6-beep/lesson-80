@@ -88,13 +88,17 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          NOTES="Урок 003 — просмотровая версия v1 (preview). Кыргызский, 1920×1080, 30 fps, H.264/AAC, без музыки. Ветка ${GITHUB_REF_NAME}, коммит ${GITHUB_SHA::7}, прогон ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}. Не утверждённый исламский учебный материал: см. lessons/003/script/PREVIEW_REGISTER.md.
-
-$(cat verify.txt)"
+          {
+            echo "Урок 003 — просмотровая версия v1 (preview). Кыргызский, 1920×1080, 30 fps, H.264/AAC, без музыки."
+            echo "Ветка ${GITHUB_REF_NAME}, коммит ${GITHUB_SHA::7}, прогон ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}."
+            echo "Не утверждённый исламский учебный материал: см. lessons/003/script/PREVIEW_REGISTER.md."
+            echo
+            cat verify.txt
+          } > notes.md
           if gh release view "$TAG" -R "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
-            gh release edit "$TAG" -R "$GITHUB_REPOSITORY" --notes "$NOTES" --prerelease --target "$GITHUB_SHA"
+            gh release edit "$TAG" -R "$GITHUB_REPOSITORY" --notes-file notes.md --prerelease --target "$GITHUB_SHA"
           else
-            gh release create "$TAG" -R "$GITHUB_REPOSITORY" --title "Урок 003 — просмотровая версия v1 (preview)" --notes "$NOTES" --prerelease --target "$GITHUB_SHA"
+            gh release create "$TAG" -R "$GITHUB_REPOSITORY" --title "Урок 003 — просмотровая версия v1 (preview)" --notes-file notes.md --prerelease --target "$GITHUB_SHA"
           fi
           gh release upload "$TAG" -R "$GITHUB_REPOSITORY" --clobber "$OUT.mp4" "$OUT-preview-960x540.mp4" SHA256SUMS.txt lesson-003-audio-clips-v1.zip chapters/*.mp4
           for f in "$OUT.mp4" "$OUT-preview-960x540.mp4" SHA256SUMS.txt; do echo "- ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases/download/$TAG/$f" >> "$GITHUB_STEP_SUMMARY"; done
