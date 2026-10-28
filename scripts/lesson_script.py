@@ -110,11 +110,18 @@ def estimate(chs):
                  "lines": len(lines), "words": sum(words(b["text"]) for b in lines),
                  "words_ustaz": sum(words(b["text"]) for b in lines if b["speaker"] == "ustaz"),
                  "words_children": sum(words(b["text"]) for b in lines if b["speaker"] != "ustaz"),
+                 "words_ws": sum(len(b["text"].split()) for b in lines),  # whitespace split, for comparison only
                  "pause_visual_s": sum(float(b["seconds"]) for b in s["beats"] if b["type"] != "line"),
+                 "pause_s": sum(float(b["seconds"]) for b in s["beats"] if b["type"] == "pause"),
+                 "visual_s": sum(float(b["seconds"]) for b in s["beats"] if b["type"] == "visual"),
+                 "gaps_s": len(lines) * LINE_GAP,
                  "blocked_lines": sum(1 for b in lines if b["blocked"]),
+                 "blocked_words": sum(words(b["text"]) for b in lines if b["blocked"]),
                  "ped_lines": sum(1 for b in lines if b["ped"])}
             for k, pace in PACE.items():
                 r[f"est_{k}_s"] = round(sum(beat_seconds(b, pace) for b in s["beats"]), 1)
+                r[f"speech_{k}_s"] = round(sum(line_seconds(b, pace) - LINE_GAP for b in lines), 1)
+                r[f"blocked_{k}_s"] = round(sum(line_seconds(b, pace) for b in lines if b["blocked"]), 1)
             rows.append(r)
     return rows
 
@@ -210,6 +217,25 @@ def cmd_render(_):
     du.append(f"| **Бардыгы** | | **{fmt(sum(c['planned_seconds'] for c in chs))}** | **{fmt(t_a)} – {fmt(t_b)}** | {t_b - PLANNED_TOTAL:+.0f} сек | {sum(r['words'] for r in allr)} |")
     du.append(f"\nРеплика: {sum(r['lines'] for r in allr)} · сөз: {sum(r['words'] for r in allr)} (устаз {sum(r['words_ustaz'] for r in allr)}, балдар {sum(r['words_children'] for r in allr)}) · "
               f"⛔ бөгөттөлгөн реплика: {sum(r['blocked_lines'] for r in allr)} · [ПЕД] реплика: {sum(r['ped_lines'] for r in allr)}")
+    du.append(f"\nСөз саноо: бул файлда — тыныш белгилерсиз сөздөр (`WORD` regex): **{sum(r['words'] for r in allr)}**; "
+              f"боштук менен бөлүү (ChatGPT аудитиндеги ыкма): **{sum(r['words_ws'] for r in allr)}**. Айырма — «—», «–» сыяктуу өзүнчө турган белгилерде.")
+
+    # components: what the film time is made of
+    du.append("\n## Убакыттын курамы (жай темп)\n\n| Глава | Речь | Реплика арасы | Тыным | Сүрөт/анимация | Бардыгы | ⛔ реплика (сөз / сек) | ⛔'сыз болжол |\n|---|---|---|---|---|---|---|---|")
+    keys = ("speech_slow_s", "gaps_s", "pause_s", "visual_s", "est_slow_s", "blocked_slow_s")
+    tot = dict.fromkeys(keys, 0.0); tb_l = tb_w = 0
+    for ch in chs:
+        cr = [rows[s["id"]] for s in ch["scenes"]]
+        v = {k: sum(r[k] for r in cr) for k in keys}
+        bl, bw = sum(r["blocked_lines"] for r in cr), sum(r["blocked_words"] for r in cr)
+        for k in keys:
+            tot[k] += v[k]
+        tb_l += bl; tb_w += bw
+        du.append(f"| {ch['id']} | {fmt(v['speech_slow_s'])} | {v['gaps_s']:.0f} сек | {v['pause_s']:.0f} сек | {v['visual_s']:.0f} сек | {fmt(v['est_slow_s'])} | "
+                  f"{bl} ({bw} / {v['blocked_slow_s']:.0f} сек) | {fmt(v['est_slow_s'] - v['blocked_slow_s'])} |")
+    du.append(f"| **Бардыгы** | **{fmt(tot['speech_slow_s'])}** | {tot['gaps_s']:.0f} сек | {tot['pause_s']:.0f} сек | {tot['visual_s']:.0f} сек | **{fmt(tot['est_slow_s'])}** | "
+              f"{tb_l} ({tb_w} / {tot['blocked_slow_s']:.0f} сек) | **{fmt(tot['est_slow_s'] - tot['blocked_slow_s'])}** |")
+    du.append("\n⛔'сыз болжол — бөгөттөлгөн реплика азыркы түрүндө алынып салынса калган узундук (алар оңдолуп же алмаштырылып кайтарылышы мүмкүн).")
     (out / "durations.md").write_text("\n".join(du) + "\n", encoding="utf-8")
 
     # assets.md - drawings and animations list
