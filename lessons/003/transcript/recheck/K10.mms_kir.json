@@ -1,0 +1,9 @@
+{
+ "clip": "K10",
+ "source_start": "00:54:58",
+ "source_end": "00:55:13",
+ "model": "facebook/mms-1b-all",
+ "adapter": "kir",
+ "text": "а себеб демек ушул эсен аткарбасаң сен жөлле келип кеткендейр болосоң алланы тааныбадың алланы сүйбөдүң алланы кулчулук кылбадың жакшылыкта жарышпадың кыйынчылыктын баарына сабыр кылып шүгүркылуп өтпөдүң",
+ "note": "machine cross-check, not human listening; audio_verified stays false"
+}

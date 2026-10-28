@@ -1,0 +1,251 @@
+{
+ "clip": "K06",
+ "source_start": "00:44:17",
+ "source_end": "00:44:30",
+ "model_id": "scribe_v2",
+ "language_code": "kir",
+ "response_headers": {
+  "character-cost": "5",
+  "fiat-cost-before-overages": "0.000825"
+ },
+ "response": {
+  "language_code": "kir",
+  "language_probability": 1.0,
+  "text": "Аякта дагы бир миллион төрт yüz жыл alот. Не деген чоң соода бул. Аллатааланын берешенидей керемет да.",
+  "words": [
+   {
+    "text": "Аякта",
+    "start": 2.26,
+    "end": 2.6,
+    "type": "word",
+    "logprob": -0.044318100344389676
+   },
+   {
+    "text": " ",
+    "start": 2.6,
+    "end": 2.62,
+    "type": "spacing",
+    "logprob": -0.007594877388328314
+   },
+   {
+    "text": "дагы",
+    "start": 2.62,
+    "end": 2.88,
+    "type": "word",
+    "logprob": -0.0038386834057746455
+   },
+   {
+    "text": " ",
+    "start": 2.88,
+    "end": 2.9,
+    "type": "spacing",
+    "logprob": -0.03925872966647148
+   },
+   {
+    "text": "бир",
+    "start": 2.9,
+    "end": 3.02,
+    "type": "word",
+    "logprob": -0.03925872966647148
+   },
+   {
+    "text": " ",
+    "start": 3.02,
+    "end": 3.06,
+    "type": "spacing",
+    "logprob": -0.004112834110856056
+   },
+   {
+    "text": "миллион",
+    "start": 3.06,
+    "end": 3.28,
+    "type": "word",
+    "logprob": -0.0029601831754137364
+   },
+   {
+    "text": " ",
+    "start": 3.28,
+    "end": 3.34,
+    "type": "spacing",
+    "logprob": -0.004882674664258957
+   },
+   {
+    "text": "төрт",
+    "start": 3.34,
+    "end": 3.48,
+    "type": "word",
+    "logprob": -0.002825043979100883
+   },
+   {
+    "text": " ",
+    "start": 3.48,
+    "end": 3.5,
+    "type": "spacing",
+    "logprob": -0.19978517293930054
+   },
+   {
+    "text": "yüz",
+    "start": 3.5,
+    "end": 3.6,
+    "type": "word",
+    "logprob": -0.19978517293930054
+   },
+   {
+    "text": " ",
+    "start": 3.6,
+    "end": 3.62,
+    "type": "spacing",
+    "logprob": -1.939241886138916
+   },
+   {
+    "text": "жыл",
+    "start": 3.62,
+    "end": 3.72,
+    "type": "word",
+    "logprob": -1.939241886138916
+   },
+   {
+    "text": " ",
+    "start": 3.72,
+    "end": 3.8,
+    "type": "spacing",
+    "logprob": -0.9609079957008362
+   },
+   {
+    "text": "alот.",
+    "start": 3.82,
+    "end": 4.019,
+    "type": "word",
+    "logprob": -1.4856230020523071
+   },
+   {
+    "text": " ",
+    "start": 4.019,
+    "end": 4.019,
+    "type": "spacing",
+    "logprob": -0.4898836016654968
+   },
+   {
+    "text": "Не",
+    "start": 6.08,
+    "end": 6.2,
+    "type": "word",
+    "logprob": -0.4898836016654968
+   },
+   {
+    "text": " ",
+    "start": 6.2,
+    "end": 6.28,
+    "type": "spacing",
+    "logprob": -0.03236239403486252
+   },
+   {
+    "text": "деген",
+    "start": 6.28,
+    "end": 6.58,
+    "type": "word",
+    "logprob": -0.03236239403486252
+   },
+   {
+    "text": " ",
+    "start": 6.58,
+    "end": 6.58,
+    "type": "spacing",
+    "logprob": -0.013509988784790039
+   },
+   {
+    "text": "чоң",
+    "start": 6.98,
+    "end": 7.22,
+    "type": "word",
+    "logprob": -0.009111348238851255
+   },
+   {
+    "text": " ",
+    "start": 7.22,
+    "end": 7.28,
+    "type": "spacing",
+    "logprob": -6.23445157543756e-05
+   },
+   {
+    "text": "соода",
+    "start": 7.28,
+    "end": 7.62,
+    "type": "word",
+    "logprob": -0.005820960240089335
+   },
+   {
+    "text": " ",
+    "start": 7.62,
+    "end": 7.66,
+    "type": "spacing",
+    "logprob": -0.000219321038457565
+   },
+   {
+    "text": "бул.",
+    "start": 7.66,
+    "end": 7.82,
+    "type": "word",
+    "logprob": -0.037242763330141315
+   },
+   {
+    "text": " ",
+    "start": 7.82,
+    "end": 7.82,
+    "type": "spacing",
+    "logprob": -0.01498583983629942
+   },
+   {
+    "text": "Аллатааланын",
+    "start": 10.52,
+    "end": 11.04,
+    "type": "word",
+    "logprob": -0.11011908183960865
+   },
+   {
+    "text": " ",
+    "start": 11.04,
+    "end": 11.1,
+    "type": "spacing",
+    "logprob": -0.04153786972165108
+   },
+   {
+    "text": "берешенидей",
+    "start": 11.1,
+    "end": 11.68,
+    "type": "word",
+    "logprob": -0.2722402255643498
+   },
+   {
+    "text": " ",
+    "start": 11.68,
+    "end": 11.98,
+    "type": "spacing",
+    "logprob": -0.26667752861976624
+   },
+   {
+    "text": "керемет",
+    "start": 12.0,
+    "end": 12.42,
+    "type": "word",
+    "logprob": -0.6115201371056693
+   },
+   {
+    "text": " ",
+    "start": 12.42,
+    "end": 12.52,
+    "type": "spacing",
+    "logprob": -0.0014772227732464671
+   },
+   {
+    "text": "да.",
+    "start": 12.52,
+    "end": 12.6,
+    "type": "word",
+    "logprob": -0.0011752175050787628
+   }
+  ],
+  "transcription_id": "P3UrQwjqAS0RYXKHE92f",
+  "audio_duration_secs": 13.0
+ }
+}

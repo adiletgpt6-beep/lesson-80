@@ -1,0 +1,335 @@
+{
+ "clip": "K07",
+ "source_start": "00:15:34",
+ "source_end": "00:15:55",
+ "model_id": "scribe_v2",
+ "language_code": "kir",
+ "response_headers": {
+  "character-cost": "8",
+  "fiat-cost-before-overages": "0.00132"
+ },
+ "response": {
+  "language_code": "kir",
+  "language_probability": 1.0,
+  "text": "Не болосың? Жин болуп каласың, турабы? Кайра өчүрөт экен бул. Бул жазыбайт окшей, а? Ай жазат экен. Адам өзүнөн кетет. Анан эмне болоту?",
+  "words": [
+   {
+    "text": "Не",
+    "start": 0.5,
+    "end": 0.58,
+    "type": "word",
+    "logprob": -0.018628409132361412
+   },
+   {
+    "text": " ",
+    "start": 0.58,
+    "end": 0.62,
+    "type": "spacing",
+    "logprob": -0.21684630215168
+   },
+   {
+    "text": "болосың?",
+    "start": 0.62,
+    "end": 1.06,
+    "type": "word",
+    "logprob": -0.3528489341188106
+   },
+   {
+    "text": " ",
+    "start": 1.06,
+    "end": 1.06,
+    "type": "spacing",
+    "logprob": -0.7194665670394897
+   },
+   {
+    "text": "Жин",
+    "start": 4.26,
+    "end": 4.4,
+    "type": "word",
+    "logprob": -0.3051339437564214
+   },
+   {
+    "text": " ",
+    "start": 4.4,
+    "end": 4.44,
+    "type": "spacing",
+    "logprob": -2.254953622817993
+   },
+   {
+    "text": "болуп",
+    "start": 4.44,
+    "end": 4.64,
+    "type": "word",
+    "logprob": -1.8039699076376565
+   },
+   {
+    "text": " ",
+    "start": 4.64,
+    "end": 4.64,
+    "type": "spacing",
+    "logprob": -0.027351314201951027
+   },
+   {
+    "text": "каласың,",
+    "start": 4.64,
+    "end": 5.02,
+    "type": "word",
+    "logprob": -0.13631095643177105
+   },
+   {
+    "text": " ",
+    "start": 5.02,
+    "end": 5.08,
+    "type": "spacing",
+    "logprob": -0.2959764003753662
+   },
+   {
+    "text": "турабы?",
+    "start": 5.08,
+    "end": 7.46,
+    "type": "word",
+    "logprob": -0.17069930064358882
+   },
+   {
+    "text": " ",
+    "start": 7.46,
+    "end": 7.5,
+    "type": "spacing",
+    "logprob": -0.00886031985282898
+   },
+   {
+    "text": "Кайра",
+    "start": 7.5,
+    "end": 7.7,
+    "type": "word",
+    "logprob": -0.006306357495486736
+   },
+   {
+    "text": " ",
+    "start": 7.7,
+    "end": 7.72,
+    "type": "spacing",
+    "logprob": -0.02351049706339836
+   },
+   {
+    "text": "өчүрөт",
+    "start": 7.74,
+    "end": 8.06,
+    "type": "word",
+    "logprob": -0.0767877319206794
+   },
+   {
+    "text": " ",
+    "start": 8.06,
+    "end": 8.119,
+    "type": "spacing",
+    "logprob": -0.011122017167508602
+   },
+   {
+    "text": "экен",
+    "start": 8.119,
+    "end": 8.28,
+    "type": "word",
+    "logprob": -0.006043632805813104
+   },
+   {
+    "text": " ",
+    "start": 8.28,
+    "end": 8.3,
+    "type": "spacing",
+    "logprob": -0.49282771348953247
+   },
+   {
+    "text": "бул.",
+    "start": 8.3,
+    "end": 8.46,
+    "type": "word",
+    "logprob": -0.36962653689897706
+   },
+   {
+    "text": " ",
+    "start": 8.46,
+    "end": 8.62,
+    "type": "spacing",
+    "logprob": -0.0018669809214770794
+   },
+   {
+    "text": "Бул",
+    "start": 13.1,
+    "end": 13.22,
+    "type": "word",
+    "logprob": -0.0073614005620280904
+   },
+   {
+    "text": " ",
+    "start": 13.22,
+    "end": 13.36,
+    "type": "spacing",
+    "logprob": -0.883876621723175
+   },
+   {
+    "text": "жазыбайт",
+    "start": 13.36,
+    "end": 13.72,
+    "type": "word",
+    "logprob": -0.49182208938873373
+   },
+   {
+    "text": " ",
+    "start": 13.72,
+    "end": 13.76,
+    "type": "spacing",
+    "logprob": -0.00829028245061636
+   },
+   {
+    "text": "окшей,",
+    "start": 13.76,
+    "end": 13.96,
+    "type": "word",
+    "logprob": -0.47440493820856017
+   },
+   {
+    "text": " ",
+    "start": 13.96,
+    "end": 14.1,
+    "type": "spacing",
+    "logprob": -0.007021987345069647
+   },
+   {
+    "text": "а?",
+    "start": 14.1,
+    "end": 14.14,
+    "type": "word",
+    "logprob": -0.19677965040318668
+   },
+   {
+    "text": " ",
+    "start": 14.14,
+    "end": 14.44,
+    "type": "spacing",
+    "logprob": -0.6297743916511536
+   },
+   {
+    "text": "Ай",
+    "start": 14.46,
+    "end": 14.54,
+    "type": "word",
+    "logprob": -0.6297743916511536
+   },
+   {
+    "text": " ",
+    "start": 14.54,
+    "end": 14.58,
+    "type": "spacing",
+    "logprob": -0.633266270160675
+   },
+   {
+    "text": "жазат",
+    "start": 14.58,
+    "end": 14.8,
+    "type": "word",
+    "logprob": -0.2667018804699183
+   },
+   {
+    "text": " ",
+    "start": 14.8,
+    "end": 14.82,
+    "type": "spacing",
+    "logprob": -0.0053190141916275024
+   },
+   {
+    "text": "экен.",
+    "start": 14.82,
+    "end": 15.06,
+    "type": "word",
+    "logprob": -0.0022432464173107293
+   },
+   {
+    "text": " ",
+    "start": 15.06,
+    "end": 15.08,
+    "type": "spacing",
+    "logprob": -0.0009735850035212934
+   },
+   {
+    "text": "Адам",
+    "start": 16.98,
+    "end": 17.18,
+    "type": "word",
+    "logprob": -0.0012442649895092472
+   },
+   {
+    "text": " ",
+    "start": 17.18,
+    "end": 17.24,
+    "type": "spacing",
+    "logprob": -0.13123589754104614
+   },
+   {
+    "text": "өзүнөн",
+    "start": 17.26,
+    "end": 17.6,
+    "type": "word",
+    "logprob": -0.04473115787065277
+   },
+   {
+    "text": " ",
+    "start": 17.6,
+    "end": 17.64,
+    "type": "spacing",
+    "logprob": -0.0328964963555336
+   },
+   {
+    "text": "кетет.",
+    "start": 17.64,
+    "end": 17.98,
+    "type": "word",
+    "logprob": -0.012567462872539181
+   },
+   {
+    "text": " ",
+    "start": 17.98,
+    "end": 18.02,
+    "type": "spacing",
+    "logprob": -0.0014950776239857078
+   },
+   {
+    "text": "Анан",
+    "start": 19.14,
+    "end": 19.32,
+    "type": "word",
+    "logprob": -0.09606002256623469
+   },
+   {
+    "text": " ",
+    "start": 19.32,
+    "end": 19.32,
+    "type": "spacing",
+    "logprob": -1.2636327743530273
+   },
+   {
+    "text": "эмне",
+    "start": 19.32,
+    "end": 19.44,
+    "type": "word",
+    "logprob": -1.2636327743530273
+   },
+   {
+    "text": " ",
+    "start": 19.44,
+    "end": 19.46,
+    "type": "spacing",
+    "logprob": -0.39269447326660156
+   },
+   {
+    "text": "болоту?",
+    "start": 19.46,
+    "end": 19.7,
+    "type": "word",
+    "logprob": -0.20820674275247647
+   }
+  ],
+  "transcription_id": "6SBeOjUD7LwsYq7OlTv8",
+  "audio_duration_secs": 21.0
+ }
+}
