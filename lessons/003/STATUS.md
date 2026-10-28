@@ -1,5 +1,34 @@
 # Урок 003 — STATUS
 
+## Попытка пробной расшифровки Scribe v2 — 28 октября 2026 (Claude Code, ветка `claude/lesson-80-vid-001-transcribe-h97sl7`)
+
+**Итог: пробная расшифровка 45 с НЕ выполнена — два блокера доступа. Кыргызский текст не получен и не выдумывается.**
+
+Фактические проверки в этой сессии (значения секретов не выводились):
+
+| Проверка | Результат |
+|---|---|
+| `ELEVENLABS_API_KEY` в окружении | есть |
+| Сеть до `api.elevenlabs.io` | открыта: `GET /v1/models` → **200** (ключ принят) |
+| `GET /v1/user` | **401** `missing the permission user_read` |
+| `POST /v1/speech-to-text` (`model_id=scribe_v2`, `language_code=kir`, 3 с синтетической тишины, не исходник) | **401** `missing the permission speech_to_text` |
+| `R2_ACCOUNT_ID`, `R2_BUCKET_NAME` | есть |
+| `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_ENDPOINT_URL` | **нет** |
+| Сеть до `https://<account>.r2.cloudflarestorage.com/` | открыта (HTTP 400 на неподписанный запрос) |
+| `python3 scripts/download_source_r2.py` | exit **2**: `Missing R2 environment variables: R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY` |
+| `python3 scripts/download_source_r2.py --verify-only` | exit **1**: `NOT VERIFIED` — локального MP4 нет (новый контейнер) |
+| Резервный путь `lessons/003/source/parts/` | только `.gitkeep`, частей нет |
+
+Прежний `VERIFIED` относился к старому контейнеру; в этой сессии SHA-256 **заново не подтверждён**.
+
+### Что нужно сделать владельцу (однократно, не через чат и не через GitHub)
+
+1. В секретах облачного окружения Claude Code добавить `R2_ACCESS_KEY_ID` и `R2_SECRET_ACCESS_KEY` (read-only токен на bucket).
+2. В ElevenLabs у API-ключа включить разрешение **Speech to Text** (`speech_to_text`); для будущей озвучки — **Text to Speech**. Можно заменить ключ в окружении на ключ с этими правами.
+3. Перезапустить сессию и повторить: скачать из R2 → `--verify-only` → вырезать 45 с речи → Scribe v2 (`kir`).
+
+---
+
 ## Актуальное состояние — 28 октября 2026
 
 **Исходник VID-001 скачан из приватного R2 и проверен Claude Code, по отчёту владельца.**
