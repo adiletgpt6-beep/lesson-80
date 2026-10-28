@@ -354,7 +354,7 @@
       "I31 00:31:08–00:31:21"
      ],
      "ped": true,
-     "blocked": null
+     "blocked": "B13"
     },
     {
      "type": "line",
@@ -372,7 +372,7 @@
       "I31 00:31:17–00:31:39"
      ],
      "ped": false,
-     "blocked": null
+     "blocked": "B13"
     },
     {
      "type": "line",

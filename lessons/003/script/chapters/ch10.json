@@ -46,7 +46,7 @@
       "I32 00:32:36–00:32:48"
      ],
      "ped": false,
-     "blocked": null
+     "blocked": "B19"
     },
     {
      "type": "visual",
@@ -183,7 +183,7 @@
       "I33 00:34:22–00:34:29"
      ],
      "ped": false,
-     "blocked": null
+     "blocked": "R14"
     }
    ]
   },
@@ -253,7 +253,7 @@
       "I35 00:39:42–00:39:56"
      ],
      "ped": false,
-     "blocked": null
+     "blocked": "B20"
     },
     {
      "type": "visual",
@@ -318,7 +318,7 @@
       "I35 00:40:16–00:40:20"
      ],
      "ped": false,
-     "blocked": null
+     "blocked": "B21"
     },
     {
      "type": "line",
@@ -328,7 +328,7 @@
       "I35 00:40:20–00:40:36"
      ],
      "ped": false,
-     "blocked": null
+     "blocked": "B21"
     },
     {
      "type": "line",

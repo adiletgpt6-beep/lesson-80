@@ -258,7 +258,7 @@
       "I07 00:04:45–00:05:10"
      ],
      "ped": true,
-     "blocked": null
+     "blocked": "B16"
     },
     {
      "type": "line",
@@ -268,7 +268,7 @@
       "I07 00:05:01–00:05:10"
      ],
      "ped": true,
-     "blocked": null
+     "blocked": "B16"
     }
    ]
   },
@@ -300,7 +300,7 @@
       "I05 00:02:03–00:02:34"
      ],
      "ped": false,
-     "blocked": null
+     "blocked": "B17"
     },
     {
      "type": "line",

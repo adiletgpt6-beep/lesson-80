@@ -150,7 +150,7 @@
       "I47 00:56:36–00:56:58"
      ],
      "ped": false,
-     "blocked": null
+     "blocked": "B10"
     },
     {
      "type": "line",
@@ -160,7 +160,7 @@
       "I47 00:56:49–00:57:00"
      ],
      "ped": false,
-     "blocked": null
+     "blocked": "B10"
     },
     {
      "type": "line",
@@ -170,7 +170,7 @@
       "I47 00:57:02–00:57:19"
      ],
      "ped": false,
-     "blocked": null
+     "blocked": "B10"
     },
     {
      "type": "visual",
@@ -185,7 +185,7 @@
       "I47 00:57:16–00:57:37"
      ],
      "ped": false,
-     "blocked": null
+     "blocked": "B10"
     }
    ]
   },
@@ -224,7 +224,7 @@
       "I47 00:56:53–00:57:02"
      ],
      "ped": true,
-     "blocked": null
+     "blocked": "B10"
     },
     {
      "type": "pause",
@@ -264,7 +264,7 @@
       "I43 00:53:22–00:53:30"
      ],
      "ped": false,
-     "blocked": null
+     "blocked": "B11"
     },
     {
      "type": "line",

@@ -152,7 +152,7 @@
       "I24 00:21:39–00:21:47"
      ],
      "ped": false,
-     "blocked": null
+     "blocked": "B12"
     },
     {
      "type": "visual",
@@ -167,7 +167,7 @@
       "I24 00:21:47–00:21:49"
      ],
      "ped": true,
-     "blocked": null
+     "blocked": "B12"
     },
     {
      "type": "line",
@@ -177,7 +177,7 @@
       "I24 00:21:49–00:21:55"
      ],
      "ped": false,
-     "blocked": null
+     "blocked": "B12"
     },
     {
      "type": "line",

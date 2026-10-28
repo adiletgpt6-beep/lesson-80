@@ -215,7 +215,7 @@
       "I49 00:59:23–00:59:29"
      ],
      "ped": false,
-     "blocked": null
+     "blocked": "B22"
     },
     {
      "type": "line",
@@ -235,7 +235,7 @@
       "I49 00:59:29–00:59:49"
      ],
      "ped": true,
-     "blocked": null
+     "blocked": "B22"
     },
     {
      "type": "line",

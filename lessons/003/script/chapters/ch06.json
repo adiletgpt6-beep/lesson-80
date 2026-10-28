@@ -438,7 +438,7 @@
       "I22 00:20:12–00:20:17"
      ],
      "ped": true,
-     "blocked": null
+     "blocked": "B14"
     },
     {
      "type": "line",
@@ -536,7 +536,7 @@
       "I22 00:20:12–00:20:30"
      ],
      "ped": true,
-     "blocked": null
+     "blocked": "B14"
     },
     {
      "type": "visual",
