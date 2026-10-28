@@ -1,0 +1,111 @@
+{
+ "id": "ch16",
+ "title_ky": "Жыйынтык",
+ "planned_seconds": 45,
+ "source_ideas": [
+  "I45",
+  "I46"
+ ],
+ "scenes": [
+  {
+   "id": "ch16-s01",
+   "title_ky": "Беш жылдыз тең жанат",
+   "setting": "класс, доска: беш жылдыз",
+   "camera": "жалпы план",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "Беш жылдыз тең жаркырайт",
+    "Астында: «Бул беш максат менен жашасак — бекер келбейбиз»"
+   ],
+   "animation": [
+    "Беш жылдыз биринин артынан бири жанып, бирге жаркырайт",
+    "Балдар кол чабышат, анан устаз менен коштошуп кол булгалашат"
+   ],
+   "beats": [
+    {
+     "type": "visual",
+     "seconds": 3,
+     "description": "Беш жылдыз тең бирге жаркырайт"
+    },
+    {
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Беш жылдыз тең жанды!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Эмнеге келдик? Мына ушул максаттар үчүн келдик.",
+     "source": [
+      "I46 00:56:03–00:56:07"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллахты тааныйбыз, сүйөбүз, Ага ибадат кылабыз, жакшылыкта жарышабыз, кыйынчылыкка сабыр кылып өтөбүз.",
+     "source": [
+      "I45 00:55:04–00:55:13"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ушул беш максат менен жашасак, бул дүйнөгө бекер келбейбиз.",
+     "source": [
+      "I45 00:54:59–00:55:13"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Силерге кайсы жылдыз жакын?",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "pause",
+     "seconds": 3,
+     "reason": "балдар ойлонот"
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллах ыраазы болсун, көңүл бурганыңар үчүн!",
+     "source": [
+      "I46 00:55:19–00:55:23"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Рахмат, устаз! Көрүшкөнчө!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "visual",
+     "seconds": 3,
+     "description": "Балдар кол булгалайт; беш жылдыз жаркырап турат"
+    }
+   ]
+  }
+ ]
+}
