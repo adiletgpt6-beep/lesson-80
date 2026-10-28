@@ -1,5 +1,27 @@
 # Урок 003 — STATUS
 
+## Попытка №2: загрузчик Studio + Scribe v2 — 28 октября 2026 (Claude Code)
+
+**Итог: ElevenLabs Speech to Text теперь работает; исходник получить не удалось — пробная расшифровка 45 с не выполнена, текст не выдумывается.**
+
+| Проверка | Результат |
+|---|---|
+| `STUDIO_SOURCE_TOKEN` в окружении Claude Code | **нет** (переменная отсутствует) |
+| `curl -fsSL https://balago-studio.vercel.app/studio-fetch.mjs` | **403** от egress-прокси: `balago-studio.vercel.app:443 — connect_rejected` (хост не разрешён сетевой политикой окружения) |
+| `ELEVENLABS_API_KEY` | есть |
+| `POST /v1/speech-to-text`, `model_id=scribe_v2`, `language_code=kir`, 3 с синтетической тишины (не исходник) | **200**, `language_code: "ky"`, пустой текст — право `speech_to_text` теперь есть |
+| Локальный MP4 / части в `parts/` | нет |
+
+Загрузчик не скачивался, поэтому его код не проверялся и не запускался; SHA-256 в этой сессии не подтверждён.
+
+### Что нужно владельцу (однократно)
+
+1. В настройках облачного окружения Claude Code (Network access → Allowed domains) разрешить `balago-studio.vercel.app`. Ссылка на документацию: https://code.claude.com/docs/en/cloud-environments#network-access
+2. Добавить `STUDIO_SOURCE_TOKEN` в переменные/секреты **того же** окружения (и `STUDIO_SOURCE_TOKEN_SHA256` в Vercel Production, если ещё нет). После изменения окружения — новая сессия.
+3. Затем: загрузчик → размер 138938301 и SHA-256 по манифесту → 45 с речи → Scribe v2 (`kir`).
+
+---
+
 ## Попытка пробной расшифровки Scribe v2 — 28 октября 2026 (Claude Code, ветка `claude/lesson-80-vid-001-transcribe-h97sl7`)
 
 **Итог: пробная расшифровка 45 с НЕ выполнена — два блокера доступа. Кыргызский текст не получен и не выдумывается.**
