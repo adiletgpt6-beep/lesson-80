@@ -1,0 +1,20 @@
+name: Verify lesson 003 source
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'lessons/003/source/parts/**/*.bin'
+      - 'lessons/003/source/parts/*.bin'
+jobs:
+  verify-source:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify binary pieces and concatenated original SHA-256
+        run: python3 scripts/assemble_source.py --lesson 003 --verify-only
+      - name: Reconstruct original and verify SHA-256
+        run: python3 scripts/assemble_source.py --lesson 003
+      - name: Print independent SHA-256
+        run: sha256sum lessons/003/source/1000218169.mp4

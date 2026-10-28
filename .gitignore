@@ -1,0 +1,15 @@
+# Reconstructed source and generated media are local only
+lessons/003/source/1000218169.mp4
+lessons/003/source/*.partial
+lessons/003/source/parts/*.partial
+*.wav
+*.mp4
+!lessons/003/source/parts/*.bin
+*.mp3
+node_modules/
+dist/
+.cache/
+.env
+.env.*
+!.env.example
+__pycache__/

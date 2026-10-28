@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "lesson": "003",
+  "original_filename": "1000218169.mp4",
+  "size_bytes": 138938301,
+  "sha256": "e042aedccdda21bdd8f8eb927abd74d7c59466160983e08d3b9141350ef60876",
+  "chunk_size_bytes": 15000000,
+  "parts_directory": "lessons/003/source/parts",
+  "media": {
+    "duration_seconds": 4034.838639,
+    "video_codec": "H.264",
+    "width": 640,
+    "height": 360,
+    "audio_codec": "AAC",
+    "audio_sample_rate_hz": 44100,
+    "audio_channels": 2
+  },
+  "parts": [
+    {
+      "filename": "1000218169.mp4.part-000.bin",
+      "size_bytes": 15000000,
+      "sha256": "8f08d3ba7f521b8361c5f0cd6c9c5f2039b19f6a1e7be58e1eca3498a3e5910a"
+    },
+    {
+      "filename": "1000218169.mp4.part-001.bin",
+      "size_bytes": 15000000,
+      "sha256": "a45d01febb2eb03f4e3e44f543e06be3478fa89b688df9abef4361333087eecb"
+    },
+    {
+      "filename": "1000218169.mp4.part-002.bin",
+      "size_bytes": 15000000,
+      "sha256": "030b4e60786339d3a86423a2b0b4f0eb725a8cd326edd4f08652d2b7d94ac8b9"
+    },
+    {
+      "filename": "1000218169.mp4.part-003.bin",
+      "size_bytes": 15000000,
+      "sha256": "f3332589ba69a65dbca370bb8cdfbe9fba7bd7deb2f2904ce24b4e7f0ed85b68"
+    },
+    {
+      "filename": "1000218169.mp4.part-004.bin",
+      "size_bytes": 15000000,
+      "sha256": "9a7e87b83a76b7ac218001bf4f24b75f04f532b46bedc6643ebf6a9705d3640c"
+    },
+    {
+      "filename": "1000218169.mp4.part-005.bin",
+      "size_bytes": 15000000,
+      "sha256": "8186ea19bc3310f0b03a6a5dfe213d8a455c127a056f960e4023821de5f2ba94"
+    },
+    {
+      "filename": "1000218169.mp4.part-006.bin",
+      "size_bytes": 15000000,
+      "sha256": "20ea597a3beff21a28e4d80d97f34e03a32545cc9f851b96780f20d807213715"
+    },
+    {
+      "filename": "1000218169.mp4.part-007.bin",
+      "size_bytes": 15000000,
+      "sha256": "73f071f1ec30f1805f752c5a77daca4937fc0c825e8a5c5c5083c8c8b9c5c770"
+    },
+    {
+      "filename": "1000218169.mp4.part-008.bin",
+      "size_bytes": 15000000,
+      "sha256": "e42d94feea743b04b8d2cfe33ccff3b628a95aa7f0ddf576962a07d322e45b13"
+    },
+    {
+      "filename": "1000218169.mp4.part-009.bin",
+      "size_bytes": 3938301,
+      "sha256": "654e960d91c7db73b443de3cd067b944651e4952478314f519e4325f204f5f2e"
+    }
+  ]
+}
