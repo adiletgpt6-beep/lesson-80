@@ -33,12 +33,22 @@ LOW_LOGPROB = -1.0
 
 TAANUU = re.compile(r"^таа?н[уы]", re.I)
 ISLAMIC = re.compile(
-    r"^(алла|аллах|таала|кудай|пайгамбар|пайгамбар|расул|мухамм|мухамед|куран|аят|сүрө|хадис|намаз|ибадат|ыйман|"
+    r"^(алла|аллах|таала|кудай|пайгамбар|расул|мухамм|мухамед|куран|аят|сүрө|хадис|намаз|ибадат|ыйман|"
     r"ислам|мусулман|сахаба|саллалла|алейхи|аляйхи|ассалам|бисмилла|иншаалла|субхан|алхамдулилла|аллаху|акбар|"
-    r"шайтан|бейиш|жаннат|жаннат|тозок|жаханнам|акырет|кыямат|периште|жебирейил|жабраил|рамазан|орозо|зекет|"
+    r"шайтан|бейиш|жаннат|тозок|жаханнам|акырет|кыямат|периште|жебирейил|жабраил|рамазан|орозо|зекет|"
     r"сүннөт|фарз|парз|сооп|күнөө|тобо|дуба|дуа|зикир|шарият|имам|азан|мечит|кааба|мекке|медина|ибрахим|муса|"
     r"иса|нух|лукман|сулайман|юсуф|жүсүп|ахлак|тафсир|фатиха|аллахумма|илах|рахман|рахим|амин|аалам)", re.I)
 NON_CYRILLIC = re.compile(r"[؀-ۿA-Za-z]")
+KAZAKH_LETTERS = re.compile(r"[құіәғһ]", re.I)   # absent from Kyrgyz orthography
+KYRGYZ_LETTERS = re.compile(r"[өүң]", re.I)
+
+
+def orthography(text):
+    """'kk' if Kazakh-only letters dominate, 'ky' if Kyrgyz-only ones do, '' if undecidable."""
+    kk, ky = len(KAZAKH_LETTERS.findall(text)), len(KYRGYZ_LETTERS.findall(text))
+    if kk + ky == 0:
+        return ""
+    return "kk" if kk > ky else "ky"
 
 
 def load(path):
@@ -194,12 +204,17 @@ def cmd_merge(a):
                           "prev_chunk_overlap_text": in_ov(per[i]), "next_chunk_overlap_text": in_ov(per[i + 1]),
                           "needs_listening": score < 0.15})
             hi_t = cut
-        merged += [w for w in per[i] if lo_t <= (w["start"] + w["end"]) / 2 < hi_t]
+        merged += [dict(w, chunk=c["id"]) for w in per[i] if lo_t <= (w["start"] + w["end"]) / 2 < hi_t]
         lo_t = hi_t
 
     segs = segment(merged)
     for n, s in enumerate(segs, 1):
         s["id"] = f"s{n:04d}"
+        s["chunk"] = s["words"][0]["chunk"]
+    # Orthography is decided per API request, so mark it per chunk-run (not per segment).
+    chunk_orth = {c["id"]: orthography(" ".join(w["text"] for w in ws)) for c, ws in zip(chunks, per)}
+    for s in segs:
+        s["orthography"] = chunk_orth[s["chunk"]]
     write_outputs(prog, segs, seams)
 
 
@@ -225,6 +240,19 @@ def flags_for(segs, seams):
                              "listen_to": tc(w["end"] + 1.5), "flag": k, "word": w["text"],
                              "logprob": "" if w["logprob"] is None else round(w["logprob"], 2),
                              "context": s["text"]})
+    run = None
+    for s in segs + [None]:
+        if run and (s is None or s["orthography"] != run["orth"]):
+            if run["orth"] == "kk":
+                rows.append({"segment": f"{run['first']}–{run['last']}", "listen_from": tc(run["start"]),
+                             "listen_to": tc(run["end"]), "flag": "kazakh_orthography_interval", "word": "",
+                             "logprob": "", "context": "Scribe v2 (kir) wrote this interval in Kazakh orthography; "
+                             "words not normalised - check language/dialect by ear"})
+            run = None
+        if s is not None:
+            if run is None:
+                run = {"orth": s["orthography"], "first": s["id"], "start": s["start"]}
+            run.update(last=s["id"], end=s["end"])
     for sm in seams:
         if sm["needs_listening"]:
             rows.append({"segment": "", "listen_from": sm["overlap"][0], "listen_to": sm["overlap"][1],
@@ -238,7 +266,8 @@ def write_outputs(prog, segs, seams):
     dump(OUT / "full.kir.segments.json", {
         "source_sha256": prog["source"]["sha256"], "model_id": "scribe_v2", "language_code": LANG,
         "note": "Raw ASR, not corrected. Absolute source timecodes. See review-flags.csv before using any quote.",
-        "segments": [{"id": s["id"], "start": s["start"], "end": s["end"], "text": s["text"],
+        "segments": [{"id": s["id"], "start": s["start"], "end": s["end"], "chunk": s["chunk"],
+                      "asr_orthography": s["orthography"], "text": s["text"],
                       "low_confidence_words": [{"word": w["text"], "at": tc(w["start"]), "logprob": round(w["logprob"], 2)}
                                                for w in s["words"]
                                                if w["logprob"] is not None and w["logprob"] < LOW_LOGPROB]}
@@ -255,7 +284,8 @@ def write_outputs(prog, segs, seams):
         if block != minute_block:
             minute_block = block
             md.append(f"\n## {tc(block * 300)[:8]} – {tc(min((block + 1) * 300, prog['source']['duration_s']))[:8]}\n")
-        md.append(f"`{tc(s['start'])[:10]}` {s['text']}  ")
+        mark = " ⟨kk⟩" if s["orthography"] == "kk" else ""
+        md.append(f"`{tc(s['start'])[:10]}`{mark} {s['text']}  ")
     (OUT / "full.kir.md").write_text("\n".join(md) + "\n", encoding="utf-8")
 
     rows = flags_for(segs, seams)
