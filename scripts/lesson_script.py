@@ -25,6 +25,8 @@ PLANNED_TOTAL = 3600
 # ustaz 110.6 and 100.2 wpm (mean ~105), child 89.2 wpm. "slow" = children's delivery at speed 0.9.
 PACE = {"tts": {"ustaz": 105.0, "child": 90.0}, "slow": {"ustaz": 94.5, "child": 81.0}}
 LINE_GAP = 0.6  # silence between consecutive lines, s
+QUESTION_GAP = 1.2  # thinking time after a question the ustaz asks the children, s
+TITLE_FRAMES = 90  # chapter title card (3 s) before the first scene of ch01..ch16
 SPEAKERS = {"ustaz", "bektur", "aizada", "both_children"}
 WORD = re.compile(r"[^\s«»“”\"—–.,!?…:;()]+")
 ARABIC_HINTS = re.compile(r"(халак|лияъбуд|инна лиллахи|илайхи|ражиун|раббук|юдоиф|ля илаха|ла илаха|шухха|муфлихун|лакад|кабад|бисмиллах|субхана|рахман|рахим|халифа|фастабику|ассалому|алейкум|салам|алхамдулиллах|машаллах|иншаллах)", re.I)
@@ -258,32 +260,70 @@ def cmd_render(_):
 
 
 def cmd_timeline(_):
-    """Frame-accurate timeline for Remotion. Uses real clip durations from audio/manifest.json when present."""
+    """Frame-accurate timeline for Remotion. Uses real clip durations from audio/manifest.json when present.
+
+    Blocked lines are never placed on the timeline: either their [ПЕД] replacement (script/ped-replacements.json)
+    is used or the line is dropped; scenes left without lines are dropped (scripts/script_lines.py).
+    Every chapter after ch00 opens with a 3 s title card beat; every scene starts with a short transition.
+    """
+    sys.path.insert(0, str(ROOT / "scripts"))
+    from script_lines import effective_chapters
     manifest_path = LESSON / "audio/manifest.json"
-    real = json.loads(manifest_path.read_text()) if manifest_path.exists() else {}
-    frame, scenes = 0, []
-    for ch in chapters():
-        for s in ch["scenes"]:
+    real = json.loads(manifest_path.read_text()).get("clips", {}) if manifest_path.exists() else {}
+    frame, scenes, chapters_out, dropped = 0, [], [], []
+    stats = {"lines": 0, "audio": 0, "estimate": 0, "replaced": 0}
+    for ch, eff in effective_chapters():
+        ch_start = frame
+        for n_scene, (s, beats_in, st) in enumerate(eff):
             beats, start = [], frame
-            for i, b in enumerate(s["beats"]):
-                key = f"{s['id']}#{i}"
-                if b["type"] == "line" and key in real.get("clips", {}):
-                    sec, src = real["clips"][key]["seconds"] + LINE_GAP, "audio"
+            if n_scene == 0 and ch["id"] != "ch00":
+                beats.append({"key": f"{s['id']}#title", "type": "title", "speaker": None, "text": ch["title_ky"],
+                              "from": 0, "frames": TITLE_FRAMES, "timing": "fixed", "audio": None})
+                frame += TITLE_FRAMES
+            for b in beats_in:
+                key = b["key"]
+                if b["type"] == "line":
+                    stats["lines"] += 1
+                    clip = real.get(key)
+                    gap = QUESTION_GAP if b["speaker"] == "ustaz" and b["voiced_text"].rstrip().endswith("?") else LINE_GAP
+                    if clip and clip.get("text", b["voiced_text"]) == b["voiced_text"]:
+                        sec, src, audio = clip["seconds"] + gap, "audio", clip["file"]
+                        stats["audio"] += 1
+                    else:
+                        sec, src, audio = line_seconds({**b, "text": b["voiced_text"]}, PACE["tts"]), "estimate", None
+                        stats["estimate"] += 1
+                    if b.get("replaced_from"):
+                        stats["replaced"] += 1
+                    beats.append({"key": key, "type": "line", "speaker": b["speaker"], "text": b["voiced_text"],
+                                  "from": frame - start, "frames": max(1, round(sec * FPS)), "timing": src, "audio": audio,
+                                  "ped": bool(b.get("ped")), "replaced_from": b.get("replaced_from")})
                 else:
-                    sec, src = beat_seconds(b, PACE["tts"]), "estimate"
-                n = max(1, round(sec * FPS))
-                beats.append({"key": key, "type": b["type"], "speaker": b.get("speaker"), "text": b.get("text") or b.get("description") or b.get("reason"),
-                              "from": frame - start, "frames": n, "timing": src,
-                              "audio": real.get("clips", {}).get(key, {}).get("file") if src == "audio" else None})
-                frame += n
-            scenes.append({"id": s["id"], "chapter": ch["id"], "title": s["title_ky"], "from": start, "frames": frame - start,
-                           "board": s["board"], "characters": s["characters"], "beats": beats})
+                    sec = float(b["seconds"])
+                    beats.append({"key": key, "type": b["type"], "speaker": None,
+                                  "text": b.get("description") or b.get("reason") or "",
+                                  "from": frame - start, "frames": max(1, round(sec * FPS)), "timing": "fixed", "audio": None})
+                frame += beats[-1]["frames"]
+            scenes.append({"id": s["id"], "chapter": ch["id"], "chapterTitle": ch["title_ky"], "title": s["title_ky"],
+                           "setting": s["setting"], "camera": s["camera"], "characters": s["characters"],
+                           "board": s["board"], "animation": s["animation"], "from": start, "frames": frame - start,
+                           "beats": beats})
+        for s in ch["scenes"]:
+            if s["id"] not in {x["id"] for x in scenes}:
+                dropped.append(s["id"])
+        chapters_out.append({"id": ch["id"], "title": ch["title_ky"], "from": ch_start, "frames": frame - ch_start,
+                             "planned_seconds": ch["planned_seconds"]})
     out = ROOT / "video/src/timeline.json"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps({"fps": FPS, "width": 1920, "height": 1080, "durationInFrames": frame,
-                               "plannedFrames": PLANNED_TOTAL * FPS, "timing_note": "estimate unless beat.timing == 'audio'",
-                               "scenes": scenes}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    print(f"timeline: {len(scenes)} scenes, {frame} frames ({fmt(frame / FPS)}); planned {PLANNED_TOTAL * FPS}")
+                               "plannedFrames": PLANNED_TOTAL * FPS,
+                               "timing_note": "estimate unless beat.timing == 'audio'; blocked lines absent or replaced ([ПЕД])",
+                               "stats": {**stats, "dropped_scenes": dropped},
+                               "chapters": chapters_out, "scenes": scenes}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    print(f"timeline: {len(chapters_out)} chapters, {len(scenes)} scenes, {frame} frames ({fmt(frame / FPS)}); "
+          f"lines {stats['lines']} (audio {stats['audio']}, estimate {stats['estimate']}, replaced {stats['replaced']}); "
+          f"dropped scenes {dropped or 'none'}; planned {PLANNED_TOTAL * FPS}")
+    for c in chapters_out:
+        print(f"  {c['id']} {fmt(c['frames'] / FPS)} (plan {fmt(c['planned_seconds'])})")
 
 
 def main():
