@@ -30,7 +30,7 @@ def tc(seconds):
     return f"{h:02d}:{m:02d}:{s:02d}.{ms:03d}"
 
 
-def transcribe(wav, language):
+def transcribe(wav, language, headers_out=None):
     key = os.environ.get("ELEVENLABS_API_KEY")
     if not key:
         sys.exit("ELEVENLABS_API_KEY is not set")
@@ -44,7 +44,11 @@ def transcribe(wav, language):
              "Content-Type: audio/wav\r\n\r\n").encode() + Path(wav).read_bytes() + f"\r\n--{boundary}--\r\n".encode()
     req = urllib.request.Request(API, data=body, method="POST", headers={
         "xi-api-key": key, "Content-Type": f"multipart/form-data; boundary={boundary}"})
-    with urllib.request.urlopen(req, timeout=600) as res:
+    with urllib.request.urlopen(req, timeout=900) as res:
+        if headers_out is not None:
+            # Keep only non-secret billing/trace headers for the cost report.
+            headers_out.update({k.lower(): v for k, v in res.headers.items()
+                                if any(s in k.lower() for s in ("cost", "character", "credit", "request-id"))})
         return json.load(res)
 
 
