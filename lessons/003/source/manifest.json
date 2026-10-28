@@ -66,5 +66,13 @@
       "size_bytes": 3938301,
       "sha256": "654e960d91c7db73b443de3cd067b944651e4952478314f519e4325f204f5f2e"
     }
-  ]
+  ],
+  "primary_source": {
+    "type": "cloudflare_r2",
+    "key": "live/raw/0efed512-6a0c-4900-ac57-2a97e4c6bbbd/source.mp4",
+    "github_issue": "https://github.com/adiletgpt6-beep/lesson-80/issues/1",
+    "recorded_by_studio": "2026-10-28",
+    "download_sha256_verified": false,
+    "notes": "Private R2 location, not Git. Verify exact size and SHA-256 after downloading. Git parts remain a fallback."
+  }
 }
