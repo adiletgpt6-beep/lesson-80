@@ -54,7 +54,7 @@ jobs:
           mkdir -p out
           npx remotion render src/index.ts Lesson003-${{ matrix.chapter }} out/${{ matrix.chapter }}.mp4 \
             --concurrency=4 --codec=h264 --crf=20 --jpeg-quality=85 --pixel-format=yuv420p --audio-codec=aac --log=warn
-          ffprobe -v error -show_entries format=duration:stream=codec_name,width,height,r_frame_rate -of default=nw=1 out/${{ matrix.chapter }}.mp4
+          npx remotion ffprobe -v error -show_entries format=duration:stream=codec_name,width,height,r_frame_rate -of default=nw=1 out/${{ matrix.chapter }}.mp4
       - uses: actions/upload-artifact@v4
         with:
           name: chapter-${{ matrix.chapter }}
