@@ -13,3 +13,6 @@
 | 2026-10-28 21:53 | A. Таймлайн | 106 300 кадров = 59:03, все 509 реплик по реальному звуку | `video/src/timeline.json` |
 | 2026-10-28 21:53 | D. Тест рендера ch16 | 1 426 кадров за 168 с (≈9 к/с), 1920×1080/30 fps, AAC; звук −23 dB mean / −5.5 dB max | `video/out/test-ch16.mp4` (локально) |
 | 2026-10-28 21:56 | D. Рендер ch00–ch16 | запущен последовательно (`render_all.sh`) | `render/README.md` |
+| 2026-10-28 22:01–22:26 | D/E/F. CI-рендер и релиз | workflow `lesson-003-render.yml`: 17 глав параллельно (ch16 1,5 мин … ch03 7,5 мин), concat, verify OK, релиз `lesson-003-preview-v1` | [прогон 40777013338](https://github.com/adiletgpt6-beep/lesson-80/actions/runs/40777013338); первый прогон упал (ffprobe нет на runner) → `npx remotion ffprobe` |
+| 2026-10-28 22:27 | QA итогового файла | повторная загрузка 402,7 МБ, SHA-256 совпал; `verify_mp4.py`: 59:03.38, 1920×1080, 30 fps, h264/aac, 0 чёрных кадров, 5 тишин ≥8 с на стыках глав; 5 контрольных кадров просмотрены | `render/README.md` |
+| 2026-10-28 22:30 | F. Страница просмотра | Claude Artifact с плеером (480p по главам) и ссылками на релиз | https://claude.ai/artifact/LptQWP8TCQi4yR1iBQBZGb |
