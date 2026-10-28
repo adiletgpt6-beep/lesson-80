@@ -15,7 +15,7 @@
 | SHA-256 | `5ade7a6114ea7e186df4d1d6d293a4f2cbaf89d9d542dc4288aab1845fc5b6f2` (проверено повторной загрузкой в сессии) |
 | Облегчённая версия | `lesson-80-003-full-ky-preview-v1-preview-960x540.mp4`, 100,8 МБ, `f5dce3a7…dbbe075` |
 | Голоса | `lesson-003-audio-clips-v1.zip` (509 MP3 + manifest + voices), 44,7 МБ |
-| Страница просмотра | см. STATUS.md (Claude Artifact) |
+| Страница просмотра | https://claude.ai/artifact/LptQWP8TCQi4yR1iBQBZGb (Claude Artifact, приватная; плеер 854×480 по главам + ссылки на релиз) |
 
 Проверка: `python3 scripts/verify_mp4.py lesson-80-003-full-ky-preview-v1.mp4 --expect-min-seconds 3300 --expect-max-seconds 3900` → hard checks OK.
 
