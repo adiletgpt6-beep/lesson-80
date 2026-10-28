@@ -9,4 +9,4 @@ python3 scripts/lesson_script.py validate
 python3 scripts/lesson_script.py render                # chapters.ky.md, storyboard.md, durations.md, assets.md
 python3 scripts/lesson_script.py timeline              # video/src/timeline.json
 ```
-Проверено: пересборка + блокеры дают байт-в-байт те же JSON, что в репозитории.
+Проверка: `python3 lessons/003/script/src/regen_check.py` — пересобирает все главы, сравнивает байт-в-байт с закоммиченными JSON и всегда восстанавливает их. Запускать перед любой пересборкой; если глава отличается — сначала перенести правку из JSON в генератор.
