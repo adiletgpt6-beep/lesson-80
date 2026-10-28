@@ -189,7 +189,15 @@
    "id": "c12",
    "start": 3593.0,
    "end": 3907.0,
-   "status": "pending"
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 466,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "116",
+    "fiat-cost-before-overages": "0.01914"
+   }
   },
   {
    "id": "c13",
