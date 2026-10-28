@@ -161,7 +161,15 @@
    "id": "c10",
    "start": 2993.0,
    "end": 3307.0,
-   "status": "pending"
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 657,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "116",
+    "fiat-cost-before-overages": "0.01914"
+   }
   },
   {
    "id": "c11",
