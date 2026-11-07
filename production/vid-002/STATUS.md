@@ -36,15 +36,26 @@
 - [`analysis/sources-review.md`](analysis/sources-review.md): S01–S46, решения USE / USE-CORR / DROP. Неподтверждённое (напр. S09 «щедрые первыми в рай», S33 изречение «имама Малика», S44 диалог Джибриля с Ибрахимом, S13/S15) в фильмы не входит. Арабский текст TTS не произносит.
 - Это редакторская проверка, не одобрение богослова — см. `lessons/00N/REVIEW_REGISTER.md`.
 
-## Этап 7 — сценарии и раскадровки: В РАБОТЕ
+## Этап 7 — сценарии и раскадровки: ГОТОВО
 
-- Формат и правила: [`script/WRITER_BRIEF.md`](script/WRITER_BRIEF.md), [`script/CHAPTER_PLAN.md`](script/CHAPTER_PLAN.md).
-- Урок 001: `lessons/001/script/chapters/ch00–ch10.json` (11 глав); урок 002: `lessons/002/script/chapters/ch00–ch12.json` (13 глав). Каждая реплика: `source` (идея + таймкод Scribe) или `[ПЕД]`.
+- Урок 001: `lessons/001/script/chapters/ch00–ch10.json` (11 глав, 52 сцены, 490 реплик, из них 283 [ПЕД]); урок 002: `lessons/002/script/chapters/ch00–ch12.json` (13 глав, 54 сцены, 475 реплик, 324 [ПЕД]). Читаемые версии: `lessons/00N/script/chapters.ky.md`, `storyboard.md`, `durations.md`, `assets.md`.
+- Независимая редактура обоих уроков; реестры проверки человеком: [`lessons/001/REVIEW_REGISTER.md`](../../lessons/001/REVIEW_REGISTER.md) (27), [`lessons/002/REVIEW_REGISTER.md`](../../lessons/002/REVIEW_REGISTER.md) (25).
 
-## Этап 8 — озвучка: БЮДЖЕТ ОДОБРЕН (2026-11-08)
+## Этап 8 — озвучка: ГОТОВО
 
-- Проба произношения (eleven_v4, `ky`, голоса урока 003: устаз `NVEGeFqcDqc5o29VoAQm`, Бектур `8QMDSJuOqCscZvQ6PqlL`, Айзада `4q3KVinKK1sxbDaHp5Le`): 7 реплик с религиозными терминами, ≈350 кредитов; обратная проверка Scribe почти дословна (риск: «ажылык» однажды услышано как «ачылык»; в повторах — верно).
-- Владелец одобрил: TTS ≤ 45 000 кредитов на оба фильма + обратная проверка произношения Scribe ≈ $0,45. Рендер — GitHub Actions (публичный репозиторий, $0).
+- Проба произношения ≈ 360 кредитов; урок 001 — 490 клипов, **16 695** кредитов; урок 002 — 475 клипов, **16 917** кредитов. Итого ≈ 33 970 из одобренных 45 000.
+- Обратная проверка Scribe: 001 — сходство 0,991 ($0,201), 002 — 0,989 ($0,205); `lessons/00N/audio/backcheck.md`.
+
+## Этап 9 — рендер и выдача: ГОТОВО (preview v1, не одобрено богословом)
+
+| | Урок 001 | Урок 002 |
+|---|---|---|
+| ▶ Смотреть | https://claude.ai/artifact/TufCjuiccSQHFsxbKefhrr (приватная страница-плеер, 360p по главам; доступ — через меню Share) | та же страница |
+| ⬇ Скачать MP4 | https://github.com/adiletgpt6-beep/lesson-80/releases/download/lesson-001-preview-v1/lesson-80-001-full-ky-preview-v1.mp4 | https://github.com/adiletgpt6-beep/lesson-80/releases/download/lesson-002-preview-v1/lesson-80-002-full-ky-preview-v1.mp4 |
+| Длительность / размер | 01:00:00.04 / 680,2 МБ | 01:00:00.04 / 676,8 МБ |
+| SHA-256 | `d5657d9b…7e07034f` | `7decaad0…4842918bfa` |
+
+Подробно: [`QA_REPORT.md`](QA_REPORT.md).
 
 ## Движок
 
@@ -54,4 +65,5 @@
 
 ## Следующий шаг
 
-Озвучка → рендер → проверка → ссылки.
+1. Устаз/богослов и носитель языка проходят реестры `REVIEW_REGISTER.md`; правки → `tts_generate.py` (оплачиваются только изменённые реплики) → коммит с `[render-001]`/`[render-002]`.
+2. После одобрения — загрузить финальные MP4 в R2 Studio (нужны ключи записи или студийный endpoint) и снять пометку preview.
