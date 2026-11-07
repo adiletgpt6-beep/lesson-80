@@ -13,3 +13,8 @@ dist/
 .env.*
 !.env.example
 __pycache__/
+
+# VID-002 media stays local
+*.mp4
+*.wav
+*.part
