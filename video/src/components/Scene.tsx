@@ -217,8 +217,12 @@ export const SceneView: React.FC<{ scene: Scene; sceneIndex: number }> = ({ scen
         ) : null}
       </div>
       {cutId && cutAlpha > 0 ? (
-        <div style={{ position: "absolute", inset: 0, opacity: cutAlpha }}>
-          <Cutaway id={cutId} t={cutT} frame={abs} />
+        <div style={{ position: "absolute", inset: 0, opacity: cutAlpha, overflow: "hidden" }}>
+          {/* slow push-in and pan so a long illustration never looks frozen */}
+          <div style={{ position: "absolute", inset: 0, transformOrigin: "50% 50%",
+            transform: `scale(${1.02 + 0.1 * cutT}) translate(${Math.sin(cutT * Math.PI) * -24}px, ${cutT * -14}px)` }}>
+            <Cutaway id={cutId} t={cutT} frame={abs} />
+          </div>
         </div>
       ) : null}
       {scene.beats.map((b) =>

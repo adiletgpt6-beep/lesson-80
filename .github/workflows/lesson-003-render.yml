@@ -93,6 +93,8 @@ jobs:
           ffmpeg -hide_banner -loglevel error -y -i "$OUT.mp4" -vf scale=960:540:flags=lanczos -c:v libx264 -preset fast -crf 24 \
             -pix_fmt yuv420p -c:a aac -b:a 96k -movflags +faststart "$OUT-preview-960x540.mp4"
           python3 scripts/verify_mp4.py "$OUT.mp4" --expect-min-seconds 3300 --expect-max-seconds 3900 | tee verify.txt
+          n=$(ffmpeg -hide_banner -i "$OUT-preview-960x540.mp4" -vf "freezedetect=n=0.001:d=8" -map 0:v -f null - 2>&1 | grep -c "freeze_start" || true)
+          echo "- frozen picture ≥8 s (freezedetect n=0.001): $n" | tee -a verify.txt
           sha256sum "$OUT.mp4" "$OUT-preview-960x540.mp4" chapters/*.mp4 | tee SHA256SUMS.txt
           cd lessons/003/audio && zip -q -r "$GITHUB_WORKSPACE/lesson-003-audio-clips-v1.zip" clips manifest.json voices.json -x "*.v0.mp3" "*.v1.mp3"
       - uses: actions/upload-artifact@v4
