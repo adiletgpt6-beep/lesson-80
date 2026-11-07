@@ -1,0 +1,421 @@
+{
+ "clips": {
+  "ch00-s01#1": {
+   "file": "ch00-s01_1_80e6db3378ec21fe.mp3",
+   "hash": "80e6db3378ec21fe",
+   "seconds": 4.049,
+   "speaker": "ustaz",
+   "credits": 29,
+   "chars": 60,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ассалому алейкум, кымбаттуу балдар! Сабагыбызга кош келгиле!"
+  },
+  "ch00-s01#2": {
+   "file": "ch00-s01_2_091bc501045649dc.mp3",
+   "hash": "091bc501045649dc",
+   "seconds": 2.09,
+   "speaker": "both_children",
+   "credits": 22,
+   "chars": 23,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Алейкум ассалам, устаз!"
+  },
+  "ch00-s01#3": {
+   "file": "ch00-s01_3_1570830cfe7c2cdf.mp3",
+   "hash": "1570830cfe7c2cdf",
+   "seconds": 4.989,
+   "speaker": "ustaz",
+   "credits": 34,
+   "chars": 70,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Мен силердин устазыңармын. Бүгүн дагы бирге жаңы нерселерди үйрөнөбүз."
+  },
+  "ch00-s01#4": {
+   "file": "ch00-s01_4_6af5d332137e2da2.mp3",
+   "hash": "6af5d332137e2da2",
+   "seconds": 4.833,
+   "speaker": "ustaz",
+   "credits": 29,
+   "chars": 59,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Менин жанымда эки жакшы досум бар. Келгиле, таанышып алалы."
+  },
+  "ch00-s01#5": {
+   "file": "ch00-s01_5_ab8be6df408ff9e3.mp3",
+   "hash": "ab8be6df408ff9e3",
+   "seconds": 5.642,
+   "speaker": "bektur",
+   "credits": 32,
+   "chars": 65,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Салам! Мен Бектурмун, тогуз жаштамын. Суроо бергенди жакшы көрөм!"
+  },
+  "ch00-s01#6": {
+   "file": "ch00-s01_6_fed7734f313d500c.mp3",
+   "hash": "fed7734f313d500c",
+   "seconds": 5.486,
+   "speaker": "aizada",
+   "credits": 30,
+   "chars": 62,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Мен Айзадамын, жети жаштамын. Мен сүрөт тартканды жакшы көрөм!"
+  },
+  "ch00-s01#7": {
+   "file": "ch00-s01_7_3fa942eb50701d54.mp3",
+   "hash": "3fa942eb50701d54",
+   "seconds": 4.284,
+   "speaker": "ustaz",
+   "credits": 30,
+   "chars": 62,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Экрандагы балдар, силер да биз менен бирге болосуңар. Макулбу?"
+  },
+  "ch00-s02#0": {
+   "file": "ch00-s02_0_2bc14a2bab938b73.mp3",
+   "hash": "2bc14a2bab938b73",
+   "seconds": 5.956,
+   "speaker": "ustaz",
+   "credits": 39,
+   "chars": 80,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Адегенде бир нерсени эстеп алалы. Биринчи сабагыбызда доскага эмне тарткан элек?"
+  },
+  "ch00-s02#1": {
+   "file": "ch00-s02_1_2c3d35e9d9bd834e.mp3",
+   "hash": "2c3d35e9d9bd834e",
+   "seconds": 3.161,
+   "speaker": "aizada",
+   "credits": 11,
+   "chars": 23,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Үй! Беш түркүгү бар үй!"
+  },
+  "ch00-s02#2": {
+   "file": "ch00-s02_2_008092046f72dad5.mp3",
+   "hash": "008092046f72dad5",
+   "seconds": 8.594,
+   "speaker": "ustaz",
+   "credits": 47,
+   "chars": 96,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Туура, Айзада! Ислам — беш түркүктүү үй сыяктуу. Ал түркүктөр кайсылар эле? Бектур, санап берчи."
+  },
+  "ch00-s02#3": {
+   "file": "ch00-s02_3_105384ac44894ff9.mp3",
+   "hash": "105384ac44894ff9",
+   "seconds": 6.609,
+   "speaker": "bektur",
+   "credits": 29,
+   "chars": 59,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Биринчиси — ыйман, шахада. Андан кийин намаз, зекет, орозо…"
+  },
+  "ch00-s02#4": {
+   "file": "ch00-s02_4_5c0fb4f5d11736a7.mp3",
+   "hash": "5c0fb4f5d11736a7",
+   "seconds": 1.567,
+   "speaker": "aizada",
+   "credits": 6,
+   "chars": 12,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Жана ажылык!"
+  },
+  "ch00-s02#5": {
+   "file": "ch00-s02_5_d469136b4e48a2b2.mp3",
+   "hash": "d469136b4e48a2b2",
+   "seconds": 8.281,
+   "speaker": "ustaz",
+   "credits": 44,
+   "chars": 90,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Баракелде! Шахада, намаз, зекет, орозо, ажылык. Үй ушул беш түркүктүн үстүндө бекем турат."
+  },
+  "ch00-s02#6": {
+   "file": "ch00-s02_6_3fd4b5b6fb890f11.mp3",
+   "hash": "3fd4b5b6fb890f11",
+   "seconds": 10.998,
+   "speaker": "ustaz",
+   "credits": 49,
+   "chars": 102,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Кана, манжаларыбызды бүгүп санайлы. Шахада — бир, намаз — эки, зекет — үч, орозо — төрт, ажылык — беш!"
+  },
+  "ch00-s03#0": {
+   "file": "ch00-s03_0_1c742faa1124b251.mp3",
+   "hash": "1c742faa1124b251",
+   "seconds": 5.251,
+   "speaker": "ustaz",
+   "credits": 38,
+   "chars": 78,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Бүгүн мен силерге абдан кызык бир окуя айтып берем. Бир сырдуу мейман жөнүндө."
+  },
+  "ch00-s03#1": {
+   "file": "ch00-s03_1_e9ef8d09930a3f59.mp3",
+   "hash": "e9ef8d09930a3f59",
+   "seconds": 2.691,
+   "speaker": "bektur",
+   "credits": 13,
+   "chars": 27,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Сырдуу мейман? Ал ким экен?"
+  },
+  "ch00-s03#2": {
+   "file": "ch00-s03_2_fbaadb3ed6bb0e2f.mp3",
+   "hash": "fbaadb3ed6bb0e2f",
+   "seconds": 6.609,
+   "speaker": "ustaz",
+   "credits": 39,
+   "chars": 81,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Азыр айтпайм, аягында өзүңөр билесиңер. Бир гана белгиси: анын кийими аппак экен."
+  },
+  "ch00-s03#3": {
+   "file": "ch00-s03_3_c104a97675934e48.mp3",
+   "hash": "c104a97675934e48",
+   "seconds": 3.161,
+   "speaker": "aizada",
+   "credits": 16,
+   "chars": 32,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Аппак кийим! Ал кайдан келиптир?"
+  },
+  "ch00-s03#4": {
+   "file": "ch00-s03_4_82da96b065e39a42.mp3",
+   "hash": "82da96b065e39a42",
+   "seconds": 4.362,
+   "speaker": "ustaz",
+   "credits": 28,
+   "chars": 57,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Аны бирге табабыз. Мейман берген суроолор үч сөз жөнүндө."
+  },
+  "ch00-s03#6": {
+   "file": "ch00-s03_6_5ad10d1190f789ad.mp3",
+   "hash": "5ad10d1190f789ad",
+   "seconds": 11.807,
+   "speaker": "ustaz",
+   "credits": 51,
+   "chars": 105,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Биринчиси — Ислам. Экинчиси — Ыйман. Үчүнчүсү — Ихсан. Кана, мени менен кайталагыла: Ислам, Ыйман, Ихсан!"
+  },
+  "ch00-s03#7": {
+   "file": "ch00-s03_7_2be5a8a7249e8c0d.mp3",
+   "hash": "2be5a8a7249e8c0d",
+   "seconds": 3.553,
+   "speaker": "both_children",
+   "credits": 20,
+   "chars": 20,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ислам! Ыйман! Ихсан!"
+  },
+  "ch00-s03#9": {
+   "file": "ch00-s03_9_c96176236c40abf9.mp3",
+   "hash": "c96176236c40abf9",
+   "seconds": 6.844,
+   "speaker": "ustaz",
+   "credits": 41,
+   "chars": 85,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ар бир жоопту билгенде, бир жылдыз жанат. Аягында үчөө тең жанышы керек. Даярсыңарбы?"
+  },
+  "ch00-s03#10": {
+   "file": "ch00-s03_10_053432fa46de9da0.mp3",
+   "hash": "053432fa46de9da0",
+   "seconds": 1.149,
+   "speaker": "both_children",
+   "credits": 8,
+   "chars": 8,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Даярбыз!"
+  },
+  "ch01-s01#0": {
+   "file": "ch01-s01_0_9dc514f97abb7af1.mp3",
+   "hash": "9dc514f97abb7af1",
+   "seconds": 7.811,
+   "speaker": "ustaz",
+   "credits": 50,
+   "chars": 104,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Балдар, динибиздин ичинде илим көп. Бирок ошол илимдердин баары негизги үч илимдин ичинен бөлүнүп чыгат."
+  },
+  "ch01-s01#1": {
+   "file": "ch01-s01_1_45d48dcd454f1389.mp3",
+   "hash": "45d48dcd454f1389",
+   "seconds": 5.068,
+   "speaker": "ustaz",
+   "credits": 31,
+   "chars": 63,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Анда ал илимди каяктан алабыз? Динибиздеги илим каяктан алынат?"
+  },
+  "ch01-s01#3": {
+   "file": "ch01-s01_3_4ad3340dbc2f2971.mp3",
+   "hash": "4ad3340dbc2f2971",
+   "seconds": 1.228,
+   "speaker": "bektur",
+   "credits": 4,
+   "chars": 9,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Курандан!"
+  },
+  "ch01-s01#4": {
+   "file": "ch01-s01_4_96693b1ca92975ef.mp3",
+   "hash": "96693b1ca92975ef",
+   "seconds": 7.314,
+   "speaker": "ustaz",
+   "credits": 32,
+   "chars": 67,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Туура! Биринчиси — Куран. Экинчиси — хадис кудси. Үчүнчүсү — хадис."
+  },
+  "ch01-s01#5": {
+   "file": "ch01-s01_5_e1b2dd33caccf180.mp3",
+   "hash": "e1b2dd33caccf180",
+   "seconds": 4.362,
+   "speaker": "aizada",
+   "credits": 20,
+   "chars": 42,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Хадис кудси… Бул сөздү биринчи угуп жатам."
+  },
+  "ch01-s01#6": {
+   "file": "ch01-s01_6_915ab8062332dc28.mp3",
+   "hash": "915ab8062332dc28",
+   "seconds": 12.199,
+   "speaker": "ustaz",
+   "credits": 73,
+   "chars": 151,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Хадис кудси менен хадис экөө тең Пайгамбарыбыздын, саллаллаху алейхи ва саллам, сөздөрү. Бирок экөөнүн айырмасы бар. Кандай айырма? Азыр бирге көрөбүз."
+  },
+  "ch01-s01#7": {
+   "file": "ch01-s01_7_4c654efb8c963487.mp3",
+   "hash": "4c654efb8c963487",
+   "seconds": 6.348,
+   "speaker": "ustaz",
+   "credits": 43,
+   "chars": 88,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Тоодогу булактан таза суу агып келет эмеспи. Биздин илим да ушул үч таза булактан келет."
+  },
+  "ch01-s02#0": {
+   "file": "ch01-s02_0_05e4990ee9c1e10d.mp3",
+   "hash": "05e4990ee9c1e10d",
+   "seconds": 5.329,
+   "speaker": "ustaz",
+   "credits": 30,
+   "chars": 62,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Биринчи булак — Куран. Курандын сөзү да, мааниси да Аллахтыкы."
+  },
+  "ch01-s02#1": {
+   "file": "ch01-s02_1_0ea3cca252900662.mp3",
+   "hash": "0ea3cca252900662",
+   "seconds": 7.811,
+   "speaker": "ustaz",
+   "credits": 52,
+   "chars": 108,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Пайгамбарыбыз, саллаллаху алейхи ва саллам, Куранга өзүнөн бир да сөз кошкон эмес, бир да маани кошкон эмес."
+  },
+  "ch01-s02#2": {
+   "file": "ch01-s02_2_442a359d90c8edf2.mp3",
+   "hash": "442a359d90c8edf2",
+   "seconds": 5.146,
+   "speaker": "ustaz",
+   "credits": 28,
+   "chars": 57,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Жүздөн жүз пайыз: Курандын сөзү да, мааниси да Аллахтыкы."
+  },
+  "ch01-s02#3": {
+   "file": "ch01-s02_3_d33134b50a0e36f9.mp3",
+   "hash": "d33134b50a0e36f9",
+   "seconds": 3.161,
+   "speaker": "aizada",
+   "credits": 14,
+   "chars": 29,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Жүздөн жүз? Таптакыр баарыбы?"
+  },
+  "ch01-s02#4": {
+   "file": "ch01-s02_4_c38fa49e3098eac3.mp3",
+   "hash": "c38fa49e3098eac3",
+   "seconds": 8.124,
+   "speaker": "ustaz",
+   "credits": 51,
+   "chars": 105,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ооба, Айзада, таптакыр баары. Ошон үчүн биз Куранды өзгөчө урматтайбыз, аны таза колубуз менен кармайбыз."
+  },
+  "ch01-s02#5": {
+   "file": "ch01-s02_5_a6c1f5f67d768582.mp3",
+   "hash": "a6c1f5f67d768582",
+   "seconds": 4.598,
+   "speaker": "ustaz",
+   "credits": 25,
+   "chars": 52,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Кана, мени менен кайталагыла: Куран — Аллахтын сөзү!"
+  },
+  "ch01-s02#6": {
+   "file": "ch01-s02_6_ca5c459bb242e898.mp3",
+   "hash": "ca5c459bb242e898",
+   "seconds": 2.351,
+   "speaker": "both_children",
+   "credits": 22,
+   "chars": 22,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Куран — Аллахтын сөзү!"
+  }
+ },
+ "settings": {
+  "model_id": "eleven_v4",
+  "language_code": "ky",
+  "output_format": "mp3_44100_128",
+  "voice_settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "speed": 0.9
+  }
+ }
+}

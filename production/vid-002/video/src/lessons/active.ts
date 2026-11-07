@@ -37,6 +37,17 @@ export const setLesson = (id: string): LessonData => {
 };
 export const L = (): LessonData => active;
 
+// Stars lit at an absolute frame: a chapter's own new star stays unlit until its star beat has started.
+export const litAt = (chapter: string, absFrame: number): number => {
+  const d = active;
+  const lit = d.starsLit[chapter] ?? 0;
+  for (const s of d.timeline.scenes) {
+    if (s.chapter !== chapter) continue;
+    for (const b of s.beats) if (d.starBeats.has(b.key)) return absFrame < s.from + b.from ? Math.max(0, lit - 1) : lit;
+  }
+  return lit;
+};
+
 // Visual beats whose description says a star lights up (sparkle on the board's star strip).
 export const starBeatsOf = (t: Timeline): Set<string> =>
   new Set(t.scenes.flatMap((s) => s.beats)

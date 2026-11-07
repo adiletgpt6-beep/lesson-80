@@ -531,7 +531,8 @@ const PillarHouse: React.FC<P> = ({ frame, t }) => {
       <rect width={1920} height={1080} fill={SKY} />
       <Sun x={1650} y={170} frame={frame} />
       <Cloud x={300} y={150} frame={frame} /><Cloud x={1100} y={110} s={0.7} frame={frame} speed={0.3} />
-      <Hills y={860} />
+      <Hills y={760} />
+      <g transform="translate(0 -130)">
       <path d="M460 360 L960 150 L1460 360 Z" fill={ROOF} />
       <rect x={480} y={360} width={960} height={40} fill="#8a6240" />
       {words.map((w, i) => {
@@ -546,6 +547,7 @@ const PillarHouse: React.FC<P> = ({ frame, t }) => {
         );
       })}
       <text x={960} y={300} textAnchor="middle" fontSize={56} fontWeight={700} fill="#fff">ИСЛАМ</text>
+      </g>
     </g>
   );
 };

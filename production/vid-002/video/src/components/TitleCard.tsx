@@ -1,6 +1,6 @@
 import React from "react";
 import { theme } from "../theme";
-import { L } from "../lessons/active";
+import { L, litAt } from "../lessons/active";
 import { easeOut } from "../anim";
 
 // Chapter title card shown for 3 s at the start of ch01..ch16 over the dimmed classroom.
@@ -9,7 +9,8 @@ export const TitleCard: React.FC<{ chapter: string; title: string; frame: number
   const out = frame > frames - 12 ? (frames - frame) / 12 : 1;
   const n = Number(chapter.slice(2));
   const { starsLit, meta } = L();
-  const lit = starsLit[chapter] ?? 0;
+  void starsLit;
+  const lit = litAt(chapter, -1);
   return (
     <div style={{ position: "absolute", inset: 0, background: `rgba(31, 59, 87, ${0.78 * Math.min(inP, out)})`, display: "flex", alignItems: "center", justifyContent: "center", fontFamily: theme.font }}>
       <div style={{ transform: `translateY(${(1 - inP) * 40}px)`, opacity: Math.min(inP, out), textAlign: "center", color: "#fff" }}>

@@ -1,7 +1,7 @@
 import React from "react";
 import { theme } from "../theme";
 import type { Row, Col, Tok } from "../art/boardTypes";
-import { L as curLesson } from "../lessons/active";
+import { L as curLesson, litAt } from "../lessons/active";
 import { Icon } from "../art/icons";
 import { easeOut } from "../anim";
 import { GLYPH_W } from "../art/glyphWidths";
@@ -13,7 +13,8 @@ const COLORS: Record<Col, string> = { b: theme.ink, g: theme.inkGreen, r: theme.
 export const StarStrip: React.FC<{ chapter: string; sparkle: number; frame: number }> = ({ chapter, sparkle, frame }) => {
   const { starsLit, meta } = curLesson();
   const labels = meta.starLabels;
-  const lit = starsLit[chapter] ?? 0;
+  void starsLit;
+  const lit = litAt(chapter, frame);
   const step = labels.length >= 5 ? 190 : 760 / Math.max(1, labels.length - 1);
   return (
     <g transform={`translate(${BOARD.x + 120} ${BOARD.y + 58})`}>
