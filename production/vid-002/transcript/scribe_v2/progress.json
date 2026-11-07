@@ -161,37 +161,85 @@
    "id": "c10",
    "start": 2993.0,
    "end": 3307.0,
-   "status": "pending"
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 356,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "116",
+    "fiat-cost-before-overages": "0.01914"
+   }
   },
   {
    "id": "c11",
    "start": 3293.0,
    "end": 3607.0,
-   "status": "pending"
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 527,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "116",
+    "fiat-cost-before-overages": "0.01914"
+   }
   },
   {
    "id": "c12",
    "start": 3593.0,
    "end": 3907.0,
-   "status": "pending"
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 473,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "116",
+    "fiat-cost-before-overages": "0.01914"
+   }
   },
   {
    "id": "c13",
    "start": 3893.0,
    "end": 4207.0,
-   "status": "pending"
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 592,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "116",
+    "fiat-cost-before-overages": "0.01914"
+   }
   },
   {
    "id": "c14",
    "start": 4193.0,
    "end": 4507.0,
-   "status": "pending"
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 572,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "116",
+    "fiat-cost-before-overages": "0.01914"
+   }
   },
   {
    "id": "c15",
    "start": 4493.0,
    "end": 4807.0,
-   "status": "pending"
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 606,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "116",
+    "fiat-cost-before-overages": "0.01914"
+   }
   },
   {
    "id": "c16",
@@ -215,49 +263,113 @@
    "id": "c19",
    "start": 5693.0,
    "end": 6007.0,
-   "status": "pending"
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 666,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "116",
+    "fiat-cost-before-overages": "0.01914"
+   }
   },
   {
    "id": "c20",
    "start": 5993.0,
    "end": 6307.0,
-   "status": "pending"
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 635,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "116",
+    "fiat-cost-before-overages": "0.01914"
+   }
   },
   {
    "id": "c21",
    "start": 6293.0,
    "end": 6607.0,
-   "status": "pending"
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 636,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "116",
+    "fiat-cost-before-overages": "0.01914"
+   }
   },
   {
    "id": "c22",
    "start": 6593.0,
    "end": 6907.0,
-   "status": "pending"
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 587,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "116",
+    "fiat-cost-before-overages": "0.01914"
+   }
   },
   {
    "id": "c23",
    "start": 6893.0,
    "end": 7207.0,
-   "status": "pending"
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 602,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "116",
+    "fiat-cost-before-overages": "0.01914"
+   }
   },
   {
    "id": "c24",
    "start": 7193.0,
    "end": 7507.0,
-   "status": "pending"
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 640,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "116",
+    "fiat-cost-before-overages": "0.01914"
+   }
   },
   {
    "id": "c25",
    "start": 7493.0,
    "end": 7807.0,
-   "status": "pending"
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 657,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "116",
+    "fiat-cost-before-overages": "0.01914"
+   }
   },
   {
    "id": "c26",
    "start": 7793.0,
    "end": 7815.419,
-   "status": "pending"
+   "status": "done",
+   "audio_seconds": 22.419,
+   "words": 35,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "8",
+    "fiat-cost-before-overages": "0.00132"
+   }
   }
  ]
 }
