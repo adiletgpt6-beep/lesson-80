@@ -406,6 +406,105 @@
    "ped": true,
    "replaced_from": null,
    "text": "Куран — Аллахтын сөзү!"
+  },
+  "ch01-s03#0": {
+   "file": "ch01-s03_0_9ebefcb69f06ea9c.mp3",
+   "hash": "9ebefcb69f06ea9c",
+   "seconds": 9.169,
+   "speaker": "ustaz",
+   "credits": 57,
+   "chars": 118,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Экинчи булак — хадис кудси. Анын сөзү — Пайгамбарыбыздын, саллаллаху алейхи ва саллам, сөзү, ал эми мааниси Аллахтыкы."
+  },
+  "ch01-s03#1": {
+   "file": "ch01-s03_1_b3fc4b0f9cdd99ff.mp3",
+   "hash": "b3fc4b0f9cdd99ff",
+   "seconds": 10.109,
+   "speaker": "ustaz",
+   "credits": 60,
+   "chars": 124,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Мындай хадис кантип башталат? «Аллах Таала айтты» деп башталат. Пайгамбарыбыз: «Аллах Таала мындай деди», — деп айтып берет."
+  },
+  "ch01-s03#2": {
+   "file": "ch01-s03_2_a6603eda62457999.mp3",
+   "hash": "a6603eda62457999",
+   "seconds": 4.206,
+   "speaker": "bektur",
+   "credits": 26,
+   "chars": 53,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Устаз, Пайгамбарыбыз Аллахтын айтканын кайдан билген?"
+  },
+  "ch01-s03#3": {
+   "file": "ch01-s03_3_eee5e1b044c4524e.mp3",
+   "hash": "eee5e1b044c4524e",
+   "seconds": 5.642,
+   "speaker": "ustaz",
+   "credits": 34,
+   "chars": 71,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Абдан жакшы суроо, Бектур! Аллахтан Пайгамбарыбызга вахий келип турган."
+  },
+  "ch01-s03#4": {
+   "file": "ch01-s03_4_72c040496deff8b4.mp3",
+   "hash": "72c040496deff8b4",
+   "seconds": 7.706,
+   "speaker": "ustaz",
+   "credits": 51,
+   "chars": 105,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Вахий — бул Аллах менен Пайгамбарыбыздын ортосундагы байланыш, Аллахтын Өз пайгамбарына билдирген кабары."
+  },
+  "ch01-s03#5": {
+   "file": "ch01-s03_5_f105419db2dbc20c.mp3",
+   "hash": "f105419db2dbc20c",
+   "seconds": 3.788,
+   "speaker": "aizada",
+   "credits": 16,
+   "chars": 34,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Вахий. Байланыш. Мен эстеп калдым!"
+  },
+  "ch01-s03#6": {
+   "file": "ch01-s03_6_1ea7109bf0ed9a27.mp3",
+   "hash": "1ea7109bf0ed9a27",
+   "seconds": 7.811,
+   "speaker": "ustaz",
+   "credits": 49,
+   "chars": 102,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Азаматсың! Вахийди Аллах Өзү тандаган пайгамбарларына гана жиберген. Ошон үчүн бул эң ишенимдүү кабар."
+  },
+  "ch01-s04#0": {
+   "file": "ch01-s04_0_29987ac3f65ab64a.mp3",
+   "hash": "29987ac3f65ab64a",
+   "seconds": 8.046,
+   "speaker": "ustaz",
+   "credits": 51,
+   "chars": 106,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Үчүнчү булак — хадис. Хадистин сөзү да, мааниси да Пайгамбарыбыздын, саллаллаху алейхи ва саллам, өзүнүкү."
+  },
+  "ch01-s04#1": {
+   "file": "ch01-s04_1_229d6e3bdf293947.mp3",
+   "hash": "229d6e3bdf293947",
+   "seconds": 5.251,
+   "speaker": "ustaz",
+   "credits": 32,
+   "chars": 67,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Хадисте Пайгамбарыбыздын айткан сөздөрү жана кылган иштери айтылат."
   }
  },
  "settings": {

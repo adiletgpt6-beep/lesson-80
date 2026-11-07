@@ -3211,6 +3211,116 @@
    "ped": true,
    "replaced_from": null,
    "text": "Адал деген эмне?"
+  },
+  "ch06-s03#3": {
+   "file": "ch06-s03_3_a14a4e79b47c1b10.mp3",
+   "hash": "a14a4e79b47c1b10",
+   "seconds": 7.314,
+   "speaker": "ustaz",
+   "credits": 34,
+   "chars": 71,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Адал — уруксат берилген, таза нерсе. Нан, суу, ширин алма — баары адал."
+  },
+  "ch06-s03#4": {
+   "file": "ch06-s03_4_224d9f469560d02a.mp3",
+   "hash": "224d9f469560d02a",
+   "seconds": 7.628,
+   "speaker": "ustaz",
+   "credits": 44,
+   "chars": 91,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Ошол адал нерселерден, тамактан, суудан сабыр кылабыз. Суусап, курсагыбыз ачса да чыдайбыз."
+  },
+  "ch06-s03#5": {
+   "file": "ch06-s03_5_2f2374fea4eb44ca.mp3",
+   "hash": "2f2374fea4eb44ca",
+   "seconds": 8.516,
+   "speaker": "ustaz",
+   "credits": 52,
+   "chars": 107,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Ал эмне, арам беле? Жок, адал эле! Аллах бизге ырыскы кылып берген нерседен бир ай бою күндүз баш тартабыз."
+  },
+  "ch06-s03#6": {
+   "file": "ch06-s03_6_62db8053a6ab1a7c.mp3",
+   "hash": "62db8053a6ab1a7c",
+   "seconds": 3.709,
+   "speaker": "ustaz",
+   "credits": 24,
+   "chars": 50,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Андан кийин бардык жамандыктардан да баш тартабыз."
+  },
+  "ch06-s03#7": {
+   "file": "ch06-s03_7_c9912af1c4a849ec.mp3",
+   "hash": "c9912af1c4a849ec",
+   "seconds": 9.091,
+   "speaker": "ustaz",
+   "credits": 58,
+   "chars": 120,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Аллах орозо аркылуу бизди ушундай тарбиялайт. Адал нерседен баш тартканды үйрөндүңбү? Эми арамдан оңой эле баш тартасың."
+  },
+  "ch06-s03#8": {
+   "file": "ch06-s03_8_f8c42fdab5c32e81.mp3",
+   "hash": "f8c42fdab5c32e81",
+   "seconds": 7.889,
+   "speaker": "ustaz",
+   "credits": 55,
+   "chars": 113,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ушунчалык даамдуу тамактан чыдай алсаң, жаман сөздөн да, бирөөнүн нерсесин сурабай алуудан да оңой эле тыйыласың."
+  },
+  "ch06-s03#10": {
+   "file": "ch06-s03_10_bf9aeb6ff5f50562.mp3",
+   "hash": "bf9aeb6ff5f50562",
+   "seconds": 3.709,
+   "speaker": "bektur",
+   "credits": 20,
+   "chars": 42,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Демек, орозо — жүрөк үчүн машыгуу экен да!"
+  },
+  "ch06-s03#11": {
+   "file": "ch06-s03_11_8f0bb8c07863f2b9.mp3",
+   "hash": "8f0bb8c07863f2b9",
+   "seconds": 1.724,
+   "speaker": "ustaz",
+   "credits": 10,
+   "chars": 20,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Так ошондой, Бектур!"
+  },
+  "ch06-s04#0": {
+   "file": "ch06-s04_0_d79bc7dc930d36af.mp3",
+   "hash": "d79bc7dc930d36af",
+   "seconds": 3.971,
+   "speaker": "ustaz",
+   "credits": 27,
+   "chars": 55,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Орозонун денебизге да, акылыбызга да пайдасы абдан көп."
+  },
+  "ch06-s04#1": {
+   "file": "ch06-s04_1_9b5f79166590bf48.mp3",
+   "hash": "9b5f79166590bf48",
+   "seconds": 4.989,
+   "speaker": "ustaz",
+   "credits": 28,
+   "chars": 57,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Анан биздин орозо кандай орозо? Ал жыл бою айланып жүрөт."
   }
  },
  "settings": {
