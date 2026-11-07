@@ -16,6 +16,7 @@ export type UstazProps = {
   smile: number; // 0..1
   browUp: number; // 0..1
   pointTarget?: { x: number; y: number }; // in the ustaz's local 400×700 coords, where the right hand points
+  nod?: number; // 0..1 head nod (emphasis at the start of a sentence)
 };
 
 const SKIN = "#e9b98f", SKIN_DARK = "#c9956a", BEARD = "#4a3225", VEST = "#2f6b4f", SHIRT = "#f5f1e6", TROUSERS = "#3b4a5c", CAP = "#fdfdf8", SHOE = "#2a2622";
@@ -69,7 +70,7 @@ const Arm: React.FC<{ x: number; y: number; shoulder: number; elbow: number; han
     </g>
   );
 
-export const Ustaz: React.FC<UstazProps> = ({ frame, pose, poseT, prevPose, mouth, face, smile, browUp }) => {
+export const Ustaz: React.FC<UstazProps> = ({ frame, pose, poseT, prevPose, mouth, face, smile, browUp, nod = 0 }) => {
   const a = POSES[prevPose], b = POSES[pose];
   const t = poseT;
   const sway = Math.sin(frame / 38) * 1.2; // gentle weight shift
@@ -78,7 +79,8 @@ export const Ustaz: React.FC<UstazProps> = ({ frame, pose, poseT, prevPose, mout
   const rS = lerp(a.rShoulder, b.rShoulder, t) + gesture * 0.4, rE = lerp(a.rElbow, b.rElbow, t) + gesture;
   const lS = lerp(a.lShoulder, b.lShoulder, t) + gesture * 0.3, lE = lerp(a.lElbow, b.lElbow, t) + gesture * 0.6;
   const headTurn = face * 10; // px shift of facial features
-  const headTilt = face * -3 + Math.sin(frame / 50) * 1;
+  const headTilt = face * -3 + Math.sin(frame / 50) * 1 + nod * 5;
+  const lean = face * 1.6 + (mouth > 0 ? Math.sin(frame / 45) * 0.8 : 0);
   const bl = blink(frame, 11);
   const eyeH = 9 * (1 - bl * 0.92);
   const mouthH = 3 + mouth * 16;
@@ -88,7 +90,7 @@ export const Ustaz: React.FC<UstazProps> = ({ frame, pose, poseT, prevPose, mout
 
   return (
     <svg width={400} height={700} viewBox="0 0 400 700" style={{ overflow: "visible" }}>
-      <g transform={`translate(${sway} 0)`}>
+      <g transform={`translate(${sway} 0) rotate(${lean} 200 690)`}>
         {/* shadow */}
         <ellipse cx={200} cy={690} rx={120} ry={12} fill="rgba(0,0,0,0.12)" />
         {/* legs */}
@@ -115,7 +117,7 @@ export const Ustaz: React.FC<UstazProps> = ({ frame, pose, poseT, prevPose, mout
         {/* neck */}
         <rect x={180} y={200} width={40} height={60} rx={14} fill={SKIN_DARK} />
         {/* head */}
-        <g transform={`translate(${200 + headTurn * 0.4} 150) rotate(${headTilt}) translate(-200 -150)`}>
+        <g transform={`translate(${200 + headTurn * 0.4} ${150 + nod * 5}) rotate(${headTilt}) translate(-200 -150)`}>
           {/* beard */}
           <path d="M136 150 q-6 90 64 104 q70 -14 64 -104 q-30 40 -64 36 q-34 4 -64 -36 z" fill={BEARD} />
           {/* face */}

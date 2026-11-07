@@ -10,10 +10,11 @@ on:
       tag:
         description: "Release tag"
         required: false
-        default: "lesson-003-preview-v1"
+        default: "lesson-003-preview-v1-r2"
   push:
     branches:
       - "claude/lesson-003-animation-production-*"
+      - "claude/lesson-003-kyrgyz-speech-gmsuzh"
     paths:
       - "video/src/**"
       - "video/public/**"
@@ -24,11 +25,21 @@ permissions:
   contents: write
 
 env:
-  TAG: ${{ github.event.inputs.tag || 'lesson-003-preview-v1' }}
+  TAG: ${{ github.event.inputs.tag || 'lesson-003-preview-v1-r2' }}
   OUT: lesson-80-003-full-ky-preview-v1
 
 jobs:
+  check:
+    # On push, render only when the commit message asks for it ("[render]"), so ordinary commits cost nothing.
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[render]')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Timeline QA (blocked lines, audio sync, cutaway keys, duration)
+        run: python3 scripts/check_timeline.py
+
   render:
+    needs: check
     runs-on: ubuntu-latest
     timeout-minutes: 120
     strategy:
@@ -89,7 +100,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           {
-            echo "Урок 003 — просмотровая версия v1 (preview). Кыргызский, 1920×1080, 30 fps, H.264/AAC, без музыки."
+            echo "Урок 003 — просмотровая версия v1, ревизия 2 (preview). Кыргызский, 1920×1080, 30 fps, H.264/AAC, без музыки."
             echo "Ветка ${GITHUB_REF_NAME}, коммит ${GITHUB_SHA::7}, прогон ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}."
             echo "Не утверждённый исламский учебный материал: см. lessons/003/script/PREVIEW_REGISTER.md."
             echo
@@ -98,7 +109,7 @@ jobs:
           if gh release view "$TAG" -R "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
             gh release edit "$TAG" -R "$GITHUB_REPOSITORY" --notes-file notes.md --prerelease --target "$GITHUB_SHA"
           else
-            gh release create "$TAG" -R "$GITHUB_REPOSITORY" --title "Урок 003 — просмотровая версия v1 (preview)" --notes-file notes.md --prerelease --target "$GITHUB_SHA"
+            gh release create "$TAG" -R "$GITHUB_REPOSITORY" --title "Урок 003 — просмотровая версия v1, ревизия 2 (preview): улучшенная анимация" --notes-file notes.md --prerelease --target "$GITHUB_SHA"
           fi
           gh release upload "$TAG" -R "$GITHUB_REPOSITORY" --clobber "$OUT.mp4" "$OUT-preview-960x540.mp4" SHA256SUMS.txt lesson-003-audio-clips-v1.zip chapters/*.mp4
           for f in "$OUT.mp4" "$OUT-preview-960x540.mp4" SHA256SUMS.txt; do echo "- ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases/download/$TAG/$f" >> "$GITHUB_STEP_SUMMARY"; done
