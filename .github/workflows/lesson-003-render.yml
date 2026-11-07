@@ -95,6 +95,15 @@ jobs:
           python3 scripts/verify_mp4.py "$OUT.mp4" --expect-min-seconds 3300 --expect-max-seconds 3900 | tee verify.txt
           sha256sum "$OUT.mp4" "$OUT-preview-960x540.mp4" chapters/*.mp4 | tee SHA256SUMS.txt
           cd lessons/003/audio && zip -q -r "$GITHUB_WORKSPACE/lesson-003-audio-clips-v1.zip" clips manifest.json voices.json -x "*.v0.mp3" "*.v1.mp3"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: lesson-003-full
+          path: |
+            ${{ env.OUT }}.mp4
+            ${{ env.OUT }}-preview-960x540.mp4
+            SHA256SUMS.txt
+            verify.txt
+          retention-days: 30
       - name: Publish to pre-release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -106,13 +115,21 @@ jobs:
             echo
             cat verify.txt
           } > notes.md
-          if gh release view "$TAG" -R "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
-            gh release edit "$TAG" -R "$GITHUB_REPOSITORY" --notes-file notes.md --prerelease --target "$GITHUB_SHA"
+          ASSETS=("$OUT.mp4" "$OUT-preview-960x540.mp4" SHA256SUMS.txt lesson-003-audio-clips-v1.zip chapters/*.mp4)
+          if gh release view "$TAG" -R "$GITHUB_REPOSITORY" >/dev/null 2>&1 || \
+             gh release create "$TAG" -R "$GITHUB_REPOSITORY" --title "Урок 003 — просмотровая версия v1, ревизия 2 (preview): улучшенная анимация" --notes-file notes.md --prerelease --target "$GITHUB_SHA"; then
+            gh release upload "$TAG" -R "$GITHUB_REPOSITORY" --clobber "${ASSETS[@]}"
+            REL="$TAG"; NAMES=("$OUT.mp4" "$OUT-preview-960x540.mp4" SHA256SUMS.txt)
           else
-            gh release create "$TAG" -R "$GITHUB_REPOSITORY" --title "Урок 003 — просмотровая версия v1, ревизия 2 (preview): улучшенная анимация" --notes-file notes.md --prerelease --target "$GITHUB_SHA"
+            # Creating a new tag/release was refused (seen: HTTP 403). Attach this revision to the existing
+            # release under "-r2" names; the v1 files there are left untouched.
+            REL=lesson-003-preview-v1
+            mkdir -p r2
+            cp "$OUT.mp4" "r2/$OUT-r2.mp4"; cp "$OUT-preview-960x540.mp4" "r2/$OUT-r2-preview-960x540.mp4"; cp SHA256SUMS.txt r2/SHA256SUMS-r2.txt
+            gh release upload "$REL" -R "$GITHUB_REPOSITORY" --clobber r2/*
+            NAMES=("$OUT-r2.mp4" "$OUT-r2-preview-960x540.mp4" SHA256SUMS-r2.txt)
           fi
-          gh release upload "$TAG" -R "$GITHUB_REPOSITORY" --clobber "$OUT.mp4" "$OUT-preview-960x540.mp4" SHA256SUMS.txt lesson-003-audio-clips-v1.zip chapters/*.mp4
-          for f in "$OUT.mp4" "$OUT-preview-960x540.mp4" SHA256SUMS.txt; do echo "- ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases/download/$TAG/$f" >> "$GITHUB_STEP_SUMMARY"; done
+          for f in "${NAMES[@]}"; do echo "- ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases/download/$REL/$f" >> "$GITHUB_STEP_SUMMARY"; done
       - name: Upload to private Cloudflare R2 (only if R2 write secrets are configured)
         env:
           R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
@@ -129,11 +146,3 @@ jobs:
             aws s3 cp "$f" "s3://${R2_BUCKET_NAME}/lessons/003/renders/${TAG}/$f" --endpoint-url "$EP" --only-show-errors
           done
           echo "Uploaded to R2: lessons/003/renders/${TAG}/ (private; share via presigned URLs)" >> "$GITHUB_STEP_SUMMARY"
-      - uses: actions/upload-artifact@v4
-        with:
-          name: lesson-003-full
-          path: |
-            ${{ env.OUT }}.mp4
-            SHA256SUMS.txt
-            verify.txt
-          retention-days: 14
