@@ -5202,6 +5202,28 @@
    "ped": true,
    "replaced_from": null,
    "text": "Оомийин! Рахмат, устаз!"
+  },
+  "ch12-s02#8": {
+   "file": "ch12-s02_8_21d8bbb01ed126e8.mp3",
+   "hash": "21d8bbb01ed126e8",
+   "seconds": 2.769,
+   "speaker": "ustaz",
+   "credits": 18,
+   "chars": 37,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ассалому алейкум, балдар! Көрүшкөнчө!"
+  },
+  "ch12-s02#9": {
+   "file": "ch12-s02_9_b69e400dc05f8954.mp3",
+   "hash": "b69e400dc05f8954",
+   "seconds": 1.698,
+   "speaker": "both_children",
+   "credits": 16,
+   "chars": 16,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Алейкум ассалам!"
   }
  },
  "settings": {
