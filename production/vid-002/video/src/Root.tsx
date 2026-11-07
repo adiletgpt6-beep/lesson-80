@@ -3,6 +3,7 @@ import { Composition } from "remotion";
 import { Lesson } from "./Lesson";
 import { BoardSheet, boardScenes } from "./BoardSheet";
 import { LESSONS } from "./lessons/active";
+import { CutawaySheet, CUTAWAY_QA } from "./CutawaySheet";
 
 // For each lesson NNN: `LessonNNN` is the whole film, `LessonNNN-chMM` renders one chapter (frame 0 = chapter
 // start) so chapters can be rendered in parallel and concatenated with ffmpeg without re-encoding.
@@ -20,5 +21,6 @@ export const RemotionRoot: React.FC = () => (
           width={d.timeline.width} height={d.timeline.height} defaultProps={{ lesson: id }} />
       </React.Fragment>
     ))}
+    <Composition id="QA-Cutaways" component={CutawaySheet} durationInFrames={CUTAWAY_QA.length} fps={30} width={1920} height={1080} defaultProps={{}} />
   </>
 );

@@ -18,3 +18,8 @@ __pycache__/
 *.mp4
 *.wav
 *.part
+# Voice clips of lessons 001/002 (ElevenLabs output): kept in Git so CI can render without re-spending credits.
+!lessons/001/audio/clips/*.mp3
+!lessons/002/audio/clips/*.mp3
+lessons/00[12]/audio/clips/*.v0.mp3
+lessons/00[12]/audio/clips/*.v1.mp3

@@ -517,12 +517,225 @@ const Oven: React.FC<P> = ({ frame, t }) => {
   );
 };
 
+
+// ---------------- VID-002 (lessons 001/002) illustrations ----------------
+// Allah is never depicted; the Prophet ﷺ, prophets and angels are never drawn (light, words, places only).
+const SAND = "#e9c98b", SAND_DARK = "#d6ae68";
+
+// A big house on five columns; columns light up one by one (t), each with its word.
+const PillarHouse: React.FC<P> = ({ frame, t }) => {
+  const words = ["ЫЙМАН", "НАМАЗ", "ЗЕКЕТ", "ОРОЗО", "АЖЫЛЫК"];
+  const lit = Math.floor(t * 6.2);
+  return (
+    <g>
+      <rect width={1920} height={1080} fill={SKY} />
+      <Sun x={1650} y={170} frame={frame} />
+      <Cloud x={300} y={150} frame={frame} /><Cloud x={1100} y={110} s={0.7} frame={frame} speed={0.3} />
+      <Hills y={860} />
+      <path d="M460 360 L960 150 L1460 360 Z" fill={ROOF} />
+      <rect x={480} y={360} width={960} height={40} fill="#8a6240" />
+      {words.map((w, i) => {
+        const x = 560 + i * 200, on = i < lit;
+        return (
+          <g key={i}>
+            {on ? <rect x={x - 40} y={390} width={80} height={460} fill="#ffe08a" opacity={0.35 + Math.sin(frame / 10 + i) * 0.08} /> : null}
+            <rect x={x - 28} y={400} width={56} height={440} rx={6} fill={on ? "#f2b32a" : "#efe6d4"} stroke="#8a6240" strokeWidth={6} />
+            <rect x={x - 40} y={830} width={80} height={24} fill="#8a6240" />
+            <text x={x} y={900} textAnchor="middle" fontSize={34} fontWeight={700} fill={on ? "#1f3b57" : "#7d8fa3"}>{w}</text>
+          </g>
+        );
+      })}
+      <text x={960} y={300} textAnchor="middle" fontSize={56} fontWeight={700} fill="#fff">ИСЛАМ</text>
+    </g>
+  );
+};
+
+// Mosque in the desert town at dawn, palms; no people.
+const DesertMosque: React.FC<P> = ({ frame, t }) => (
+  <g>
+    <rect width={1920} height={1080} fill={`rgb(${250 - t * 40}, ${214 - t * 20}, ${160 + t * 60})`} />
+    <Sun x={1500} y={260 - t * 60} r={80} frame={frame} />
+    <path d="M0 760 Q480 700 960 750 T1920 740 L1920 1080 L0 1080 Z" fill={SAND} />
+    <path d="M0 880 Q600 820 1200 880 T1920 860 L1920 1080 L0 1080 Z" fill={SAND_DARK} />
+    <g transform="translate(960 760)">
+      <rect x={-260} y={-220} width={520} height={220} fill="#f4ecdc" />
+      <path d="M-150 -220 C-150 -380 150 -380 150 -220 Z" fill="#7fb7a4" />
+      <rect x={-5} y={-420} width={10} height={60} fill="#d9a21b" /><circle cx={0} cy={-430} r={12} fill="#d9a21b" />
+      {[-360, 360].map((x, i) => <g key={i}><rect x={x - 22} y={-420} width={44} height={420} fill="#f4ecdc" /><path d={`M${x - 30} -420 L${x} -480 L${x + 30} -420 Z`} fill="#7fb7a4" /></g>)}
+      <path d="M-50 0 L-50 -110 C-50 -150 50 -150 50 -110 L50 0 Z" fill="#8a6240" />
+      {[-190, -120, 120, 190].map((x, i) => <path key={i} d={`M${x - 22} -110 L${x - 22} -160 C${x - 22} -186 ${x + 22} -186 ${x + 22} -160 L${x + 22} -110 Z`} fill="#9ad1f0" />)}
+    </g>
+    {[220, 380, 1560, 1730].map((x, i) => (
+      <g key={i} transform={`translate(${x} ${830 + (i % 2) * 30}) rotate(${Math.sin(frame / 40 + i) * 2})`}>
+        <path d="M0 0 C-6 -120 -2 -220 6 -300" stroke="#7a4f2a" strokeWidth={22} fill="none" strokeLinecap="round" />
+        {[-150, -110, -60, -20, 30, 70].map((a, j) => <path key={j} d={`M6 -300 q${Math.cos(a / 57) * 90} ${Math.sin(a / 57) * 60 - 40} ${Math.cos(a / 57) * 170} ${Math.sin(a / 57) * 90}`} stroke={LEAF} strokeWidth={22} fill="none" strokeLinecap="round" />)}
+      </g>
+    ))}
+  </g>
+);
+
+// A doorway filled with soft white light (the mysterious guest is never drawn).
+const GuestLight: React.FC<P> = ({ frame, t }) => {
+  const g = 0.5 + 0.5 * easeOut(t * 2);
+  return (
+    <g>
+      <rect width={1920} height={1080} fill="#efe2c8" />
+      <rect y={820} width={1920} height={260} fill="#d8bf95" />
+      {[0, 1, 2, 3].map((i) => <rect key={i} x={160 + i * 420} y={180} width={60} height={640} fill="#e2d1b0" />)}
+      <rect x={760} y={220} width={400} height={600} rx={200} fill="#8a6240" />
+      <rect x={790} y={250} width={340} height={570} rx={170} fill="#fffdf5" opacity={g} />
+      <ellipse cx={960} cy={560} rx={260 + Math.sin(frame / 12) * 12} ry={340} fill="#ffffff" opacity={0.35 * g} />
+      {Array.from({ length: 16 }).map((_, i) => (
+        <circle key={i} cx={960 + Math.cos(i + frame / 50) * (180 + noise(i) * 160)} cy={540 + Math.sin(i * 1.7 + frame / 60) * 260} r={4 + noise(i + 3) * 5} fill="#fff6c8" opacity={0.6 * g} />
+      ))}
+      <text x={960} y={150} textAnchor="middle" fontSize={52} fontWeight={700} fill="#1f3b57" opacity={easeOut(t * 3)}>ак кийимчен мейман</text>
+    </g>
+  );
+};
+
+// Pilgrims in white around the Kaaba seen from far away (faceless, simple).
+const PilgrimsWhite: React.FC<P> = ({ frame }) => (
+  <g>
+    <rect width={1920} height={1080} fill="#f7e9cf" />
+    <ellipse cx={960} cy={760} rx={900} ry={260} fill="#efe4d2" />
+    <rect x={880} y={520} width={160} height={190} fill="#1d1d1d" /><rect x={880} y={570} width={160} height={16} fill="#d9a21b" />
+    {Array.from({ length: 70 }).map((_, i) => {
+      const ring = 1 + (i % 4), a = (i / 70) * Math.PI * 2 + frame / (300 + ring * 80) * (ring % 2 ? 1 : 1);
+      const x = 960 + Math.cos(a) * (160 + ring * 150), y = 640 + Math.sin(a) * (50 + ring * 48);
+      return <g key={i} transform={`translate(${x} ${y}) scale(${0.6 + ring * 0.12})`}><path d="M-12 0 l4 -50 h16 l4 50 z" fill="#ffffff" stroke="#d9d0c0" strokeWidth={2} /><circle cy={-58} r={9} fill="#e4b48c" /></g>;
+    })}
+  </g>
+);
+
+// Winter → spring: bare trees, snow melts, everything turns green and blooms (resurrection image, Rum 30:19).
+const WinterSpring: React.FC<P> = ({ frame, t }) => {
+  const k = easeInOut(Math.max(0, Math.min(1, (t - 0.25) / 0.5)));
+  const mix = (a: number[], b: number[]) => `rgb(${a.map((v, i) => Math.round(v + (b[i] - v) * k)).join(",")})`;
+  return (
+    <g>
+      <rect width={1920} height={1080} fill={mix([205, 218, 230], [191, 227, 247])} />
+      <Sun x={1600} y={180} r={60 + 20 * k} frame={frame} />
+      <Mountains />
+      <path d="M0 780 Q500 700 960 760 T1920 740 L1920 1080 L0 1080 Z" fill={mix([240, 244, 248], [127, 191, 106])} />
+      {[260, 620, 980, 1340, 1700].map((x, i) => (
+        <g key={i} transform={`translate(${x} ${900 + (i % 2) * 40})`}>
+          <rect x={-12} y={-150} width={24} height={160} rx={8} fill={TRUNK} />
+          <path d="M0 -120 L-60 -200 M0 -140 L50 -220 M0 -100 L70 -150" stroke={TRUNK} strokeWidth={10} strokeLinecap="round" />
+          <g opacity={k}><circle cx={0} cy={-200} r={80 * k} fill={LEAF} /><circle cx={-50} cy={-160} r={55 * k} fill={LEAF} /><circle cx={50} cy={-165} r={60 * k} fill={LEAF} />
+            {[[-30, -210], [25, -230], [55, -170], [-60, -150]].map(([fx, fy], j) => <circle key={j} cx={fx} cy={fy} r={10 * k} fill="#ffb3d1" />)}</g>
+        </g>
+      ))}
+      {k < 1 ? Array.from({ length: 40 }).map((_, i) => <circle key={i} cx={(noise(i) * 1920 + frame * 0.6) % 1920} cy={(noise(i + 50) * 1080 + frame * 2.5) % 1080} r={4} fill="#fff" opacity={1 - k} />) : null}
+      {Array.from({ length: 12 }).map((_, i) => <g key={i} opacity={k} transform={`translate(${120 + i * 150} ${980 + (i % 3) * 20}) scale(${k})`}><path d="M0 0 L0 -40" stroke={GRASS_DARK} strokeWidth={5} /><circle cy={-46} r={10} fill={["#ffd34d", "#ff8fb1", "#fff"][i % 3]} /></g>)}
+    </g>
+  );
+};
+
+// Melon field with a market stall (the parable of the melon seller).
+const MelonField: React.FC<P> = ({ frame }) => (
+  <g>
+    <rect width={1920} height={1080} fill={SKY} />
+    <Sun x={300} y={180} frame={frame} />
+    <Cloud x={900} y={140} frame={frame} />
+    <rect y={600} width={1920} height={480} fill="#b9d98a" />
+    {Array.from({ length: 22 }).map((_, i) => {
+      const x = 120 + (i % 8) * 220 + (Math.floor(i / 8) % 2) * 100, y = 700 + Math.floor(i / 8) * 130;
+      return <g key={i} transform={`translate(${x} ${y})`}><ellipse rx={70} ry={45} fill="#e8d36a" stroke="#c9a93a" strokeWidth={4} /><path d="M-40 -30 q40 20 80 0 M-50 0 q50 15 100 0" stroke="#c9a93a" strokeWidth={3} fill="none" /><path d="M60 -30 q30 -30 60 -10" stroke={GRASS_DARK} strokeWidth={6} fill="none" /></g>;
+    })}
+    <rect x={1460} y={420} width={360} height={200} fill="#c8443a" /><path d="M1440 420 L1640 340 L1840 420 Z" fill="#f2b32a" />
+    <text x={1640} y={540} textAnchor="middle" fontSize={44} fontWeight={700} fill="#fff">КООН</text>
+  </g>
+);
+
+// Children standing calmly in a queue at a small shop (patience).
+const QueueShop: React.FC<P> = ({ frame, t }) => (
+  <g>
+    <rect width={1920} height={1080} fill="#cfe8f5" />
+    <rect y={820} width={1920} height={260} fill="#c9c2b4" />
+    <rect x={1300} y={300} width={520} height={520} fill="#f3e7d3" /><rect x={1300} y={240} width={520} height={80} fill="#2a7f5a" />
+    <text x={1560} y={295} textAnchor="middle" fontSize={50} fontWeight={700} fill="#fff">ДҮКӨН</text>
+    <rect x={1400} y={500} width={160} height={320} fill="#6b4a2e" /><rect x={1600} y={420} width={160} height={140} fill="#9ad1f0" />
+    {[0, 1, 2, 3, 4].map((i) => <KidFigure key={i} x={1180 - i * 210 + easeOut(t) * 40} y={700} s={0.8} frame={frame + i * 13} girl={i % 2 === 1} />)}
+  </g>
+);
+
+// Sharing apples: a basket and children handing apples to each other.
+const ShareApples: React.FC<P> = ({ frame, t }) => {
+  const fly = easeInOut((t * 2) % 1);
+  return (
+    <g>
+      <rect width={1920} height={1080} fill={SKY} />
+      <Hills y={760} />
+      <Tree x={300} y={900} s={1.3} frame={frame} fruit="#c8443a" />
+      <KidFigure x={760} y={720} frame={frame} arm={-30} />
+      <KidFigure x={1260} y={720} girl frame={frame + 7} arm={-30 * fly} />
+      <g transform="translate(700 860)"><path d="M-80 0 L80 0 L64 90 L-64 90 Z" fill="#c99c6e" /><path d="M-60 0 C-60 -70 60 -70 60 0" stroke="#8a6240" strokeWidth={8} fill="none" />
+        {[-40, 0, 40, -20, 20].map((x, i) => <circle key={i} cx={x} cy={-10 - (i > 2 ? 20 : 0)} r={22} fill="#c8443a" />)}</g>
+      <circle cx={820 + fly * 380} cy={700 - Math.sin(fly * Math.PI) * 160} r={24} fill="#c8443a" />
+    </g>
+  );
+};
+
+// A child doing homework at a desk carefully — the teacher's chair is empty (ihsan: same effort when nobody watches).
+const HomeworkDesk: React.FC<P> = ({ frame }) => (
+  <Room frame={frame}>
+    <rect x={500} y={600} width={600} height={30} fill="#8a6240" /><rect x={520} y={630} width={24} height={170} fill="#8a6240" /><rect x={1056} y={630} width={24} height={170} fill="#8a6240" />
+    <rect x={640} y={570} width={220} height={34} rx={4} fill="#fff" /><path d={`M700 590 L${760 + Math.sin(frame / 5) * 30} 590`} stroke="#1f3b57" strokeWidth={4} />
+    <KidFigure x={760} y={520} frame={frame} arm={-60} />
+    <rect x={1300} y={560} width={160} height={30} fill="#a57a52" /><rect x={1300} y={420} width={24} height={150} fill="#a57a52" /><rect x={1310} y={590} width={20} height={210} fill="#a57a52" /><rect x={1430} y={590} width={20} height={210} fill="#a57a52" />
+    <text x={1380} y={880} textAnchor="middle" fontSize={40} fontWeight={700} fill="#6b4a2e">мугалимдин орду бош…</text>
+  </Room>
+);
+
+// Flames that turn into a cool green garden (Anbiya 21:69) — no person is drawn.
+const FireGarden: React.FC<P> = ({ frame, t }) => {
+  const k = easeInOut(Math.max(0, Math.min(1, (t - 0.3) / 0.45)));
+  return (
+    <g>
+      <rect width={1920} height={1080} fill={`rgb(${Math.round(60 + 131 * k)}, ${Math.round(30 + 197 * k)}, ${Math.round(30 + 217 * k)})`} />
+      <rect y={820} width={1920} height={260} fill={k > 0.5 ? GRASS : "#5a3a2a"} />
+      {Array.from({ length: 9 }).map((_, i) => {
+        const x = 200 + i * 190, h = 260 + noise(i) * 160 + Math.sin(frame / 4 + i) * 20;
+        return (
+          <g key={i} transform={`translate(${x} 830)`}>
+            <path d={`M-70 0 C-80 ${-h * 0.5} -20 ${-h * 0.7} 0 ${-h} C20 ${-h * 0.7} 80 ${-h * 0.5} 70 0 Z`} fill="#ff8a2a" opacity={1 - k} />
+            <path d={`M-35 0 C-40 ${-h * 0.35} -10 ${-h * 0.5} 0 ${-h * 0.7} C10 ${-h * 0.5} 40 ${-h * 0.35} 35 0 Z`} fill="#ffd34d" opacity={1 - k} />
+            <g opacity={k}><path d="M0 0 L0 -120" stroke={GRASS_DARK} strokeWidth={10} /><circle cy={-140} r={46 * k} fill={["#ff8fb1", "#ffd34d", "#ffffff"][i % 3]} /><circle cy={-140} r={14} fill="#f2b32a" /></g>
+          </g>
+        );
+      })}
+      <text x={960} y={160} textAnchor="middle" fontSize={56} fontWeight={700} fill="#fff" opacity={k}>«…салкын жана тынч бол!»</text>
+    </g>
+  );
+};
+
+// Night sky full of galaxies above, a line of ants carrying grains below (provision for every creature, Hud 11:6).
+const AntsGalaxy: React.FC<P> = ({ frame }) => (
+  <g>
+    <rect width={1920} height={1080} fill={NIGHT} />
+    {Array.from({ length: 120 }).map((_, i) => <circle key={i} cx={noise(i) * 1920} cy={noise(i + 300) * 640} r={1 + noise(i + 7) * 2.5} fill="#fff" opacity={0.5 + 0.5 * Math.sin(frame / 15 + i)} />)}
+    {[[500, 260, 0.9], [1400, 200, 0.7]].map(([x, y, s], i) => (
+      <g key={i} transform={`translate(${x} ${y}) rotate(${frame / 8 + i * 40}) scale(${s})`}>
+        {[0, 1, 2].map((j) => <ellipse key={j} rx={200 - j * 50} ry={60 - j * 15} fill="#b9a7ff" opacity={0.18 + j * 0.12} />)}<circle r={18} fill="#fff6c8" />
+      </g>
+    ))}
+    <rect y={760} width={1920} height={320} fill="#5a4a3a" />
+    {Array.from({ length: 14 }).map((_, i) => {
+      const x = ((i * 140 + frame * 1.6) % 2100) - 100;
+      return <g key={i} transform={`translate(${x} ${900 + Math.sin(i) * 20})`} fill="#1d1d1d"><ellipse cx={-22} rx={9} ry={7} /><ellipse rx={11} ry={8} /><ellipse cx={26} rx={14} ry={10} /><circle cx={-34} cy={-14} r={8} fill="#f2e2a0" /></g>;
+    })}
+  </g>
+);
+
 const REGISTRY: Record<CutawayId, React.FC<P>> = {
   nature: Nature, doors: Doors, window: Window, space: (p) => <Space {...p} />, spaceReturn: (p) => <Space {...p} back />,
   glacier: Glacier, villages: Villages, growth: Growth, snakeRopes: SnakeRopes, seaCrown: SeaCrown, bekturRoom: BekturRoom,
   aizadaBed: AizadaBed, homeKitchen: HomeKitchen, streetBread: StreetBread, orchard: Orchard, race: Race, dawnRoom: DawnRoom,
   neighbor: Neighbor, electrician: Electrician, wheatField: WheatField, kettle: Kettle, winterBirds: WinterBirds, garage: Garage,
   brightPath: BrightPath, oven: Oven,
+  pillarHouse: PillarHouse, desertMosque: DesertMosque, guestLight: GuestLight, pilgrimsWhite: PilgrimsWhite,
+  winterSpring: WinterSpring, melonField: MelonField, queueShop: QueueShop, shareApples: ShareApples,
+  homeworkDesk: HomeworkDesk, fireGarden: FireGarden, antsGalaxy: AntsGalaxy,
 };
 
 export const Cutaway: React.FC<{ id: CutawayId; t: number; frame: number }> = ({ id, t, frame }) => {
