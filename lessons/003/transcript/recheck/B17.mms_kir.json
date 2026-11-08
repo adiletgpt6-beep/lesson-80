@@ -1,0 +1,9 @@
+{
+ "clip": "B17",
+ "source_start": "00:02:24",
+ "source_end": "00:02:37",
+ "model": "facebook/mms-1b-all",
+ "adapter": "kir",
+ "text": "алла мактоога татуктуу да алла күнлү шайын кадир бардык нерсеги кадыр алла бардык нерсени болу дебелет же чечип коёт деп келети куранды анан мнеге биздин мусулмандардын иши ча",
+ "note": "machine cross-check, not human listening; audio_verified stays false"
+}

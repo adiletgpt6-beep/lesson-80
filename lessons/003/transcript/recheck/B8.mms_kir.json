@@ -1,0 +1,9 @@
+{
+ "clip": "B8",
+ "source_start": "00:48:11",
+ "source_end": "00:48:24",
+ "model": "facebook/mms-1b-all",
+ "adapter": "kir",
+ "text": "бирок эч өзүнө разул эми бул кишини бешке киргиз койдуэле айтыде бе меники турбайм дейти бе меники турбам мени биииим",
+ "note": "machine cross-check, not human listening; audio_verified stays false"
+}

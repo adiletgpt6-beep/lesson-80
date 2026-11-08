@@ -1,0 +1,489 @@
+{
+ "clip": "K08",
+ "source_start": "00:01:09",
+ "source_end": "00:01:29",
+ "model_id": "scribe_v2",
+ "language_code": "kir",
+ "response_headers": {
+  "character-cost": "7",
+  "fiat-cost-before-overages": "0.001155"
+ },
+ "response": {
+  "language_code": "kir",
+  "language_probability": 1.0,
+  "text": "Бұл дүниеге жер бетіне, жер планетасына жаратқанының бірден-бір себебі бұл Аллаһ тағала не? Аллаһын тану үшін. Тану. Тану үшін. Ананы Аллаһ тағала өзін танытқанға мұқтаж ба? Жоқ. Аллаһ мен кембайлық болсын, мен бүтін байлық",
+  "words": [
+   {
+    "text": "Бұл",
+    "start": 0.08,
+    "end": 0.08,
+    "type": "word",
+    "logprob": -0.21232014149427414
+   },
+   {
+    "text": " ",
+    "start": 0.08,
+    "end": 0.1,
+    "type": "spacing",
+    "logprob": -0.0017588159535080194
+   },
+   {
+    "text": "дүниеге",
+    "start": 0.12,
+    "end": 0.46,
+    "type": "word",
+    "logprob": -0.03219984398622598
+   },
+   {
+    "text": " ",
+    "start": 0.46,
+    "end": 0.52,
+    "type": "spacing",
+    "logprob": -0.017521943897008896
+   },
+   {
+    "text": "жер",
+    "start": 0.54,
+    "end": 0.72,
+    "type": "word",
+    "logprob": -0.017521943897008896
+   },
+   {
+    "text": " ",
+    "start": 0.72,
+    "end": 0.76,
+    "type": "spacing",
+    "logprob": -0.0014423454413190484
+   },
+   {
+    "text": "бетіне,",
+    "start": 0.76,
+    "end": 1.08,
+    "type": "word",
+    "logprob": -0.06959049721314971
+   },
+   {
+    "text": " ",
+    "start": 1.08,
+    "end": 1.12,
+    "type": "spacing",
+    "logprob": -0.003961692098528147
+   },
+   {
+    "text": "жер",
+    "start": 1.12,
+    "end": 1.44,
+    "type": "word",
+    "logprob": -0.003961692098528147
+   },
+   {
+    "text": " ",
+    "start": 1.44,
+    "end": 1.52,
+    "type": "spacing",
+    "logprob": -0.0011803095694631338
+   },
+   {
+    "text": "планетасына",
+    "start": 1.52,
+    "end": 2.1,
+    "type": "word",
+    "logprob": -0.0044465288308195095
+   },
+   {
+    "text": " ",
+    "start": 2.1,
+    "end": 2.14,
+    "type": "spacing",
+    "logprob": -0.010373483411967754
+   },
+   {
+    "text": "жаратқанының",
+    "start": 2.14,
+    "end": 2.76,
+    "type": "word",
+    "logprob": -0.06795802758036491
+   },
+   {
+    "text": " ",
+    "start": 2.76,
+    "end": 2.78,
+    "type": "spacing",
+    "logprob": -0.020516090095043182
+   },
+   {
+    "text": "бірден-бір",
+    "start": 2.78,
+    "end": 3.24,
+    "type": "word",
+    "logprob": -0.019436970818787813
+   },
+   {
+    "text": " ",
+    "start": 3.24,
+    "end": 3.3,
+    "type": "spacing",
+    "logprob": -0.0009307105210609734
+   },
+   {
+    "text": "себебі",
+    "start": 3.3,
+    "end": 3.58,
+    "type": "word",
+    "logprob": -0.004083728611779709
+   },
+   {
+    "text": " ",
+    "start": 3.58,
+    "end": 3.58,
+    "type": "spacing",
+    "logprob": -0.03474606201052666
+   },
+   {
+    "text": "бұл",
+    "start": 4.6,
+    "end": 4.8,
+    "type": "word",
+    "logprob": -0.011596405102560917
+   },
+   {
+    "text": " ",
+    "start": 4.8,
+    "end": 4.8,
+    "type": "spacing",
+    "logprob": -0.03725293278694153
+   },
+   {
+    "text": "Аллаһ",
+    "start": 5.46,
+    "end": 5.64,
+    "type": "word",
+    "logprob": -0.05679702460765838
+   },
+   {
+    "text": " ",
+    "start": 5.64,
+    "end": 5.7,
+    "type": "spacing",
+    "logprob": -1.3377200365066528
+   },
+   {
+    "text": "тағала",
+    "start": 5.7,
+    "end": 5.9,
+    "type": "word",
+    "logprob": -0.6446179298994442
+   },
+   {
+    "text": " ",
+    "start": 5.9,
+    "end": 6.0,
+    "type": "spacing",
+    "logprob": -1.7946271896362305
+   },
+   {
+    "text": "не?",
+    "start": 6.0,
+    "end": 6.14,
+    "type": "word",
+    "logprob": -1.225045882165432
+   },
+   {
+    "text": " ",
+    "start": 6.14,
+    "end": 6.24,
+    "type": "spacing",
+    "logprob": -6.246371776796877e-05
+   },
+   {
+    "text": "Аллаһын",
+    "start": 7.24,
+    "end": 7.6,
+    "type": "word",
+    "logprob": -0.30833209939633627
+   },
+   {
+    "text": " ",
+    "start": 7.6,
+    "end": 8.3,
+    "type": "spacing",
+    "logprob": -0.06445933133363724
+   },
+   {
+    "text": "тану",
+    "start": 8.3,
+    "end": 8.6,
+    "type": "word",
+    "logprob": -0.0502353273332119
+   },
+   {
+    "text": " ",
+    "start": 8.6,
+    "end": 8.72,
+    "type": "spacing",
+    "logprob": -0.00036435641231946647
+   },
+   {
+    "text": "үшін.",
+    "start": 8.72,
+    "end": 8.96,
+    "type": "word",
+    "logprob": -0.006245757429860532
+   },
+   {
+    "text": " ",
+    "start": 8.96,
+    "end": 8.96,
+    "type": "spacing",
+    "logprob": -0.0006150499684736133
+   },
+   {
+    "text": "Тану.",
+    "start": 10.74,
+    "end": 11.08,
+    "type": "word",
+    "logprob": -0.10396213063795585
+   },
+   {
+    "text": " ",
+    "start": 11.08,
+    "end": 11.18,
+    "type": "spacing",
+    "logprob": -0.0015286438865587115
+   },
+   {
+    "text": "Тану",
+    "start": 12.64,
+    "end": 12.88,
+    "type": "word",
+    "logprob": -0.0007856599513615947
+   },
+   {
+    "text": " ",
+    "start": 12.88,
+    "end": 12.92,
+    "type": "spacing",
+    "logprob": -0.000523430178873241
+   },
+   {
+    "text": "үшін.",
+    "start": 12.92,
+    "end": 13.04,
+    "type": "word",
+    "logprob": -0.00044616039958782493
+   },
+   {
+    "text": " ",
+    "start": 13.04,
+    "end": 13.1,
+    "type": "spacing",
+    "logprob": -0.20891371369361877
+   },
+   {
+    "text": "Ананы",
+    "start": 13.1,
+    "end": 13.24,
+    "type": "word",
+    "logprob": -0.1886998176574707
+   },
+   {
+    "text": " ",
+    "start": 13.24,
+    "end": 13.34,
+    "type": "spacing",
+    "logprob": -1.4305012882687151e-05
+   },
+   {
+    "text": "Аллаһ",
+    "start": 13.34,
+    "end": 13.5,
+    "type": "word",
+    "logprob": -6.152947898954153e-05
+   },
+   {
+    "text": " ",
+    "start": 13.5,
+    "end": 13.54,
+    "type": "spacing",
+    "logprob": -0.026956629008054733
+   },
+   {
+    "text": "тағала",
+    "start": 13.54,
+    "end": 13.78,
+    "type": "word",
+    "logprob": -0.009648035918265426
+   },
+   {
+    "text": " ",
+    "start": 13.78,
+    "end": 13.8,
+    "type": "spacing",
+    "logprob": -0.00029738296871073544
+   },
+   {
+    "text": "өзін",
+    "start": 14.36,
+    "end": 14.68,
+    "type": "word",
+    "logprob": -0.0006053245524526574
+   },
+   {
+    "text": " ",
+    "start": 14.68,
+    "end": 14.72,
+    "type": "spacing",
+    "logprob": -0.0007240534760057926
+   },
+   {
+    "text": "танытқанға",
+    "start": 14.72,
+    "end": 15.26,
+    "type": "word",
+    "logprob": -0.0029266587866004557
+   },
+   {
+    "text": " ",
+    "start": 15.26,
+    "end": 15.3,
+    "type": "spacing",
+    "logprob": -0.0003066784702241421
+   },
+   {
+    "text": "мұқтаж",
+    "start": 15.3,
+    "end": 15.68,
+    "type": "word",
+    "logprob": -0.01893714318672816
+   },
+   {
+    "text": " ",
+    "start": 15.68,
+    "end": 15.72,
+    "type": "spacing",
+    "logprob": -0.24144336581230164
+   },
+   {
+    "text": "ба?",
+    "start": 15.72,
+    "end": 15.86,
+    "type": "word",
+    "logprob": -0.16096935662001974
+   },
+   {
+    "text": " ",
+    "start": 15.86,
+    "end": 15.88,
+    "type": "spacing",
+    "logprob": -0.0018317601643502712
+   },
+   {
+    "text": "Жоқ.",
+    "start": 15.88,
+    "end": 16.079,
+    "type": "word",
+    "logprob": -0.0006602525509151747
+   },
+   {
+    "text": " ",
+    "start": 16.079,
+    "end": 16.1,
+    "type": "spacing",
+    "logprob": -7.390703103737906e-05
+   },
+   {
+    "text": "Аллаһ",
+    "start": 17.08,
+    "end": 17.34,
+    "type": "word",
+    "logprob": -0.00017527326126582922
+   },
+   {
+    "text": " ",
+    "start": 17.34,
+    "end": 18.08,
+    "type": "spacing",
+    "logprob": -0.023827161639928818
+   },
+   {
+    "text": "мен",
+    "start": 18.1,
+    "end": 18.24,
+    "type": "word",
+    "logprob": -0.023827161639928818
+   },
+   {
+    "text": " ",
+    "start": 18.24,
+    "end": 18.3,
+    "type": "spacing",
+    "logprob": -0.5845661163330078
+   },
+   {
+    "text": "кембайлық",
+    "start": 18.3,
+    "end": 18.82,
+    "type": "word",
+    "logprob": -0.24808147962903604
+   },
+   {
+    "text": " ",
+    "start": 18.82,
+    "end": 18.84,
+    "type": "spacing",
+    "logprob": -0.18987205624580383
+   },
+   {
+    "text": "болсын,",
+    "start": 18.84,
+    "end": 19.16,
+    "type": "word",
+    "logprob": -0.13832164768661773
+   },
+   {
+    "text": " ",
+    "start": 19.16,
+    "end": 19.24,
+    "type": "spacing",
+    "logprob": -0.00017891713650897145
+   },
+   {
+    "text": "мен",
+    "start": 19.24,
+    "end": 19.38,
+    "type": "word",
+    "logprob": -0.00017891713650897145
+   },
+   {
+    "text": " ",
+    "start": 19.38,
+    "end": 19.46,
+    "type": "spacing",
+    "logprob": -0.02613845281302929
+   },
+   {
+    "text": "бүтін",
+    "start": 19.46,
+    "end": 19.74,
+    "type": "word",
+    "logprob": -0.014830365755915408
+   },
+   {
+    "text": " ",
+    "start": 19.74,
+    "end": 19.82,
+    "type": "spacing",
+    "logprob": -0.000316927267704159
+   },
+   {
+    "text": "байлық",
+    "start": 19.82,
+    "end": 19.98,
+    "type": "word",
+    "logprob": -0.001191893155919388
+   }
+  ],
+  "transcription_id": "qlfdFllgVSaSkBHQYs4c",
+  "audio_duration_secs": 20.0
+ }
+}

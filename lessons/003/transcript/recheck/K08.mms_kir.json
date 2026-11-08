@@ -1,0 +1,9 @@
+{
+ "clip": "K08",
+ "source_start": "00:01:09",
+ "source_end": "00:01:29",
+ "model": "facebook/mms-1b-all",
+ "adapter": "kir",
+ "text": "уул дүйнөгө жер бетине шу жер планетасына жаратканын бирден бир себи бул аллатаала мине алланы таануу үчүнтаануу үчүн анан алла таала өзүм таанытканга муктажбы жок алла мен кем байлык болчум мен бүтүн",
+ "note": "machine cross-check, not human listening; audio_verified stays false"
+}

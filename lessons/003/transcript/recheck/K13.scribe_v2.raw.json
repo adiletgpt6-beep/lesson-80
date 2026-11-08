@@ -1,0 +1,419 @@
+{
+ "clip": "K13",
+ "source_start": "00:11:18",
+ "source_end": "00:11:30",
+ "model_id": "scribe_v2",
+ "language_code": "kir",
+ "response_headers": {
+  "character-cost": "4",
+  "fiat-cost-before-overages": "0.00066"
+ },
+ "response": {
+  "language_code": "kir",
+  "language_probability": 1.0,
+  "text": "Жыланға илан тотуппа дегенде Аллаһ Таала не дейт? Эй, Муса, коркпо. Бул болгону сенин көзүң ошондой көрүнөт. Шайтан сенин көзүңдү бояп койду дейт. Анан сен таштай эми десе таякты",
+  "words": [
+   {
+    "text": "Жыланға",
+    "start": 0.06,
+    "end": 0.4,
+    "type": "word",
+    "logprob": -0.06872345165382805
+   },
+   {
+    "text": " ",
+    "start": 0.4,
+    "end": 0.42,
+    "type": "spacing",
+    "logprob": -0.8129389882087708
+   },
+   {
+    "text": "илан",
+    "start": 0.42,
+    "end": 0.6,
+    "type": "word",
+    "logprob": -0.45196128636598587
+   },
+   {
+    "text": " ",
+    "start": 0.6,
+    "end": 0.62,
+    "type": "spacing",
+    "logprob": -1.3511728048324585
+   },
+   {
+    "text": "тотуппа",
+    "start": 0.62,
+    "end": 0.9,
+    "type": "word",
+    "logprob": -0.8219201692513057
+   },
+   {
+    "text": " ",
+    "start": 0.9,
+    "end": 0.94,
+    "type": "spacing",
+    "logprob": -0.04783882945775986
+   },
+   {
+    "text": "дегенде",
+    "start": 0.94,
+    "end": 1.2,
+    "type": "word",
+    "logprob": -0.03524581003668053
+   },
+   {
+    "text": " ",
+    "start": 1.2,
+    "end": 1.24,
+    "type": "spacing",
+    "logprob": -0.03556125611066818
+   },
+   {
+    "text": "Аллаһ",
+    "start": 1.24,
+    "end": 1.42,
+    "type": "word",
+    "logprob": -0.07253426015377044
+   },
+   {
+    "text": " ",
+    "start": 1.42,
+    "end": 1.44,
+    "type": "spacing",
+    "logprob": -0.17856332659721375
+   },
+   {
+    "text": "Таала",
+    "start": 1.44,
+    "end": 1.6,
+    "type": "word",
+    "logprob": -0.6585452198982239
+   },
+   {
+    "text": " ",
+    "start": 1.6,
+    "end": 1.64,
+    "type": "spacing",
+    "logprob": -0.3065730333328247
+   },
+   {
+    "text": "не",
+    "start": 1.64,
+    "end": 1.72,
+    "type": "word",
+    "logprob": -0.3065730333328247
+   },
+   {
+    "text": " ",
+    "start": 1.72,
+    "end": 1.76,
+    "type": "spacing",
+    "logprob": -0.1772053837776184
+   },
+   {
+    "text": "дейт?",
+    "start": 1.76,
+    "end": 1.94,
+    "type": "word",
+    "logprob": -0.10745041672271327
+   },
+   {
+    "text": " ",
+    "start": 1.94,
+    "end": 2.0,
+    "type": "spacing",
+    "logprob": -0.11445670574903488
+   },
+   {
+    "text": "Эй,",
+    "start": 2.0,
+    "end": 2.06,
+    "type": "word",
+    "logprob": -0.12384285543036337
+   },
+   {
+    "text": " ",
+    "start": 2.06,
+    "end": 2.12,
+    "type": "spacing",
+    "logprob": -0.4757579565048218
+   },
+   {
+    "text": "Муса,",
+    "start": 2.12,
+    "end": 2.3,
+    "type": "word",
+    "logprob": -0.19083707755198703
+   },
+   {
+    "text": " ",
+    "start": 2.3,
+    "end": 2.42,
+    "type": "spacing",
+    "logprob": -0.44771748781204224
+   },
+   {
+    "text": "коркпо.",
+    "start": 2.42,
+    "end": 2.76,
+    "type": "word",
+    "logprob": -0.19451157342908637
+   },
+   {
+    "text": " ",
+    "start": 2.76,
+    "end": 3.54,
+    "type": "spacing",
+    "logprob": -0.11923516541719437
+   },
+   {
+    "text": "Бул",
+    "start": 3.54,
+    "end": 3.76,
+    "type": "word",
+    "logprob": -0.08085424841071169
+   },
+   {
+    "text": " ",
+    "start": 3.76,
+    "end": 3.84,
+    "type": "spacing",
+    "logprob": -5.781483559985645e-05
+   },
+   {
+    "text": "болгону",
+    "start": 3.84,
+    "end": 4.2,
+    "type": "word",
+    "logprob": -0.02517834020493735
+   },
+   {
+    "text": " ",
+    "start": 4.2,
+    "end": 4.24,
+    "type": "spacing",
+    "logprob": -0.05410417541861534
+   },
+   {
+    "text": "сенин",
+    "start": 4.24,
+    "end": 4.46,
+    "type": "word",
+    "logprob": -0.023044647788628934
+   },
+   {
+    "text": " ",
+    "start": 4.46,
+    "end": 4.5,
+    "type": "spacing",
+    "logprob": -0.001258653705008328
+   },
+   {
+    "text": "көзүң",
+    "start": 4.5,
+    "end": 4.74,
+    "type": "word",
+    "logprob": -0.017641626624390484
+   },
+   {
+    "text": " ",
+    "start": 4.74,
+    "end": 4.78,
+    "type": "spacing",
+    "logprob": -0.031593676656484604
+   },
+   {
+    "text": "ошондой",
+    "start": 4.78,
+    "end": 5.06,
+    "type": "word",
+    "logprob": -0.0826741297330175
+   },
+   {
+    "text": " ",
+    "start": 5.06,
+    "end": 5.12,
+    "type": "spacing",
+    "logprob": -0.0005097282119095325
+   },
+   {
+    "text": "көрүнөт.",
+    "start": 5.12,
+    "end": 5.56,
+    "type": "word",
+    "logprob": -0.07704829768044874
+   },
+   {
+    "text": " ",
+    "start": 5.56,
+    "end": 5.68,
+    "type": "spacing",
+    "logprob": -0.09937768429517746
+   },
+   {
+    "text": "Шайтан",
+    "start": 5.68,
+    "end": 6.0,
+    "type": "word",
+    "logprob": -0.22910295677866088
+   },
+   {
+    "text": " ",
+    "start": 6.0,
+    "end": 6.04,
+    "type": "spacing",
+    "logprob": -0.0011099375551566482
+   },
+   {
+    "text": "сенин",
+    "start": 6.04,
+    "end": 6.24,
+    "type": "word",
+    "logprob": -0.0005503241205587983
+   },
+   {
+    "text": " ",
+    "start": 6.24,
+    "end": 6.28,
+    "type": "spacing",
+    "logprob": -0.00023982033599168062
+   },
+   {
+    "text": "көзүңдү",
+    "start": 6.28,
+    "end": 6.54,
+    "type": "word",
+    "logprob": -0.050899478141218424
+   },
+   {
+    "text": " ",
+    "start": 6.54,
+    "end": 6.58,
+    "type": "spacing",
+    "logprob": -0.019204629585146904
+   },
+   {
+    "text": "бояп",
+    "start": 6.58,
+    "end": 6.8,
+    "type": "word",
+    "logprob": -0.2108661332167685
+   },
+   {
+    "text": " ",
+    "start": 6.8,
+    "end": 6.82,
+    "type": "spacing",
+    "logprob": -4.184158387943171e-05
+   },
+   {
+    "text": "койду",
+    "start": 6.82,
+    "end": 7.02,
+    "type": "word",
+    "logprob": -0.0019531196310708765
+   },
+   {
+    "text": " ",
+    "start": 7.02,
+    "end": 7.04,
+    "type": "spacing",
+    "logprob": -0.003126378171145916
+   },
+   {
+    "text": "дейт.",
+    "start": 7.04,
+    "end": 7.18,
+    "type": "word",
+    "logprob": -0.0021946516701063954
+   },
+   {
+    "text": " ",
+    "start": 7.18,
+    "end": 7.18,
+    "type": "spacing",
+    "logprob": -8.106198947643861e-06
+   },
+   {
+    "text": "Анан",
+    "start": 9.84,
+    "end": 10.06,
+    "type": "word",
+    "logprob": -0.0097687214065445
+   },
+   {
+    "text": " ",
+    "start": 10.06,
+    "end": 10.06,
+    "type": "spacing",
+    "logprob": -0.010240512900054455
+   },
+   {
+    "text": "сен",
+    "start": 10.82,
+    "end": 10.98,
+    "type": "word",
+    "logprob": -0.010240512900054455
+   },
+   {
+    "text": " ",
+    "start": 10.98,
+    "end": 11.02,
+    "type": "spacing",
+    "logprob": -0.028894338756799698
+   },
+   {
+    "text": "таштай",
+    "start": 11.02,
+    "end": 11.32,
+    "type": "word",
+    "logprob": -0.20940983978410563
+   },
+   {
+    "text": " ",
+    "start": 11.32,
+    "end": 11.36,
+    "type": "spacing",
+    "logprob": -0.0030069397762417793
+   },
+   {
+    "text": "эми",
+    "start": 11.36,
+    "end": 11.5,
+    "type": "word",
+    "logprob": -0.0030069397762417793
+   },
+   {
+    "text": " ",
+    "start": 11.5,
+    "end": 11.54,
+    "type": "spacing",
+    "logprob": -2.0307092666625977
+   },
+   {
+    "text": "десе",
+    "start": 11.54,
+    "end": 11.74,
+    "type": "word",
+    "logprob": -1.0206654737703502
+   },
+   {
+    "text": " ",
+    "start": 11.74,
+    "end": 11.84,
+    "type": "spacing",
+    "logprob": -0.0003491030656732619
+   },
+   {
+    "text": "таякты",
+    "start": 11.84,
+    "end": 11.98,
+    "type": "word",
+    "logprob": -0.2391754657534572
+   }
+  ],
+  "transcription_id": "fnV0UAmUAf5iQl0xceWZ",
+  "audio_duration_secs": 12.0
+ }
+}

@@ -1,0 +1,9 @@
+{
+ "clip": "B14",
+ "source_start": "00:20:06",
+ "source_end": "00:20:16",
+ "model": "facebook/mms-1b-all",
+ "adapter": "kir",
+ "text": "өлүп кетип атыпдагы ыразы доолу өлүп кетет да мынай өлүм кесе дагы раазы болот оору кесе дагы раазы болот бүт нерсе келсе ыраазы болгон бир абалда жашайт",
+ "note": "machine cross-check, not human listening; audio_verified stays false"
+}

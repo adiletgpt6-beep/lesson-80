@@ -1,0 +1,377 @@
+{
+ "clip": "K01",
+ "source_start": "00:48:22",
+ "source_end": "00:48:41",
+ "model_id": "scribe_v2",
+ "language_code": "kir",
+ "response_headers": {
+  "character-cost": "7",
+  "fiat-cost-before-overages": "0.001155"
+ },
+ "response": {
+  "language_code": "kir",
+  "language_probability": 1.0,
+  "text": "Мени бетінен ешкім шығара алмайды. Менмін дейді, мен. Бұл бейіш Алланың қызы. Иә, менікі деп қалғанға дейін барады екен, адам. Енді дағы бір мысал. Мысал айтайын.",
+  "words": [
+   {
+    "text": "Мени",
+    "start": 1.24,
+    "end": 1.42,
+    "type": "word",
+    "logprob": -0.0907570868730545
+   },
+   {
+    "text": " ",
+    "start": 1.42,
+    "end": 1.44,
+    "type": "spacing",
+    "logprob": -0.31901443004608154
+   },
+   {
+    "text": "бетінен",
+    "start": 1.44,
+    "end": 1.66,
+    "type": "word",
+    "logprob": -0.24819515964814595
+   },
+   {
+    "text": " ",
+    "start": 1.66,
+    "end": 1.68,
+    "type": "spacing",
+    "logprob": -0.0002233732520835474
+   },
+   {
+    "text": "ешкім",
+    "start": 1.68,
+    "end": 1.86,
+    "type": "word",
+    "logprob": -0.001131839746813057
+   },
+   {
+    "text": " ",
+    "start": 1.86,
+    "end": 1.88,
+    "type": "spacing",
+    "logprob": -0.006127974018454552
+   },
+   {
+    "text": "шығара",
+    "start": 1.88,
+    "end": 2.1,
+    "type": "word",
+    "logprob": -0.002288228912220802
+   },
+   {
+    "text": " ",
+    "start": 2.1,
+    "end": 2.1,
+    "type": "spacing",
+    "logprob": -0.0018110554665327072
+   },
+   {
+    "text": "алмайды.",
+    "start": 2.1,
+    "end": 2.38,
+    "type": "word",
+    "logprob": -0.004277003817151126
+   },
+   {
+    "text": " ",
+    "start": 2.38,
+    "end": 2.42,
+    "type": "spacing",
+    "logprob": -0.0027541108429431915
+   },
+   {
+    "text": "Менмін",
+    "start": 4.62,
+    "end": 5.02,
+    "type": "word",
+    "logprob": -0.18255946971476078
+   },
+   {
+    "text": " ",
+    "start": 5.02,
+    "end": 5.08,
+    "type": "spacing",
+    "logprob": -0.00048780461656861007
+   },
+   {
+    "text": "дейді,",
+    "start": 5.08,
+    "end": 5.46,
+    "type": "word",
+    "logprob": -0.0322269609750947
+   },
+   {
+    "text": " ",
+    "start": 5.46,
+    "end": 5.58,
+    "type": "spacing",
+    "logprob": -0.0053190141916275024
+   },
+   {
+    "text": "мен.",
+    "start": 5.58,
+    "end": 5.76,
+    "type": "word",
+    "logprob": -0.003996115083737095
+   },
+   {
+    "text": " ",
+    "start": 5.76,
+    "end": 5.82,
+    "type": "spacing",
+    "logprob": -0.5540980100631714
+   },
+   {
+    "text": "Бұл",
+    "start": 7.68,
+    "end": 7.92,
+    "type": "word",
+    "logprob": -0.18517115898430347
+   },
+   {
+    "text": " ",
+    "start": 7.92,
+    "end": 7.96,
+    "type": "spacing",
+    "logprob": -0.02505759336054325
+   },
+   {
+    "text": "бейіш",
+    "start": 7.96,
+    "end": 8.2,
+    "type": "word",
+    "logprob": -0.32636557799996807
+   },
+   {
+    "text": " ",
+    "start": 8.2,
+    "end": 8.24,
+    "type": "spacing",
+    "logprob": -0.0018819731194525957
+   },
+   {
+    "text": "Алланың",
+    "start": 8.24,
+    "end": 8.58,
+    "type": "word",
+    "logprob": -0.013499051731612002
+   },
+   {
+    "text": " ",
+    "start": 8.58,
+    "end": 8.62,
+    "type": "spacing",
+    "logprob": -0.03804405406117439
+   },
+   {
+    "text": "қызы.",
+    "start": 8.62,
+    "end": 8.86,
+    "type": "word",
+    "logprob": -0.3352710864011897
+   },
+   {
+    "text": " ",
+    "start": 8.86,
+    "end": 8.9,
+    "type": "spacing",
+    "logprob": -0.3384411633014679
+   },
+   {
+    "text": "Иә,",
+    "start": 8.92,
+    "end": 9.08,
+    "type": "word",
+    "logprob": -0.14697671169415116
+   },
+   {
+    "text": " ",
+    "start": 9.08,
+    "end": 9.16,
+    "type": "spacing",
+    "logprob": -0.0027151170652359724
+   },
+   {
+    "text": "менікі",
+    "start": 9.16,
+    "end": 9.54,
+    "type": "word",
+    "logprob": -0.025040470412932336
+   },
+   {
+    "text": " ",
+    "start": 9.54,
+    "end": 9.54,
+    "type": "spacing",
+    "logprob": -0.00963076576590538
+   },
+   {
+    "text": "деп",
+    "start": 10.62,
+    "end": 10.8,
+    "type": "word",
+    "logprob": -0.00963076576590538
+   },
+   {
+    "text": " ",
+    "start": 10.8,
+    "end": 10.84,
+    "type": "spacing",
+    "logprob": -0.0004814896092284471
+   },
+   {
+    "text": "қалғанға",
+    "start": 10.84,
+    "end": 11.2,
+    "type": "word",
+    "logprob": -0.0008874361255948315
+   },
+   {
+    "text": " ",
+    "start": 11.2,
+    "end": 11.22,
+    "type": "spacing",
+    "logprob": -0.14606158435344696
+   },
+   {
+    "text": "дейін",
+    "start": 11.22,
+    "end": 11.44,
+    "type": "word",
+    "logprob": -0.08766346187912859
+   },
+   {
+    "text": " ",
+    "start": 11.44,
+    "end": 11.48,
+    "type": "spacing",
+    "logprob": -0.00269431178458035
+   },
+   {
+    "text": "барады",
+    "start": 11.48,
+    "end": 11.74,
+    "type": "word",
+    "logprob": -0.004249307792633772
+   },
+   {
+    "text": " ",
+    "start": 11.74,
+    "end": 11.76,
+    "type": "spacing",
+    "logprob": -0.005556969437748194
+   },
+   {
+    "text": "екен,",
+    "start": 11.76,
+    "end": 11.92,
+    "type": "word",
+    "logprob": -0.12318838208375382
+   },
+   {
+    "text": " ",
+    "start": 11.92,
+    "end": 12.04,
+    "type": "spacing",
+    "logprob": -0.10498809814453125
+   },
+   {
+    "text": "адам.",
+    "start": 13.1,
+    "end": 13.38,
+    "type": "word",
+    "logprob": -0.08399393555519055
+   },
+   {
+    "text": " ",
+    "start": 13.38,
+    "end": 13.38,
+    "type": "spacing",
+    "logprob": -0.07722342014312744
+   },
+   {
+    "text": "Енді",
+    "start": 13.84,
+    "end": 14.08,
+    "type": "word",
+    "logprob": -0.020144649024587125
+   },
+   {
+    "text": " ",
+    "start": 14.08,
+    "end": 14.12,
+    "type": "spacing",
+    "logprob": -0.07663949579000473
+   },
+   {
+    "text": "дағы",
+    "start": 14.14,
+    "end": 14.32,
+    "type": "word",
+    "logprob": -0.040736231952905655
+   },
+   {
+    "text": " ",
+    "start": 14.32,
+    "end": 14.34,
+    "type": "spacing",
+    "logprob": -0.00021562635083682835
+   },
+   {
+    "text": "бір",
+    "start": 14.34,
+    "end": 14.48,
+    "type": "word",
+    "logprob": -0.00021562635083682835
+   },
+   {
+    "text": " ",
+    "start": 14.48,
+    "end": 14.52,
+    "type": "spacing",
+    "logprob": -0.012688853777945042
+   },
+   {
+    "text": "мысал.",
+    "start": 14.52,
+    "end": 14.8,
+    "type": "word",
+    "logprob": -0.08757146416852872
+   },
+   {
+    "text": " ",
+    "start": 14.8,
+    "end": 14.88,
+    "type": "spacing",
+    "logprob": -0.0005754960584454238
+   },
+   {
+    "text": "Мысал",
+    "start": 14.88,
+    "end": 15.12,
+    "type": "word",
+    "logprob": -0.2875956528587267
+   },
+   {
+    "text": " ",
+    "start": 15.12,
+    "end": 15.16,
+    "type": "spacing",
+    "logprob": -0.000589792791288346
+   },
+   {
+    "text": "айтайын.",
+    "start": 15.16,
+    "end": 15.6,
+    "type": "word",
+    "logprob": -0.06650651837117039
+   }
+  ],
+  "transcription_id": "3NVRfnjEBu6vOrZsKyH1",
+  "audio_duration_secs": 19.0
+ }
+}

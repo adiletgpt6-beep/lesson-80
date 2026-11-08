@@ -1,0 +1,9 @@
+{
+ "clip": "B12",
+ "source_start": "00:21:41",
+ "source_end": "00:21:53",
+ "model": "facebook/mms-1b-all",
+ "adapter": "kir",
+ "text": "ыш керек болгон ким экенин таанып түшүнүп аны сүйгөнүңда намаз оккаңда жөнле жыргап баласың орозо кармасаң деле жыргап бармайты зекет берсең деле жыргап бересиң ажылыкка барсаң дее",
+ "note": "machine cross-check, not human listening; audio_verified stays false"
+}

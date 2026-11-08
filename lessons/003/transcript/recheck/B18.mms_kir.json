@@ -1,0 +1,9 @@
+{
+ "clip": "B18",
+ "source_start": "00:06:42",
+ "source_end": "00:06:51",
+ "model": "facebook/mms-1b-all",
+ "adapter": "kir",
+ "text": "таласкаорсаң талас деле бир дарыянын боюна чайкашпат туурау таластар барбы узуу бир токой барбы а токойдун ичинде",
+ "note": "machine cross-check, not human listening; audio_verified stays false"
+}

@@ -1,0 +1,9 @@
+{
+ "clip": "K07",
+ "source_start": "00:15:34",
+ "source_end": "00:15:55",
+ "model": "facebook/mms-1b-all",
+ "adapter": "kir",
+ "text": "не боложиндеокуаласыңа турабы кайрап үчүрөткен буужау адам өзүнөн кетет анан не болот",
+ "note": "machine cross-check, not human listening; audio_verified stays false"
+}

@@ -1,0 +1,9 @@
+{
+ "clip": "B21",
+ "source_start": "00:40:13",
+ "source_end": "00:40:28",
+ "model": "facebook/mms-1b-all",
+ "adapter": "kir",
+ "text": "акча бирдиги э шот бор шот качан ачылат ножерде ачылат алланы тааныганда ким алланы таанып бин жаратканым алла ла ила айле алла мухаммадур расуулу улла деп",
+ "note": "machine cross-check, not human listening; audio_verified stays false"
+}

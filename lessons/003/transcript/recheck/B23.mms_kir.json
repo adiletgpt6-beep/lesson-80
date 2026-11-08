@@ -1,0 +1,9 @@
+{
+ "clip": "B23",
+ "source_start": "00:11:40",
+ "source_end": "00:11:54",
+ "model": "facebook/mms-1b-all",
+ "adapter": "kir",
+ "text": "уужемуса лесан барып кайрак уйругунан кармаса ал таякка айланып калат таякка айланып калганда ошол таягын алып туруп негылат сыйкызчыларга мне дейсиңер эми дегенде",
+ "note": "machine cross-check, not human listening; audio_verified stays false"
+}

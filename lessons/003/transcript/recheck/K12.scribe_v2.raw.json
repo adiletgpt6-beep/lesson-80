@@ -1,0 +1,363 @@
+{
+ "clip": "K12",
+ "source_start": "00:09:50",
+ "source_end": "00:10:06",
+ "model_id": "scribe_v2",
+ "language_code": "kir",
+ "response_headers": {
+  "character-cost": "6",
+  "fiat-cost-before-overages": "0.00099"
+ },
+ "response": {
+  "language_code": "kir",
+  "language_probability": 1.0,
+  "text": "Шипайылдылықпен, шұншалық мейірімділікпен Форонға мәміле қылады. Форон: «Ана robbukum la'la, мен сіздердің ең үлкен Құдайыңармын» деп айтқан кеше да. Анаң қанша адамдарды қорқытып өлтірген, өлтірмек",
+  "words": [
+   {
+    "text": "Шипайылдылықпен,",
+    "start": 0.0,
+    "end": 0.84,
+    "type": "word",
+    "logprob": -0.28069493209477514
+   },
+   {
+    "text": " ",
+    "start": 0.84,
+    "end": 1.1,
+    "type": "spacing",
+    "logprob": -0.07094369828701019
+   },
+   {
+    "text": "шұншалық",
+    "start": 1.1,
+    "end": 1.6,
+    "type": "word",
+    "logprob": -0.014787130554395844
+   },
+   {
+    "text": " ",
+    "start": 1.6,
+    "end": 1.64,
+    "type": "spacing",
+    "logprob": -0.00010191874753218144
+   },
+   {
+    "text": "мейірімділікпен",
+    "start": 1.64,
+    "end": 2.46,
+    "type": "word",
+    "logprob": -0.15064734448872816
+   },
+   {
+    "text": " ",
+    "start": 2.46,
+    "end": 2.98,
+    "type": "spacing",
+    "logprob": -0.4491148293018341
+   },
+   {
+    "text": "Форонға",
+    "start": 2.98,
+    "end": 3.4,
+    "type": "word",
+    "logprob": -0.13752448941210918
+   },
+   {
+    "text": " ",
+    "start": 3.4,
+    "end": 3.44,
+    "type": "spacing",
+    "logprob": -0.0015459026908501983
+   },
+   {
+    "text": "мәміле",
+    "start": 3.46,
+    "end": 3.78,
+    "type": "word",
+    "logprob": -0.3488071369550501
+   },
+   {
+    "text": " ",
+    "start": 3.78,
+    "end": 3.82,
+    "type": "spacing",
+    "logprob": -0.022669686004519463
+   },
+   {
+    "text": "қылады.",
+    "start": 3.82,
+    "end": 4.08,
+    "type": "word",
+    "logprob": -0.00352086451987686
+   },
+   {
+    "text": " ",
+    "start": 4.08,
+    "end": 4.08,
+    "type": "spacing",
+    "logprob": -0.00026973424246534705
+   },
+   {
+    "text": "Форон:",
+    "start": 5.12,
+    "end": 5.48,
+    "type": "word",
+    "logprob": -0.3060605305363424
+   },
+   {
+    "text": " ",
+    "start": 5.48,
+    "end": 5.48,
+    "type": "spacing",
+    "logprob": -0.003628220409154892
+   },
+   {
+    "text": "«Ана",
+    "start": 5.48,
+    "end": 6.26,
+    "type": "word",
+    "logprob": -1.3539768969640136
+   },
+   {
+    "text": " ",
+    "start": 6.26,
+    "end": 6.3,
+    "type": "spacing",
+    "logprob": -0.008704575709998608
+   },
+   {
+    "text": "robbukum",
+    "start": 6.3,
+    "end": 6.74,
+    "type": "word",
+    "logprob": -0.0610909383976832
+   },
+   {
+    "text": " ",
+    "start": 6.74,
+    "end": 6.82,
+    "type": "spacing",
+    "logprob": -1.0692216157913208
+   },
+   {
+    "text": "la'la,",
+    "start": 6.82,
+    "end": 7.22,
+    "type": "word",
+    "logprob": -0.4680510143128534
+   },
+   {
+    "text": " ",
+    "start": 7.22,
+    "end": 7.32,
+    "type": "spacing",
+    "logprob": -0.026484355330467224
+   },
+   {
+    "text": "мен",
+    "start": 7.32,
+    "end": 7.46,
+    "type": "word",
+    "logprob": -0.026484355330467224
+   },
+   {
+    "text": " ",
+    "start": 7.46,
+    "end": 7.54,
+    "type": "spacing",
+    "logprob": -0.03231334313750267
+   },
+   {
+    "text": "сіздердің",
+    "start": 7.54,
+    "end": 7.88,
+    "type": "word",
+    "logprob": -0.01002055697932115
+   },
+   {
+    "text": " ",
+    "start": 7.88,
+    "end": 7.96,
+    "type": "spacing",
+    "logprob": -9.941560711013153e-05
+   },
+   {
+    "text": "ең",
+    "start": 7.96,
+    "end": 8.06,
+    "type": "word",
+    "logprob": -0.7450317715738493
+   },
+   {
+    "text": " ",
+    "start": 8.06,
+    "end": 8.119,
+    "type": "spacing",
+    "logprob": -0.0034381584264338017
+   },
+   {
+    "text": "үлкен",
+    "start": 8.119,
+    "end": 8.28,
+    "type": "word",
+    "logprob": -0.3562627640185383
+   },
+   {
+    "text": " ",
+    "start": 8.28,
+    "end": 8.32,
+    "type": "spacing",
+    "logprob": -0.002628326416015625
+   },
+   {
+    "text": "Құдайыңармын»",
+    "start": 8.32,
+    "end": 9.36,
+    "type": "word",
+    "logprob": -0.032862003068797864
+   },
+   {
+    "text": " ",
+    "start": 9.36,
+    "end": 9.52,
+    "type": "spacing",
+    "logprob": -0.0007672941428609192
+   },
+   {
+    "text": "деп",
+    "start": 9.52,
+    "end": 9.76,
+    "type": "word",
+    "logprob": -0.0007672941428609192
+   },
+   {
+    "text": " ",
+    "start": 9.76,
+    "end": 10.1,
+    "type": "spacing",
+    "logprob": -5.1020273531321436e-05
+   },
+   {
+    "text": "айтқан",
+    "start": 10.1,
+    "end": 10.44,
+    "type": "word",
+    "logprob": -0.07153932568083594
+   },
+   {
+    "text": " ",
+    "start": 10.44,
+    "end": 10.48,
+    "type": "spacing",
+    "logprob": -0.1726342737674713
+   },
+   {
+    "text": "кеше",
+    "start": 10.48,
+    "end": 10.68,
+    "type": "word",
+    "logprob": -0.23757857084274292
+   },
+   {
+    "text": " ",
+    "start": 10.68,
+    "end": 10.74,
+    "type": "spacing",
+    "logprob": -0.5767472982406616
+   },
+   {
+    "text": "да.",
+    "start": 10.74,
+    "end": 10.84,
+    "type": "word",
+    "logprob": -0.4128339886665344
+   },
+   {
+    "text": " ",
+    "start": 10.84,
+    "end": 10.84,
+    "type": "spacing",
+    "logprob": -0.8523287177085876
+   },
+   {
+    "text": "Анаң",
+    "start": 11.88,
+    "end": 12.12,
+    "type": "word",
+    "logprob": -0.6394917209399864
+   },
+   {
+    "text": " ",
+    "start": 12.12,
+    "end": 12.18,
+    "type": "spacing",
+    "logprob": -0.0004323977918829769
+   },
+   {
+    "text": "қанша",
+    "start": 12.18,
+    "end": 12.86,
+    "type": "word",
+    "logprob": -0.0015264154120814056
+   },
+   {
+    "text": " ",
+    "start": 12.86,
+    "end": 12.86,
+    "type": "spacing",
+    "logprob": -0.0017603629967197776
+   },
+   {
+    "text": "адамдарды",
+    "start": 13.38,
+    "end": 13.8,
+    "type": "word",
+    "logprob": -0.0023056193323201216
+   },
+   {
+    "text": " ",
+    "start": 13.8,
+    "end": 13.9,
+    "type": "spacing",
+    "logprob": -0.00027259447961114347
+   },
+   {
+    "text": "қорқытып",
+    "start": 13.9,
+    "end": 14.3,
+    "type": "word",
+    "logprob": -0.8881101589759055
+   },
+   {
+    "text": " ",
+    "start": 14.3,
+    "end": 14.3,
+    "type": "spacing",
+    "logprob": -0.00010382589971413836
+   },
+   {
+    "text": "өлтірген,",
+    "start": 15.26,
+    "end": 15.76,
+    "type": "word",
+    "logprob": -0.27332700079002986
+   },
+   {
+    "text": " ",
+    "start": 15.76,
+    "end": 15.8,
+    "type": "spacing",
+    "logprob": -0.00999363698065281
+   },
+   {
+    "text": "өлтірмек",
+    "start": 15.82,
+    "end": 15.98,
+    "type": "word",
+    "logprob": -0.0283941506058909
+   }
+  ],
+  "transcription_id": "MD8lZKTT6dx4kiIKYMi9",
+  "audio_duration_secs": 16.0
+ }
+}

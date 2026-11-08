@@ -1,0 +1,643 @@
+{
+ "clip": "K21",
+ "source_start": "01:05:03",
+ "source_end": "01:05:25",
+ "model_id": "scribe_v2",
+ "language_code": "kir",
+ "response_headers": {
+  "character-cost": "8",
+  "fiat-cost-before-overages": "0.00132"
+ },
+ "response": {
+  "language_code": "kir",
+  "language_probability": 1.0,
+  "text": "Ондай қарызменен и-и-и алған, мәміле қыла алған адамдарға беруі керек. Берген соғы па? Пайғамбар сәлемде хадис бар. Джабраил алейхиссалам келіп айтады: «Садақа берген адам он соғұп алады» дейді. Он соғұп. «Қарыз берген адам он сегіз соғұп алады» дейді. Ананы пайғамбар сәлем сұрайды: «Е, Джабраил, садақаны",
+  "words": [
+   {
+    "text": "Ондай",
+    "start": 0.0,
+    "end": 0.18,
+    "type": "word",
+    "logprob": -0.4822925627231598
+   },
+   {
+    "text": " ",
+    "start": 0.18,
+    "end": 0.22,
+    "type": "spacing",
+    "logprob": -0.0005796659388579428
+   },
+   {
+    "text": "қарызменен",
+    "start": 0.22,
+    "end": 0.7,
+    "type": "word",
+    "logprob": -0.42168028443848016
+   },
+   {
+    "text": " ",
+    "start": 0.7,
+    "end": 0.86,
+    "type": "spacing",
+    "logprob": -2.3050436973571777
+   },
+   {
+    "text": "и-и-и",
+    "start": 0.86,
+    "end": 1.36,
+    "type": "word",
+    "logprob": -0.9232038774527609
+   },
+   {
+    "text": " ",
+    "start": 1.36,
+    "end": 1.4,
+    "type": "spacing",
+    "logprob": -1.35016667842865
+   },
+   {
+    "text": "алған,",
+    "start": 1.4,
+    "end": 1.66,
+    "type": "word",
+    "logprob": -0.4506656889522371
+   },
+   {
+    "text": " ",
+    "start": 1.66,
+    "end": 1.66,
+    "type": "spacing",
+    "logprob": -0.9784638285636902
+   },
+   {
+    "text": "мәміле",
+    "start": 2.38,
+    "end": 3.16,
+    "type": "word",
+    "logprob": -0.3290967180704077
+   },
+   {
+    "text": " ",
+    "start": 3.16,
+    "end": 3.2,
+    "type": "spacing",
+    "logprob": -0.2787271738052368
+   },
+   {
+    "text": "қыла",
+    "start": 3.2,
+    "end": 3.34,
+    "type": "word",
+    "logprob": -0.1092720739543438
+   },
+   {
+    "text": " ",
+    "start": 3.34,
+    "end": 3.34,
+    "type": "spacing",
+    "logprob": -0.0064018648117780685
+   },
+   {
+    "text": "алған",
+    "start": 3.34,
+    "end": 3.54,
+    "type": "word",
+    "logprob": -0.0029229850973933936
+   },
+   {
+    "text": " ",
+    "start": 3.54,
+    "end": 3.6,
+    "type": "spacing",
+    "logprob": -0.00012909532233607024
+   },
+   {
+    "text": "адамдарға",
+    "start": 3.6,
+    "end": 4.059,
+    "type": "word",
+    "logprob": -0.00016896357419682317
+   },
+   {
+    "text": " ",
+    "start": 4.059,
+    "end": 4.52,
+    "type": "spacing",
+    "logprob": -0.4808441400527954
+   },
+   {
+    "text": "беруі",
+    "start": 4.52,
+    "end": 4.8,
+    "type": "word",
+    "logprob": -0.4060465574264526
+   },
+   {
+    "text": " ",
+    "start": 4.8,
+    "end": 4.84,
+    "type": "spacing",
+    "logprob": -0.3121989071369171
+   },
+   {
+    "text": "керек.",
+    "start": 4.84,
+    "end": 5.16,
+    "type": "word",
+    "logprob": -0.2603381824252817
+   },
+   {
+    "text": " ",
+    "start": 5.16,
+    "end": 5.16,
+    "type": "spacing",
+    "logprob": -0.2737899422645569
+   },
+   {
+    "text": "Берген",
+    "start": 5.54,
+    "end": 6.16,
+    "type": "word",
+    "logprob": -0.13690933564521401
+   },
+   {
+    "text": " ",
+    "start": 6.16,
+    "end": 6.22,
+    "type": "spacing",
+    "logprob": -0.061058394610881805
+   },
+   {
+    "text": "соғы",
+    "start": 6.22,
+    "end": 6.42,
+    "type": "word",
+    "logprob": -0.44584425911307335
+   },
+   {
+    "text": " ",
+    "start": 6.42,
+    "end": 6.46,
+    "type": "spacing",
+    "logprob": -0.32514241337776184
+   },
+   {
+    "text": "па?",
+    "start": 6.46,
+    "end": 6.62,
+    "type": "word",
+    "logprob": -0.3029128611087799
+   },
+   {
+    "text": " ",
+    "start": 6.62,
+    "end": 6.66,
+    "type": "spacing",
+    "logprob": -0.0018703126115724444
+   },
+   {
+    "text": "Пайғамбар",
+    "start": 6.66,
+    "end": 6.94,
+    "type": "word",
+    "logprob": -0.0014778447803109884
+   },
+   {
+    "text": " ",
+    "start": 6.94,
+    "end": 6.98,
+    "type": "spacing",
+    "logprob": -1.9804681539535522
+   },
+   {
+    "text": "сәлемде",
+    "start": 6.98,
+    "end": 7.24,
+    "type": "word",
+    "logprob": -0.7919878321034568
+   },
+   {
+    "text": " ",
+    "start": 7.24,
+    "end": 7.28,
+    "type": "spacing",
+    "logprob": -0.03925987705588341
+   },
+   {
+    "text": "хадис",
+    "start": 7.28,
+    "end": 7.52,
+    "type": "word",
+    "logprob": -0.05358684062957764
+   },
+   {
+    "text": " ",
+    "start": 7.52,
+    "end": 7.56,
+    "type": "spacing",
+    "logprob": -0.0008142255246639252
+   },
+   {
+    "text": "бар.",
+    "start": 7.56,
+    "end": 7.72,
+    "type": "word",
+    "logprob": -0.0011747862445190549
+   },
+   {
+    "text": " ",
+    "start": 7.72,
+    "end": 7.72,
+    "type": "spacing",
+    "logprob": -0.5291454792022705
+   },
+   {
+    "text": "Джабраил",
+    "start": 8.72,
+    "end": 9.0,
+    "type": "word",
+    "logprob": -0.21350573556264862
+   },
+   {
+    "text": " ",
+    "start": 9.0,
+    "end": 9.0,
+    "type": "spacing",
+    "logprob": -0.582234799861908
+   },
+   {
+    "text": "алейхиссалам",
+    "start": 9.0,
+    "end": 9.3,
+    "type": "word",
+    "logprob": -0.20721615261087814
+   },
+   {
+    "text": " ",
+    "start": 9.3,
+    "end": 9.32,
+    "type": "spacing",
+    "logprob": -0.03161007910966873
+   },
+   {
+    "text": "келіп",
+    "start": 9.32,
+    "end": 9.46,
+    "type": "word",
+    "logprob": -0.04156599324414856
+   },
+   {
+    "text": " ",
+    "start": 9.46,
+    "end": 9.5,
+    "type": "spacing",
+    "logprob": -0.0030736131593585014
+   },
+   {
+    "text": "айтады:",
+    "start": 9.5,
+    "end": 9.72,
+    "type": "word",
+    "logprob": -0.006236027244345418
+   },
+   {
+    "text": " ",
+    "start": 9.72,
+    "end": 9.72,
+    "type": "spacing",
+    "logprob": -0.7120024561882019
+   },
+   {
+    "text": "«Садақа",
+    "start": 9.72,
+    "end": 11.4,
+    "type": "word",
+    "logprob": -0.10526173626671412
+   },
+   {
+    "text": " ",
+    "start": 11.4,
+    "end": 11.44,
+    "type": "spacing",
+    "logprob": -0.0034566910471767187
+   },
+   {
+    "text": "берген",
+    "start": 11.44,
+    "end": 11.7,
+    "type": "word",
+    "logprob": -0.001731981393731985
+   },
+   {
+    "text": " ",
+    "start": 11.7,
+    "end": 11.76,
+    "type": "spacing",
+    "logprob": -0.0005006728461012244
+   },
+   {
+    "text": "адам",
+    "start": 11.76,
+    "end": 11.98,
+    "type": "word",
+    "logprob": -0.0005006728461012244
+   },
+   {
+    "text": " ",
+    "start": 11.98,
+    "end": 12.1,
+    "type": "spacing",
+    "logprob": -0.0017364437226206064
+   },
+   {
+    "text": "он",
+    "start": 12.1,
+    "end": 12.2,
+    "type": "word",
+    "logprob": -0.0017364437226206064
+   },
+   {
+    "text": " ",
+    "start": 12.2,
+    "end": 12.3,
+    "type": "spacing",
+    "logprob": -0.01662801019847393
+   },
+   {
+    "text": "соғұп",
+    "start": 12.3,
+    "end": 12.54,
+    "type": "word",
+    "logprob": -0.06617702543735504
+   },
+   {
+    "text": " ",
+    "start": 12.54,
+    "end": 12.6,
+    "type": "spacing",
+    "logprob": -0.009494861587882042
+   },
+   {
+    "text": "алады»",
+    "start": 12.6,
+    "end": 12.78,
+    "type": "word",
+    "logprob": -0.009023601577306787
+   },
+   {
+    "text": " ",
+    "start": 12.78,
+    "end": 12.86,
+    "type": "spacing",
+    "logprob": -0.00012790338951162994
+   },
+   {
+    "text": "дейді.",
+    "start": 12.86,
+    "end": 13.0,
+    "type": "word",
+    "logprob": -0.0027682111685862765
+   },
+   {
+    "text": " ",
+    "start": 13.0,
+    "end": 13.0,
+    "type": "spacing",
+    "logprob": -0.003700078232213855
+   },
+   {
+    "text": "Он",
+    "start": 14.18,
+    "end": 14.28,
+    "type": "word",
+    "logprob": -0.003700078232213855
+   },
+   {
+    "text": " ",
+    "start": 14.28,
+    "end": 14.36,
+    "type": "spacing",
+    "logprob": -0.0015334049239754677
+   },
+   {
+    "text": "соғұп.",
+    "start": 14.36,
+    "end": 14.6,
+    "type": "word",
+    "logprob": -0.0012676969005648668
+   },
+   {
+    "text": " ",
+    "start": 14.6,
+    "end": 14.96,
+    "type": "spacing",
+    "logprob": -0.10152258723974228
+   },
+   {
+    "text": "«Қарыз",
+    "start": 14.96,
+    "end": 15.3,
+    "type": "word",
+    "logprob": -0.15341713400812296
+   },
+   {
+    "text": " ",
+    "start": 15.3,
+    "end": 15.34,
+    "type": "spacing",
+    "logprob": -0.0011403016978874803
+   },
+   {
+    "text": "берген",
+    "start": 15.34,
+    "end": 15.58,
+    "type": "word",
+    "logprob": -0.0005793894833914237
+   },
+   {
+    "text": " ",
+    "start": 15.58,
+    "end": 15.62,
+    "type": "spacing",
+    "logprob": -0.00020323118951637298
+   },
+   {
+    "text": "адам",
+    "start": 15.62,
+    "end": 15.86,
+    "type": "word",
+    "logprob": -0.00020323118951637298
+   },
+   {
+    "text": " ",
+    "start": 15.86,
+    "end": 15.92,
+    "type": "spacing",
+    "logprob": -0.0010493254521861672
+   },
+   {
+    "text": "он",
+    "start": 15.94,
+    "end": 16.04,
+    "type": "word",
+    "logprob": -0.0010493254521861672
+   },
+   {
+    "text": " ",
+    "start": 16.04,
+    "end": 16.1,
+    "type": "spacing",
+    "logprob": -0.009189807809889317
+   },
+   {
+    "text": "сегіз",
+    "start": 16.1,
+    "end": 16.36,
+    "type": "word",
+    "logprob": -0.003827727714087814
+   },
+   {
+    "text": " ",
+    "start": 16.36,
+    "end": 16.4,
+    "type": "spacing",
+    "logprob": -0.00026639728457666934
+   },
+   {
+    "text": "соғұп",
+    "start": 16.4,
+    "end": 16.64,
+    "type": "word",
+    "logprob": -0.0002689461805857718
+   },
+   {
+    "text": " ",
+    "start": 16.64,
+    "end": 16.7,
+    "type": "spacing",
+    "logprob": -0.0014069906901568174
+   },
+   {
+    "text": "алады»",
+    "start": 16.7,
+    "end": 16.96,
+    "type": "word",
+    "logprob": -0.0022762359003536403
+   },
+   {
+    "text": " ",
+    "start": 16.96,
+    "end": 16.96,
+    "type": "spacing",
+    "logprob": -0.00048780461656861007
+   },
+   {
+    "text": "дейді.",
+    "start": 18.02,
+    "end": 18.1,
+    "type": "word",
+    "logprob": -0.003963747899736821
+   },
+   {
+    "text": " ",
+    "start": 18.1,
+    "end": 18.16,
+    "type": "spacing",
+    "logprob": -0.09741462767124176
+   },
+   {
+    "text": "Ананы",
+    "start": 18.16,
+    "end": 18.36,
+    "type": "word",
+    "logprob": -0.16717256009578704
+   },
+   {
+    "text": " ",
+    "start": 18.36,
+    "end": 18.4,
+    "type": "spacing",
+    "logprob": -0.20936807990074158
+   },
+   {
+    "text": "пайғамбар",
+    "start": 18.4,
+    "end": 18.66,
+    "type": "word",
+    "logprob": -0.07044717106085348
+   },
+   {
+    "text": " ",
+    "start": 18.66,
+    "end": 18.7,
+    "type": "spacing",
+    "logprob": -0.0017816636245697737
+   },
+   {
+    "text": "сәлем",
+    "start": 18.7,
+    "end": 18.82,
+    "type": "word",
+    "logprob": -0.03454645308665931
+   },
+   {
+    "text": " ",
+    "start": 18.82,
+    "end": 18.88,
+    "type": "spacing",
+    "logprob": -0.0032702796161174774
+   },
+   {
+    "text": "сұрайды:",
+    "start": 18.88,
+    "end": 19.14,
+    "type": "word",
+    "logprob": -0.02783094441110734
+   },
+   {
+    "text": " ",
+    "start": 19.14,
+    "end": 19.14,
+    "type": "spacing",
+    "logprob": -7.593343616463244e-05
+   },
+   {
+    "text": "«Е,",
+    "start": 19.14,
+    "end": 20.26,
+    "type": "word",
+    "logprob": -0.03611471035401337
+   },
+   {
+    "text": " ",
+    "start": 20.26,
+    "end": 20.3,
+    "type": "spacing",
+    "logprob": -0.0015037668636068702
+   },
+   {
+    "text": "Джабраил,",
+    "start": 20.3,
+    "end": 20.7,
+    "type": "word",
+    "logprob": -0.004941906075045053
+   },
+   {
+    "text": " ",
+    "start": 20.7,
+    "end": 20.72,
+    "type": "spacing",
+    "logprob": -0.016772443428635597
+   },
+   {
+    "text": "садақаны",
+    "start": 21.5,
+    "end": 21.88,
+    "type": "word",
+    "logprob": -0.24640456680208445
+   }
+  ],
+  "transcription_id": "coagFHrUX5uA0SzUoIgG",
+  "audio_duration_secs": 22.0
+ }
+}
