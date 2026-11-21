@@ -32,6 +32,7 @@ PACE = {"tts": {"ustaz": 105.0, "child": 90.0}, "slow": {"ustaz": 94.5, "child":
 LINE_GAP = 0.6  # silence between consecutive lines, s
 QUESTION_GAP = 1.2  # thinking time after a question the ustaz asks the children, s
 TITLE_FRAMES = 90  # chapter title card (3 s) before the first scene of ch01..ch16
+COVER_FRAMES = 90  # course-wide opening cover, exactly 3 s from frame 0 (OPENING_COVER_RULES.md)
 SPEAKERS = {"ustaz", "bektur", "aizada", "both_children"}
 WORD = re.compile(r"[^\s«»“”\"—–.,!?…:;()]+")
 ARABIC_HINTS = re.compile(r"(халак|лияъбуд|инна лиллахи|илайхи|ражиун|раббук|юдоиф|ля илаха|ла илаха|шухха|муфлихун|лакад|кабад|бисмиллах|субхана|рахман|рахим|халифа|фастабику|ассалому|алейкум|салам|алхамдулиллах|машаллах|иншаллах)", re.I)
@@ -283,6 +284,11 @@ def cmd_timeline(_):
         ch_start = frame
         for n_scene, (s, beats_in, st) in enumerate(eff):
             beats, start = [], frame
+            if META and META.get("cover") and n_ch == 0 and n_scene == 0:
+                beats.append({"key": f"{s['id']}#cover", "type": "cover", "speaker": None,
+                              "text": f"{META['number']}-САБАК · {META['title']} · {META['subtitle']}",
+                              "from": 0, "frames": COVER_FRAMES, "timing": "fixed", "audio": None})
+                frame += COVER_FRAMES
             if n_scene == 0 and ch["id"] != first_ch:
                 beats.append({"key": f"{s['id']}#title", "type": "title", "speaker": None, "text": ch["title_ky"],
                               "from": 0, "frames": TITLE_FRAMES, "timing": "fixed", "audio": None})
@@ -324,7 +330,7 @@ def cmd_timeline(_):
     out = TIMELINE
     out.parent.mkdir(parents=True, exist_ok=True)
     planned = (META["planned_seconds"] if META else PLANNED_TOTAL) * FPS
-    extra = {"lesson": {k: META[k] for k in ("id", "number", "title", "subtitle", "opening_scene", "final_scene")}} if META else {}
+    extra = {"lesson": {k: META[k] for k in ("id", "number", "title", "subtitle", "opening_scene", "final_scene", "cover")}} if META else {}
     out.write_text(json.dumps({**extra, "fps": FPS, "width": 1920, "height": 1080, "durationInFrames": frame,
                                "plannedFrames": planned,
                                "timing_note": "estimate unless beat.timing == 'audio'; blocked lines absent or replaced ([ПЕД])",

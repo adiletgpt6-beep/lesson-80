@@ -13,6 +13,7 @@ on:
       - "claude/lesson-004-005-split"
     paths:
       - "video/src/**"
+      - "shared/remotion/**"
       - "lessons/R04/**"
       - "lessons/R05/**"
       - ".github/workflows/lesson-004-005-render.yml"
@@ -81,6 +82,18 @@ jobs:
           npx remotion render src/index.ts Lesson${{ matrix.n }}-${{ matrix.chapter }} out/${{ matrix.n }}-${{ matrix.chapter }}.mp4 \
             --concurrency=4 --codec=h264 --crf=20 --jpeg-quality=85 --pixel-format=yuv420p --audio-codec=aac --log=warn
           npx remotion ffprobe -v error -show_entries format=duration:stream=codec_name,width,height,r_frame_rate -of default=nw=1 out/${{ matrix.n }}-${{ matrix.chapter }}.mp4
+      - name: Cover thumbnail 1280×720 (same design as the first 90 frames, OPENING_COVER_RULES.md)
+        if: matrix.chapter == 'ch00' || matrix.chapter == 'o05'
+        working-directory: video
+        run: |
+          npx remotion still src/index.ts Cover${{ matrix.n }} out/lesson-80-${{ matrix.n }}-cover-1280x720.png --log=warn
+          cp out/lesson-80-${{ matrix.n }}-cover-1280x720.png out/${{ matrix.n }}-${{ matrix.chapter }}-cover.png
+      - uses: actions/upload-artifact@v4
+        if: matrix.chapter == 'ch00' || matrix.chapter == 'o05'
+        with:
+          name: cover-${{ matrix.n }}
+          path: video/out/lesson-80-${{ matrix.n }}-cover-1280x720.png
+          if-no-files-found: error
       - uses: actions/upload-artifact@v4
         with:
           name: chapter-${{ matrix.n }}-${{ matrix.chapter }}
@@ -108,6 +121,10 @@ jobs:
           pattern: chapter-${{ matrix.n }}-*
           path: chapters
           merge-multiple: true
+      - uses: actions/download-artifact@v4
+        with:
+          name: cover-${{ matrix.n }}
+          path: .
       - name: Concatenate chapters (no re-encoding) and verify
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
@@ -119,13 +136,15 @@ jobs:
           python3 scripts/verify_mp4.py "$OUT.mp4" --expect-min-seconds 1500 --expect-max-seconds 2100 | tee verify.txt
           n=$(ffmpeg -hide_banner -i "$OUT-preview-960x540.mp4" -vf "freezedetect=n=0.001:d=8" -map 0:v -f null - 2>&1 | grep -c "freeze_start" || true)
           echo "- frozen picture ≥8 s (freezedetect n=0.001): $n" | tee -a verify.txt
-          sha256sum "$OUT.mp4" "$OUT-preview-960x540.mp4" chapters/*.mp4 | tee SHA256SUMS.txt
+          echo "- opening cover: frames 0–89 (3.00 s) from shared/remotion/LessonCover.tsx; thumbnail lesson-80-${{ matrix.n }}-cover-1280x720.png" | tee -a verify.txt
+          sha256sum "$OUT.mp4" "$OUT-preview-960x540.mp4" lesson-80-${{ matrix.n }}-cover-1280x720.png chapters/*.mp4 | tee SHA256SUMS.txt
       - uses: actions/upload-artifact@v4
         with:
           name: lesson-${{ matrix.n }}-full
           path: |
             ${{ env.OUT }}.mp4
             ${{ env.OUT }}-preview-960x540.mp4
+            lesson-80-${{ matrix.n }}-cover-1280x720.png
             SHA256SUMS.txt
             verify.txt
           retention-days: 30
@@ -143,7 +162,7 @@ jobs:
           gh release view "$TAG" -R "$GITHUB_REPOSITORY" >/dev/null 2>&1 || \
             gh release create "$TAG" -R "$GITHUB_REPOSITORY" --title "${{ matrix.title }}" --notes-file notes.md --prerelease --target "$GITHUB_SHA"
           gh release edit "$TAG" -R "$GITHUB_REPOSITORY" --notes-file notes.md
-          gh release upload "$TAG" -R "$GITHUB_REPOSITORY" --clobber "$OUT.mp4" "$OUT-preview-960x540.mp4" SHA256SUMS.txt chapters/*.mp4
-          for f in "$OUT.mp4" "$OUT-preview-960x540.mp4" SHA256SUMS.txt; do
+          gh release upload "$TAG" -R "$GITHUB_REPOSITORY" --clobber "$OUT.mp4" "$OUT-preview-960x540.mp4" lesson-80-${{ matrix.n }}-cover-1280x720.png SHA256SUMS.txt chapters/*.mp4
+          for f in "$OUT.mp4" "$OUT-preview-960x540.mp4" lesson-80-${{ matrix.n }}-cover-1280x720.png SHA256SUMS.txt; do
             echo "- ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases/download/$TAG/$f" >> "$GITHUB_STEP_SUMMARY"
           done

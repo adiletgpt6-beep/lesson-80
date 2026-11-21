@@ -2,7 +2,7 @@ import data from "./timeline.json";
 import dataR04 from "./timeline-R04.json";
 import dataR05 from "./timeline-R05.json";
 
-export type BeatType = "line" | "pause" | "visual" | "title";
+export type BeatType = "line" | "pause" | "visual" | "title" | "cover";
 export type Speaker = "ustaz" | "bektur" | "aizada" | "both_children";
 
 export type Beat = {
@@ -37,7 +37,7 @@ export type Scene = {
 export type Chapter = { id: string; title: string; from: number; frames: number; planned_seconds: number };
 
 // R04/R05 (new lessons 004/005 split from 003): number/title for the opening card and the end credit.
-export type LessonMeta = { id: string; number: number; title: string; subtitle: string; opening_scene: string; final_scene: string };
+export type LessonMeta = { id: string; number: number; title: string; subtitle: string; opening_scene: string; final_scene: string; cover?: boolean };
 
 export type Timeline = {
   lesson?: LessonMeta;

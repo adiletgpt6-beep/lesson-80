@@ -6,6 +6,7 @@ import { Classroom } from "./Classroom";
 import { Board } from "./Board";
 import { Caption } from "./Caption";
 import { TitleCard, OpeningCard } from "./TitleCard";
+import { LessonCover, COVER_FADE_FRAMES } from "../../../shared/remotion/LessonCover";
 import { Ustaz, type UstazPose } from "../art/Ustaz";
 import { Kid, type KidPose } from "../art/Kid";
 import { Cutaway } from "../art/Cutaway";
@@ -35,7 +36,7 @@ const shotFor = (scene: Scene, bi: number, drawing: (b: Beat) => boolean, hasBoa
   const beat = scene.beats[bi];
   if (!beat) return { a: "wide" };
   const r = h01(beat.key);
-  if (beat.type === "title") return { a: "wide" };
+  if (beat.type === "title" || beat.type === "cover") return { a: "wide" };
   if (beat.type === "visual") return { a: hasBoard ? "board" : "wide" };
   if (beat.type === "pause") return { a: r < 0.5 ? "kids" : "ustazKids" };
   if (beat.speaker === "bektur") return { a: r < 0.6 ? "kidB" : "kids" };
@@ -125,7 +126,7 @@ export const SceneView: React.FC<{ scene: Scene; sceneIndex: number; meta?: Less
   const poseT = clamp01(fib / 14);
 
   // board drawing: reveal across the speaking part of the scene (first ~60%), only during non-title beats
-  const titleFrames = scene.beats[0]?.type === "title" ? scene.beats[0].frames : 0;
+  const titleFrames = scene.beats[0]?.type === "title" || scene.beats[0]?.type === "cover" ? scene.beats[0].frames : 0;
   const drawSpan = Math.max(90, (scene.frames - titleFrames) * 0.6);
   const drawProgress = clamp01((frame - titleFrames - 10) / drawSpan);
   const boardMoving = drawProgress > 0 && drawProgress < 1 && (frame % 60) < 30;
@@ -230,7 +231,11 @@ export const SceneView: React.FC<{ scene: Scene; sceneIndex: number; meta?: Less
       )}
       {beat?.type === "line" ? <Caption beat={beat} frame={fib} /> : null}
       {beat?.type === "title" ? <TitleCard chapter={scene.chapter} title={beat.text} frame={fib} frames={beat.frames} n={beat.n} /> : null}
-      {scene.id === (meta?.opening_scene ?? "ch00-s01") && beat?.type === "visual" ? <OpeningCard frame={fib} frames={beat.frames} meta={meta} /> : null}
+      {!meta?.cover && scene.id === (meta?.opening_scene ?? "ch00-s01") && beat?.type === "visual" ? <OpeningCard frame={fib} frames={beat.frames} meta={meta} /> : null}
+      {meta?.cover && scene.beats[0]?.type === "cover" && frame < scene.beats[0].frames + COVER_FADE_FRAMES ? (
+        <LessonCover number={meta.number} title={meta.title} subtitle={meta.subtitle}
+          opacity={frame < scene.beats[0].frames ? 1 : 1 - clamp01((frame - scene.beats[0].frames) / COVER_FADE_FRAMES)} />
+      ) : null}
       {scene.id === (meta?.final_scene ?? "ch16-s01") && bi === scene.beats.length - 1 ? (
         <div style={{ position: "absolute", left: 0, right: 0, top: 40, textAlign: "center", fontFamily: theme.font, fontSize: 30, color: "rgba(31,59,87,0.8)", opacity: clamp01(fib / 15) }}>
           {meta ? `${meta.number}-сабак` : "3-сабак"} · көрүү версиясы (preview v1) · ElevenLabs үн · Remotion 2D · устаздын текшерүүсүнө чейин

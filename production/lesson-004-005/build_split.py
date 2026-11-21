@@ -30,14 +30,14 @@ LESSONS = {
     "R04": {
         "id": "R04", "number": 4, "title": "Биз эмне үчүн жаралдык?", "subtitle": "1-бөлүк · Аллахты таануу жана сүйүү",
         "chapters": ["ch00", "ch01", "ch02", "ch03", "ch04", "ch05", "ch06", "e04"],
-        "opening_scene": "ch00-s01", "final_scene": "e04-s02",
+        "opening_scene": "ch00-s01", "final_scene": "e04-s02", "cover": True,
         "planned_seconds": 1800, "minutes": [25, 35],
         "source_span": "лекция 00:00:00–00:20:30 (I01–I22) + I45 (беш максат); фильм 003 00:00:00–00:28:04",
     },
     "R05": {
         "id": "R05", "number": 5, "title": "Биз эмне үчүн жаралдык?", "subtitle": "2-бөлүк · Кулчулук · Жакшылыкта жарышуу · Кыйынчылыктан өтүү",
         "chapters": ["o05", "ch07", "ch08", "ch09", "ch10", "ch11", "ch12", "ch13", "ch14", "ch15", "ch16"],
-        "opening_scene": "o05-s01", "final_scene": "ch16-s01",
+        "opening_scene": "o05-s01", "final_scene": "ch16-s01", "cover": True,
         "planned_seconds": 1800, "minutes": [25, 35],
         "source_span": "лекция 00:20:30–01:07:15 (I23–I50); фильм 003 00:28:04–00:59:04",
     },

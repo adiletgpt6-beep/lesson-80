@@ -77,6 +77,10 @@ def main() -> int:
             gaps.append((a - cur, cur))
         cur = max(cur, e)
     gaps.sort(reverse=True)
+    if t.get("lesson", {}).get("cover"):  # OPENING_COVER_RULES.md: cover from frame 0, exactly 3.00 s
+        first = t["scenes"][0]["beats"][0] if t["scenes"] else {}
+        if not (t["scenes"][0]["from"] == 0 and first.get("type") == "cover" and first.get("from") == 0 and first.get("frames") == 3 * fps):
+            errors.append("opening cover missing or not exactly 90 frames at frame 0")
     minutes = t["durationInFrames"] / fps / 60
     if not MINUTES[0] <= minutes <= MINUTES[1]:
         errors.append(f"duration {minutes:.2f} min outside {MINUTES[0]}–{MINUTES[1]}")

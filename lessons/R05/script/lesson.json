@@ -18,6 +18,7 @@
  ],
  "opening_scene": "o05-s01",
  "final_scene": "ch16-s01",
+ "cover": true,
  "planned_seconds": 1800,
  "minutes": [
   25,

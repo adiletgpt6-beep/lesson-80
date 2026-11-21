@@ -15,6 +15,7 @@
  ],
  "opening_scene": "ch00-s01",
  "final_scene": "e04-s02",
+ "cover": true,
  "planned_seconds": 1800,
  "minutes": [
   25,
