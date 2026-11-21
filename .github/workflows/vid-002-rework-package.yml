@@ -1,0 +1,56 @@
+name: Lessons 1–3 — YouTube package (MP4 + thumbnail JPG + title TXT)
+
+# OPENING_COVER_RULES.md (main): three files per lesson with plain names. The MP4 is the verified final-v3 file copied
+# byte-for-byte (SHA-256 checked), the thumbnail is the same cover design (final-v3 PNG → JPG 1280×720), the title is
+# shared/lesson-cover/lessons/00N.json "youtube_title" (UTF-8, ≤ 100 chars). Publishes release lesson-00N-final.
+# Earlier releases stay untouched. Trigger: commit message containing "[package-rework]".
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["vid-002-rework-3x30"]
+    paths: [".github/workflows/vid-002-rework-package.yml", "shared/lesson-cover/lessons/**", "production/vid-002-rework/delivery/**"]
+
+permissions:
+  contents: write
+
+jobs:
+  package:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[package-rework]')
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        n: ["1", "2", "3"]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build and publish package
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          N: ${{ matrix.n }}
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          SRC=lesson-80-00$N-ky-final-v3
+          for i in 1 2 3 4 5; do gh release download lesson-80-00$N-final-v3 -R "$GITHUB_REPOSITORY" -p "$SRC.mp4" -p "$SRC-cover-1280x720.png" -p SHA256SUMS.txt --clobber && break || sleep 10; done
+          grep " $SRC.mp4" SHA256SUMS.txt | sha256sum -c -
+          cp "$SRC.mp4" lesson-00$N-final.mp4
+          ffmpeg -hide_banner -loglevel error -y -i "$SRC-cover-1280x720.png" -q:v 2 lesson-00$N-thumbnail.jpg
+          cp production/vid-002-rework/delivery/lesson-00$N-youtube-title.txt .
+          python3 - <<PY
+          import json, subprocess
+          d = json.load(open("shared/lesson-cover/lessons/00$N.json", encoding="utf-8"))
+          t = open("lesson-00$N-youtube-title.txt", encoding="utf-8").read().strip()
+          assert t == d["youtube_title"] == f"80 САБАКТЫН {d['number']}-САБАГЫ | {d['topic']}", t
+          assert len(t) <= 100 and "[" not in t and "]" not in t and "Жетп" not in t and "Жетб" not in t
+          r = subprocess.run(["ffprobe", "-v", "error", "-show_entries", "stream=width,height", "-of", "csv=p=0", "lesson-00$N-thumbnail.jpg"], capture_output=True, text=True).stdout.strip()
+          assert r == "1280,720", r
+          print("title OK", len(t), t, "| thumbnail", r)
+          PY
+          sha256sum lesson-00$N-final.mp4 lesson-00$N-thumbnail.jpg lesson-00$N-youtube-title.txt | tee SHA256SUMS-package.txt
+          TITLE=$(cat lesson-00$N-youtube-title.txt)
+          { echo "$TITLE"; echo; echo "Файлы для YouTube: lesson-00$N-final.mp4 (= $SRC.mp4, проверенный финал), lesson-00$N-thumbnail.jpg (обложка 1280×720), lesson-00$N-youtube-title.txt (название)."; echo "Обложка 3 с внутри видео, без служебных надписей, без музыки; аудио-QA и синхронизация — в релизе lesson-80-00$N-final-v3."; } > notes.md
+          TAG=lesson-00$N-final
+          gh release view "$TAG" -R "$GITHUB_REPOSITORY" >/dev/null 2>&1 || gh release create "$TAG" -R "$GITHUB_REPOSITORY" --title "$TITLE" --notes-file notes.md --target "$GITHUB_SHA"
+          gh release edit "$TAG" -R "$GITHUB_REPOSITORY" --title "$TITLE" --notes-file notes.md
+          gh release upload "$TAG" -R "$GITHUB_REPOSITORY" --clobber lesson-00$N-final.mp4 lesson-00$N-thumbnail.jpg lesson-00$N-youtube-title.txt SHA256SUMS-package.txt
