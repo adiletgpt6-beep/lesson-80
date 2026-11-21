@@ -4,7 +4,7 @@ import React from "react";
  * LESSON-80 — the ONE opening cover for all 80 lessons (OPENING_COVER_RULES.md on main).
  *
  * Rules: first frame of every MP4, exactly 3.00 s (90 frames @ 30 fps), then a smooth transition to the lesson.
- * Only the lesson number («4-САБАК») and the real Kyrgyz topic. No project name. Only `number`, `title` and the
+ * Only the ordinal out of 80 («80 САБАКТЫН 4-САБАГЫ») and the real Kyrgyz topic. No project name. Only `number`, `title` and the
  * optional `subtitle` change between lessons — layout, colours, fonts and sizes are fixed here.
  *
  * Project-independent on purpose: imports only React, draws on a 1920×1080 stage (scaled for any frame size,
@@ -35,6 +35,9 @@ const Star8: React.FC<{ x: number; y: number; r: number; color: string; sw?: num
     <circle r={r * 0.42} />
   </g>
 );
+
+/** «80 САБАКТЫН 4-САБАГЫ» — "the 4th lesson of 80" (OPENING_COVER_RULES.md). */
+export const coverNumberText = (n: number) => `80 САБАКТЫН ${n}-САБАГЫ`;
 
 export type LessonCoverProps = {
   number: number; // lesson number in the course (1…80)
@@ -67,8 +70,8 @@ export const LessonCover: React.FC<LessonCoverProps> = ({ number, title, subtitl
           <Star8 x={960} y={430} r={22} color={COVER.gold} sw={4} />
           <line x1={1020} y1={430} x2={1260} y2={430} stroke={COVER.gold} strokeWidth={4} />
         </svg>
-        <div style={{ position: "absolute", left: 0, right: 0, top: 230, textAlign: "center", color: COVER.gold,
-          fontSize: 120, fontWeight: 700, letterSpacing: 10 }}>{number}-САБАК</div>
+        <div style={{ position: "absolute", left: 0, right: 0, top: 250, textAlign: "center", color: COVER.gold,
+          fontSize: 100, fontWeight: 700, letterSpacing: 4 }}>{coverNumberText(number)}</div>
         <div style={{ position: "absolute", left: 170, right: 170, top: 500, textAlign: "center", color: COVER.text,
           fontSize: titleSize, fontWeight: 700, lineHeight: 1.12 }}>{title}</div>
         {subtitle ? (

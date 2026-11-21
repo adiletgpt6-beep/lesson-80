@@ -236,9 +236,10 @@ export const SceneView: React.FC<{ scene: Scene; sceneIndex: number; meta?: Less
         <LessonCover number={meta.number} title={meta.title} subtitle={meta.subtitle}
           opacity={frame < scene.beats[0].frames ? 1 : 1 - clamp01((frame - scene.beats[0].frames) / COVER_FADE_FRAMES)} />
       ) : null}
-      {scene.id === (meta?.final_scene ?? "ch16-s01") && bi === scene.beats.length - 1 ? (
+      {/* lesson 003 preview credit only; published lessons (meta) carry no service text (FINAL_VIDEO_USTAZ_REVIEW_RULES.md) */}
+      {!meta && scene.id === "ch16-s01" && bi === scene.beats.length - 1 ? (
         <div style={{ position: "absolute", left: 0, right: 0, top: 40, textAlign: "center", fontFamily: theme.font, fontSize: 30, color: "rgba(31,59,87,0.8)", opacity: clamp01(fib / 15) }}>
-          {meta ? `${meta.number}-сабак` : "3-сабак"} · көрүү версиясы (preview v1) · ElevenLabs үн · Remotion 2D · устаздын текшерүүсүнө чейин
+          3-сабак · көрүү версиясы (preview v1) · ElevenLabs үн · Remotion 2D · устаздын текшерүүсүнө чейин
         </div>
       ) : null}
     </div>

@@ -286,7 +286,7 @@ def cmd_timeline(_):
             beats, start = [], frame
             if META and META.get("cover") and n_ch == 0 and n_scene == 0:
                 beats.append({"key": f"{s['id']}#cover", "type": "cover", "speaker": None,
-                              "text": f"{META['number']}-САБАК · {META['title']} · {META['subtitle']}",
+                              "text": f"80 САБАКТЫН {META['number']}-САБАГЫ · {META['title']} · {META['subtitle']}",
                               "from": 0, "frames": COVER_FRAMES, "timing": "fixed", "audio": None})
                 frame += COVER_FRAMES
             if n_scene == 0 and ch["id"] != first_ch:
