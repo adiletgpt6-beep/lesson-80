@@ -163,7 +163,7 @@ jobs:
           N=${L#R}
           TAG=vid002-rework-part-$N-preview-v2
           TITLE=$(python3 -c "import re;s=open('production/vid-002/video/src/lessons/l$L/meta.ts',encoding='utf-8').read();print(re.search(r'title: \"(.*)\"',s).group(1))")
-          TITLE="$((10#$N))-сабак — «$TITLE» — preview v2 (обложка 3 с, чистые аудиосклейки)"
+          TITLE="80 сабактын $((10#$N))-сабагы — «$TITLE» (v2: обложка 3 с, чистые аудиосклейки)"
           {
             echo "$TITLE. Кыргызча, 1920×1080, 30 fps, H.264/AAC, без музыки. Источник: VID-002 (оригинальная лекция устаза), переработка в 3 урока ≈30 мин."
             echo "Ветка ${GITHUB_REF_NAME}, коммит ${GITHUB_SHA::7}, прогон ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}."
