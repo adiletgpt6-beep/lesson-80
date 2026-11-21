@@ -1,0 +1,144 @@
+{
+ "film": "/tmp/claude-0/-home-user-lesson-80/8a7511bd-0ce8-59dc-9dc3-b15439301b51/scratchpad/media/out/lesson-80-vid002-rework-part-03-ky-preview-v1.mp4",
+ "joins": 233,
+ "clipped_samples": 52,
+ "dc": -0.0004,
+ "problems": [
+  {
+   "type": "clipping",
+   "samples": 52
+  },
+  {
+   "type": "burst",
+   "key": "ch02-s01#3",
+   "at": 405.951,
+   "zone": "end",
+   "dbfs": -20.2
+  },
+  {
+   "type": "burst",
+   "key": "ch02-s02#4",
+   "at": 470.536,
+   "zone": "end",
+   "dbfs": -17.6
+  },
+  {
+   "type": "burst",
+   "key": "ch02-s02#6",
+   "at": 486.334,
+   "zone": "end",
+   "dbfs": -10.4
+  },
+  {
+   "type": "burst",
+   "key": "ch02-s04#3",
+   "at": 614.496,
+   "zone": "end",
+   "dbfs": -27.1
+  },
+  {
+   "type": "burst",
+   "key": "ch02-s05#4",
+   "at": 652.209,
+   "zone": "end",
+   "dbfs": -19.3
+  },
+  {
+   "type": "loud_clip_end",
+   "key": "ch02-s05#4",
+   "at": 652.264,
+   "dbfs": -21.0
+  },
+  {
+   "type": "burst",
+   "key": "ch03-s01#5",
+   "at": 781.391,
+   "zone": "end",
+   "dbfs": -21.3
+  },
+  {
+   "type": "burst",
+   "key": "ch03-s02#2",
+   "at": 843.251,
+   "zone": "end",
+   "dbfs": -23.6
+  },
+  {
+   "type": "burst",
+   "key": "ch03-s02#7",
+   "at": 869.722,
+   "zone": "end",
+   "dbfs": -20.7
+  },
+  {
+   "type": "loud_clip_end",
+   "key": "ch03-s02#8",
+   "at": 876.021,
+   "dbfs": -29.3
+  },
+  {
+   "type": "burst",
+   "key": "ch03-s03#12",
+   "at": 985.477,
+   "zone": "end",
+   "dbfs": -17.9
+  },
+  {
+   "type": "burst",
+   "key": "ch04-s01#3",
+   "at": 1029.706,
+   "zone": "end",
+   "dbfs": -27.9
+  },
+  {
+   "type": "burst",
+   "key": "ch04-s02#1",
+   "at": 1085.288,
+   "zone": "end",
+   "dbfs": -27.5
+  },
+  {
+   "type": "burst",
+   "key": "ch04-s02#2",
+   "at": 1092.537,
+   "zone": "end",
+   "dbfs": -18.8
+  },
+  {
+   "type": "burst",
+   "key": "ch05-s01#2",
+   "at": 1169.242,
+   "zone": "end",
+   "dbfs": -28.4
+  },
+  {
+   "type": "burst",
+   "key": "ch05-s01#4",
+   "at": 1183.861,
+   "zone": "end",
+   "dbfs": -27.7
+  },
+  {
+   "type": "burst",
+   "key": "ch05-s04#1",
+   "at": 1355.376,
+   "zone": "end",
+   "dbfs": -19.0
+  },
+  {
+   "type": "burst",
+   "key": "ch05-s04#6",
+   "at": 1385.032,
+   "zone": "end",
+   "dbfs": -15.8
+  },
+  {
+   "type": "burst",
+   "key": "ch06-s01#7",
+   "at": 1499.696,
+   "zone": "end",
+   "dbfs": -16.4
+  }
+ ],
+ "verdict": "FAIL"
+}

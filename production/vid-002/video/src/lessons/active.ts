@@ -16,6 +16,7 @@ export type LessonMeta = {
   starLabels: string[];  // goal strip on the board (3–5 items)
   lastScene: string;     // scene that shows the end note
   endNote: string;
+  cover?: { number: number; topic: string }; // OPENING_COVER_RULES.md: 3 s cover from frame 0 (shared LessonCover)
 };
 export type LessonData = {
   meta: LessonMeta;

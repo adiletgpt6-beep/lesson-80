@@ -10,6 +10,7 @@ export const meta: LessonMeta = {
   starLabels: ["ЖҮРӨК", "ЫКЛАС", "АМАНАТ", "КУРАН", "ЫЙМАН"],
   lastScene: "ch07-s01",
   endNote: "VID-002 · R03 · көрүү версиясы (preview v1) · ElevenLabs үн · Remotion 2D · устаздын текшерүүсүнө чейин",
+  cover: {"number": 3, "topic": "Таза жүрөк — ыймандын даамы"},
 };
 export const starsLit: Record<string, number> = {"ch00": 0, "ch01": 1, "ch02": 2, "ch03": 3, "ch04": 4, "ch05": 5, "ch06": 5, "ch07": 7};
 export const newStarChapters = new Set<string>();

@@ -10,6 +10,7 @@ export const meta: LessonMeta = {
   starLabels: ["ИСЛАМ", "ЫЙМАН", "ИХСАН"],
   lastScene: "ch08-s01",
   endNote: "VID-002 · R02 · көрүү версиясы (preview v1) · ElevenLabs үн · Remotion 2D · устаздын текшерүүсүнө чейин",
+  cover: {"number": 2, "topic": "Ак кийимчен мейман: Ислам, Ыйман, Ихсан"},
 };
 export const starsLit: Record<string, number> = {"ch00": 0, "ch01": 0, "ch02": 0, "ch03": 1, "ch04": 2, "ch05": 2, "ch06": 3, "ch07": 3, "ch08": 3};
 export const newStarChapters = new Set<string>();

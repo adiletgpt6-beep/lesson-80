@@ -230,7 +230,7 @@ export const SceneView: React.FC<{ scene: Scene; sceneIndex: number }> = ({ scen
       )}
       {beat?.type === "line" ? <Caption beat={beat} frame={fib} /> : null}
       {beat?.type === "title" ? <TitleCard chapter={scene.chapter} title={beat.text} frame={fib} frames={beat.frames} /> : null}
-      {sceneIndex === 0 && scene.chapter === "ch00" && beat?.type === "visual" ? <OpeningCard frame={fib} frames={beat.frames} /> : null}
+      {sceneIndex === 0 && scene.chapter === "ch00" && beat?.type === "visual" && !meta.cover ? <OpeningCard frame={fib} frames={beat.frames} /> : null}
       {scene.id === meta.lastScene && bi === scene.beats.length - 1 ? (
         <div style={{ position: "absolute", left: 0, right: 0, top: 40, textAlign: "center", fontFamily: theme.font, fontSize: 30, color: "rgba(31,59,87,0.8)", opacity: clamp01(fib / 15) }}>
           {meta.endNote}

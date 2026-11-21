@@ -33,6 +33,7 @@ PLANNED_TOTAL = 3600 if LESSON_ID in ("001", "002") else None
 PACE = {"tts": {"ustaz": 105.0, "child": 90.0}, "slow": {"ustaz": 94.5, "child": 81.0}}
 LINE_GAP = 0.6  # silence between consecutive lines, s
 QUESTION_GAP = 1.2  # thinking time after a question the ustaz asks the children, s
+COVER_FRAMES = 90  # opening cover, R01–R03 (shared/lesson-cover, OPENING_COVER_RULES.md)
 TITLE_FRAMES = 90  # chapter title card (3 s) before the first scene of ch01..ch16
 SPEAKERS = {"ustaz", "bektur", "aizada", "both_children"}
 WORD = re.compile(r"[^\s«»“”\"—–.,!?…:;()]+")
@@ -306,9 +307,18 @@ def cmd_timeline(_):
 def _timeline_natural(real, effective_chapters, natural):
     """R01–R03: natural length (real clip durations + fixed gaps/pauses/visuals), no stretching to a target."""
     frame, scenes, chapters_out, dropped, stats = _build(real, effective_chapters, 0.0, full=True, absorb=False)
+    # OPENING_COVER_RULES.md: shared 3 s cover (90 frames) from frame 0; ch00 grows by it, everything after shifts.
+    for s in scenes:
+        s["from"] += COVER_FRAMES
+    for c in chapters_out:
+        if c["id"] == "ch00":
+            c["frames"] += COVER_FRAMES
+        else:
+            c["from"] += COVER_FRAMES
+    frame += COVER_FRAMES
     TIMELINE.parent.mkdir(parents=True, exist_ok=True)
     TIMELINE.write_text(json.dumps({"fps": FPS, "width": 1920, "height": 1080, "durationInFrames": frame,
-                                    "plannedFrames": frame,
+                                    "plannedFrames": frame, "coverFrames": COVER_FRAMES,
                                     "timing_note": "natural length: real clip durations + fixed gaps; no stretching (VID-002 rework 25–35 min)",
                                     "stats": {**stats, "dropped_scenes": dropped, "natural_frames": natural, "gap_adjust_frames_per_line": 0},
                                     "chapters": chapters_out, "scenes": scenes}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
