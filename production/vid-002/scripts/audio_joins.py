@@ -18,7 +18,8 @@ for s in tl["scenes"]:
     for b in s["beats"]:
         if b["type"] == "line" and b.get("audio"):
             st = (s["from"] + b["from"] - shift) / fps
-            out.append({"key": b["key"], "start": round(st, 4), "end": round(st + man[b["key"]]["seconds"], 4)})
+            out.append({"key": b["key"], "start": round(st, 4), "end": round(st + man[b["key"]]["seconds"], 4),
+                        "clip": str(REPO / f"lessons/{L}/audio/clips/{b['audio']}")})
 # chapters are rendered separately and concatenated: check those seams too
 for c in tl["chapters"][1:]:
     t = (c["from"] - shift) / fps

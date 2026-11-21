@@ -125,11 +125,17 @@ jobs:
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
           N=${L#R}
-          OUT=lesson-80-0$N-ky-final-v2
+          OUT=lesson-80-0$N-ky-final-v3
           echo "OUT=$OUT" >> "$GITHUB_ENV"
           python3 -c "import json;[print(f\"file '$PWD/chapters/{c['id']}.mp4'\") for c in json.load(open('production/vid-002/video/src/lessons/l$L/timeline.json'))['chapters']]" > concat.txt
           cat concat.txt
-          ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i concat.txt -c copy -movflags +faststart "$OUT.mp4"
+          set -o pipefail
+          pip install -q numpy
+          ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i concat.txt -c copy -movflags +faststart video-concat.mp4
+          # AUDIO_JOIN_QA_RULES.md: per-chapter AAC priming drifts the concatenated audio (+20–30 ms per chapter);
+          # rebuild the voice track sample-accurately from the timeline and encode it once (video copied).
+          LESSON=$L python3 production/vid-002/scripts/build_audio_mix.py mix.wav
+          ffmpeg -hide_banner -loglevel error -y -i video-concat.mp4 -i mix.wav -map 0:v -map 1:a -c:v copy -c:a aac -b:a 192k -movflags +faststart "$OUT.mp4"
           ffmpeg -hide_banner -loglevel error -y -i "$OUT.mp4" -vf scale=960:540:flags=lanczos -c:v libx264 -preset fast -crf 24 \
             -pix_fmt yuv420p -c:a aac -b:a 96k -movflags +faststart "$OUT-preview-960x540.mp4"
           python3 production/vid-002/scripts/verify_mp4.py "$OUT.mp4" --expect-min-seconds 1500 --expect-max-seconds 2100 | tee verify.txt
@@ -140,9 +146,9 @@ jobs:
           cp chapters/cover-1280x720.png "$OUT-cover-1280x720.png"
           ffmpeg -hide_banner -loglevel error -y -ss 1.5 -i "$OUT.mp4" -frames:v 1 cover-frame-1.5s.png
           # AUDIO_JOIN_QA_RULES.md: blocking click/burst/clipping/step check at every clip boundary and chapter seam
-          pip install -q numpy
           LESSON=$L python3 production/vid-002/scripts/audio_joins.py joins.json
           python3 shared/audio/join_qa.py "$OUT.mp4" joins.json --report audio-qa.json | tee -a verify.txt
+          python3 shared/audio/sync_qa.py "$OUT.mp4" joins.json --every 1 --max-ms 40 | tee -a verify.txt
           sha256sum "$OUT.mp4" "$OUT-preview-960x540.mp4" "$OUT-cover-1280x720.png" chapters/*.mp4 | tee SHA256SUMS.txt
       - uses: actions/upload-artifact@v4
         with:
@@ -161,7 +167,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           N=${L#R}
-          TAG=lesson-80-0$N-final-v2
+          TAG=lesson-80-0$N-final-v3
           TITLE=$(python3 -c "import re;s=open('production/vid-002/video/src/lessons/l$L/meta.ts',encoding='utf-8').read();print(re.search(r'title: \"(.*)\"',s).group(1))")
           TITLE="80 сабактын $((10#$N))-сабагы — «$TITLE»"
           {
