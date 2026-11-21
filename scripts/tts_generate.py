@@ -28,8 +28,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from script_lines import effective_lines  # noqa: E402
 
-ROOT = Path(__file__).resolve().parents[1]
-LESSON = ROOT / "lessons/003"
+from lesson_paths import ROOT, LESSON, LESSON_ID, BASE_AUDIO, clip_path  # noqa: E402,F401
+
 AUDIO = LESSON / "audio"
 API = "https://api.elevenlabs.io/v1/text-to-speech/{voice}?output_format={fmt}"
 
@@ -92,21 +92,41 @@ def main():
     manifest = json.loads(manifest_path.read_text()) if manifest_path.exists() else {"clips": {}}
     manifest.setdefault("settings", {k: cfg[k] for k in ("model_id", "language_code", "output_format", "voice_settings")})
     clips_dir = AUDIO / "clips"
+    # R04/R05: approved clips of lesson 003 with the same hash (text, voices, model, settings) are reused for free
+    by_hash = {}
+    if LESSON_ID != "003":
+        sources = [BASE_AUDIO / "manifest.json"] + sorted((ROOT / "lessons").glob("R0[45]/audio/manifest.json"))
+        for src in sources:
+            lid = src.parts[-3]
+            for k, c in json.loads(src.read_text())["clips"].items():
+                f = clip_path(c["file"]) if lid == "003" else src.parent / "clips" / c["file"]
+                if f.exists() and c.get("credits", 0) >= 0:
+                    by_hash.setdefault(c["hash"], {**c, "credits": 0, "reused_from": c.get("reused_from") or f"{lid}:{k}"})
 
-    todo, cached = [], 0
+    todo, cached, reused = [], 0, 0
     for item in effective_lines([f for f in a.scenes.split(",") if f]):
         b = item["beat"]
         voices = voices_for(cfg, b["speaker"])
         h = clip_hash(cfg, voices, item["text"])
         old = manifest["clips"].get(item["key"])
-        if old and old.get("hash") == h and (clips_dir / old["file"]).exists():
+        if old and old.get("hash") == h and clip_path(old["file"]).exists():
             cached += 1
             continue
+        if h in by_hash:
+            r = by_hash[h]
+            manifest["clips"][item["key"]] = {**r, "ped": bool(b.get("ped")), "replaced_from": b.get("replaced_from")}
+            reused += 1
+            continue
         todo.append({**item, "voices": voices, "hash": h})
+    if reused:
+        manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
     chars = sum(len(t["text"]) * len(t["voices"]) for t in todo)
     est = chars * cfg["credits_per_char_observed"]
-    print(f"to generate: {len(todo)} lines, {chars} chars (both_children counted twice), ≈{est:.0f} credits | cached {cached}")
+    print(f"[{LESSON_ID}] to generate: {len(todo)} lines, {chars} chars (both_children counted twice), ≈{est:.0f} credits | "
+          f"cached {cached} | reused from 003 by hash {reused}")
+    for t in todo:
+        print(f"  new: {t['key']} [{t['beat']['speaker']}] {t['text']}")
     if not a.confirm:
         print("dry run (add --confirm and --max-credits to call the API)")
         return

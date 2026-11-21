@@ -1,6 +1,6 @@
 import React from "react";
 import { Audio, staticFile, useCurrentFrame } from "remotion";
-import type { Beat, Scene } from "../timeline";
+import type { Beat, Scene, LessonMeta } from "../timeline";
 import { theme, newStarChapters } from "../theme";
 import { Classroom } from "./Classroom";
 import { Board } from "./Board";
@@ -115,7 +115,7 @@ const Desks: React.FC = () => (
   </svg>
 );
 
-export const SceneView: React.FC<{ scene: Scene; sceneIndex: number }> = ({ scene, sceneIndex }) => {
+export const SceneView: React.FC<{ scene: Scene; sceneIndex: number; meta?: LessonMeta }> = ({ scene, sceneIndex, meta }) => {
   const frame = useCurrentFrame();
   const abs = scene.from + frame;
   const bi = scene.beats.findIndex((b) => frame >= b.from && frame < b.from + b.frames);
@@ -229,11 +229,11 @@ export const SceneView: React.FC<{ scene: Scene; sceneIndex: number }> = ({ scen
         b.type === "line" && b.audio && frame >= b.from && frame < b.from + b.frames ? null : null,
       )}
       {beat?.type === "line" ? <Caption beat={beat} frame={fib} /> : null}
-      {beat?.type === "title" ? <TitleCard chapter={scene.chapter} title={beat.text} frame={fib} frames={beat.frames} /> : null}
-      {scene.id === "ch00-s01" && beat?.type === "visual" ? <OpeningCard frame={fib} frames={beat.frames} /> : null}
-      {scene.id === "ch16-s01" && bi === scene.beats.length - 1 ? (
+      {beat?.type === "title" ? <TitleCard chapter={scene.chapter} title={beat.text} frame={fib} frames={beat.frames} n={beat.n} /> : null}
+      {scene.id === (meta?.opening_scene ?? "ch00-s01") && beat?.type === "visual" ? <OpeningCard frame={fib} frames={beat.frames} meta={meta} /> : null}
+      {scene.id === (meta?.final_scene ?? "ch16-s01") && bi === scene.beats.length - 1 ? (
         <div style={{ position: "absolute", left: 0, right: 0, top: 40, textAlign: "center", fontFamily: theme.font, fontSize: 30, color: "rgba(31,59,87,0.8)", opacity: clamp01(fib / 15) }}>
-          3-сабак · көрүү версиясы (preview v1) · ElevenLabs үн · Remotion 2D · устаздын текшерүүсүнө чейин
+          {meta ? `${meta.number}-сабак` : "3-сабак"} · көрүү версиясы (preview v1) · ElevenLabs үн · Remotion 2D · устаздын текшерүүсүнө чейин
         </div>
       ) : null}
     </div>

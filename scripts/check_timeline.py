@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""QA gate for video/src/timeline.json before a render (lesson 003).
+"""QA gate for a Remotion timeline before a render (LESSON=003 default; R04, R05).
 
 Fails (exit 1) when:
 - a voiced line has the exact text of a `blocked` line in script/chapters/*.json (unverified wording);
@@ -15,11 +15,11 @@ import re
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-CH = ROOT / "lessons/003/script/chapters"
-CLIPS = ROOT / "lessons/003/audio/clips"
-MANIFEST = ROOT / "lessons/003/audio/manifest.json"
-TL = ROOT / "video/src/timeline.json"
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from lesson_paths import ROOT, LESSON, MINUTES, TIMELINE as TL, clip_path  # noqa: E402
+
+CH = ROOT / "lessons/003/script/chapters"  # blocked (unverified) wording is defined by the 003 register for R04/R05 too
+MANIFEST = LESSON / "audio/manifest.json"
 PLAN = ROOT / "video/src/art/scenePlan.ts"
 
 
@@ -48,7 +48,7 @@ def main() -> int:
             if not b.get("audio"):
                 errors.append(f"{b['key']}: no audio")
                 continue
-            if not (CLIPS / b["audio"]).exists():
+            if not clip_path(b["audio"]).exists():
                 errors.append(f"{b['key']}: missing clip {b['audio']}")
             c = clips.get(b["key"])
             if not c or c["file"] != b["audio"]:
@@ -60,10 +60,11 @@ def main() -> int:
     for name, body in zip(sections[1::2], sections[2::2]):
         if name not in ("visualCutaways", "lineCutaways"):
             continue
-        for key in re.findall(r'"(ch\d\d-s\d\d#\w+)"\s*:', body):
+        for key in re.findall(r'"([a-z]\w*-s\d\d#\w+)"\s*:', body):
             b = beats.get(key)
             if not b:
-                errors.append(f"{name}: {key} not in timeline")
+                if key.split("#")[0] in {sc["id"] for sc in t["scenes"]}:  # keys of other lessons' scenes are skipped
+                    errors.append(f"{name}: {key} not in timeline")
             elif name == "visualCutaways" and b["type"] != "visual":
                 errors.append(f"{name}: {key} is a {b['type']} beat, not visual")
             elif name == "lineCutaways" and not (b["type"] == "line" and b["speaker"] == "ustaz"):
@@ -77,8 +78,8 @@ def main() -> int:
         cur = max(cur, e)
     gaps.sort(reverse=True)
     minutes = t["durationInFrames"] / fps / 60
-    if not 55 <= minutes <= 65:
-        errors.append(f"duration {minutes:.2f} min outside 55–65")
+    if not MINUTES[0] <= minutes <= MINUTES[1]:
+        errors.append(f"duration {minutes:.2f} min outside {MINUTES[0]}–{MINUTES[1]}")
     n_lines = sum(1 for b in beats.values() if b["type"] == "line")
     print(f"timeline: {len(t['scenes'])} scenes, {n_lines} voiced lines, {t['durationInFrames']} frames = {minutes:.2f} min")
     print("longest stretches without speech: " + ", ".join(f"{g / fps:.1f}s @ {s // fps // 60:02d}:{s // fps % 60:02d}" for g, s in gaps[:6]))
