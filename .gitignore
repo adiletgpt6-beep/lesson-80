@@ -23,3 +23,7 @@ __pycache__/
 !lessons/002/audio/clips/*.mp3
 lessons/00[12]/audio/clips/*.v0.mp3
 lessons/00[12]/audio/clips/*.v1.mp3
+# Voice clips of the VID-002 rework lessons R01–R03 (reused approved clips + new ElevenLabs lines), for CI renders.
+!lessons/R0[123]/audio/clips/*.mp3
+lessons/R0[123]/audio/clips/*.v0.mp3
+lessons/R0[123]/audio/clips/*.v1.mp3

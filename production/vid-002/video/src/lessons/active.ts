@@ -3,6 +3,9 @@ import type { CutawayId } from "../art/cutawayIds";
 import type { Timeline } from "../timeline";
 import { lesson001 } from "./l001";
 import { lesson002 } from "./l002";
+import { lessonR01 } from "./lR01";
+import { lessonR02 } from "./lR02";
+import { lessonR03 } from "./lR03";
 
 export type LessonMeta = {
   id: string;            // "001"
@@ -26,7 +29,8 @@ export type LessonData = {
   starBeats: Set<string>;
 };
 
-export const LESSONS: Record<string, LessonData> = { "001": lesson001, "002": lesson002 };
+// R01–R03: VID-002 rework — three ~30-minute lessons (production/vid-002-rework). 001/002 are unchanged.
+export const LESSONS: Record<string, LessonData> = { "001": lesson001, "002": lesson002, R01: lessonR01, R02: lessonR02, R03: lessonR03 };
 
 // The lesson being rendered. Set synchronously by the top-level composition component before its children
 // render (one composition = one lesson per render process), read by every component through L().

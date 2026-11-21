@@ -24,7 +24,7 @@ from scribe_clip import transcribe  # noqa: E402
 
 REPO = Path(__file__).resolve().parents[3]
 LESSON_ID = os.environ.get("LESSON", "")
-if LESSON_ID not in ("001", "002"):
+if LESSON_ID not in ("001", "002", "R01", "R02", "R03"):
     sys.exit("set LESSON=001 or LESSON=002")
 AUDIO = REPO / "lessons" / LESSON_ID / "audio"
 GAP = 1.2

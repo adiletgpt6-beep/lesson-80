@@ -19,13 +19,14 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]          # production/vid-002 (scripts, video engine)
 REPO = Path(__file__).resolve().parents[3]
 LESSON_ID = os.environ.get("LESSON", "")
-if LESSON_ID not in ("001", "002"):
+if LESSON_ID not in ("001", "002", "R01", "R02", "R03"):
     sys.exit("set LESSON=001 or LESSON=002 (lesson NNN has its own, untouched pipeline)")
 LESSON = REPO / "lessons" / LESSON_ID
 TIMELINE = ROOT / "video/src/lessons" / f"l{LESSON_ID}" / "timeline.json"
 CH_DIR = LESSON / "script/chapters"
 FPS = 30
-PLANNED_TOTAL = 3600
+# 001/002: owner-approved exactly 60:00 (gaps stretched). R01–R03 (VID-002 rework, 3×~30 min): natural length, no stretching.
+PLANNED_TOTAL = 3600 if LESSON_ID in ("001", "002") else None
 
 # Pace calibration: measured on the 40 s ElevenLabs eleven_v4 trial (script/tts-trial/trial-ky-40s.json):
 # ustaz 110.6 and 100.2 wpm (mean ~105), child 89.2 wpm. "slow" = children's delivery at speed 0.9.
@@ -207,7 +208,7 @@ def cmd_render(_):
           "**Бул өлчөнгөн узундук эмес.** Формула: сөз саны / темп × 60 + ар бир репликадан кийин 0,6 сек + белгиленген тыным/визуалдык бөлүктөр.",
           f"Темп ElevenLabs eleven_v4 сыноосунан өлчөнгөн (40 сек, `tts-trial/trial-ky-40s.json`): устаз ≈ {PACE['tts']['ustaz']:.0f} сөз/мүн, бала ≈ {PACE['tts']['child']:.0f}. "
           f"«Жай» вариант — балдар үчүн 0,9 ылдамдык (устаз ≈ {PACE['slow']['ustaz']:.0f}, бала ≈ {PACE['slow']['child']:.0f}).",
-          f"План: {PLANNED_TOTAL} сек = {PLANNED_TOTAL * FPS} кадр @ {FPS} fps — **максат, ырасталган узундук эмес**.\n",
+          f"План: {PLANNED_TOTAL or '—'} сек = {(PLANNED_TOTAL or 0) * FPS} кадр @ {FPS} fps — **максат, ырасталган узундук эмес**.\n",
           "| Глава | Сахна | Реплика | Сөз (устаз / балдар) | Тыным+визуал, сек | Болжол TTS темпи | Болжол жай темп | ⛔ | [ПЕД] |",
           "|---|---|---|---|---|---|---|---|---|"]
     for ch in chs:
@@ -222,7 +223,7 @@ def cmd_render(_):
         t_a += a; t_b += b
         du.append(f"| {ch['id']} | {ch['title_ky']} | {fmt(ch['planned_seconds'])} | {fmt(a)} – {fmt(b)} | {b - ch['planned_seconds']:+.0f} сек | {sum(r['words'] for r in cr)} |")
     allr = list(rows.values())
-    du.append(f"| **Бардыгы** | | **{fmt(sum(c['planned_seconds'] for c in chs))}** | **{fmt(t_a)} – {fmt(t_b)}** | {t_b - PLANNED_TOTAL:+.0f} сек | {sum(r['words'] for r in allr)} |")
+    du.append(f"| **Бардыгы** | | **{fmt(sum(c['planned_seconds'] for c in chs))}** | **{fmt(t_a)} – {fmt(t_b)}** | {t_b - (PLANNED_TOTAL or t_b):+.0f} сек | {sum(r['words'] for r in allr)} |")
     du.append(f"\nРеплика: {sum(r['lines'] for r in allr)} · сөз: {sum(r['words'] for r in allr)} (устаз {sum(r['words_ustaz'] for r in allr)}, балдар {sum(r['words_children'] for r in allr)}) · "
               f"⛔ бөгөттөлгөн реплика: {sum(r['blocked_lines'] for r in allr)} · [ПЕД] реплика: {sum(r['ped_lines'] for r in allr)}")
     du.append(f"\nСөз саноо: бул файлда — тыныш белгилерсиз сөздөр (`WORD` regex): **{sum(r['words'] for r in allr)}**; "
@@ -279,6 +280,8 @@ def cmd_timeline(_):
     # Pass 1 measures the natural length; pass 2 spreads the difference to exactly PLANNED_TOTAL over the
     # silent tails of lines (never inside speech): each line's trailing gap grows/shrinks by the same amount.
     natural, n_lines = _build(real, effective_chapters, 0.0)
+    if PLANNED_TOTAL is None:
+        return _timeline_natural(real, effective_chapters, natural)
     extra = (PLANNED_TOTAL * FPS - natural) / max(1, n_lines)  # frames per line
     if extra < -(LINE_GAP * FPS - 6):
         sys.exit(f"script too long for 60:00: natural {fmt(natural / FPS)} — shorten the script")
@@ -300,7 +303,22 @@ def cmd_timeline(_):
         print(f"  {c['id']} {fmt(c['frames'] / FPS)} (plan {fmt(c['planned_seconds'])})")
 
 
-def _build(real, effective_chapters, extra, full=False):
+def _timeline_natural(real, effective_chapters, natural):
+    """R01–R03: natural length (real clip durations + fixed gaps/pauses/visuals), no stretching to a target."""
+    frame, scenes, chapters_out, dropped, stats = _build(real, effective_chapters, 0.0, full=True, absorb=False)
+    TIMELINE.parent.mkdir(parents=True, exist_ok=True)
+    TIMELINE.write_text(json.dumps({"fps": FPS, "width": 1920, "height": 1080, "durationInFrames": frame,
+                                    "plannedFrames": frame,
+                                    "timing_note": "natural length: real clip durations + fixed gaps; no stretching (VID-002 rework 25–35 min)",
+                                    "stats": {**stats, "dropped_scenes": dropped, "natural_frames": natural, "gap_adjust_frames_per_line": 0},
+                                    "chapters": chapters_out, "scenes": scenes}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    print(f"timeline: {len(chapters_out)} chapters, {len(scenes)} scenes, {frame} frames ({fmt(frame / FPS)}); "
+          f"lines {stats['lines']} (audio {stats['audio']}, estimate {stats['estimate']}); dropped scenes {dropped or 'none'}")
+    for c in chapters_out:
+        print(f"  {c['id']} {fmt(c['frames'] / FPS)}  {c['title']}")
+
+
+def _build(real, effective_chapters, extra, full=False, absorb=True):
     frame, scenes, chapters_out, dropped = 0, [], [], []
     acc = 0.0  # fractional frames carried so the total is exact
     stats = {"lines": 0, "audio": 0, "estimate": 0, "replaced": 0}
@@ -350,7 +368,7 @@ def _build(real, effective_chapters, extra, full=False):
     if not full:
         return frame, stats["lines"]
     # absorb rounding remainder in the last beat so the film is exactly PLANNED_TOTAL
-    diff = PLANNED_TOTAL * FPS - frame
+    diff = PLANNED_TOTAL * FPS - frame if absorb else 0
     if diff and scenes:
         scenes[-1]["beats"][-1]["frames"] += diff
         scenes[-1]["frames"] += diff

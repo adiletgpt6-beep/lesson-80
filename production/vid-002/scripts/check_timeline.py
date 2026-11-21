@@ -20,14 +20,16 @@ import os
 ROOT = Path(__file__).resolve().parents[1]
 REPO = Path(__file__).resolve().parents[3]
 LESSON_ID = os.environ.get("LESSON", "")
-if LESSON_ID not in ("001", "002"):
+if LESSON_ID not in ("001", "002", "R01", "R02", "R03"):
     sys.exit("set LESSON=001 or LESSON=002")
 CH = REPO / f"lessons/{LESSON_ID}/script/chapters"
 CLIPS = REPO / f"lessons/{LESSON_ID}/audio/clips"
 MANIFEST = REPO / f"lessons/{LESSON_ID}/audio/manifest.json"
 TL = ROOT / f"video/src/lessons/l{LESSON_ID}/timeline.json"
 PLAN = ROOT / f"video/src/lessons/l{LESSON_ID}/scenePlan.ts"
-TARGET_FRAMES = 108000  # owner requirement: exactly 60:00
+TARGET_FRAMES = 108000  # owner requirement for 001/002: exactly 60:00
+# R01–R03 (VID-002 rework): each lesson 25–35 min (owner requirement, target ~30)
+RANGE_FRAMES = (25 * 60 * 30, 35 * 60 * 30) if LESSON_ID.startswith("R") else None
 
 
 def main() -> int:
@@ -84,7 +86,10 @@ def main() -> int:
         cur = max(cur, e)
     gaps.sort(reverse=True)
     minutes = t["durationInFrames"] / fps / 60
-    if t["durationInFrames"] != TARGET_FRAMES:
+    if RANGE_FRAMES:
+        if not (RANGE_FRAMES[0] <= t["durationInFrames"] <= RANGE_FRAMES[1]):
+            errors.append(f"duration {minutes:.2f} min outside 25–35 min")
+    elif t["durationInFrames"] != TARGET_FRAMES:
         errors.append(f"duration {t['durationInFrames']} frames ({minutes:.3f} min) != {TARGET_FRAMES} (60:00)")
     n_lines = sum(1 for b in beats.values() if b["type"] == "line")
     print(f"timeline: {len(t['scenes'])} scenes, {n_lines} voiced lines, {t['durationInFrames']} frames = {minutes:.2f} min")

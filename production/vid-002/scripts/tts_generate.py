@@ -31,7 +31,7 @@ from script_lines import effective_lines  # noqa: E402
 ROOT = Path(__file__).resolve().parents[1]          # production/vid-002 (scripts, video engine)
 REPO = Path(__file__).resolve().parents[3]
 LESSON_ID = os.environ.get("LESSON", "")
-if LESSON_ID not in ("001", "002"):
+if LESSON_ID not in ("001", "002", "R01", "R02", "R03"):
     sys.exit("set LESSON=001 or LESSON=002 (lesson NNN has its own, untouched pipeline)")
 LESSON = REPO / "lessons" / LESSON_ID
 TIMELINE = ROOT / "video/src/lessons" / f"l{LESSON_ID}" / "timeline.json"

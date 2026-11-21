@@ -1,0 +1,132 @@
+{
+ "id": "ch00",
+ "title_ky": "Ихсанга жол",
+ "planned_seconds": 0,
+ "source_ideas": [
+  "B05",
+  "B12"
+ ],
+ "scenes": [
+  {
+   "id": "ch00-s01",
+   "title_ky": "Кайра жолуктук",
+   "setting": "класс, доска",
+   "camera": "орто план: устаз + балдар",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "Доскага чоң кызыл жүрөк тартылат",
+    "Досканын үстүндө беш өчүк жылдыз: ЖҮРӨК · ЫКЛАС · АМАНАТ · КУРАН · ЫЙМАН",
+    "Жүрөктүн жанына: ТАЗА ЖҮРӨК → ИХСАН"
+   ],
+   "animation": [
+    "Устаз жылмайып кирет, балдарга кол булгалайт",
+    "Устаз доскага жүрөк тартып, жебе менен ИХСАН деп жазат"
+   ],
+   "beats": [
+    {
+     "type": "visual",
+     "seconds": 3,
+     "description": "Жарык класс: устаз доскага чоң жүрөк тартат; досканын үстүндө беш өчүк жылдыз",
+     "origin": "new"
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ассалому алейкум, балдар! Кайра жолукканыбызга абдан кубанычтамын.",
+     "source": [],
+     "ped": true,
+     "blocked": null,
+     "origin": "new"
+    },
+    {
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Алейкум ассалам, устаз!",
+     "source": [],
+     "ped": true,
+     "blocked": null,
+     "origin": "002:ch00-s01#2"
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Өткөн сабакта ак кийимчен мейман жөнүндө уктук. Ал Пайгамбарыбыздан, саллаллаху алейхи ва саллам, үч нерсе жөнүндө сураган. Эсиңерде барбы?",
+     "source": [],
+     "ped": true,
+     "blocked": null,
+     "origin": "new"
+    },
+    {
+     "type": "pause",
+     "seconds": 2.5,
+     "reason": "балдар ойлонот",
+     "origin": "new"
+    },
+    {
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Ислам, ыйман жана ихсан!",
+     "source": [],
+     "ped": true,
+     "blocked": null,
+     "origin": "new"
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Азаматсың, Бектур! Ал эми ихсан деген эмне эле?",
+     "source": [],
+     "ped": true,
+     "blocked": null,
+     "origin": "new"
+    },
+    {
+     "type": "pause",
+     "seconds": 2.5,
+     "reason": "балдар ойлонот",
+     "origin": "new"
+    },
+    {
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Аллахты көрүп тургандай ибадат кылуу! Биз Аны көрбөсөк да, Ал бизди көрүп турат!",
+     "source": [],
+     "ped": true,
+     "blocked": null,
+     "origin": "002:ch06-s04#5"
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Туптуура! Бүгүн ушул ихсанга алып барчу жол жөнүндө сүйлөшөбүз. Ал жол — таза жүрөк.",
+     "source": [],
+     "ped": true,
+     "blocked": null,
+     "origin": "new"
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Доскага карагылачы: бүгүн беш жылдызды жандырабыз. Жүрөк, ыклас, аманат, Куран жана ыйман. Даярсыңарбы?",
+     "source": [],
+     "ped": true,
+     "blocked": null,
+     "origin": "new"
+    },
+    {
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Даярбыз!",
+     "source": [],
+     "ped": true,
+     "blocked": null,
+     "origin": "001:ch00-s03#5"
+    }
+   ]
+  }
+ ]
+}
