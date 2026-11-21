@@ -12,6 +12,16 @@
 
 Просмотр (приватная страница, Share — для доступа другим): https://claude.ai/artifact/G4NFeP3WiAWxVMaXnzfgKG
 
+## Пакет для YouTube (OPENING_COVER_RULES.md, релизы `lesson-00N-final`)
+
+| Урок | Название YouTube (TXT, UTF-8) | MP4 | Обложка JPG 1280×720 | TXT |
+|---|---|---|---|---|
+| 001 | 80 САБАКТЫН 1-САБАГЫ | Ислам — беш түркүктүү үй (47 симв.) | [lesson-001-final.mp4](https://github.com/adiletgpt6-beep/lesson-80/releases/download/lesson-001-final/lesson-001-final.mp4) | [lesson-001-thumbnail.jpg](https://github.com/adiletgpt6-beep/lesson-80/releases/download/lesson-001-final/lesson-001-thumbnail.jpg) | [lesson-001-youtube-title.txt](https://github.com/adiletgpt6-beep/lesson-80/releases/download/lesson-001-final/lesson-001-youtube-title.txt) |
+| 002 | 80 САБАКТЫН 2-САБАГЫ | Ак кийимчен мейман: Ислам, Ыйман, Ихсан (62 симв.) | [lesson-002-final.mp4](https://github.com/adiletgpt6-beep/lesson-80/releases/download/lesson-002-final/lesson-002-final.mp4) | [lesson-002-thumbnail.jpg](https://github.com/adiletgpt6-beep/lesson-80/releases/download/lesson-002-final/lesson-002-thumbnail.jpg) | [lesson-002-youtube-title.txt](https://github.com/adiletgpt6-beep/lesson-80/releases/download/lesson-002-final/lesson-002-youtube-title.txt) |
+| 003 | 80 САБАКТЫН 3-САБАГЫ | Таза жүрөк — ыймандын даамы (50 симв.) | [lesson-003-final.mp4](https://github.com/adiletgpt6-beep/lesson-80/releases/download/lesson-003-final/lesson-003-final.mp4) | [lesson-003-thumbnail.jpg](https://github.com/adiletgpt6-beep/lesson-80/releases/download/lesson-003-final/lesson-003-thumbnail.jpg) | [lesson-003-youtube-title.txt](https://github.com/adiletgpt6-beep/lesson-80/releases/download/lesson-003-final/lesson-003-youtube-title.txt) |
+
+MP4 пакета — байт-в-байт файл final-v3 (SHA-256 сверен при упаковке и после скачивания). Названия также в `production/vid-002-rework/delivery/` и `shared/lesson-cover/lessons/00N.json` (`youtube_title`).
+
 ## Проверки (выполнены на скачанных из релизов файлах)
 
 | Проверка | 1 | 2 | 3 |
