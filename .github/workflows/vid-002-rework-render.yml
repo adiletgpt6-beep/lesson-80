@@ -125,7 +125,7 @@ jobs:
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
           N=${L#R}
-          OUT=lesson-80-vid002-rework-part-$N-ky-preview-v2
+          OUT=lesson-80-0$N-ky-final-v2
           echo "OUT=$OUT" >> "$GITHUB_ENV"
           python3 -c "import json;[print(f\"file '$PWD/chapters/{c['id']}.mp4'\") for c in json.load(open('production/vid-002/video/src/lessons/l$L/timeline.json'))['chapters']]" > concat.txt
           cat concat.txt
@@ -161,18 +161,18 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           N=${L#R}
-          TAG=vid002-rework-part-$N-preview-v2
+          TAG=lesson-80-0$N-final-v2
           TITLE=$(python3 -c "import re;s=open('production/vid-002/video/src/lessons/l$L/meta.ts',encoding='utf-8').read();print(re.search(r'title: \"(.*)\"',s).group(1))")
-          TITLE="80 сабактын $((10#$N))-сабагы — «$TITLE» (v2: обложка 3 с, чистые аудиосклейки)"
+          TITLE="80 сабактын $((10#$N))-сабагы — «$TITLE»"
           {
             echo "$TITLE. Кыргызча, 1920×1080, 30 fps, H.264/AAC, без музыки. Источник: VID-002 (оригинальная лекция устаза), переработка в 3 урока ≈30 мин."
             echo "Ветка ${GITHUB_REF_NAME}, коммит ${GITHUB_SHA::7}, прогон ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}."
-            echo "НЕ утверждённый исламский учебный материал: требуется проверка устаза/богослова и носителя языка (production/vid-002-rework/REVIEW.md)."
+            echo "Финальный MP4 для загрузки на YouTube: обложка 3 с, без служебных надписей, без музыки. Подтверждение устаза — после просмотра на YouTube (технический отчёт и вопросы: production/vid-002-rework/HANDOFF.md, REVIEW.md, AUDIO_QA.md)."
             echo
             cat verify.txt
           } > notes.md
           gh release view "$TAG" -R "$GITHUB_REPOSITORY" >/dev/null 2>&1 || \
-            gh release create "$TAG" -R "$GITHUB_REPOSITORY" --title "$TITLE" --notes-file notes.md --prerelease --target "$GITHUB_SHA"
+            gh release create "$TAG" -R "$GITHUB_REPOSITORY" --title "$TITLE" --notes-file notes.md --target "$GITHUB_SHA"
           gh release edit "$TAG" -R "$GITHUB_REPOSITORY" --notes-file notes.md
           gh release upload "$TAG" -R "$GITHUB_REPOSITORY" --clobber "$OUT.mp4" "$OUT-preview-960x540.mp4" "$OUT-cover-1280x720.png" audio-qa.json SHA256SUMS.txt
           for f in "$OUT.mp4" "$OUT-preview-960x540.mp4" "$OUT-cover-1280x720.png" SHA256SUMS.txt; do echo "- ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases/download/$TAG/$f" >> "$GITHUB_STEP_SUMMARY"; done

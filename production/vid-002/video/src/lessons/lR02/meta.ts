@@ -6,10 +6,10 @@ export const meta: LessonMeta = {
   kicker: "80 САБАК · VID-002 · 2-БӨЛҮК",
   title: "Ак кийимчен мейман: Ислам, Ыйман, Ихсан",
   subtitle: "Үч суроо — үч жылдыз",
-  previewNote: "Көрүү версиясы · preview v1 · устаздын жана тил редакторунун текшерүүсүн күтөт",
+  previewNote: "",  // FINAL_VIDEO_USTAZ_REVIEW_RULES.md: no review status in the video
   starLabels: ["ИСЛАМ", "ЫЙМАН", "ИХСАН"],
   lastScene: "ch08-s01",
-  endNote: "VID-002 · R02 · көрүү версиясы (preview v1) · ElevenLabs үн · Remotion 2D · устаздын текшерүүсүнө чейин",
+  endNote: "",
   cover: {"number": 2, "topic": "Ак кийимчен мейман: Ислам, Ыйман, Ихсан"},
 };
 export const starsLit: Record<string, number> = {"ch00": 0, "ch01": 0, "ch02": 0, "ch03": 1, "ch04": 2, "ch05": 2, "ch06": 3, "ch07": 3, "ch08": 3};

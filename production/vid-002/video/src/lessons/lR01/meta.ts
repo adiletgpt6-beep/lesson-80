@@ -6,10 +6,10 @@ export const meta: LessonMeta = {
   kicker: "80 САБАК · VID-002 · 1-БӨЛҮК",
   title: "Ислам — беш түркүктүү үй",
   subtitle: "Беш түркүк — беш жакшы сапат",
-  previewNote: "Көрүү версиясы · preview v1 · устаздын жана тил редакторунун текшерүүсүн күтөт",
+  previewNote: "",  // FINAL_VIDEO_USTAZ_REVIEW_RULES.md: no review status in the video
   starLabels: ["ЫЙМАН", "НАМАЗ", "ЗЕКЕТ", "ОРОЗО", "АЖЫЛЫК"],
   lastScene: "ch09-s02",
-  endNote: "VID-002 · R01 · көрүү версиясы (preview v1) · ElevenLabs үн · Remotion 2D · устаздын текшерүүсүнө чейин",
+  endNote: "",
   cover: {"number": 1, "topic": "Ислам — беш түркүктүү үй"},
 };
 export const starsLit: Record<string, number> = {"ch00": 0, "ch01": 0, "ch02": 1, "ch03": 2, "ch04": 3, "ch05": 4, "ch06": 5, "ch07": 6, "ch08": 7, "ch09": 9};
