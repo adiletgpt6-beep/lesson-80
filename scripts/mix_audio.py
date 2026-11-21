@@ -26,8 +26,14 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("out")
     ap.add_argument("--report")
+    ap.add_argument("--timeline", help="timeline JSON (default: this LESSON's, see lesson_paths.py)")
+    ap.add_argument("--clips", nargs="*", help="clip directories (default: this LESSON's)")
     a = ap.parse_args()
-    t = json.loads(TIMELINE.read_text(encoding="utf-8"))
+    t = json.loads(Path(a.timeline or TIMELINE).read_text(encoding="utf-8"))
+    find = clip_path
+    if a.clips:
+        dirs = [Path(d) for d in a.clips]
+        find = lambda n: next((d / n for d in dirs if (d / n).exists()), dirs[0] / n)  # noqa: E731
     spf = SR // t["fps"]
     total = t["durationInFrames"] * spf
     mix = np.zeros(total)
@@ -38,7 +44,7 @@ def main():
             if b["type"] != "line" or not b.get("audio"):
                 continue
             if b["audio"] not in cache:
-                cache[b["audio"]] = prepare(decode(clip_path(b["audio"])))
+                cache[b["audio"]] = prepare(decode(find(b["audio"])))
             y, info = cache[b["audio"]]
             s = (sc["from"] + b["from"]) * spf
             e = s + len(y)
