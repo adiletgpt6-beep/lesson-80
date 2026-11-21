@@ -13,3 +13,17 @@ dist/
 .env.*
 !.env.example
 __pycache__/
+
+# VID-002 media stays local
+*.mp4
+*.wav
+*.part
+# Voice clips of lessons 001/002 (ElevenLabs output): kept in Git so CI can render without re-spending credits.
+!lessons/001/audio/clips/*.mp3
+!lessons/002/audio/clips/*.mp3
+lessons/00[12]/audio/clips/*.v0.mp3
+lessons/00[12]/audio/clips/*.v1.mp3
+# Voice clips of the VID-002 rework lessons R01–R03 (reused approved clips + new ElevenLabs lines), for CI renders.
+!lessons/R0[123]/audio/clips/*.mp3
+lessons/R0[123]/audio/clips/*.v0.mp3
+lessons/R0[123]/audio/clips/*.v1.mp3

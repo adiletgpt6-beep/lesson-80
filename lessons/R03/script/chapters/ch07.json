@@ -1,0 +1,174 @@
+{
+ "id": "ch07",
+ "title_ky": "Кайталайбыз!",
+ "planned_seconds": 0,
+ "source_ideas": [],
+ "scenes": [
+  {
+   "id": "ch07-s01",
+   "title_ky": "Беш жылдызды эстейбиз",
+   "setting": "класс, доска",
+   "camera": "орто план: устаз + балдар",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "Доскада: КАЙТАЛАЙБЫЗ!",
+    "Беш жылдыз: ЖҮРӨК · ЫКЛАС · АМАНАТ · КУРАН · ЫЙМАН",
+    "Ылдыйда: ҮЙ ТАПШЫРМАСЫ: АЛЛАХ ҮЧҮН БИР ЖАКШЫЛЫК"
+   ],
+   "animation": [
+    "Ар бир жооптон кийин балдар кол чабышат",
+    "Акырында устаз менен балдар кол булгалашат"
+   ],
+   "beats": [
+    {
+     "type": "visual",
+     "seconds": 3,
+     "description": "Доскада «КАЙТАЛАЙБЫЗ!» деген жазуу жана беш жанган жылдыз",
+     "origin": "new"
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Балдар, эми бүгүнкү сабакты эстейли. Аллах эмнебизге карайт: сырткы көрүнүшүбүзгөбү же жүрөгүбүзгөбү?",
+     "source": [],
+     "ped": true,
+     "blocked": null,
+     "origin": "new"
+    },
+    {
+     "type": "pause",
+     "seconds": 2.5,
+     "reason": "балдар ойлонот",
+     "origin": "new"
+    },
+    {
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Жүрөгүбүзгө жана иштерибизге!",
+     "source": [],
+     "ped": true,
+     "blocked": null,
+     "origin": "001:ch10-s01#16"
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Рия деген эмне? Ыклас деген эмнечи?",
+     "source": [],
+     "ped": true,
+     "blocked": null,
+     "origin": "new"
+    },
+    {
+     "type": "pause",
+     "seconds": 2.5,
+     "reason": "балдар ойлонот",
+     "origin": "new"
+    },
+    {
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Рия — көрсүн деп жасоо. Ыклас — Аллах үчүн жасоо!",
+     "source": [],
+     "ped": true,
+     "blocked": null,
+     "origin": "new"
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Досуңдун оюнчугу сенде калды. Ал эмне болот?",
+     "source": [],
+     "ped": true,
+     "blocked": null,
+     "origin": "new"
+    },
+    {
+     "type": "pause",
+     "seconds": 2.5,
+     "reason": "балдар ойлонот",
+     "origin": "new"
+    },
+    {
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Аманат! Уруксатсыз албайбыз, кайра беребиз.",
+     "source": [],
+     "ped": true,
+     "blocked": null,
+     "origin": "new"
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Коон өстүргөн киши эмнени билчү эмес?",
+     "source": [],
+     "ped": true,
+     "blocked": null,
+     "origin": "new"
+    },
+    {
+     "type": "pause",
+     "seconds": 2.5,
+     "reason": "балдар ойлонот",
+     "origin": "new"
+    },
+    {
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Коондун даамын! А биз ыймандын даамын татабыз.",
+     "source": [],
+     "ped": true,
+     "blocked": null,
+     "origin": "new"
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Азаматсыңар! Эми үй тапшырмасы. Эртең бир жакшылыкты эч кимге көрсөтпөй, Аллах үчүн гана кылгыла.",
+     "source": [],
+     "ped": true,
+     "blocked": null,
+     "origin": "new"
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Кечинде ата-энеңерге коон өстүргөн киши жөнүндөгү окуяны айтып бергиле.",
+     "source": [],
+     "ped": true,
+     "blocked": null,
+     "origin": "new"
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Жүрөгүңөр таза, ыйманыңар бекем болсун. Аллах силерди колдосун!",
+     "source": [],
+     "ped": true,
+     "blocked": null,
+     "origin": "002:ch12-s02#6"
+    },
+    {
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Рахмат, устаз! Кош болуңуз!",
+     "source": [],
+     "ped": true,
+     "blocked": null,
+     "origin": "001:ch10-s02#8"
+    },
+    {
+     "type": "visual",
+     "seconds": 4,
+     "description": "Беш жылдыз жаркырап, устаз менен балдар кол булгалашат; доска жылуу жарыкка бөлөнөт",
+     "origin": "new"
+    }
+   ]
+  }
+ ]
+}
