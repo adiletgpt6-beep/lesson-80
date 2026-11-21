@@ -83,11 +83,23 @@
 - Движок — тот же Remotion-проект `production/vid-002/video` (персонажи, класс, доска, иллюстрации, титры глав, субтитры) → визуально продолжение серии. Данные уроков: `video/src/lessons/lR01..lR03` (генерируются `remotion_data.py`; доски и иллюстрации наследуются по `origin`; новые доски — `lessons/rework/newBoards.ts`).
 - Пред-рендерная проверка `check_timeline.py` (каждая реплика с аудио, клип не длиннее своего бита, ключи иллюстраций, 25–35 мин): R01/R02/R03 — **OK**.
 - Рендер: `.github/workflows/vid-002-rework-render.yml` (коммит с `[render-rework]`), главы параллельно → concat без перекодирования → `verify_mp4.py` (разрешение, fps, кодеки, длительность, чёрные кадры, тишина, громкость) + freezedetect → pre-release.
-- Результаты — §7.
+- CI [run 44901844956](https://github.com/adiletgpt6-beep/lesson-80/actions/runs/44901844956): 27 глав + 3 публикации — success.
+- Проверка в сессии (2026-11-21) скачанных из релизов файлов: SHA-256 = `SHA256SUMS.txt` релиза; ffprobe 1920×1080 30 fps H.264 + AAC 48 кГц стерео; кадров видео = таймлайну (60 712 / 56 103 / 48 327); расхождение длительности аудио/видео ≤ 0,03 с; blackdetect (≥0,5 с) — 0; freezedetect (≥8 с) — 0; громкость mean −21,9…−22,1 dB, max −3,0 dB (как у 001/002); тишина ≥6 с — 9 / 13 / 7 мест, все на титрах глав, «звёздных» и иллюстрационных визуальных битах и паузах «балдар ойлонот» (как в утверждённых фильмах).
+- Контрольные кадры начала, 15/35/50/70/85 % и конца каждого урока просмотрены: титр, доска, звёзды загораются по главам, субтитры, финальный экран — без дефектов.
 
 ## 7. Выдача
 
-(заполняется после рендера)
+| | R01 «Ислам — беш түркүктүү үй» | R02 «Ак кийимчен мейман: Ислам, Ыйман, Ихсан» | R03 «Таза жүрөк — ыймандын даамы» |
+|---|---|---|---|
+| Длительность | 33:43.8 | 31:10.1 | 26:50.9 |
+| Размер | 394 906 690 байт | 348 071 524 байт | 315 132 712 байт |
+| SHA-256 | `5b0debab2cfd5ce9f9625aae241156cfac8ec28e81f6ebe3326db47b7e6aee12` | `e61c074db162e008f133a9a89906776c6ba3ae5b52a0a8ff8d757a1e121fae8a` | `51f83629247bb8915290276fc8cda2ef9691dadacbd22878d4f041c0cbd46c6b` |
+| ⬇ Скачать MP4 | [part-01](https://github.com/adiletgpt6-beep/lesson-80/releases/download/vid002-rework-part-01-preview-v1/lesson-80-vid002-rework-part-01-ky-preview-v1.mp4) | [part-02](https://github.com/adiletgpt6-beep/lesson-80/releases/download/vid002-rework-part-02-preview-v1/lesson-80-vid002-rework-part-02-ky-preview-v1.mp4) | [part-03](https://github.com/adiletgpt6-beep/lesson-80/releases/download/vid002-rework-part-03-preview-v1/lesson-80-vid002-rework-part-03-ky-preview-v1.mp4) |
+| Релиз | [vid002-rework-part-01-preview-v1](https://github.com/adiletgpt6-beep/lesson-80/releases/tag/vid002-rework-part-01-preview-v1) | [vid002-rework-part-02-preview-v1](https://github.com/adiletgpt6-beep/lesson-80/releases/tag/vid002-rework-part-02-preview-v1) | [vid002-rework-part-03-preview-v1](https://github.com/adiletgpt6-beep/lesson-80/releases/tag/vid002-rework-part-03-preview-v1) |
+
+- ▶ Смотреть: https://claude.ai/artifact/G4NFeP3WiAWxVMaXnzfgKG — приватная страница-плеер (копии 640×360 по главам, автопереход), доступ другим — через меню Share.
+- Ссылки «Скачать» проверены: полные файлы скачаны, SHA совпал; GET с Range → 206; `Content-Disposition: attachment`.
+- В каждом релизе также лёгкая версия 960×540 и `SHA256SUMS.txt`.
 
 ## 8. Что осталось / следующий шаг
 
