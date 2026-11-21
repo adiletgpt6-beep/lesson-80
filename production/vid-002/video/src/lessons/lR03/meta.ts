@@ -6,10 +6,11 @@ export const meta: LessonMeta = {
   kicker: "80 САБАК · VID-002 · 3-БӨЛҮК",
   title: "Таза жүрөк — ыймандын даамы",
   subtitle: "Жүрөктү тазалайбыз, ыймандын даамын татабыз",
-  previewNote: "Көрүү версиясы · preview v1 · устаздын жана тил редакторунун текшерүүсүн күтөт",
+  previewNote: "",  // FINAL_VIDEO_USTAZ_REVIEW_RULES.md: no review status in the video
   starLabels: ["ЖҮРӨК", "ЫКЛАС", "АМАНАТ", "КУРАН", "ЫЙМАН"],
   lastScene: "ch07-s01",
-  endNote: "VID-002 · R03 · көрүү версиясы (preview v1) · ElevenLabs үн · Remotion 2D · устаздын текшерүүсүнө чейин",
+  endNote: "",
+  cover: {"number": 3, "topic": "Таза жүрөк — ыймандын даамы"},
 };
 export const starsLit: Record<string, number> = {"ch00": 0, "ch01": 1, "ch02": 2, "ch03": 3, "ch04": 4, "ch05": 5, "ch06": 5, "ch07": 7};
 export const newStarChapters = new Set<string>();

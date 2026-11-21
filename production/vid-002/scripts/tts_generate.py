@@ -140,6 +140,9 @@ def main():
         manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")  # save after each clip
         print(f"{t['key']}: {manifest['clips'][t['key']]['seconds']} s, {cost} credits", flush=True)
     print(f"done: {len(todo)} clips, {spent} credits")
+    # AUDIO_JOIN_QA_RULES.md: every new clip goes through the shared click-free cleaning step at once.
+    if todo and LESSON_ID.startswith("R"):
+        subprocess.run([sys.executable, str(Path(__file__).resolve().parent / "audio_clean_lesson.py")], check=True)
 
 
 if __name__ == "__main__":

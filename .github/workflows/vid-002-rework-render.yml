@@ -21,6 +21,7 @@ on:
       - "lessons/R02/**"
       - "lessons/R03/**"
       - ".github/workflows/vid-002-rework-render.yml"
+      - "shared/**"
 
 permissions:
   contents: write
@@ -53,7 +54,7 @@ jobs:
           print("jobs=" + json.dumps(jobs))
           print("lessons=" + json.dumps(ls))
           PY
-      - name: Timeline QA (audio sync, cutaway keys, 25–35 min)
+      - name: Timeline QA (audio sync, cleaned clips, 90-frame cover, cutaway keys, 25–35 min)
         run: |
           for L in $(python3 -c "import json;print(' '.join(json.loads('${{ steps.p.outputs.lessons }}')))"); do
             LESSON=$L python3 production/vid-002/scripts/check_timeline.py
@@ -90,10 +91,16 @@ jobs:
           npx remotion render src/index.ts Lesson${{ matrix.lesson }}-${{ matrix.chapter }} out/${{ matrix.chapter }}.mp4 \
             --concurrency=4 --codec=h264 --crf=20 --jpeg-quality=85 --pixel-format=yuv420p --audio-codec=aac --log=warn
           npx remotion ffprobe -v error -show_entries format=duration:stream=codec_name,width,height,r_frame_rate -of default=nw=1 out/${{ matrix.chapter }}.mp4
+          if [ "${{ matrix.chapter }}" = "ch00" ]; then
+            # OPENING_COVER_RULES.md: the same cover as a separate 1280×720 image for YouTube
+            npx remotion still src/index.ts Thumb${{ matrix.lesson }} out/cover-1280x720.png --frame=0 --log=warn
+          fi
       - uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.lesson }}-chapter-${{ matrix.chapter }}
-          path: production/vid-002/video/out/${{ matrix.chapter }}.mp4
+          path: |
+            production/vid-002/video/out/${{ matrix.chapter }}.mp4
+            production/vid-002/video/out/cover-1280x720.png
           if-no-files-found: error
           retention-days: 14
 
@@ -118,23 +125,40 @@ jobs:
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
           N=${L#R}
-          OUT=lesson-80-vid002-rework-part-$N-ky-preview-v1
+          OUT=lesson-80-0$N-ky-final-v3
           echo "OUT=$OUT" >> "$GITHUB_ENV"
           python3 -c "import json;[print(f\"file '$PWD/chapters/{c['id']}.mp4'\") for c in json.load(open('production/vid-002/video/src/lessons/l$L/timeline.json'))['chapters']]" > concat.txt
           cat concat.txt
-          ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i concat.txt -c copy -movflags +faststart "$OUT.mp4"
+          set -o pipefail
+          pip install -q numpy
+          ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i concat.txt -c copy -movflags +faststart video-concat.mp4
+          # AUDIO_JOIN_QA_RULES.md: per-chapter AAC priming drifts the concatenated audio (+20–30 ms per chapter);
+          # rebuild the voice track sample-accurately from the timeline and encode it once (video copied).
+          LESSON=$L python3 production/vid-002/scripts/build_audio_mix.py mix.wav
+          ffmpeg -hide_banner -loglevel error -y -i video-concat.mp4 -i mix.wav -map 0:v -map 1:a -c:v copy -c:a aac -b:a 192k -movflags +faststart "$OUT.mp4"
           ffmpeg -hide_banner -loglevel error -y -i "$OUT.mp4" -vf scale=960:540:flags=lanczos -c:v libx264 -preset fast -crf 24 \
             -pix_fmt yuv420p -c:a aac -b:a 96k -movflags +faststart "$OUT-preview-960x540.mp4"
           python3 production/vid-002/scripts/verify_mp4.py "$OUT.mp4" --expect-min-seconds 1500 --expect-max-seconds 2100 | tee verify.txt
+          python3 shared/lesson-cover/check_copies.py | tee -a verify.txt
           n=$(ffmpeg -hide_banner -i "$OUT-preview-960x540.mp4" -vf "freezedetect=n=0.001:d=8" -map 0:v -f null - 2>&1 | grep -c "freeze_start" || true)
           echo "- frozen picture ≥8 s (freezedetect n=0.001): $n" | tee -a verify.txt
-          sha256sum "$OUT.mp4" "$OUT-preview-960x540.mp4" chapters/*.mp4 | tee SHA256SUMS.txt
+          # OPENING_COVER_RULES.md: cover image next to the video; frame checks of the first 90 frames
+          cp chapters/cover-1280x720.png "$OUT-cover-1280x720.png"
+          ffmpeg -hide_banner -loglevel error -y -ss 1.5 -i "$OUT.mp4" -frames:v 1 cover-frame-1.5s.png
+          # AUDIO_JOIN_QA_RULES.md: blocking click/burst/clipping/step check at every clip boundary and chapter seam
+          LESSON=$L python3 production/vid-002/scripts/audio_joins.py joins.json
+          python3 shared/audio/join_qa.py "$OUT.mp4" joins.json --report audio-qa.json | tee -a verify.txt
+          python3 shared/audio/sync_qa.py "$OUT.mp4" joins.json --every 1 --max-ms 40 | tee -a verify.txt
+          sha256sum "$OUT.mp4" "$OUT-preview-960x540.mp4" "$OUT-cover-1280x720.png" chapters/*.mp4 | tee SHA256SUMS.txt
       - uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.lesson }}-full
           path: |
             ${{ env.OUT }}.mp4
             ${{ env.OUT }}-preview-960x540.mp4
+            ${{ env.OUT }}-cover-1280x720.png
+            cover-frame-1.5s.png
+            audio-qa.json
             SHA256SUMS.txt
             verify.txt
           retention-days: 30
@@ -143,18 +167,18 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           N=${L#R}
-          TAG=vid002-rework-part-$N-preview-v1
+          TAG=lesson-80-0$N-final-v3
           TITLE=$(python3 -c "import re;s=open('production/vid-002/video/src/lessons/l$L/meta.ts',encoding='utf-8').read();print(re.search(r'title: \"(.*)\"',s).group(1))")
-          TITLE="VID-002 rework · бөлүк $N — «$TITLE» — preview v1"
+          TITLE="80 сабактын $((10#$N))-сабагы — «$TITLE»"
           {
             echo "$TITLE. Кыргызча, 1920×1080, 30 fps, H.264/AAC, без музыки. Источник: VID-002 (оригинальная лекция устаза), переработка в 3 урока ≈30 мин."
             echo "Ветка ${GITHUB_REF_NAME}, коммит ${GITHUB_SHA::7}, прогон ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}."
-            echo "НЕ утверждённый исламский учебный материал: требуется проверка устаза/богослова и носителя языка (production/vid-002-rework/REVIEW.md)."
+            echo "Финальный MP4 для загрузки на YouTube: обложка 3 с, без служебных надписей, без музыки. Подтверждение устаза — после просмотра на YouTube (технический отчёт и вопросы: production/vid-002-rework/HANDOFF.md, REVIEW.md, AUDIO_QA.md)."
             echo
             cat verify.txt
           } > notes.md
           gh release view "$TAG" -R "$GITHUB_REPOSITORY" >/dev/null 2>&1 || \
-            gh release create "$TAG" -R "$GITHUB_REPOSITORY" --title "$TITLE" --notes-file notes.md --prerelease --target "$GITHUB_SHA"
+            gh release create "$TAG" -R "$GITHUB_REPOSITORY" --title "$TITLE" --notes-file notes.md --target "$GITHUB_SHA"
           gh release edit "$TAG" -R "$GITHUB_REPOSITORY" --notes-file notes.md
-          gh release upload "$TAG" -R "$GITHUB_REPOSITORY" --clobber "$OUT.mp4" "$OUT-preview-960x540.mp4" SHA256SUMS.txt
-          for f in "$OUT.mp4" "$OUT-preview-960x540.mp4" SHA256SUMS.txt; do echo "- ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases/download/$TAG/$f" >> "$GITHUB_STEP_SUMMARY"; done
+          gh release upload "$TAG" -R "$GITHUB_REPOSITORY" --clobber "$OUT.mp4" "$OUT-preview-960x540.mp4" "$OUT-cover-1280x720.png" audio-qa.json SHA256SUMS.txt
+          for f in "$OUT.mp4" "$OUT-preview-960x540.mp4" "$OUT-cover-1280x720.png" SHA256SUMS.txt; do echo "- ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases/download/$TAG/$f" >> "$GITHUB_STEP_SUMMARY"; done

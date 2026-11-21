@@ -1,0 +1,64 @@
+name: VID-002 rework — re-mux exact voice track into rendered lessons 1–3 (no re-render)
+
+# The final-v2 renders have correct pictures but chapter-concatenation audio drift (+20–30 ms/chapter). This job takes
+# each final-v2 MP4 (video stream copied bit-for-bit), replaces the audio with the sample-accurate track built from the
+# timeline (cleaned clips), runs the blocking audio checks (joins/clicks/clipping + lip-sync) and publishes final-v3.
+# final-v2 and all earlier releases stay untouched. Trigger: commit message containing "[remux-rework]".
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["vid-002-rework-3x30"]
+    paths: [".github/workflows/vid-002-rework-remux.yml", "production/vid-002/scripts/build_audio_mix.py", "shared/audio/**"]
+
+permissions:
+  contents: write
+
+jobs:
+  remux:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[remux-rework]')
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        n: ["01", "02", "03"]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Rebuild audio, verify, publish final-v3
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          N: ${{ matrix.n }}
+        run: |
+          set -o pipefail
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          pip install -q numpy
+          L=R$N
+          SRC=lesson-80-0$N-ky-final-v2
+          OUT=lesson-80-0$N-ky-final-v3
+          gh release download lesson-80-0$N-final-v2 -R "$GITHUB_REPOSITORY" -p "$SRC.mp4" -p "$SRC-cover-1280x720.png"
+          LESSON=$L python3 production/vid-002/scripts/build_audio_mix.py mix.wav
+          ffmpeg -hide_banner -loglevel error -y -i "$SRC.mp4" -i mix.wav -map 0:v -map 1:a -c:v copy -c:a aac -b:a 192k -movflags +faststart "$OUT.mp4"
+          cp "$SRC-cover-1280x720.png" "$OUT-cover-1280x720.png"
+          ffmpeg -hide_banner -loglevel error -y -i "$OUT.mp4" -vf scale=960:540:flags=lanczos -c:v libx264 -preset fast -crf 24 \
+            -pix_fmt yuv420p -c:a aac -b:a 96k -movflags +faststart "$OUT-preview-960x540.mp4"
+          python3 production/vid-002/scripts/verify_mp4.py "$OUT.mp4" --expect-min-seconds 1500 --expect-max-seconds 2100 | tee verify.txt
+          python3 shared/lesson-cover/check_copies.py | tee -a verify.txt
+          LESSON=$L python3 production/vid-002/scripts/audio_joins.py joins.json
+          python3 shared/audio/join_qa.py "$OUT.mp4" joins.json --report audio-qa.json | tee -a verify.txt
+          python3 shared/audio/sync_qa.py "$OUT.mp4" joins.json --every 1 --max-ms 40 | tee -a verify.txt
+          sha256sum "$OUT.mp4" "$OUT-preview-960x540.mp4" "$OUT-cover-1280x720.png" | tee SHA256SUMS.txt
+          TAG=lesson-80-0$N-final-v3
+          TITLE=$(python3 -c "import re;s=open('production/vid-002/video/src/lessons/l$L/meta.ts',encoding='utf-8').read();print(re.search(r'title: \"(.*)\"',s).group(1))")
+          TITLE="80 сабактын $((10#$N))-сабагы — «$TITLE»"
+          {
+            echo "$TITLE. Финальный MP4 для загрузки на YouTube: обложка 3 с, без служебных надписей, без музыки, кыргызча, 1920×1080, 30 fps."
+            echo "Видео — из lesson-80-0$N-final-v2 (без изменений); звук пересобран точно по таймлайну (синхронизация 0 мс, чистые склейки). Прогон ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}."
+            echo "Технический отчёт и вопросы к устазу: production/vid-002-rework/HANDOFF.md, AUDIO_QA.md, REVIEW.md."
+            echo
+            cat verify.txt
+          } > notes.md
+          gh release view "$TAG" -R "$GITHUB_REPOSITORY" >/dev/null 2>&1 || \
+            gh release create "$TAG" -R "$GITHUB_REPOSITORY" --title "$TITLE" --notes-file notes.md --target "$GITHUB_SHA"
+          gh release edit "$TAG" -R "$GITHUB_REPOSITORY" --notes-file notes.md
+          gh release upload "$TAG" -R "$GITHUB_REPOSITORY" --clobber "$OUT.mp4" "$OUT-preview-960x540.mp4" "$OUT-cover-1280x720.png" audio-qa.json SHA256SUMS.txt

@@ -70,6 +70,8 @@ def main():
             if s["chapter"] == c["id"]:
                 lit += sum(1 for b in s["beats"] if b["type"] == "visual" and star_re(b["text"]))
         starsLit[c["id"]] = lit  # may exceed the label count (e.g. "all stars shine" beats): avoids a dip before such a beat
+    c = json.loads((REPO / f"shared/lesson-cover/lessons/{int(lid[1:]):03d}.json").read_text(encoding="utf-8"))
+    cover = {"number": c["number"], "topic": c["topic"]}
     out = SRC / f"l{lid}"
     out.mkdir(exist_ok=True)
     m = spec["meta"]
@@ -80,9 +82,10 @@ def main():
         "export const meta: LessonMeta = {\n"
         f'  id: "{lid}",\n  kicker: {json.dumps(m["kicker"], ensure_ascii=False)},\n  title: {json.dumps(m["title"], ensure_ascii=False)},\n'
         f'  subtitle: {json.dumps(m["subtitle"], ensure_ascii=False)},\n'
-        '  previewNote: "Көрүү версиясы · preview v1 · устаздын жана тил редакторунун текшерүүсүн күтөт",\n'
+        '  previewNote: "",  // FINAL_VIDEO_USTAZ_REVIEW_RULES.md: no review status in the video\n'
         f'  starLabels: {json.dumps(m["starLabels"], ensure_ascii=False)},\n  lastScene: "{last_scene}",\n'
-        f'  endNote: "VID-002 · {lid} · көрүү версиясы (preview v1) · ElevenLabs үн · Remotion 2D · устаздын текшерүүсүнө чейин",\n'
+        '  endNote: "",\n'
+        f'  cover: {json.dumps(cover, ensure_ascii=False)},\n'
         "};\n"
         f"export const starsLit: Record<string, number> = {json.dumps(starsLit)};\n"
         "export const newStarChapters = new Set<string>();\n", encoding="utf-8")

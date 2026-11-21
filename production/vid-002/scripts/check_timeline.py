@@ -62,6 +62,8 @@ def main() -> int:
             c = clips.get(b["key"])
             if not c or c["file"] != b["audio"]:
                 errors.append(f"{b['key']}: clip not in audio manifest")
+            elif LESSON_ID.startswith("R") and c.get("clean", {}).get("version") != "c1":
+                errors.append(f"{b['key']}: clip not cleaned (run scripts/audio_clean_lesson.py — AUDIO_JOIN_QA_RULES.md)")
             elif c["seconds"] * fps > b["frames"] + 1:
                 errors.append(f"{b['key']}: clip {c['seconds']:.2f}s longer than beat {b['frames'] / fps:.2f}s")
     src = PLAN.read_text(encoding="utf-8")
@@ -86,6 +88,8 @@ def main() -> int:
         cur = max(cur, e)
     gaps.sort(reverse=True)
     minutes = t["durationInFrames"] / fps / 60
+    if LESSON_ID.startswith("R") and t.get("coverFrames") != 90:
+        errors.append("opening cover must be exactly 90 frames from frame 0 (OPENING_COVER_RULES.md)")
     if RANGE_FRAMES:
         if not (RANGE_FRAMES[0] <= t["durationInFrames"] <= RANGE_FRAMES[1]):
             errors.append(f"duration {minutes:.2f} min outside 25–35 min")

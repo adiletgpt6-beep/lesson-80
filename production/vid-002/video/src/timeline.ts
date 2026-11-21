@@ -37,6 +37,7 @@ export type Timeline = {
   height: number;
   durationInFrames: number;
   plannedFrames: number;
+  coverFrames?: number; // opening cover before ch00 (scenes already shifted by it)
   chapters: Chapter[];
   scenes: Scene[];
 };

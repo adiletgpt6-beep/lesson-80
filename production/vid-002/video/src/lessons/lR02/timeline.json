@@ -2,8 +2,9 @@
  "fps": 30,
  "width": 1920,
  "height": 1080,
- "durationInFrames": 56103,
- "plannedFrames": 56103,
+ "durationInFrames": 56193,
+ "plannedFrames": 56193,
+ "coverFrames": 90,
  "timing_note": "natural length: real clip durations + fixed gaps; no stretching (VID-002 rework 25–35 min)",
  "stats": {
   "lines": 245,
@@ -19,62 +20,62 @@
    "id": "ch00",
    "title": "Үч жылдыз",
    "from": 0,
-   "frames": 3292,
+   "frames": 3382,
    "planned_seconds": 0
   },
   {
    "id": "ch01",
    "title": "Динди кайдан үйрөнөбүз?",
-   "from": 3292,
+   "from": 3382,
    "frames": 7641,
    "planned_seconds": 0
   },
   {
    "id": "ch02",
    "title": "Таң калыштуу мейман",
-   "from": 10933,
+   "from": 11023,
    "frames": 6397,
    "planned_seconds": 0
   },
   {
    "id": "ch03",
    "title": "Биринчи суроо: Ислам деген эмне?",
-   "from": 17330,
+   "from": 17420,
    "frames": 4989,
    "planned_seconds": 0
   },
   {
    "id": "ch04",
    "title": "Экинчи суроо: Ыйман деген эмне?",
-   "from": 22319,
+   "from": 22409,
    "frames": 9290,
    "planned_seconds": 0
   },
   {
    "id": "ch05",
    "title": "Кыштан кийин жаз",
-   "from": 31609,
+   "from": 31699,
    "frames": 8522,
    "planned_seconds": 0
   },
   {
    "id": "ch06",
    "title": "Үчүнчү суроо: Ихсан деген эмне?",
-   "from": 40131,
+   "from": 40221,
    "frames": 7698,
    "planned_seconds": 0
   },
   {
    "id": "ch07",
    "title": "«Ал Жебирейил эле»",
-   "from": 47829,
+   "from": 47919,
    "frames": 6746,
    "planned_seconds": 0
   },
   {
    "id": "ch08",
    "title": "Үй тапшырмасы",
-   "from": 54575,
+   "from": 54665,
    "frames": 1528,
    "planned_seconds": 0
   }
@@ -101,7 +102,7 @@
     "Бектур колун көтөрүп өзүн тааныштырат; Айзада колундагы сүрөт дептерин көрсөтөт",
     "Устаз экранды карап, көрүүчү балдарга кол булгалайт"
    ],
-   "from": 0,
+   "from": 90,
    "frames": 478,
    "beats": [
     {
@@ -122,7 +123,7 @@
      "from": 90,
      "frames": 139,
      "timing": "audio",
-     "audio": "ch00-s01_1_80e6db3378ec21fe.mp3",
+     "audio": "ch00-s01_1_80e6db3378ec21fe.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -134,7 +135,7 @@
      "from": 229,
      "frames": 81,
      "timing": "audio",
-     "audio": "ch00-s01_2_091bc501045649dc.mp3",
+     "audio": "ch00-s01_2_091bc501045649dc.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -146,7 +147,7 @@
      "from": 310,
      "frames": 168,
      "timing": "audio",
-     "audio": "ch00-s01_3_1570830cfe7c2cdf.mp3",
+     "audio": "ch00-s01_3_1570830cfe7c2cdf.c1.mp3",
      "ped": true,
      "replaced_from": null
     }
@@ -173,7 +174,7 @@
     "Устаз маркер менен үйдү тартат; балдар атаган сайын бир түркүк жашыл түскө боёлот",
     "Манжаларды санаганда экранда беш манжалуу колдун белгиси чыгат, ар бир манжа жанат"
    ],
-   "from": 478,
+   "from": 568,
    "frames": 1151,
    "beats": [
     {
@@ -184,7 +185,7 @@
      "from": 0,
      "frames": 215,
      "timing": "audio",
-     "audio": "ch00-s02_0_2bc14a2bab938b73.mp3",
+     "audio": "ch00-s02_0_2bc14a2bab938b73.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -196,7 +197,7 @@
      "from": 215,
      "frames": 112,
      "timing": "audio",
-     "audio": "ch00-s02_1_2c3d35e9d9bd834e.mp3",
+     "audio": "ch00-s02_1_2c3d35e9d9bd834e.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -208,7 +209,7 @@
      "from": 327,
      "frames": 276,
      "timing": "audio",
-     "audio": "ch00-s02_2_008092046f72dad5.mp3",
+     "audio": "ch00-s02_2_008092046f72dad5.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -220,7 +221,7 @@
      "from": 603,
      "frames": 216,
      "timing": "audio",
-     "audio": "ch00-s02_3_105384ac44894ff9.mp3",
+     "audio": "ch00-s02_3_105384ac44894ff9.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -232,7 +233,7 @@
      "from": 819,
      "frames": 65,
      "timing": "audio",
-     "audio": "ch00-s02_4_5c0fb4f5d11736a7.mp3",
+     "audio": "ch00-s02_4_5c0fb4f5d11736a7.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -244,7 +245,7 @@
      "from": 884,
      "frames": 267,
      "timing": "audio",
-     "audio": "ch00-s02_5_d469136b4e48a2b2.mp3",
+     "audio": "ch00-s02_5_d469136b4e48a2b2.c1.mp3",
      "ped": true,
      "replaced_from": null
     }
@@ -272,7 +273,7 @@
     "Бектур менен Айзада бири-бирин таң калып карашат",
     "Устаз ар бир сөздү айтканда жылдызды көрсөтөт; балдар чогуу кайталашат"
    ],
-   "from": 1629,
+   "from": 1719,
    "frames": 1663,
    "beats": [
     {
@@ -283,7 +284,7 @@
      "from": 0,
      "frames": 175,
      "timing": "audio",
-     "audio": "ch00-s03_0_1c742faa1124b251.mp3",
+     "audio": "ch00-s03_0_1c742faa1124b251.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -295,7 +296,7 @@
      "from": 175,
      "frames": 99,
      "timing": "audio",
-     "audio": "ch00-s03_1_e9ef8d09930a3f59.mp3",
+     "audio": "ch00-s03_1_e9ef8d09930a3f59.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -307,7 +308,7 @@
      "from": 274,
      "frames": 216,
      "timing": "audio",
-     "audio": "ch00-s03_2_fbaadb3ed6bb0e2f.mp3",
+     "audio": "ch00-s03_2_fbaadb3ed6bb0e2f.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -319,7 +320,7 @@
      "from": 490,
      "frames": 113,
      "timing": "audio",
-     "audio": "ch00-s03_3_c104a97675934e48.mp3",
+     "audio": "ch00-s03_3_c104a97675934e48.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -331,7 +332,7 @@
      "from": 603,
      "frames": 149,
      "timing": "audio",
-     "audio": "ch00-s03_4_82da96b065e39a42.mp3",
+     "audio": "ch00-s03_4_82da96b065e39a42.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -353,7 +354,7 @@
      "from": 872,
      "frames": 372,
      "timing": "audio",
-     "audio": "ch00-s03_6_5ad10d1190f789ad.mp3",
+     "audio": "ch00-s03_6_5ad10d1190f789ad.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -365,7 +366,7 @@
      "from": 1244,
      "frames": 125,
      "timing": "audio",
-     "audio": "ch00-s03_7_2be5a8a7249e8c0d.mp3",
+     "audio": "ch00-s03_7_2be5a8a7249e8c0d.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -377,7 +378,7 @@
      "from": 1369,
      "frames": 241,
      "timing": "audio",
-     "audio": "ch00-s03_8_c96176236c40abf9.mp3",
+     "audio": "ch00-s03_8_c96176236c40abf9.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -389,7 +390,7 @@
      "from": 1610,
      "frames": 53,
      "timing": "audio",
-     "audio": "ch00-s03_9_053432fa46de9da0.mp3",
+     "audio": "ch00-s03_9_053432fa46de9da0.c1.mp3",
      "ped": true,
      "replaced_from": null
     }
@@ -417,7 +418,7 @@
     "Бектур колун көтөрүп жооп берет",
     "Айзада көлдү көрсөтүп жылмаят"
    ],
-   "from": 3292,
+   "from": 3382,
    "frames": 1639,
    "beats": [
     {
@@ -438,7 +439,7 @@
      "from": 90,
      "frames": 252,
      "timing": "audio",
-     "audio": "ch01-s01_0_9dc514f97abb7af1.mp3",
+     "audio": "ch01-s01_0_9dc514f97abb7af1.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -450,7 +451,7 @@
      "from": 342,
      "frames": 188,
      "timing": "audio",
-     "audio": "ch01-s01_1_45d48dcd454f1389.mp3",
+     "audio": "ch01-s01_1_45d48dcd454f1389.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -472,7 +473,7 @@
      "from": 605,
      "frames": 55,
      "timing": "audio",
-     "audio": "ch01-s01_3_4ad3340dbc2f2971.mp3",
+     "audio": "ch01-s01_3_4ad3340dbc2f2971.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -484,7 +485,7 @@
      "from": 660,
      "frames": 237,
      "timing": "audio",
-     "audio": "ch01-s01_4_96693b1ca92975ef.mp3",
+     "audio": "ch01-s01_4_96693b1ca92975ef.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -496,7 +497,7 @@
      "from": 897,
      "frames": 149,
      "timing": "audio",
-     "audio": "ch01-s01_5_e1b2dd33caccf180.mp3",
+     "audio": "ch01-s01_5_e1b2dd33caccf180.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -508,7 +509,7 @@
      "from": 1046,
      "frames": 384,
      "timing": "audio",
-     "audio": "ch01-s01_6_915ab8062332dc28.mp3",
+     "audio": "ch01-s01_6_915ab8062332dc28.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -520,7 +521,7 @@
      "from": 1430,
      "frames": 209,
      "timing": "audio",
-     "audio": "ch01-s01_7_4c654efb8c963487.mp3",
+     "audio": "ch01-s01_7_4c654efb8c963487.c1.mp3",
      "ped": true,
      "replaced_from": null
     }
@@ -548,7 +549,7 @@
     "«100 %» жазуусу акырын жаркырайт",
     "Балдар чогуу кайталашат"
    ],
-   "from": 4931,
+   "from": 5021,
    "frames": 977,
    "beats": [
     {
@@ -559,7 +560,7 @@
      "from": 0,
      "frames": 177,
      "timing": "audio",
-     "audio": "ch01-s02_0_05e4990ee9c1e10d.mp3",
+     "audio": "ch01-s02_0_05e4990ee9c1e10d.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -571,7 +572,7 @@
      "from": 177,
      "frames": 253,
      "timing": "audio",
-     "audio": "ch01-s02_1_0ea3cca252900662.mp3",
+     "audio": "ch01-s02_1_0ea3cca252900662.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -583,7 +584,7 @@
      "from": 430,
      "frames": 172,
      "timing": "audio",
-     "audio": "ch01-s02_2_442a359d90c8edf2.mp3",
+     "audio": "ch01-s02_2_442a359d90c8edf2.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -595,7 +596,7 @@
      "from": 602,
      "frames": 113,
      "timing": "audio",
-     "audio": "ch01-s02_3_d33134b50a0e36f9.mp3",
+     "audio": "ch01-s02_3_d33134b50a0e36f9.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -607,7 +608,7 @@
      "from": 715,
      "frames": 262,
      "timing": "audio",
-     "audio": "ch01-s02_4_c38fa49e3098eac3.mp3",
+     "audio": "ch01-s02_4_c38fa49e3098eac3.c1.mp3",
      "ped": true,
      "replaced_from": null
     }
@@ -635,7 +636,7 @@
     "Жогортон ылдый жумшак ак нур жебе түрүндө түшөт (эч кандай кейипкер жок)",
     "Бектур ойлонуп ээгин кармайт"
    ],
-   "from": 5908,
+   "from": 5998,
    "frames": 1195,
    "beats": [
     {
@@ -646,7 +647,7 @@
      "from": 0,
      "frames": 293,
      "timing": "audio",
-     "audio": "ch01-s03_0_9ebefcb69f06ea9c.mp3",
+     "audio": "ch01-s03_0_9ebefcb69f06ea9c.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -658,7 +659,7 @@
      "from": 293,
      "frames": 321,
      "timing": "audio",
-     "audio": "ch01-s03_1_b3fc4b0f9cdd99ff.mp3",
+     "audio": "ch01-s03_1_b3fc4b0f9cdd99ff.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -670,7 +671,7 @@
      "from": 614,
      "frames": 144,
      "timing": "audio",
-     "audio": "ch01-s03_2_a6603eda62457999.mp3",
+     "audio": "ch01-s03_2_a6603eda62457999.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -682,7 +683,7 @@
      "from": 758,
      "frames": 187,
      "timing": "audio",
-     "audio": "ch01-s03_3_eee5e1b044c4524e.mp3",
+     "audio": "ch01-s03_3_eee5e1b044c4524e.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -694,7 +695,7 @@
      "from": 945,
      "frames": 250,
      "timing": "audio",
-     "audio": "ch01-s03_4_72c040496deff8b4.mp3",
+     "audio": "ch01-s03_4_72c040496deff8b4.c1.mp3",
      "ped": false,
      "replaced_from": null
     }
@@ -722,7 +723,7 @@
     "Викторинада ар бир туура жоопто таблицанын сабы жанат",
     "Айзада менен Бектур кезек-кезек кол көтөрүшөт"
    ],
-   "from": 7103,
+   "from": 7193,
    "frames": 677,
    "beats": [
     {
@@ -733,7 +734,7 @@
      "from": 0,
      "frames": 259,
      "timing": "audio",
-     "audio": "ch01-s04_0_29987ac3f65ab64a.mp3",
+     "audio": "ch01-s04_0_29987ac3f65ab64a.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -745,7 +746,7 @@
      "from": 259,
      "frames": 176,
      "timing": "audio",
-     "audio": "ch01-s04_1_229d6e3bdf293947.mp3",
+     "audio": "ch01-s04_1_229d6e3bdf293947.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -757,7 +758,7 @@
      "from": 435,
      "frames": 242,
      "timing": "audio",
-     "audio": "ch01-s04_2_f46b5eca594c052e.mp3",
+     "audio": "ch01-s04_2_f46b5eca594c052e.c1.mp3",
      "ped": false,
      "replaced_from": null
     }
@@ -785,7 +786,7 @@
     "Айзада өзүнүн дептерин көрсөтүп, тамга жазып жаткандай кылат",
     "Устаз аяттын маанисин доскага жазат"
    ],
-   "from": 7780,
+   "from": 7870,
    "frames": 1919,
    "beats": [
     {
@@ -796,7 +797,7 @@
      "from": 0,
      "frames": 284,
      "timing": "audio",
-     "audio": "ch01-s05_0_33de13f5cda5bb4a.mp3",
+     "audio": "ch01-s05_0_33de13f5cda5bb4a.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -808,7 +809,7 @@
      "from": 284,
      "frames": 298,
      "timing": "audio",
-     "audio": "ch01-s05_1_a554b62efcc90fc9.mp3",
+     "audio": "ch01-s05_1_a554b62efcc90fc9.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -820,7 +821,7 @@
      "from": 582,
      "frames": 146,
      "timing": "audio",
-     "audio": "ch01-s05_2_3b0da9f47c1db78d.mp3",
+     "audio": "ch01-s05_2_3b0da9f47c1db78d.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -832,7 +833,7 @@
      "from": 728,
      "frames": 298,
      "timing": "audio",
-     "audio": "ch01-s05_3_163a539cbd7a9c76.mp3",
+     "audio": "ch01-s05_3_163a539cbd7a9c76.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -844,7 +845,7 @@
      "from": 1026,
      "frames": 91,
      "timing": "audio",
-     "audio": "ch01-s05_4_1ed968c215cc28a5.mp3",
+     "audio": "ch01-s05_4_1ed968c215cc28a5.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -856,7 +857,7 @@
      "from": 1117,
      "frames": 226,
      "timing": "audio",
-     "audio": "ch01-s05_5_564581caf46f0310.mp3",
+     "audio": "ch01-s05_5_564581caf46f0310.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -868,7 +869,7 @@
      "from": 1343,
      "frames": 321,
      "timing": "audio",
-     "audio": "ch01-s05_6_90a9576323e9c389.mp3",
+     "audio": "ch01-s05_6_90a9576323e9c389.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -880,7 +881,7 @@
      "from": 1664,
      "frames": 255,
      "timing": "audio",
-     "audio": "ch01-s05_7_b0418f439df6eded.mp3",
+     "audio": "ch01-s05_7_b0418f439df6eded.c1.mp3",
      "ped": false,
      "replaced_from": null
     }
@@ -906,7 +907,7 @@
     "Бектур колу менен «эки кишинин ортосунда кабар өтүп жатканын» көрсөтөт",
     "Устаз үч булакты кезек менен көрсөтөт; балдар чогуу кайталашат"
    ],
-   "from": 9699,
+   "from": 9789,
    "frames": 1234,
    "beats": [
     {
@@ -917,7 +918,7 @@
      "from": 0,
      "frames": 291,
      "timing": "audio",
-     "audio": "ch01-s06_0_8ddb8021cca5e9d2.mp3",
+     "audio": "ch01-s06_0_8ddb8021cca5e9d2.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -929,7 +930,7 @@
      "from": 291,
      "frames": 129,
      "timing": "audio",
-     "audio": "ch01-s06_1_9404fa65ee04d983.mp3",
+     "audio": "ch01-s06_1_9404fa65ee04d983.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -941,7 +942,7 @@
      "from": 420,
      "frames": 380,
      "timing": "audio",
-     "audio": "ch01-s06_2_99046fcc0b390a6b.mp3",
+     "audio": "ch01-s06_2_99046fcc0b390a6b.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -953,7 +954,7 @@
      "from": 800,
      "frames": 230,
      "timing": "audio",
-     "audio": "ch01-s06_3_00ce40dca8e145a8.mp3",
+     "audio": "ch01-s06_3_00ce40dca8e145a8.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -965,7 +966,7 @@
      "from": 1030,
      "frames": 204,
      "timing": "audio",
-     "audio": "ch01-s06_4_7c46c0a4af2c4077.mp3",
+     "audio": "ch01-s06_4_7c46c0a4af2c4077.c1.mp3",
      "ped": true,
      "replaced_from": null
     }
@@ -992,7 +993,7 @@
     "Иллюстрация: таң атып жатат, курма пальмалары, мечиттин сырты көрүнөт; эч кандай адам же жүз көрсөтүлбөйт",
     "Бектур менен Айзада окуя уккусу келип, алдыга эңкейишет"
    ],
-   "from": 10933,
+   "from": 11023,
    "frames": 1454,
    "beats": [
     {
@@ -1013,7 +1014,7 @@
      "from": 90,
      "frames": 269,
      "timing": "audio",
-     "audio": "ch02-s01_0_52f6221e73500d36.mp3",
+     "audio": "ch02-s01_0_52f6221e73500d36.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -1025,7 +1026,7 @@
      "from": 359,
      "frames": 101,
      "timing": "audio",
-     "audio": "ch02-s01_1_685ed05643217ecc.mp3",
+     "audio": "ch02-s01_1_685ed05643217ecc.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1037,7 +1038,7 @@
      "from": 460,
      "frames": 283,
      "timing": "audio",
-     "audio": "ch02-s01_2_9b023d8beecf4beb.mp3",
+     "audio": "ch02-s01_2_9b023d8beecf4beb.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1059,7 +1060,7 @@
      "from": 893,
      "frames": 302,
      "timing": "audio",
-     "audio": "ch02-s01_4_1e1e7453c0aafc0d.mp3",
+     "audio": "ch02-s01_4_1e1e7453c0aafc0d.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -1071,7 +1072,7 @@
      "from": 1195,
      "frames": 259,
      "timing": "audio",
-     "audio": "ch02-s01_5_651fcf4964aa20a4.mp3",
+     "audio": "ch02-s01_5_651fcf4964aa20a4.c1.mp3",
      "ped": true,
      "replaced_from": null
     }
@@ -1099,7 +1100,7 @@
     "Эшиктеги ак жарык акырын жаркырайт, анан бир калыпта турат",
     "Айзада көзүн чоң ачып таң калат"
    ],
-   "from": 12387,
+   "from": 12477,
    "frames": 1614,
    "beats": [
     {
@@ -1110,7 +1111,7 @@
      "from": 0,
      "frames": 168,
      "timing": "audio",
-     "audio": "ch02-s02_0_69ebbbf40ecfc9ab.mp3",
+     "audio": "ch02-s02_0_69ebbbf40ecfc9ab.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -1122,7 +1123,7 @@
      "from": 168,
      "frames": 149,
      "timing": "audio",
-     "audio": "ch02-s02_1_0fbd6d370500ba58.mp3",
+     "audio": "ch02-s02_1_0fbd6d370500ba58.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -1134,7 +1135,7 @@
      "from": 317,
      "frames": 178,
      "timing": "audio",
-     "audio": "ch02-s02_2_7023abfa7d438e80.mp3",
+     "audio": "ch02-s02_2_7023abfa7d438e80.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1146,7 +1147,7 @@
      "from": 495,
      "frames": 190,
      "timing": "audio",
-     "audio": "ch02-s02_3_a2abcee09f4de5b2.mp3",
+     "audio": "ch02-s02_3_a2abcee09f4de5b2.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1168,7 +1169,7 @@
      "from": 760,
      "frames": 111,
      "timing": "audio",
-     "audio": "ch02-s02_5_b4bdf89b2a38e960.mp3",
+     "audio": "ch02-s02_5_b4bdf89b2a38e960.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1180,7 +1181,7 @@
      "from": 871,
      "frames": 86,
      "timing": "audio",
-     "audio": "ch02-s02_6_36bb739dcc7bf990.mp3",
+     "audio": "ch02-s02_6_36bb739dcc7bf990.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1192,7 +1193,7 @@
      "from": 957,
      "frames": 364,
      "timing": "audio",
-     "audio": "ch02-s02_7_fb4e513eca56f26f.mp3",
+     "audio": "ch02-s02_7_fb4e513eca56f26f.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1204,7 +1205,7 @@
      "from": 1321,
      "frames": 293,
      "timing": "audio",
-     "audio": "ch02-s02_8_b128499e7af497b8.mp3",
+     "audio": "ch02-s02_8_b128499e7af497b8.c1.mp3",
      "ped": true,
      "replaced_from": null
     }
@@ -1231,7 +1232,7 @@
     "Айзада жылмайып, мугалимине жакын отурган окуучудай партасын жылдырат",
     "Доскадагы суроо алтын түстө жаркырайт"
    ],
-   "from": 14001,
+   "from": 14091,
    "frames": 1383,
    "beats": [
     {
@@ -1242,7 +1243,7 @@
      "from": 0,
      "frames": 242,
      "timing": "audio",
-     "audio": "ch02-s03_0_1e78d91d1210d961.mp3",
+     "audio": "ch02-s03_0_1e78d91d1210d961.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -1254,7 +1255,7 @@
      "from": 242,
      "frames": 137,
      "timing": "audio",
-     "audio": "ch02-s03_1_bda8fde0f6a2829b.mp3",
+     "audio": "ch02-s03_1_bda8fde0f6a2829b.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1266,7 +1267,7 @@
      "from": 379,
      "frames": 260,
      "timing": "audio",
-     "audio": "ch02-s03_2_c9a9883280a5885a.mp3",
+     "audio": "ch02-s03_2_c9a9883280a5885a.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1278,7 +1279,7 @@
      "from": 639,
      "frames": 285,
      "timing": "audio",
-     "audio": "ch02-s03_3_29d0569dd2d0280a.mp3",
+     "audio": "ch02-s03_3_29d0569dd2d0280a.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1290,7 +1291,7 @@
      "from": 924,
      "frames": 185,
      "timing": "audio",
-     "audio": "ch02-s03_4_ad83fc093943d81c.mp3",
+     "audio": "ch02-s03_4_ad83fc093943d81c.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -1302,7 +1303,7 @@
      "from": 1109,
      "frames": 199,
      "timing": "audio",
-     "audio": "ch02-s03_5_d033c59fe2d5ca1b.mp3",
+     "audio": "ch02-s03_5_d033c59fe2d5ca1b.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1340,7 +1341,7 @@
     "Устаз сыр сактагандай жылмайып, сөөмөйүн эрдине коёт",
     "Балдар белгилерди чогуу айтып жатканда тизме бирден жанат"
    ],
-   "from": 15384,
+   "from": 15474,
    "frames": 1946,
    "beats": [
     {
@@ -1351,7 +1352,7 @@
      "from": 0,
      "frames": 176,
      "timing": "audio",
-     "audio": "ch02-s04_0_e37673c35464d5e1.mp3",
+     "audio": "ch02-s04_0_e37673c35464d5e1.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1363,7 +1364,7 @@
      "from": 176,
      "frames": 137,
      "timing": "audio",
-     "audio": "ch02-s04_1_56265af9f45a7b69.mp3",
+     "audio": "ch02-s04_1_56265af9f45a7b69.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1375,7 +1376,7 @@
      "from": 313,
      "frames": 273,
      "timing": "audio",
-     "audio": "ch02-s04_2_4b7ac7afeb902903.mp3",
+     "audio": "ch02-s04_2_4b7ac7afeb902903.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1387,7 +1388,7 @@
      "from": 586,
      "frames": 255,
      "timing": "audio",
-     "audio": "ch02-s04_3_f4b76f535f7545da.mp3",
+     "audio": "ch02-s04_3_f4b76f535f7545da.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1399,7 +1400,7 @@
      "from": 841,
      "frames": 247,
      "timing": "audio",
-     "audio": "ch02-s04_4_544773aeb46503e9.mp3",
+     "audio": "ch02-s04_4_544773aeb46503e9.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1411,7 +1412,7 @@
      "from": 1088,
      "frames": 312,
      "timing": "audio",
-     "audio": "ch02-s04_5_64169d233bf26f34.mp3",
+     "audio": "ch02-s04_5_64169d233bf26f34.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1423,7 +1424,7 @@
      "from": 1400,
      "frames": 225,
      "timing": "audio",
-     "audio": "ch02-s04_6_5249d4e88f26784e.mp3",
+     "audio": "ch02-s04_6_5249d4e88f26784e.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1435,7 +1436,7 @@
      "from": 1625,
      "frames": 130,
      "timing": "audio",
-     "audio": "ch02-s04_7_a045bec573f08eef.mp3",
+     "audio": "ch02-s04_7_a045bec573f08eef.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1447,7 +1448,7 @@
      "from": 1755,
      "frames": 191,
      "timing": "audio",
-     "audio": "ch02-s04_8_09fa3cd6e00e96ec.mp3",
+     "audio": "ch02-s04_8_09fa3cd6e00e96ec.c1.mp3",
      "ped": true,
      "replaced_from": null
     }
@@ -1475,7 +1476,7 @@
     "Айзада үйдү таанып, колун чаап кубанат",
     "Манжаларды санаганда экранда беш манжалуу колдун белгиси жанат"
    ],
-   "from": 17330,
+   "from": 17420,
    "frames": 1289,
    "beats": [
     {
@@ -1496,7 +1497,7 @@
      "from": 90,
      "frames": 260,
      "timing": "audio",
-     "audio": "ch03-s01_0_f54fc6cc1e0ee37f.mp3",
+     "audio": "ch03-s01_0_f54fc6cc1e0ee37f.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -1508,7 +1509,7 @@
      "from": 350,
      "frames": 252,
      "timing": "audio",
-     "audio": "ch03-s01_1_116a053fd4da0b41.mp3",
+     "audio": "ch03-s01_1_116a053fd4da0b41.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -1520,7 +1521,7 @@
      "from": 602,
      "frames": 197,
      "timing": "audio",
-     "audio": "ch03-s01_2_c5616cf36bceedfa.mp3",
+     "audio": "ch03-s01_2_c5616cf36bceedfa.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -1532,7 +1533,7 @@
      "from": 799,
      "frames": 149,
      "timing": "audio",
-     "audio": "ch03-s01_3_e58483eeb137bcb5.mp3",
+     "audio": "ch03-s01_3_e58483eeb137bcb5.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -1544,7 +1545,7 @@
      "from": 948,
      "frames": 113,
      "timing": "audio",
-     "audio": "ch03-s01_4_ed8111b8523e4adc.mp3",
+     "audio": "ch03-s01_4_ed8111b8523e4adc.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1556,7 +1557,7 @@
      "from": 1061,
      "frames": 228,
      "timing": "audio",
-     "audio": "ch03-s01_5_7b87d85c3b144ff5.mp3",
+     "audio": "ch03-s01_5_7b87d85c3b144ff5.c1.mp3",
      "ped": true,
      "replaced_from": null
     }
@@ -1583,7 +1584,7 @@
     "Устаз «жүрөк» деп колун жүрөгүнө, «тил» деп эрдине коёт",
     "Бектур дептерине жазып алат"
    ],
-   "from": 18619,
+   "from": 18709,
    "frames": 1353,
    "beats": [
     {
@@ -1594,7 +1595,7 @@
      "from": 0,
      "frames": 438,
      "timing": "audio",
-     "audio": "ch03-s02_0_ab792cc57144617c.mp3",
+     "audio": "ch03-s02_0_ab792cc57144617c.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1606,7 +1607,7 @@
      "from": 438,
      "frames": 104,
      "timing": "audio",
-     "audio": "ch03-s02_1_5f81b5354637d3e1.mp3",
+     "audio": "ch03-s02_1_5f81b5354637d3e1.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1618,7 +1619,7 @@
      "from": 542,
      "frames": 355,
      "timing": "audio",
-     "audio": "ch03-s02_2_0d0d585dab464ad4.mp3",
+     "audio": "ch03-s02_2_0d0d585dab464ad4.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1630,7 +1631,7 @@
      "from": 897,
      "frames": 108,
      "timing": "audio",
-     "audio": "ch03-s02_3_97944fdb988b1b78.mp3",
+     "audio": "ch03-s02_3_97944fdb988b1b78.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1642,7 +1643,7 @@
      "from": 1005,
      "frames": 348,
      "timing": "audio",
-     "audio": "ch03-s02_4_60d89b571b367824.mp3",
+     "audio": "ch03-s02_4_60d89b571b367824.c1.mp3",
      "ped": true,
      "replaced_from": null
     }
@@ -1670,7 +1671,7 @@
     "Устаз доскага мисал жазып, «туура» белгисин коёт",
     "Айзада ойлонуп, анан «таптым!» дегендей колун көтөрөт"
    ],
-   "from": 19972,
+   "from": 20062,
    "frames": 1616,
    "beats": [
     {
@@ -1681,7 +1682,7 @@
      "from": 0,
      "frames": 161,
      "timing": "audio",
-     "audio": "ch03-s03_0_7c56c067d1f2bec3.mp3",
+     "audio": "ch03-s03_0_7c56c067d1f2bec3.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -1693,7 +1694,7 @@
      "from": 161,
      "frames": 122,
      "timing": "audio",
-     "audio": "ch03-s03_1_a374aad33c42f44d.mp3",
+     "audio": "ch03-s03_1_a374aad33c42f44d.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1705,7 +1706,7 @@
      "from": 283,
      "frames": 273,
      "timing": "audio",
-     "audio": "ch03-s03_2_f61449fe5de466f8.mp3",
+     "audio": "ch03-s03_2_f61449fe5de466f8.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -1717,7 +1718,7 @@
      "from": 556,
      "frames": 199,
      "timing": "audio",
-     "audio": "ch03-s03_3_ea662e8eb2bf9ba9.mp3",
+     "audio": "ch03-s03_3_ea662e8eb2bf9ba9.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -1729,7 +1730,7 @@
      "from": 755,
      "frames": 337,
      "timing": "audio",
-     "audio": "ch03-s03_4_3c5a45c18cfb9c92.mp3",
+     "audio": "ch03-s03_4_3c5a45c18cfb9c92.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1751,7 +1752,7 @@
      "from": 1167,
      "frames": 190,
      "timing": "audio",
-     "audio": "ch03-s03_6_d5c086cb4e9c0756.mp3",
+     "audio": "ch03-s03_6_d5c086cb4e9c0756.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1763,7 +1764,7 @@
      "from": 1357,
      "frames": 259,
      "timing": "audio",
-     "audio": "ch03-s03_7_c44d992211599103.mp3",
+     "audio": "ch03-s03_7_c44d992211599103.c1.mp3",
      "ped": true,
      "replaced_from": null
     }
@@ -1789,7 +1790,7 @@
     "Устаз биринчи жылдызды сөөмөйү менен көрсөтөт",
     "Жылдыз жанганда балдар кол чабышат"
    ],
-   "from": 21588,
+   "from": 21678,
    "frames": 731,
    "beats": [
     {
@@ -1800,7 +1801,7 @@
      "from": 0,
      "frames": 310,
      "timing": "audio",
-     "audio": "ch03-s04_0_de51ba4d92604ee2.mp3",
+     "audio": "ch03-s04_0_de51ba4d92604ee2.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1822,7 +1823,7 @@
      "from": 460,
      "frames": 108,
      "timing": "audio",
-     "audio": "ch03-s04_2_b941cef69759cd25.mp3",
+     "audio": "ch03-s04_2_b941cef69759cd25.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1834,7 +1835,7 @@
      "from": 568,
      "frames": 163,
      "timing": "audio",
-     "audio": "ch03-s04_3_0e01363e9605ff21.mp3",
+     "audio": "ch03-s04_3_0e01363e9605ff21.c1.mp3",
      "ped": true,
      "replaced_from": null
     }
@@ -1862,7 +1863,7 @@
     "Устаз алты тегеректи бирден тартат",
     "Бектур менен Айзада колдорун алдыга сунуп, манжаларын даярдашат"
    ],
-   "from": 22319,
+   "from": 22409,
    "frames": 1514,
    "beats": [
     {
@@ -1883,7 +1884,7 @@
      "from": 90,
      "frames": 153,
      "timing": "audio",
-     "audio": "ch04-s01_0_e545e7e649637ed1.mp3",
+     "audio": "ch04-s01_0_e545e7e649637ed1.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -1895,7 +1896,7 @@
      "from": 243,
      "frames": 389,
      "timing": "audio",
-     "audio": "ch04-s01_1_c4b63cdc3bb5c07d.mp3",
+     "audio": "ch04-s01_1_c4b63cdc3bb5c07d.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -1907,7 +1908,7 @@
      "from": 632,
      "frames": 168,
      "timing": "audio",
-     "audio": "ch04-s01_2_b5becde8cb0201f9.mp3",
+     "audio": "ch04-s01_2_b5becde8cb0201f9.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -1919,7 +1920,7 @@
      "from": 800,
      "frames": 110,
      "timing": "audio",
-     "audio": "ch04-s01_3_6802c9ce828eafc9.mp3",
+     "audio": "ch04-s01_3_6802c9ce828eafc9.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -1931,7 +1932,7 @@
      "from": 910,
      "frames": 140,
      "timing": "audio",
-     "audio": "ch04-s01_4_c45c2f420cfa30de.mp3",
+     "audio": "ch04-s01_4_c45c2f420cfa30de.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1943,7 +1944,7 @@
      "from": 1050,
      "frames": 239,
      "timing": "audio",
-     "audio": "ch04-s01_5_6f042120d9e77ac4.mp3",
+     "audio": "ch04-s01_5_6f042120d9e77ac4.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1955,7 +1956,7 @@
      "from": 1289,
      "frames": 172,
      "timing": "audio",
-     "audio": "ch04-s01_6_adcba4fd7c1fe9ca.mp3",
+     "audio": "ch04-s01_6_adcba4fd7c1fe9ca.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -1967,7 +1968,7 @@
      "from": 1461,
      "frames": 53,
      "timing": "audio",
-     "audio": "ch04-s01_7_053432fa46de9da0.mp3",
+     "audio": "ch04-s01_7_053432fa46de9da0.c1.mp3",
      "ped": true,
      "replaced_from": null
     }
@@ -1993,7 +1994,7 @@
     "Иллюстрация: кыргыз тоолору, көк асман, күн, гүлдөр жана куштар; бул Аллахтын жараткандары",
     "Айзада колундагы сүрөт дептерин жаап, башын ийкейт"
    ],
-   "from": 23833,
+   "from": 23923,
    "frames": 1146,
    "beats": [
     {
@@ -2004,7 +2005,7 @@
      "from": 0,
      "frames": 203,
      "timing": "audio",
-     "audio": "ch04-s02_0_10176a8b5e98aca8.mp3",
+     "audio": "ch04-s02_0_10176a8b5e98aca8.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -2016,7 +2017,7 @@
      "from": 203,
      "frames": 198,
      "timing": "audio",
-     "audio": "ch04-s02_1_fda9f2a622856ef3.mp3",
+     "audio": "ch04-s02_1_fda9f2a622856ef3.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -2038,7 +2039,7 @@
      "from": 461,
      "frames": 60,
      "timing": "audio",
-     "audio": "ch04-s02_3_3967c38d1237ff48.mp3",
+     "audio": "ch04-s02_3_3967c38d1237ff48.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -2050,7 +2051,7 @@
      "from": 521,
      "frames": 341,
      "timing": "audio",
-     "audio": "ch04-s02_4_6eaa136dae9b6386.mp3",
+     "audio": "ch04-s02_4_6eaa136dae9b6386.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -2062,7 +2063,7 @@
      "from": 862,
      "frames": 194,
      "timing": "audio",
-     "audio": "ch04-s02_5_b0e787e4c9a81b6d.mp3",
+     "audio": "ch04-s02_5_b0e787e4c9a81b6d.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -2098,7 +2099,7 @@
     "Терезеден жел кирип, парда желбирейт; Бектур терең дем алып көрсөтөт",
     "Устаз колун пардага көрсөтүп, абаны түшүндүрөт"
    ],
-   "from": 24979,
+   "from": 25069,
    "frames": 1092,
    "beats": [
     {
@@ -2109,7 +2110,7 @@
      "from": 0,
      "frames": 118,
      "timing": "audio",
-     "audio": "ch04-s03_0_d362c4b8739b32fb.mp3",
+     "audio": "ch04-s03_0_d362c4b8739b32fb.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -2121,7 +2122,7 @@
      "from": 118,
      "frames": 117,
      "timing": "audio",
-     "audio": "ch04-s03_1_34fd012e6db179c0.mp3",
+     "audio": "ch04-s03_1_34fd012e6db179c0.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -2133,7 +2134,7 @@
      "from": 235,
      "frames": 210,
      "timing": "audio",
-     "audio": "ch04-s03_2_bb7b52845fcf9f32.mp3",
+     "audio": "ch04-s03_2_bb7b52845fcf9f32.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -2145,7 +2146,7 @@
      "from": 445,
      "frames": 106,
      "timing": "audio",
-     "audio": "ch04-s03_3_276efcf3029825ae.mp3",
+     "audio": "ch04-s03_3_276efcf3029825ae.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -2157,7 +2158,7 @@
      "from": 551,
      "frames": 252,
      "timing": "audio",
-     "audio": "ch04-s03_4_d1dd769b953e0c44.mp3",
+     "audio": "ch04-s03_4_d1dd769b953e0c44.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -2169,7 +2170,7 @@
      "from": 803,
      "frames": 199,
      "timing": "audio",
-     "audio": "ch04-s03_5_7935acf35ab62f29.mp3",
+     "audio": "ch04-s03_5_7935acf35ab62f29.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -2206,7 +2207,7 @@
     "«КУРАН» деген жазуу жумшак нур менен жанат",
     "Айзада колун көтөрүп, сабактын башындагы таблицаны көрсөтөт"
    ],
-   "from": 26071,
+   "from": 26161,
    "frames": 1466,
    "beats": [
     {
@@ -2217,7 +2218,7 @@
      "from": 0,
      "frames": 118,
      "timing": "audio",
-     "audio": "ch04-s04_0_bf1e8ca65b6476f7.mp3",
+     "audio": "ch04-s04_0_bf1e8ca65b6476f7.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -2229,7 +2230,7 @@
      "from": 118,
      "frames": 338,
      "timing": "audio",
-     "audio": "ch04-s04_1_3b05f2f1b1b1ed54.mp3",
+     "audio": "ch04-s04_1_3b05f2f1b1b1ed54.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -2241,7 +2242,7 @@
      "from": 456,
      "frames": 382,
      "timing": "audio",
-     "audio": "ch04-s04_2_f3047403141b3a5e.mp3",
+     "audio": "ch04-s04_2_f3047403141b3a5e.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -2253,7 +2254,7 @@
      "from": 838,
      "frames": 226,
      "timing": "audio",
-     "audio": "ch04-s04_3_db75dd4e0fe345ef.mp3",
+     "audio": "ch04-s04_3_db75dd4e0fe345ef.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -2265,7 +2266,7 @@
      "from": 1064,
      "frames": 312,
      "timing": "audio",
-     "audio": "ch04-s04_4_de9ce6630475dfef.mp3",
+     "audio": "ch04-s04_4_de9ce6630475dfef.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -2302,7 +2303,7 @@
     "Ар бир аттын жанында кичинекей жылдыз жанат; эң акыркысы бир аз жарыгыраак",
     "Бектур кубанып, колун жүрөгүнө коёт"
    ],
-   "from": 27537,
+   "from": 27627,
    "frames": 855,
    "beats": [
     {
@@ -2313,7 +2314,7 @@
      "from": 0,
      "frames": 124,
      "timing": "audio",
-     "audio": "ch04-s05_0_04730f6f8d73334e.mp3",
+     "audio": "ch04-s05_0_04730f6f8d73334e.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -2325,7 +2326,7 @@
      "from": 124,
      "frames": 408,
      "timing": "audio",
-     "audio": "ch04-s05_1_6735c0a47138a1b2.mp3",
+     "audio": "ch04-s05_1_6735c0a47138a1b2.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -2337,7 +2338,7 @@
      "from": 532,
      "frames": 233,
      "timing": "audio",
-     "audio": "ch04-s05_2_cc81ac057e4df5c9.mp3",
+     "audio": "ch04-s05_2_cc81ac057e4df5c9.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -2374,7 +2375,7 @@
     "Устаз жумшак, тынч үн менен сүйлөйт; Айзада ойлонуп угат",
     "«Жакшылык жоголбойт» деген жазуунун жанында кичинекей жүрөк белгиси жанат"
    ],
-   "from": 28392,
+   "from": 28482,
    "frames": 956,
    "beats": [
     {
@@ -2385,7 +2386,7 @@
      "from": 0,
      "frames": 199,
      "timing": "audio",
-     "audio": "ch04-s06_0_bc6b10d4e522762d.mp3",
+     "audio": "ch04-s06_0_bc6b10d4e522762d.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -2397,7 +2398,7 @@
      "from": 199,
      "frames": 96,
      "timing": "audio",
-     "audio": "ch04-s06_1_15ddce2c6bfa9ca6.mp3",
+     "audio": "ch04-s06_1_15ddce2c6bfa9ca6.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -2409,7 +2410,7 @@
      "from": 295,
      "frames": 269,
      "timing": "audio",
-     "audio": "ch04-s06_2_d361a8f686d2ad9b.mp3",
+     "audio": "ch04-s06_2_d361a8f686d2ad9b.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -2421,7 +2422,7 @@
      "from": 564,
      "frames": 302,
      "timing": "audio",
-     "audio": "ch04-s06_3_cd9fcbfbea0c70e0.mp3",
+     "audio": "ch04-s06_3_cd9fcbfbea0c70e0.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -2459,7 +2460,7 @@
     "Жамгырдан кийин асмандан асан-үсөн чыгат; Айзада кубанып терезени көрсөтөт",
     "Устаз жылмайып, Бектурдун ийнинен таптайт"
    ],
-   "from": 29348,
+   "from": 29438,
    "frames": 1412,
    "beats": [
     {
@@ -2470,7 +2471,7 @@
      "from": 0,
      "frames": 204,
      "timing": "audio",
-     "audio": "ch04-s07_0_d67c80bf06dbe77f.mp3",
+     "audio": "ch04-s07_0_d67c80bf06dbe77f.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -2482,7 +2483,7 @@
      "from": 204,
      "frames": 185,
      "timing": "audio",
-     "audio": "ch04-s07_1_c7939d05da11df4c.mp3",
+     "audio": "ch04-s07_1_c7939d05da11df4c.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -2494,7 +2495,7 @@
      "from": 389,
      "frames": 285,
      "timing": "audio",
-     "audio": "ch04-s07_2_9057487a9b52cc64.mp3",
+     "audio": "ch04-s07_2_9057487a9b52cc64.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -2506,7 +2507,7 @@
      "from": 674,
      "frames": 302,
      "timing": "audio",
-     "audio": "ch04-s07_3_a982a0ab794830f0.mp3",
+     "audio": "ch04-s07_3_a982a0ab794830f0.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -2518,7 +2519,7 @@
      "from": 976,
      "frames": 127,
      "timing": "audio",
-     "audio": "ch04-s07_4_41afa10aed8952bb.mp3",
+     "audio": "ch04-s07_4_41afa10aed8952bb.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -2530,7 +2531,7 @@
      "from": 1103,
      "frames": 219,
      "timing": "audio",
-     "audio": "ch04-s07_5_68be0c72320a271e.mp3",
+     "audio": "ch04-s07_5_68be0c72320a271e.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -2567,7 +2568,7 @@
     "Балдар алты манжаны көтөрүп, чогуу санашат: бир кол — беш, экинчи колдон — бир",
     "ЫЙМАН жылдызы жанат; ИХСАН жылдызы өчүк бойдон калат, анын жанында суроо белгиси"
    ],
-   "from": 30760,
+   "from": 30850,
    "frames": 849,
    "beats": [
     {
@@ -2578,7 +2579,7 @@
      "from": 0,
      "frames": 216,
      "timing": "audio",
-     "audio": "ch04-s08_0_f966233da976d11a.mp3",
+     "audio": "ch04-s08_0_f966233da976d11a.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -2590,7 +2591,7 @@
      "from": 216,
      "frames": 158,
      "timing": "audio",
-     "audio": "ch04-s08_1_ac5c7d6358caf82b.mp3",
+     "audio": "ch04-s08_1_ac5c7d6358caf82b.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -2612,7 +2613,7 @@
      "from": 524,
      "frames": 111,
      "timing": "audio",
-     "audio": "ch04-s08_3_e5ecbe832e06a1d6.mp3",
+     "audio": "ch04-s08_3_e5ecbe832e06a1d6.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -2624,7 +2625,7 @@
      "from": 635,
      "frames": 214,
      "timing": "audio",
-     "audio": "ch04-s08_4_584d60d1d634e09d.mp3",
+     "audio": "ch04-s08_4_584d60d1d634e09d.c1.mp3",
      "ped": true,
      "replaced_from": null
     }
@@ -2652,7 +2653,7 @@
     "Айзада кашын көтөрүп, колун көтөрөт",
     "Эшик жакта жумшак ак жарык бир заматка жылтылдап, өчөт (мейман көрсөтүлбөйт)"
    ],
-   "from": 31609,
+   "from": 31699,
    "frames": 1948,
    "beats": [
     {
@@ -2683,7 +2684,7 @@
      "from": 210,
      "frames": 216,
      "timing": "audio",
-     "audio": "ch05-s01_1_0b7edbc6bf2189c2.mp3",
+     "audio": "ch05-s01_1_0b7edbc6bf2189c2.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -2695,7 +2696,7 @@
      "from": 426,
      "frames": 113,
      "timing": "audio",
-     "audio": "ch05-s01_2_1c1fa6a526301d14.mp3",
+     "audio": "ch05-s01_2_1c1fa6a526301d14.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -2707,7 +2708,7 @@
      "from": 539,
      "frames": 302,
      "timing": "audio",
-     "audio": "ch05-s01_3_8c4ac2634dc0e155.mp3",
+     "audio": "ch05-s01_3_8c4ac2634dc0e155.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -2719,7 +2720,7 @@
      "from": 841,
      "frames": 113,
      "timing": "audio",
-     "audio": "ch05-s01_4_5df669ed345d4ec9.mp3",
+     "audio": "ch05-s01_4_5df669ed345d4ec9.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -2731,7 +2732,7 @@
      "from": 954,
      "frames": 430,
      "timing": "audio",
-     "audio": "ch05-s01_5_7b0ea47b2f619b42.mp3",
+     "audio": "ch05-s01_5_7b0ea47b2f619b42.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -2743,7 +2744,7 @@
      "from": 1384,
      "frames": 221,
      "timing": "audio",
-     "audio": "ch05-s01_6_8c60a2cdd4a5f810.mp3",
+     "audio": "ch05-s01_6_8c60a2cdd4a5f810.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -2755,7 +2756,7 @@
      "from": 1605,
      "frames": 343,
      "timing": "audio",
-     "audio": "ch05-s01_7_f2608db48078b483.mp3",
+     "audio": "ch05-s01_7_f2608db48078b483.c1.mp3",
      "ped": false,
      "replaced_from": null
     }
@@ -2784,7 +2785,7 @@
     "Айзада терезе жакты карап, ойлонуп жооп берет",
     "Акырында балдар алаканын гүлдөй ачып, чогуу айтышат"
    ],
-   "from": 33557,
+   "from": 33647,
    "frames": 1584,
    "beats": [
     {
@@ -2795,7 +2796,7 @@
      "from": 0,
      "frames": 192,
      "timing": "audio",
-     "audio": "ch05-s02_0_3ef77f8ce9d2c1a2.mp3",
+     "audio": "ch05-s02_0_3ef77f8ce9d2c1a2.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -2817,7 +2818,7 @@
      "from": 267,
      "frames": 144,
      "timing": "audio",
-     "audio": "ch05-s02_2_23c04545c1764d91.mp3",
+     "audio": "ch05-s02_2_23c04545c1764d91.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -2829,7 +2830,7 @@
      "from": 411,
      "frames": 336,
      "timing": "audio",
-     "audio": "ch05-s02_3_ebdb1de4cc40440e.mp3",
+     "audio": "ch05-s02_3_ebdb1de4cc40440e.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -2851,7 +2852,7 @@
      "from": 897,
      "frames": 321,
      "timing": "audio",
-     "audio": "ch05-s02_5_42e3bb0b47b21849.mp3",
+     "audio": "ch05-s02_5_42e3bb0b47b21849.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -2863,7 +2864,7 @@
      "from": 1218,
      "frames": 288,
      "timing": "audio",
-     "audio": "ch05-s02_6_7dea2c6503fdc996.mp3",
+     "audio": "ch05-s02_6_7dea2c6503fdc996.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -2875,7 +2876,7 @@
      "from": 1506,
      "frames": 78,
      "timing": "audio",
-     "audio": "ch05-s02_7_69742bd18ae5d2d5.mp3",
+     "audio": "ch05-s02_7_69742bd18ae5d2d5.c1.mp3",
      "ped": true,
      "replaced_from": null
     }
@@ -2902,7 +2903,7 @@
     "Суроо белгиси акырындык менен жарык жебеге айланып, китепке барат",
     "Бектур таң калып, устазга жакыныраак келип отурат"
    ],
-   "from": 35141,
+   "from": 35231,
    "frames": 1456,
    "beats": [
     {
@@ -2913,7 +2914,7 @@
      "from": 0,
      "frames": 305,
      "timing": "audio",
-     "audio": "ch05-s03_0_d59ee413cad8afcd.mp3",
+     "audio": "ch05-s03_0_d59ee413cad8afcd.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -2925,7 +2926,7 @@
      "from": 305,
      "frames": 247,
      "timing": "audio",
-     "audio": "ch05-s03_1_895ed70a5478aab7.mp3",
+     "audio": "ch05-s03_1_895ed70a5478aab7.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -2937,7 +2938,7 @@
      "from": 552,
      "frames": 132,
      "timing": "audio",
-     "audio": "ch05-s03_2_0c4107a43758308d.mp3",
+     "audio": "ch05-s03_2_0c4107a43758308d.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -2949,7 +2950,7 @@
      "from": 684,
      "frames": 357,
      "timing": "audio",
-     "audio": "ch05-s03_3_b29ad417793ade23.mp3",
+     "audio": "ch05-s03_3_b29ad417793ade23.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -2961,7 +2962,7 @@
      "from": 1041,
      "frames": 190,
      "timing": "audio",
-     "audio": "ch05-s03_4_cf9718faa34cf1f8.mp3",
+     "audio": "ch05-s03_4_cf9718faa34cf1f8.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -2973,7 +2974,7 @@
      "from": 1231,
      "frames": 225,
      "timing": "audio",
-     "audio": "ch05-s03_5_d1e7e80d59ccc144.mp3",
+     "audio": "ch05-s03_5_d1e7e80d59ccc144.c1.mp3",
      "ped": true,
      "replaced_from": null
     }
@@ -3001,7 +3002,7 @@
     "Бектур ойлонуп, иягын кашыйт",
     "Устаз балдарга жылмайып башын ийкейт"
    ],
-   "from": 36597,
+   "from": 36687,
    "frames": 860,
    "beats": [
     {
@@ -3012,7 +3013,7 @@
      "from": 0,
      "frames": 233,
      "timing": "audio",
-     "audio": "ch05-s04_0_974c7a53de15cd49.mp3",
+     "audio": "ch05-s04_0_974c7a53de15cd49.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -3024,7 +3025,7 @@
      "from": 233,
      "frames": 142,
      "timing": "audio",
-     "audio": "ch05-s04_1_dd6ab1e12a99f9e1.mp3",
+     "audio": "ch05-s04_1_dd6ab1e12a99f9e1.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -3036,7 +3037,7 @@
      "from": 375,
      "frames": 266,
      "timing": "audio",
-     "audio": "ch05-s04_2_d6656074ada1fe2d.mp3",
+     "audio": "ch05-s04_2_d6656074ada1fe2d.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -3048,7 +3049,7 @@
      "from": 641,
      "frames": 219,
      "timing": "audio",
-     "audio": "ch05-s04_3_a0e2e0906acf6276.mp3",
+     "audio": "ch05-s04_3_a0e2e0906acf6276.c1.mp3",
      "ped": true,
      "replaced_from": null
     }
@@ -3076,7 +3077,7 @@
     "Ар бир жакшы иш айтылганда, бул жээкте жаңы гүл ачылат",
     "Бектур көз алдынан рюкзак жыйнап жаткандай кыймылдайт"
    ],
-   "from": 37457,
+   "from": 37547,
    "frames": 2674,
    "beats": [
     {
@@ -3087,7 +3088,7 @@
      "from": 0,
      "frames": 157,
      "timing": "audio",
-     "audio": "ch05-s05_0_39ad9ab2c3076970.mp3",
+     "audio": "ch05-s05_0_39ad9ab2c3076970.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -3099,7 +3100,7 @@
      "from": 157,
      "frames": 110,
      "timing": "audio",
-     "audio": "ch05-s05_1_2542bf80773282b5.mp3",
+     "audio": "ch05-s05_1_2542bf80773282b5.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -3111,7 +3112,7 @@
      "from": 267,
      "frames": 289,
      "timing": "audio",
-     "audio": "ch05-s05_2_d28fd6d39ec0da60.mp3",
+     "audio": "ch05-s05_2_d28fd6d39ec0da60.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -3123,7 +3124,7 @@
      "from": 556,
      "frames": 242,
      "timing": "audio",
-     "audio": "ch05-s05_3_5fd7836f2c44886d.mp3",
+     "audio": "ch05-s05_3_5fd7836f2c44886d.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -3145,7 +3146,7 @@
      "from": 948,
      "frames": 304,
      "timing": "audio",
-     "audio": "ch05-s05_5_61ea525839bf1dee.mp3",
+     "audio": "ch05-s05_5_61ea525839bf1dee.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -3157,7 +3158,7 @@
      "from": 1252,
      "frames": 199,
      "timing": "audio",
-     "audio": "ch05-s05_6_7ae861493b046ca9.mp3",
+     "audio": "ch05-s05_6_7ae861493b046ca9.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -3169,7 +3170,7 @@
      "from": 1451,
      "frames": 323,
      "timing": "audio",
-     "audio": "ch05-s05_7_80f644759e1f6746.mp3",
+     "audio": "ch05-s05_7_80f644759e1f6746.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -3181,7 +3182,7 @@
      "from": 1774,
      "frames": 353,
      "timing": "audio",
-     "audio": "ch05-s05_8_5143148469548ac1.mp3",
+     "audio": "ch05-s05_8_5143148469548ac1.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -3193,7 +3194,7 @@
      "from": 2127,
      "frames": 79,
      "timing": "audio",
-     "audio": "ch05-s05_9_0e524111a8d9e133.mp3",
+     "audio": "ch05-s05_9_0e524111a8d9e133.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -3205,7 +3206,7 @@
      "from": 2206,
      "frames": 192,
      "timing": "audio",
-     "audio": "ch05-s05_10_f5361f827a8d6eb6.mp3",
+     "audio": "ch05-s05_10_f5361f827a8d6eb6.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -3217,7 +3218,7 @@
      "from": 2398,
      "frames": 276,
      "timing": "audio",
-     "audio": "ch05-s05_11_24cf14ddf05e9652.mp3",
+     "audio": "ch05-s05_11_24cf14ddf05e9652.c1.mp3",
      "ped": true,
      "replaced_from": null
     }
@@ -3246,7 +3247,7 @@
     "Устаз ар бир сөздү маркер менен акырын жазып, балдарга бурулат",
     "Балдар устаздын артынан шыбырап кайталашат"
    ],
-   "from": 40131,
+   "from": 40221,
    "frames": 2610,
    "beats": [
     {
@@ -3277,7 +3278,7 @@
      "from": 210,
      "frames": 275,
      "timing": "audio",
-     "audio": "ch06-s01_1_ff48c5dc59b843c9.mp3",
+     "audio": "ch06-s01_1_ff48c5dc59b843c9.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -3289,7 +3290,7 @@
      "from": 485,
      "frames": 106,
      "timing": "audio",
-     "audio": "ch06-s01_2_b2eab66e84dc83e1.mp3",
+     "audio": "ch06-s01_2_b2eab66e84dc83e1.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -3301,7 +3302,7 @@
      "from": 591,
      "frames": 175,
      "timing": "audio",
-     "audio": "ch06-s01_3_ab9ebee0dd239e6f.mp3",
+     "audio": "ch06-s01_3_ab9ebee0dd239e6f.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -3313,7 +3314,7 @@
      "from": 766,
      "frames": 377,
      "timing": "audio",
-     "audio": "ch06-s01_4_785574171d53fcd8.mp3",
+     "audio": "ch06-s01_4_785574171d53fcd8.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -3335,7 +3336,7 @@
      "from": 1293,
      "frames": 281,
      "timing": "audio",
-     "audio": "ch06-s01_6_9a6253a1870c90e4.mp3",
+     "audio": "ch06-s01_6_9a6253a1870c90e4.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -3347,7 +3348,7 @@
      "from": 1574,
      "frames": 136,
      "timing": "audio",
-     "audio": "ch06-s01_7_f80377b3967ce8a0.mp3",
+     "audio": "ch06-s01_7_f80377b3967ce8a0.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -3359,7 +3360,7 @@
      "from": 1710,
      "frames": 103,
      "timing": "audio",
-     "audio": "ch06-s01_8_5291a6dfee2d6d11.mp3",
+     "audio": "ch06-s01_8_5291a6dfee2d6d11.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -3371,7 +3372,7 @@
      "from": 1813,
      "frames": 322,
      "timing": "audio",
-     "audio": "ch06-s01_9_86c370e4dc239aaa.mp3",
+     "audio": "ch06-s01_9_86c370e4dc239aaa.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -3383,7 +3384,7 @@
      "from": 2135,
      "frames": 146,
      "timing": "audio",
-     "audio": "ch06-s01_10_78a7a678ff667b65.mp3",
+     "audio": "ch06-s01_10_78a7a678ff667b65.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -3395,7 +3396,7 @@
      "from": 2281,
      "frames": 329,
      "timing": "audio",
-     "audio": "ch06-s01_11_17bd5e4364bec584.mp3",
+     "audio": "ch06-s01_11_17bd5e4364bec584.c1.mp3",
      "ped": true,
      "replaced_from": null
     }
@@ -3422,7 +3423,7 @@
     "Бектур уялып жылмаят, анан кайра дептерине эңкейет",
     "Айзада өз бөлмөсүндө оюнчуктарын себетке салып жатат (элестетүү)"
    ],
-   "from": 42741,
+   "from": 42831,
    "frames": 1527,
    "beats": [
     {
@@ -3433,7 +3434,7 @@
      "from": 0,
      "frames": 256,
      "timing": "audio",
-     "audio": "ch06-s02_0_d6fcbb5b7251f8f9.mp3",
+     "audio": "ch06-s02_0_d6fcbb5b7251f8f9.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -3445,7 +3446,7 @@
      "from": 256,
      "frames": 98,
      "timing": "audio",
-     "audio": "ch06-s02_1_e8610fd8df21a3e0.mp3",
+     "audio": "ch06-s02_1_e8610fd8df21a3e0.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -3457,7 +3458,7 @@
      "from": 354,
      "frames": 112,
      "timing": "audio",
-     "audio": "ch06-s02_2_71571f11a2ef4f05.mp3",
+     "audio": "ch06-s02_2_71571f11a2ef4f05.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -3469,7 +3470,7 @@
      "from": 466,
      "frames": 156,
      "timing": "audio",
-     "audio": "ch06-s02_3_356f568f5caca012.mp3",
+     "audio": "ch06-s02_3_356f568f5caca012.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -3481,7 +3482,7 @@
      "from": 622,
      "frames": 259,
      "timing": "audio",
-     "audio": "ch06-s02_4_7366b6b686d3f535.mp3",
+     "audio": "ch06-s02_4_7366b6b686d3f535.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -3493,7 +3494,7 @@
      "from": 881,
      "frames": 158,
      "timing": "audio",
-     "audio": "ch06-s02_5_ba11c96097b4a3ff.mp3",
+     "audio": "ch06-s02_5_ba11c96097b4a3ff.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -3505,7 +3506,7 @@
      "from": 1039,
      "frames": 178,
      "timing": "audio",
-     "audio": "ch06-s02_6_8530a731354e938f.mp3",
+     "audio": "ch06-s02_6_8530a731354e938f.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -3517,7 +3518,7 @@
      "from": 1217,
      "frames": 310,
      "timing": "audio",
-     "audio": "ch06-s02_7_eecc72a9a7760dc1.mp3",
+     "audio": "ch06-s02_7_eecc72a9a7760dc1.c1.mp3",
      "ped": true,
      "replaced_from": null
     }
@@ -3545,7 +3546,7 @@
     "Ар бир сөз айтылганда белги акырын жанат",
     "Суроо-жооп оюнунда балдар доскадагы туура жылдызды манжасы менен көрсөтүшөт"
    ],
-   "from": 44268,
+   "from": 44358,
    "frames": 1784,
    "beats": [
     {
@@ -3556,7 +3557,7 @@
      "from": 0,
      "frames": 323,
      "timing": "audio",
-     "audio": "ch06-s03_0_0d7947f3541e14f1.mp3",
+     "audio": "ch06-s03_0_0d7947f3541e14f1.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -3568,7 +3569,7 @@
      "from": 323,
      "frames": 219,
      "timing": "audio",
-     "audio": "ch06-s03_1_48efb197e7fb80d5.mp3",
+     "audio": "ch06-s03_1_48efb197e7fb80d5.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -3580,7 +3581,7 @@
      "from": 542,
      "frames": 221,
      "timing": "audio",
-     "audio": "ch06-s03_2_102103805d969ee7.mp3",
+     "audio": "ch06-s03_2_102103805d969ee7.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -3602,7 +3603,7 @@
      "from": 913,
      "frames": 211,
      "timing": "audio",
-     "audio": "ch06-s03_4_28db7da9ecf5c657.mp3",
+     "audio": "ch06-s03_4_28db7da9ecf5c657.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -3614,7 +3615,7 @@
      "from": 1124,
      "frames": 216,
      "timing": "audio",
-     "audio": "ch06-s03_5_ad5c50c927f8ef94.mp3",
+     "audio": "ch06-s03_5_ad5c50c927f8ef94.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -3636,7 +3637,7 @@
      "from": 1415,
      "frames": 124,
      "timing": "audio",
-     "audio": "ch06-s03_7_297a9012306889ce.mp3",
+     "audio": "ch06-s03_7_297a9012306889ce.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -3648,7 +3649,7 @@
      "from": 1539,
      "frames": 245,
      "timing": "audio",
-     "audio": "ch06-s03_8_bdabdddbb068b68e.mp3",
+     "audio": "ch06-s03_8_bdabdddbb068b68e.c1.mp3",
      "ped": false,
      "replaced_from": null
     }
@@ -3676,7 +3677,7 @@
     "Айзада кол чаап кубанат",
     "Акырында ИХСАН жылдызы акырын жанып, үч жылдыздан жумшак нур тарайт"
    ],
-   "from": 46052,
+   "from": 46142,
    "frames": 1777,
    "beats": [
     {
@@ -3687,7 +3688,7 @@
      "from": 0,
      "frames": 283,
      "timing": "audio",
-     "audio": "ch06-s04_0_b3f3889f8647c5ff.mp3",
+     "audio": "ch06-s04_0_b3f3889f8647c5ff.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -3699,7 +3700,7 @@
      "from": 283,
      "frames": 254,
      "timing": "audio",
-     "audio": "ch06-s04_1_53f52a36454245ff.mp3",
+     "audio": "ch06-s04_1_53f52a36454245ff.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -3711,7 +3712,7 @@
      "from": 537,
      "frames": 125,
      "timing": "audio",
-     "audio": "ch06-s04_2_c600caed4c1dd09d.mp3",
+     "audio": "ch06-s04_2_c600caed4c1dd09d.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -3723,7 +3724,7 @@
      "from": 662,
      "frames": 274,
      "timing": "audio",
-     "audio": "ch06-s04_3_c9e3be2e012e8b3e.mp3",
+     "audio": "ch06-s04_3_c9e3be2e012e8b3e.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -3735,7 +3736,7 @@
      "from": 936,
      "frames": 164,
      "timing": "audio",
-     "audio": "ch06-s04_4_bca933575e5a2aa5.mp3",
+     "audio": "ch06-s04_4_bca933575e5a2aa5.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -3747,7 +3748,7 @@
      "from": 1100,
      "frames": 216,
      "timing": "audio",
-     "audio": "ch06-s04_5_8bd4ddb22e694bc4.mp3",
+     "audio": "ch06-s04_5_8bd4ddb22e694bc4.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -3759,7 +3760,7 @@
      "from": 1316,
      "frames": 228,
      "timing": "audio",
-     "audio": "ch06-s04_6_b1d2fe574e72b672.mp3",
+     "audio": "ch06-s04_6_b1d2fe574e72b672.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -3771,7 +3772,7 @@
      "from": 1544,
      "frames": 83,
      "timing": "audio",
-     "audio": "ch06-s04_7_a6f0d1a9c4fbaedd.mp3",
+     "audio": "ch06-s04_7_a6f0d1a9c4fbaedd.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -3809,7 +3810,7 @@
     "Устаз эки колун канаттай жайып көрсөтөт, балдар кайталашат",
     "Чоң айлана үч жылдызды акырын курчап алат"
    ],
-   "from": 47829,
+   "from": 47919,
    "frames": 1989,
    "beats": [
     {
@@ -3830,7 +3831,7 @@
      "from": 90,
      "frames": 253,
      "timing": "audio",
-     "audio": "ch07-s01_0_be8a57e2fb718296.mp3",
+     "audio": "ch07-s01_0_be8a57e2fb718296.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -3842,7 +3843,7 @@
      "from": 343,
      "frames": 196,
      "timing": "audio",
-     "audio": "ch07-s01_1_af8eadfc9c667542.mp3",
+     "audio": "ch07-s01_1_af8eadfc9c667542.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -3854,7 +3855,7 @@
      "from": 539,
      "frames": 163,
      "timing": "audio",
-     "audio": "ch07-s01_2_f5b25419eb7b4203.mp3",
+     "audio": "ch07-s01_2_f5b25419eb7b4203.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -3866,7 +3867,7 @@
      "from": 702,
      "frames": 84,
      "timing": "audio",
-     "audio": "ch07-s01_3_9c590b5fbf466486.mp3",
+     "audio": "ch07-s01_3_9c590b5fbf466486.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -3878,7 +3879,7 @@
      "from": 786,
      "frames": 199,
      "timing": "audio",
-     "audio": "ch07-s01_4_ea5ecb7cb56a8bb7.mp3",
+     "audio": "ch07-s01_4_ea5ecb7cb56a8bb7.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -3900,7 +3901,7 @@
      "from": 1135,
      "frames": 192,
      "timing": "audio",
-     "audio": "ch07-s01_6_a5cb4bc80e27ac6a.mp3",
+     "audio": "ch07-s01_6_a5cb4bc80e27ac6a.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -3912,7 +3913,7 @@
      "from": 1327,
      "frames": 70,
      "timing": "audio",
-     "audio": "ch07-s01_7_ad9502a281c91f59.mp3",
+     "audio": "ch07-s01_7_ad9502a281c91f59.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -3924,7 +3925,7 @@
      "from": 1397,
      "frames": 230,
      "timing": "audio",
-     "audio": "ch07-s01_8_525df4b48e2c718b.mp3",
+     "audio": "ch07-s01_8_525df4b48e2c718b.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -3936,7 +3937,7 @@
      "from": 1627,
      "frames": 362,
      "timing": "audio",
-     "audio": "ch07-s01_9_418545ed81ce7593.mp3",
+     "audio": "ch07-s01_9_418545ed81ce7593.c1.mp3",
      "ped": false,
      "replaced_from": null
     }
@@ -3964,7 +3965,7 @@
     "Бектур менен Айзада бири-бирин карап, таң калышат",
     "Пайгамбар жана сахабалар көрсөтүлбөйт: устаз доска жанында айтып берет"
    ],
-   "from": 49818,
+   "from": 49908,
    "frames": 2932,
    "beats": [
     {
@@ -3985,7 +3986,7 @@
      "from": 120,
      "frames": 251,
      "timing": "audio",
-     "audio": "ch07-s02_1_ddb081ad268df710.mp3",
+     "audio": "ch07-s02_1_ddb081ad268df710.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -4007,7 +4008,7 @@
      "from": 446,
      "frames": 147,
      "timing": "audio",
-     "audio": "ch07-s02_3_78ea6f682d8c8cf9.mp3",
+     "audio": "ch07-s02_3_78ea6f682d8c8cf9.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -4019,7 +4020,7 @@
      "from": 593,
      "frames": 88,
      "timing": "audio",
-     "audio": "ch07-s02_4_b4e6558cf32702d9.mp3",
+     "audio": "ch07-s02_4_b4e6558cf32702d9.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -4031,7 +4032,7 @@
      "from": 681,
      "frames": 329,
      "timing": "audio",
-     "audio": "ch07-s02_5_4abe5247fb39e3f6.mp3",
+     "audio": "ch07-s02_5_4abe5247fb39e3f6.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -4043,7 +4044,7 @@
      "from": 1010,
      "frames": 178,
      "timing": "audio",
-     "audio": "ch07-s02_6_c5b024161dcaec19.mp3",
+     "audio": "ch07-s02_6_c5b024161dcaec19.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -4055,7 +4056,7 @@
      "from": 1188,
      "frames": 238,
      "timing": "audio",
-     "audio": "ch07-s02_7_333542f98788cc68.mp3",
+     "audio": "ch07-s02_7_333542f98788cc68.c1.mp3",
      "ped": false,
      "replaced_from": null
     },
@@ -4077,7 +4078,7 @@
      "from": 1576,
      "frames": 61,
      "timing": "audio",
-     "audio": "ch07-s02_9_af1937549f441c2c.mp3",
+     "audio": "ch07-s02_9_af1937549f441c2c.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -4089,7 +4090,7 @@
      "from": 1637,
      "frames": 326,
      "timing": "audio",
-     "audio": "ch07-s02_10_8b4d6cc66f7ed26b.mp3",
+     "audio": "ch07-s02_10_8b4d6cc66f7ed26b.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -4101,7 +4102,7 @@
      "from": 1963,
      "frames": 89,
      "timing": "audio",
-     "audio": "ch07-s02_11_6dc972d73b7caaa7.mp3",
+     "audio": "ch07-s02_11_6dc972d73b7caaa7.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -4113,7 +4114,7 @@
      "from": 2052,
      "frames": 278,
      "timing": "audio",
-     "audio": "ch07-s02_12_fe1e92fb912746e6.mp3",
+     "audio": "ch07-s02_12_fe1e92fb912746e6.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -4125,7 +4126,7 @@
      "from": 2330,
      "frames": 134,
      "timing": "audio",
-     "audio": "ch07-s02_13_e9d98a5184614fdf.mp3",
+     "audio": "ch07-s02_13_e9d98a5184614fdf.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -4137,7 +4138,7 @@
      "from": 2464,
      "frames": 240,
      "timing": "audio",
-     "audio": "ch07-s02_14_43e019193275db6c.mp3",
+     "audio": "ch07-s02_14_43e019193275db6c.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -4149,7 +4150,7 @@
      "from": 2704,
      "frames": 228,
      "timing": "audio",
-     "audio": "ch07-s02_15_5c8cf577980d4d7e.mp3",
+     "audio": "ch07-s02_15_5c8cf577980d4d7e.c1.mp3",
      "ped": true,
      "replaced_from": null
     }
@@ -4176,7 +4177,7 @@
     "Балдар чогуу жооп берип, кол чабышат",
     "Акырында үч жылдыздан жарык жол тартылат"
    ],
-   "from": 52750,
+   "from": 52840,
    "frames": 1825,
    "beats": [
     {
@@ -4187,7 +4188,7 @@
      "from": 0,
      "frames": 251,
      "timing": "audio",
-     "audio": "ch07-s03_0_75c29977ac7c0b89.mp3",
+     "audio": "ch07-s03_0_75c29977ac7c0b89.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -4209,7 +4210,7 @@
      "from": 326,
      "frames": 208,
      "timing": "audio",
-     "audio": "ch07-s03_2_1faa6e704eb6fd19.mp3",
+     "audio": "ch07-s03_2_1faa6e704eb6fd19.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -4221,7 +4222,7 @@
      "from": 534,
      "frames": 126,
      "timing": "audio",
-     "audio": "ch07-s03_3_7130742774661ead.mp3",
+     "audio": "ch07-s03_3_7130742774661ead.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -4243,7 +4244,7 @@
      "from": 735,
      "frames": 285,
      "timing": "audio",
-     "audio": "ch07-s03_5_b93280c8aac32d90.mp3",
+     "audio": "ch07-s03_5_b93280c8aac32d90.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -4255,7 +4256,7 @@
      "from": 1020,
      "frames": 127,
      "timing": "audio",
-     "audio": "ch07-s03_6_ae158e4623308acb.mp3",
+     "audio": "ch07-s03_6_ae158e4623308acb.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -4277,7 +4278,7 @@
      "from": 1222,
      "frames": 108,
      "timing": "audio",
-     "audio": "ch07-s03_8_b6e52bf42e6242ca.mp3",
+     "audio": "ch07-s03_8_b6e52bf42e6242ca.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -4289,7 +4290,7 @@
      "from": 1330,
      "frames": 345,
      "timing": "audio",
-     "audio": "ch07-s03_9_5b1bb74ee283ae62.mp3",
+     "audio": "ch07-s03_9_5b1bb74ee283ae62.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -4327,7 +4328,7 @@
     "Устаз жана балдар экранды карап кол булгалашат",
     "Үч жылдыз акырын жаркырап, класс кечки жарыкка чөмүлөт; камера доскадагы жолго жакындайт"
    ],
-   "from": 54575,
+   "from": 54665,
    "frames": 1528,
    "beats": [
     {
@@ -4348,7 +4349,7 @@
      "from": 90,
      "frames": 303,
      "timing": "audio",
-     "audio": "ch08-s01_0_782aae37bc410bec.mp3",
+     "audio": "ch08-s01_0_782aae37bc410bec.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -4360,7 +4361,7 @@
      "from": 393,
      "frames": 81,
      "timing": "audio",
-     "audio": "ch08-s01_1_88fa87c02d7bfe71.mp3",
+     "audio": "ch08-s01_1_88fa87c02d7bfe71.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -4372,7 +4373,7 @@
      "from": 474,
      "frames": 108,
      "timing": "audio",
-     "audio": "ch08-s01_2_061ec3ddc6b49b2a.mp3",
+     "audio": "ch08-s01_2_061ec3ddc6b49b2a.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -4394,7 +4395,7 @@
      "from": 732,
      "frames": 231,
      "timing": "audio",
-     "audio": "ch08-s01_4_a7067beaf77541a9.mp3",
+     "audio": "ch08-s01_4_a7067beaf77541a9.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -4406,7 +4407,7 @@
      "from": 963,
      "frames": 172,
      "timing": "audio",
-     "audio": "ch08-s01_5_6d559da52667e96a.mp3",
+     "audio": "ch08-s01_5_6d559da52667e96a.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -4418,7 +4419,7 @@
      "from": 1135,
      "frames": 103,
      "timing": "audio",
-     "audio": "ch08-s01_6_9576a5e16101dddd.mp3",
+     "audio": "ch08-s01_6_9576a5e16101dddd.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -4430,7 +4431,7 @@
      "from": 1238,
      "frames": 101,
      "timing": "audio",
-     "audio": "ch08-s01_7_21d8bbb01ed126e8.mp3",
+     "audio": "ch08-s01_7_21d8bbb01ed126e8.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
@@ -4442,7 +4443,7 @@
      "from": 1339,
      "frames": 69,
      "timing": "audio",
-     "audio": "ch08-s01_8_b69e400dc05f8954.mp3",
+     "audio": "ch08-s01_8_b69e400dc05f8954.c1.mp3",
      "ped": true,
      "replaced_from": null
     },
