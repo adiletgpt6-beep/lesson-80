@@ -286,7 +286,7 @@ def cmd_timeline(_):
             beats, start = [], frame
             if META and META.get("cover") and n_ch == 0 and n_scene == 0:
                 beats.append({"key": f"{s['id']}#cover", "type": "cover", "speaker": None,
-                              "text": f"80 САБАКТЫН {META['number']}-САБАГЫ · {META['title']} · {META['subtitle']}",
+                              "text": f"80 САБАКТЫН {META['number']}-САБАГЫ · {META['topic']}",
                               "from": 0, "frames": COVER_FRAMES, "timing": "fixed", "audio": None})
                 frame += COVER_FRAMES
             if n_scene == 0 and ch["id"] != first_ch:
@@ -330,7 +330,7 @@ def cmd_timeline(_):
     out = TIMELINE
     out.parent.mkdir(parents=True, exist_ok=True)
     planned = (META["planned_seconds"] if META else PLANNED_TOTAL) * FPS
-    extra = {"lesson": {k: META[k] for k in ("id", "number", "title", "subtitle", "opening_scene", "final_scene", "cover")}} if META else {}
+    extra = {"lesson": {k: META[k] for k in ("id", "number", "title", "subtitle", "opening_scene", "final_scene", "cover", "topic")}} if META else {}
     out.write_text(json.dumps({**extra, "fps": FPS, "width": 1920, "height": 1080, "durationInFrames": frame,
                                "plannedFrames": planned,
                                "timing_note": "estimate unless beat.timing == 'audio'; blocked lines absent or replaced ([ПЕД])",

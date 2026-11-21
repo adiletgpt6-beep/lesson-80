@@ -241,7 +241,12 @@ def main():
             dump(dst / f"script/chapters/{cid}.json", ch)
         dump(dst / "script/ped-replacements.json", repl)
         dump(dst / "script/ped-extra-beats.json", extra)
+        cover = json.loads((ROOT / f"shared/lesson-cover/lessons/{meta['number']:03d}.json").read_text(encoding="utf-8"))
+        meta = {**meta, "topic": cover.get("cover_topic", cover["topic"]),
+                "youtube_title": f"80 САБАКТЫН {meta['number']}-САБАГЫ | {cover['topic']}"}
+        assert len(meta["youtube_title"]) <= 100, meta["youtube_title"]
         dump(dst / "script/lesson.json", meta)
+        (dst / f"youtube-title.txt").write_text(meta["youtube_title"] + "\n", encoding="utf-8")
         (dst / "audio").mkdir(parents=True, exist_ok=True)
         shutil.copy(SRC / "audio/voices.json", dst / "audio/voices.json")
     report += ["", "## Новые главы", ""]

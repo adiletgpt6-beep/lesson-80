@@ -37,7 +37,7 @@ export type Scene = {
 export type Chapter = { id: string; title: string; from: number; frames: number; planned_seconds: number };
 
 // R04/R05 (new lessons 004/005 split from 003): number/title for the opening card and the end credit.
-export type LessonMeta = { id: string; number: number; title: string; subtitle: string; opening_scene: string; final_scene: string; cover?: boolean };
+export type LessonMeta = { id: string; number: number; title: string; subtitle: string; opening_scene: string; final_scene: string; cover?: boolean; topic?: string };
 
 export type Timeline = {
   lesson?: LessonMeta;

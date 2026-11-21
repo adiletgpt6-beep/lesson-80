@@ -8,19 +8,9 @@
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "noEmit": true,
-    "baseUrl": ".",
-    "paths": {
-      "react": [
-        "node_modules/@types/react"
-      ],
-      "react/jsx-runtime": [
-        "node_modules/@types/react/jsx-runtime"
-      ]
-    }
+    "noEmit": true
   },
   "include": [
-    "src",
-    "../shared/remotion"
+    "src"
   ]
 }

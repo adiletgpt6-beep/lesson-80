@@ -6,7 +6,7 @@ import { Classroom } from "./Classroom";
 import { Board } from "./Board";
 import { Caption } from "./Caption";
 import { TitleCard, OpeningCard } from "./TitleCard";
-import { LessonCover, COVER_FADE_FRAMES } from "../../../shared/remotion/LessonCover";
+import { LessonCover, COVER_FADE_FRAMES } from "./LessonCover"; // byte copy of shared/lesson-cover/LessonCover.tsx
 import { Ustaz, type UstazPose } from "../art/Ustaz";
 import { Kid, type KidPose } from "../art/Kid";
 import { Cutaway } from "../art/Cutaway";
@@ -233,8 +233,9 @@ export const SceneView: React.FC<{ scene: Scene; sceneIndex: number; meta?: Less
       {beat?.type === "title" ? <TitleCard chapter={scene.chapter} title={beat.text} frame={fib} frames={beat.frames} n={beat.n} /> : null}
       {!meta?.cover && scene.id === (meta?.opening_scene ?? "ch00-s01") && beat?.type === "visual" ? <OpeningCard frame={fib} frames={beat.frames} meta={meta} /> : null}
       {meta?.cover && scene.beats[0]?.type === "cover" && frame < scene.beats[0].frames + COVER_FADE_FRAMES ? (
-        <LessonCover number={meta.number} title={meta.title} subtitle={meta.subtitle}
-          opacity={frame < scene.beats[0].frames ? 1 : 1 - clamp01((frame - scene.beats[0].frames) / COVER_FADE_FRAMES)} />
+        <div style={{ position: "absolute", inset: 0, opacity: frame < scene.beats[0].frames ? 1 : 1 - clamp01((frame - scene.beats[0].frames) / COVER_FADE_FRAMES) }}>
+          <LessonCover number={meta.number} topic={meta.topic!} />
+        </div>
       ) : null}
       {/* lesson 003 preview credit only; published lessons (meta) carry no service text (FINAL_VIDEO_USTAZ_REVIEW_RULES.md) */}
       {!meta && scene.id === "ch16-s01" && bi === scene.beats.length - 1 ? (
