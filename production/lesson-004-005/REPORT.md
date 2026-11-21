@@ -1,28 +1,30 @@
 # Уроки 004 и 005 — технический отчёт (не входит в видео)
 
 Дата: 2026-11-21. Ветка `claude/lesson-004-005-split`. Финальный рендер: GitHub Actions
-[прогон 44912581188](https://github.com/adiletgpt6-beep/lesson-80/actions/runs/44912581188), коммит `e538216`.
+[прогон 44958063227](https://github.com/adiletgpt6-beep/lesson-80/actions/runs/44958063227), коммит `96952c2`.
 Подробности производства — [HANDOFF.md](HANDOFF.md); аудиопайплайн — [../AUDIO_JOIN_PIPELINE.md](../AUDIO_JOIN_PIPELINE.md).
 
-## 1. Выдача
+## 1. Выдача (финал, 2026-11-21, рендер [44958063227](https://github.com/adiletgpt6-beep/lesson-80/actions/runs/44958063227), коммит `96952c2`)
 
 | | Урок 004 | Урок 005 |
 |---|---|---|
-| Обложка | 80 САБАКТЫН 4-САБАГЫ · «Биз эмне үчүн жаралдык?» · 1-бөлүк · Аллахты таануу жана сүйүү | 80 САБАКТЫН 5-САБАГЫ · «Биз эмне үчүн жаралдык?» · 2-бөлүк · Кулчулук · Жакшылыкта жарышуу · Кыйынчылыктан өтүү |
+| Название YouTube (TXT) | `80 САБАКТЫН 4-САБАГЫ \| Эмне үчүн жаралдык? Аллахты таануу жана сүйүү` (68 знаков) | `80 САБАКТЫН 5-САБАГЫ \| Эмне үчүн жаралдык? Кулчулук, жакшылык, сабыр` (68 знаков) |
 | ▶ Смотреть | https://claude.ai/artifact/RaKP7GmtiDB57HsogDVBWC | https://claude.ai/artifact/Up422zayJmBE9rKqGcVTf6 |
-| ⬇ Скачать MP4 | [lesson-80-004-ky-v1.mp4](https://github.com/adiletgpt6-beep/lesson-80/releases/download/lesson-004-v1/lesson-80-004-ky-v1.mp4) | [lesson-80-005-ky-v1.mp4](https://github.com/adiletgpt6-beep/lesson-80/releases/download/lesson-005-v1/lesson-80-005-ky-v1.mp4) |
-| ⬇ Обложка YouTube 1280×720 | [lesson-80-004-cover-1280x720.png](https://github.com/adiletgpt6-beep/lesson-80/releases/download/lesson-004-v1/lesson-80-004-cover-1280x720.png) | [lesson-80-005-cover-1280x720.png](https://github.com/adiletgpt6-beep/lesson-80/releases/download/lesson-005-v1/lesson-80-005-cover-1280x720.png) |
-| Длительность | 00:30:09.73 (1809,733 с) | 00:32:47.60 (1967,600 с) |
-| Размер | 266 968 942 байт (267,0 МБ) | 312 843 831 байт (312,8 МБ) |
-| SHA-256 MP4 | `35beecd46c3ce9e90d718403511fb52665d875c811a5146c3081d6fb19f98f9a` | `34aa47c93b9d53c7cfeeaa83d3647138bdf8d0323bd0e464d7f9980635ab1fe4` |
-| SHA-256 обложки | `16b457c5d55e9d5439348d6719cfc0910891ecd9a23b33cbcff3c1ce2506ae95` | `6259160b2463f0a186d1198536c4959b1e5eb40147fd77c53c842401d2053a1d` |
+| ⬇ MP4 | [lesson-004-final.mp4](https://github.com/adiletgpt6-beep/lesson-80/releases/download/lesson-004-final/lesson-004-final.mp4) | [lesson-005-final.mp4](https://github.com/adiletgpt6-beep/lesson-80/releases/download/lesson-005-final/lesson-005-final.mp4) |
+| ⬇ Обложка 1280×720 | [lesson-004-thumbnail.jpg](https://github.com/adiletgpt6-beep/lesson-80/releases/download/lesson-004-final/lesson-004-thumbnail.jpg) | [lesson-005-thumbnail.jpg](https://github.com/adiletgpt6-beep/lesson-80/releases/download/lesson-005-final/lesson-005-thumbnail.jpg) |
+| ⬇ Название | [lesson-004-youtube-title.txt](https://github.com/adiletgpt6-beep/lesson-80/releases/download/lesson-004-final/lesson-004-youtube-title.txt) | [lesson-005-youtube-title.txt](https://github.com/adiletgpt6-beep/lesson-80/releases/download/lesson-005-final/lesson-005-youtube-title.txt) |
+| Длительность | 00:30:09.73 (вкл. обложку 3 с) | 00:32:47.60 |
+| Размер MP4 | 267 069 060 байт | 312 899 078 байт |
+| SHA-256 MP4 | `10360a44b3f22781529fec4eee3fc4afd09512288e7beef1275375a3a9a63944` | `31718d4e59927b59f44b8af31ab00b527e6735c8f44a64d66a40b908bd5bbda2` |
+| SHA-256 обложки | `8cf650ff8c39732ada115cb53c1ce6986b034920040136e95ee9bbb6476fae2c` | `51cca571da77f34c6c77876024167d9845234bd2b336b9bd332731e38eb292e5` |
+| SHA-256 TXT | `a73de96d998bd2c76174002f8bf68db66e186c2bb5f81c1d83d9ee246751f6d6` | `a939ef247eb142de85b06a8bb416175da52a6caa637486bf6d2ebf057a21a727` |
 
-Ссылки проверены: файлы скачаны полностью, размер и SHA-256 совпадают с `SHA256SUMS.txt` релиза; ссылка
-скачивания отдаёт `Content-Disposition: attachment`, поддерживает Range (206). Страницы «Смотреть» — приватные
-Claude Artifacts (облегчённые копии 640×360 по главам; открыть другим людям можно через меню Share).
-Cloudflare R2 не использован: в среде нет ключей записи в R2 (только чтение исходника через Studio broker).
-Старые релизы `lesson-004-preview-v1` / `lesson-005-preview-v1` (первый прогон: без обложки, со щелчками) —
-устарели, не использовать; не удалялись.
+Обложка — канонический общий компонент `shared/lesson-cover/LessonCover.tsx` потока 001–003 (побайтная копия,
+`check_copies.py` в CI), то же оформление, что у уроков 001–003; темы — `shared/lesson-cover/lessons/004.json`,
+`005.json` (согласовано [PR #7](https://github.com/adiletgpt6-beep/lesson-80/pull/7) в `shared/cover-and-audio-qa`).
+Все файлы скачаны заново: размеры и SHA-256 совпадают с `SHA256SUMS.txt` релиза; ссылки отдают 206 + attachment.
+Устарели (не использовать, не удалялись): релизы `lesson-004/005-v1` (прежний дизайн обложки),
+`lesson-004/005-preview-v1` (без обложки, со щелчками). Cloudflare R2 не использован: нет ключей записи.
 
 ## 2. Проверки итоговых MP4
 
@@ -31,9 +33,9 @@ Cloudflare R2 не использован: в среде нет ключей з�
 | Формат | 1920×1080, 30 fps, H.264 High; AAC LC 48 кГц стерео | то же |
 | Длина звука = длина картинки | 1809,733 = 1809,733 с | 1967,600 = 1967,600 с |
 | Синхронность (кросс-корреляция с эталонной дорожкой, 2 % / 50 % / 97 %) | 0 / 0 / 0 мс | 0 / 0 / 0 мс |
-| Обложка: кадры 0–89, затем 15 кадров перехода | ✓ (кадры 0, 89, 92, 100, 120) | ✓ |
+| Обложка: кадры 0–89 = отдельная миниатюра, затем 15 кадров перехода | ✓ (кадры 0, 89, 97, 120) | ✓ |
 | Служебные надписи | нет (проверены места прежних плашек и кадр каждые 30 с по всему фильму) | нет |
-| `audio_join_qa.py` (CI + повторно локально) | OK: 0 щелчков на 521 стыке, 18 660 краях звука; пик −0,99 dBFS; DC ≈ 0 | OK: 0 на 582 стыках, 21 758 краях; пик −0,98 dBFS |
+| `audio_join_qa.py` (CI; звуковая дорожка та же, что в проверенной v1) | OK: 0 замечаний; пик −0,99 dBFS | OK: 0 замечаний; пик −0,98 dBFS |
 | `verify_mp4.py`, freezedetect | OK (в описании релиза) | OK |
 | Охват мыслей урока 003 | 240 + 269 = 509 реплик из 509, 48/48 идей (`coverage_check.py`) | |
 

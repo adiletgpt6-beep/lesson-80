@@ -109,7 +109,7 @@
 
 ## 7a. Обложка (OPENING_COVER_RULES.md, правило от 2026-11-21)
 
-- Общий компонент курса `shared/remotion/LessonCover.tsx` (+ README): «80 САБАКТЫН N-САБАГЫ» и тема на кыргызском, без
+- (заменено: теперь канонический `shared/lesson-cover/LessonCover.tsx` потока 001–003) Общий компонент курса: «80 САБАКТЫН N-САБАГЫ» и тема на кыргызском, без
   названия проекта; единый шаблон, меняются только номер/тема. У другого потока (уроки 001–003, ветка
   `vid-002-rework-3x30`) общего компонента не было — их файлы не изменялись; они могут импортировать этот же файл.
 - R04/R05: бит `cover` в начале первой сцены — **кадры 0–89 (ровно 3,00 с)**, затем 15 кадров плавного перехода в
@@ -125,8 +125,9 @@
 Выдано 2026-11-21, рендер [44912581188](https://github.com/adiletgpt6-beep/lesson-80/actions/runs/44912581188)
 (коммит `e538216`). Ссылки, размеры, SHA-256, результаты всех проверок и открытые вопросы — **[REPORT.md](REPORT.md)**.
 
-- Урок 004: ▶ https://claude.ai/artifact/RaKP7GmtiDB57HsogDVBWC · ⬇ релиз `lesson-004-v1` (30:09.73, 267,0 МБ)
-- Урок 005: ▶ https://claude.ai/artifact/Up422zayJmBE9rKqGcVTf6 · ⬇ релиз `lesson-005-v1` (32:47.60, 312,8 МБ)
+- Урок 004: ▶ https://claude.ai/artifact/RaKP7GmtiDB57HsogDVBWC · ⬇ релиз `lesson-004-final` (30:09.73)
+- Урок 005: ▶ https://claude.ai/artifact/Up422zayJmBE9rKqGcVTf6 · ⬇ релиз `lesson-005-final` (32:47.60)
+- Обложка: общий компонент `shared/lesson-cover/LessonCover.tsx` (как у 001–003), темы `shared/lesson-cover/lessons/00{4,5}.json`; название YouTube — `lessons/R0N/youtube-title.txt`.
 - Финальные MP4 без служебных надписей (FINAL_VIDEO_USTAZ_REVIEW_RULES.md), обложка «80 САБАКТЫН N-САБАГЫ»,
   звук прошёл блокирующий `audio_join_qa.py` (AUDIO_JOIN_QA_RULES.md, см. ../AUDIO_JOIN_PIPELINE.md).
 - Устаревшие релизы первого прогона: `lesson-004-preview-v1`, `lesson-005-preview-v1` (без обложки, со щелчками).
