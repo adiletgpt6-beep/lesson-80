@@ -1,0 +1,9 @@
+{
+ "clip": "K001",
+ "source_start": "00:00:02",
+ "source_end": "00:00:23",
+ "model": "facebook/mms-1b-all",
+ "adapter": "kir",
+ "text": "ошол жабрайил хадисындагы талкуулаганбыз ислам ийман анан яксан деп эми дег эле адамзат кандай эме болот ошодон бүгүн баштайбыз кантип өнүгөт кантип руханий жандыюнөш кантып өсөтүү ошодан башта",
+ "note": "machine cross-check, not human listening; audio_verified stays false"
+}

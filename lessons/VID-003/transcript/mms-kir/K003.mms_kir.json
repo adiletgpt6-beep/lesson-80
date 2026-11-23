@@ -1,0 +1,9 @@
+{
+ "clip": "K003",
+ "source_start": "00:00:37",
+ "source_end": "00:00:58",
+ "model": "facebook/mms-1b-all",
+ "adapter": "kir",
+ "text": "мй рмн рм нн  мннммммжнйнннүжм",
+ "note": "machine cross-check, not human listening; audio_verified stays false"
+}

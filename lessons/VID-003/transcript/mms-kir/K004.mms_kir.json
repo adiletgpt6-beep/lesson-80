@@ -1,0 +1,9 @@
+{
+ "clip": "K004",
+ "source_start": "00:00:57",
+ "source_end": "00:01:18",
+ "model": "facebook/mms-1b-all",
+ "adapter": "kir",
+ "text": "бул дек адамдардын бүгүн күндөгү проблемасы эмне ийман жолундагы проблемаларбуз эмне болутат эмнени түшүнбөйтабыза ошол эмени бир кара өтөбүз эми биздер ийман деген тема",
+ "note": "machine cross-check, not human listening; audio_verified stays false"
+}
