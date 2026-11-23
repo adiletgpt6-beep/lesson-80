@@ -1,0 +1,9 @@
+{
+ "clip": "M13",
+ "source_start": "00:40:25",
+ "source_end": "00:40:55",
+ "model": "facebook/mms-1b-all",
+ "adapter": "kir",
+ "text": "адамдын жүрөгүнө аллага болгон сүйү келет алла курандам недейт момундарды сүйөт момундар дагы алла тааланы сүйүшөтдейт момундар алла тааланы сүйөт бул аятта келет демек неултат иймандуулар алланы сүйөт",
+ "note": "machine cross-check, not human listening; audio_verified stays false"
+}

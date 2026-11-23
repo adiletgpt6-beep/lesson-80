@@ -95,7 +95,7 @@ def main():
     # R04/R05: approved clips of lesson 003 with the same hash (text, voices, model, settings) are reused for free
     by_hash = {}
     if LESSON_ID != "003":
-        sources = [BASE_AUDIO / "manifest.json"] + sorted((ROOT / "lessons").glob("R0[45]/audio/manifest.json"))
+        sources = [BASE_AUDIO / "manifest.json"] + sorted((ROOT / "lessons").glob("R0[4-7]/audio/manifest.json"))
         for src in sources:
             lid = src.parts[-3]
             for k, c in json.loads(src.read_text())["clips"].items():

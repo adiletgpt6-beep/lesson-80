@@ -20,7 +20,7 @@ from lesson_paths import ROOT, LESSON, MINUTES, TIMELINE as TL, clip_path  # noq
 
 CH = ROOT / "lessons/003/script/chapters"  # blocked (unverified) wording is defined by the 003 register for R04/R05 too
 MANIFEST = LESSON / "audio/manifest.json"
-PLAN = ROOT / "video/src/art/scenePlan.ts"
+PLANS = sorted((ROOT / "video/src/art").glob("scenePlan*.ts"))
 
 
 def main() -> int:
@@ -55,7 +55,7 @@ def main() -> int:
                 errors.append(f"{b['key']}: clip not in audio manifest")
             elif c["seconds"] * fps > b["frames"] + 1:
                 errors.append(f"{b['key']}: clip {c['seconds']:.2f}s longer than beat {b['frames'] / fps:.2f}s")
-    src = PLAN.read_text(encoding="utf-8")
+    src = "\n".join(p.read_text(encoding="utf-8") for p in PLANS).replace("export const visual67", "export const visualCutaways").replace("export const line67", "export const lineCutaways")
     sections = re.split(r"export const (\w+)", src)
     for name, body in zip(sections[1::2], sections[2::2]):
         if name not in ("visualCutaways", "lineCutaways"):

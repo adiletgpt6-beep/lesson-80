@@ -1,5 +1,6 @@
 import React from "react";
-import { theme, starsLit } from "../theme";
+import { theme, starsLit, stripFor } from "../theme";
+import { StripMark } from "./Board";
 import type { LessonMeta } from "../timeline";
 import { easeOut } from "../anim";
 
@@ -15,9 +16,9 @@ export const TitleCard: React.FC<{ chapter: string; title: string; frame: number
         <div style={{ fontSize: 44, letterSpacing: 6, opacity: 0.85 }}>{n}-БӨЛҮМ</div>
         <div style={{ fontSize: 84, fontWeight: 700, marginTop: 14, maxWidth: 1500, lineHeight: 1.15 }}>{title}</div>
         <div style={{ marginTop: 36, display: "flex", gap: 22, justifyContent: "center" }}>
-          {[0, 1, 2, 3, 4].map((i) => (
+          {stripFor(chapter).labels.map((label, i) => (
             <svg key={i} width={56} height={56} viewBox="-30 -30 60 60">
-              <path d="M0 -26 L7.6 -8.4 L26 -7 L12 5.6 L16.4 24 L0 14 L-16.4 24 L-12 5.6 L-26 -7 L-7.6 -8.4 Z" fill={i < lit ? theme.star : "rgba(255,255,255,0.15)"} stroke="#fff" strokeWidth={2} />
+              <StripMark kind={stripFor(chapter).kind} lit={i < lit} label={label} light />
             </svg>
           ))}
         </div>

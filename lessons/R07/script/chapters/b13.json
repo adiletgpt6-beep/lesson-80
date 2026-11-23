@@ -1,0 +1,495 @@
+{
+ "id": "b13",
+ "title_ky": "Таза жүрөк жана жыйынтык",
+ "planned_seconds": 330,
+ "source_ideas": [
+  "I70",
+  "I71",
+  "I80",
+  "I84"
+ ],
+ "scenes": [
+  {
+   "id": "b13-s01",
+   "title_ky": "Таза жүрөк",
+   "setting": "доска",
+   "camera": "устаз ири план",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "«Ким тазаланса... ал жеңишке жетти» (Аала, 14–15)",
+    "хасад ✗ рия ✗ → ТАЗА ЖҮРӨК ♥"
+   ],
+   "animation": [
+    "Доскада жүрөк белгисиндеги так-тактар өчүп, жүрөк жаркырайт"
+   ],
+   "beats": [
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бейишке кирүүнүн эң маанилүү шарттарынын бири — жүрөктүн тазалыгы.",
+     "source": [
+      "I70 01:06:30–01:08:40"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллах Аала сүрөсүндө айтат: «Ким тазаланса, Раббисинин атын эстеп, намаз окуса, ал жеңишке жетти».",
+     "source": [
+      "I70 01:06:30–01:08:40"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Жүрөгүң бузук болсо, бирөөгө бир тыйын бере албасаң, бирөөнүн ийгилигин көрө албасаң, ичиңде хасад, рия болсо — бейишке кантип барасың?",
+     "source": [
+      "I70 01:06:30–01:08:40"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ихсанга жеткен адамдын жүрөгү тап-таза болот. Жүрөк Аллахка болгон сүйүү аркылуу тазаланат.",
+     "source": [
+      "I70 01:06:30–01:08:40"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллах мени көрүп турат деген сезим күчөгөн сайын, жүрөк тазалана берет.",
+     "source": [
+      "I70 01:06:30–01:08:40"
+     ],
+     "ped": false,
+     "blocked": null
+    }
+   ]
+  },
+  {
+   "id": "b13-s02",
+   "title_ky": "Канаат",
+   "setting": "короо",
+   "camera": "жалпы план → балдарга",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "КАНААТ = бар нерсеге ыраазы болуу",
+    "ШҮГҮР",
+    "«Чыныгы байлык — жан дүйнөнүн байлыгы»"
+   ],
+   "animation": [
+    "Бектур өзүнүн эски велосипедин жылмайып сылайт"
+   ],
+   "beats": [
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Дагы бир маанилүү сөз бар — канаат. Бар нерсеге ыраазы болуп, шүгүр кылып жашоо.",
+     "source": [
+      "I80 01:29:30–01:30:50"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Досуңда сеникинен кымбат нерсе болсо, ичиң күйүп, көрө албастык кылсаң — ошол хасад.",
+     "source": [
+      "I80 01:29:30–01:30:50"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Пайгамбарыбыз айткан: «Чыныгы байлык — бул мал-мүлктүн көптүгү эмес, жан дүйнөнүн байлыгы». Бул хадисти имам Бухари жеткирген.",
+     "source": [
+      "I80 01:29:30–01:30:50"
+     ],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Досумдун жаңы велосипеди бар. Мен да кызыгам... Бирок меники да жакшы! Алхамдулиллах!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Азамат, Бектур! Бул — канаат.",
+     "source": [
+      "I80 01:29:30–01:30:50"
+     ],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Пайгамбарыбыз дагы мындай деген: «Өзүңөрдөн төмөнкүлөргө карагыла, өзүңөрдөн жогоркуларга карабагыла. Ошондо Аллахтын нематын кичине көрбөйсүңөр». Бул хадисти имам Муслим жеткирген.",
+     "source": [
+      "I80 01:29:30–01:30:50"
+     ],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "visual",
+     "seconds": 4.0,
+     "description": "Бектур эски велосипедин жылмайып сылайт; асманда «Алхамдулиллах» деген жазуу"
+    }
+   ]
+  },
+  {
+   "id": "b13-s03",
+   "title_ky": "Биринчи китеп",
+   "setting": "класс",
+   "camera": "орто план",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "БИРИНЧИ КИТЕП: Пайгамбарыбыздын ﷺ өмүр баяны"
+   ],
+   "animation": [
+    "Устаз текчеден китеп алып көрсөтөт"
+   ],
+   "beats": [
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Балдарга биринчи кайсы китепти окугула деп айтам? Пайгамбарыбыз саллаллаху алейхи ва салламдын өмүр баянын.",
+     "source": [
+      "I84 01:38:30–01:41:40"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Пайгамбарыбызды тааныбай туруп, динди түшүнүп кетем деп ойлоо туура эмес. Адегенде аны таанысаңар, калганы оңой түшүнүктүү болот.",
+     "source": [
+      "I84 01:38:30–01:41:40"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Апам экөөбүз ар кечте бир окуядан окуйбуз!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    }
+   ]
+  },
+  {
+   "id": "b13-s04",
+   "title_ky": "Кичинекей сынак",
+   "setting": "класс, доска",
+   "camera": "балдарга",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "СЫНАК: ? → ✓ ✓ ✓ ✓"
+   ],
+   "animation": [
+    "Ар бир туура жооптон кийин доскада жашыл белги пайда болот"
+   ],
+   "beats": [
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Эми кичинекей сынак! Захир илим деген эмне?",
+     "source": [
+      "I42 00:34:55–00:36:40"
+     ],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Көзгө көрүнгөн нерселердин илими: математика, Куран окуу!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ыклас деген эмне?",
+     "source": [
+      "I55 00:46:00–00:47:40"
+     ],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Бардык ишти Аллах үчүн гана кылуу!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ихсан деген эмне?",
+     "source": [
+      "I56 00:47:40–00:48:00"
+     ],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Аллахты көрүп тургандай ибадат кылуу!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ыйманды эмне менен кубаттайбыз?",
+     "source": [
+      "I64 00:55:40–00:57:00"
+     ],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Илим, намаз, зикир жана Куран менен!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Баракелде! Баарын туура таптыңар.",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    }
+   ]
+  },
+  {
+   "id": "b13-s05",
+   "title_ky": "Он бир тепкичти кайталайбыз",
+   "setting": "класс, доска",
+   "camera": "балдарга",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "1 Илим · 2 Ойлонуу · 3 Таануу · 4 Кабыл алуу · 5 Ыйман · 6 Сүйүү · 7 Амал · 8 Адеп · 9 Ыклас · 10 Ихсан · 11 Хикмат"
+   ],
+   "animation": [
+    "Ар бир жооп айтылганда шатынын тепкичи жаркырайт",
+    "балдар кол чабышат"
+   ],
+   "beats": [
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Балдар, шатыбызды бирге кайталайлы. Мен баштайм, силер улантасыңар. Биринчи тепкич — илим!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Экинчиси — ойлонуу!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Үчүнчүсү — таануу!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Төртүнчүсү — кабыл алуу!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Бешинчиси — ыйман!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Алтынчысы — сүйүү!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Жетинчиси — амал!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Сегизинчиси — адеп!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Тогузунчусу — ыклас!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Онунчусу — ихсан!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Он биринчиси — хикмат!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Азаматсыңар! Эсиңерде болсун: бул шатыга күн сайын кайра-кайра чыгабыз, ыйманыбызды кубаттап турабыз.",
+     "source": [
+      "I51 00:42:55–00:43:40"
+     ],
+     "ped": true,
+     "blocked": null
+    }
+   ]
+  },
+  {
+   "id": "b13-s06",
+   "title_ky": "Коштошуу",
+   "setting": "класс",
+   "camera": "жалпы план",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "Үй тапшырма: «Субханаллах» · «Алхамдулиллах»"
+   ],
+   "animation": [
+    "Устаз кол булгалап коштошот",
+    "балдар кол булгалашат"
+   ],
+   "beats": [
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Сабагыбызды периштелердин дубасы менен бүтүрөлү: «Аллахым, Сен бардык кемчиликтен тазасың. Сен үйрөткөндөн башка бизде илим жок. Сен баарын билүүчү, даанышмансың».",
+     "source": [
+      "I71 01:08:40–01:10:10"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Үй тапшырма: бүгүн Аллахтын бир кереметине таң калып, «Субханаллах» дегиле. Бир нематка «Алхамдулиллах» деп шүгүр кылгыла.",
+     "source": [
+      "I62 00:53:30–00:54:52"
+     ],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Макул, устаз!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Көңүл бурганыңар үчүн Аллах ыраазы болсун! Ассалому алейкум!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Ваалейкум ассалам! Көрүшкөнчө!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    }
+   ]
+  }
+ ]
+}

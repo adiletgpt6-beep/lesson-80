@@ -52,6 +52,8 @@ def main():
     ap.add_argument("source")
     ap.add_argument("--probe", action="store_true")
     ap.add_argument("--clips", default="")
+    ap.add_argument("--spec", default="", help="other sources: 'ID=HH:MM:SS-HH:MM:SS,ID2=...' (overrides CLIPS)")
+    ap.add_argument("--out", default="", help="output directory (default: lesson 003 recheck folder)")
     ap.add_argument("--model-dir", default="facebook/mms-1b-all",
                     help="local directory with model.safetensors, config and adapter.kir.safetensors (default: hub id)")
     a = ap.parse_args()
@@ -62,8 +64,12 @@ def main():
     model = Wav2Vec2ForCTC.from_pretrained(a.model_dir, target_lang="kir", ignore_mismatched_sizes=True)
     model.eval()
 
-    jobs = [PROBE] if a.probe else [(c, CLIPS[c]) for c in a.clips.split(",") if c]
-    OUT.mkdir(parents=True, exist_ok=True)
+    out = Path(a.out) if a.out else OUT
+    if a.spec:
+        jobs = [(k, tuple(v.split("-"))) for k, v in (x.split("=") for x in a.spec.split(",") if x)]
+    else:
+        jobs = [PROBE] if a.probe else [(c, CLIPS[c]) for c in a.clips.split(",") if c]
+    out.mkdir(parents=True, exist_ok=True)
     for cid, (start, end) in jobs:
         audio = load_audio(a.source, start, end)
         inputs = proc(audio, sampling_rate=16000, return_tensors="pt")
@@ -72,7 +78,7 @@ def main():
         text = proc.decode(ids)
         rec = {"clip": cid, "source_start": start, "source_end": end, "model": "facebook/mms-1b-all", "adapter": "kir",
                "text": text, "note": "machine cross-check, not human listening; audio_verified stays false"}
-        (OUT / f"{cid}.mms_kir.json").write_text(json.dumps(rec, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        (out / f"{cid}.mms_kir.json").write_text(json.dumps(rec, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
         print(cid, start, end, "|", text)
 
 

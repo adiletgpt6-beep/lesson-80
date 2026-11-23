@@ -1,5 +1,5 @@
 import React from "react";
-import { theme, starsLit, STAR_LABELS } from "../theme";
+import { theme, starsLit, stripFor } from "../theme";
 import { boardPlans, type Row, type Col, type Tok } from "../art/boardPlans";
 import { Icon } from "../art/icons";
 import { easeOut } from "../anim";
@@ -8,21 +8,43 @@ import { GLYPH_W } from "../art/glyphWidths";
 export const BOARD = { x: 600, y: 70, w: 1150, h: 590 }; // outer frame on the 1920×1080 stage
 const COLORS: Record<Col, string> = { b: theme.ink, g: theme.inkGreen, r: theme.inkRed, k: theme.inkBlack, y: theme.inkGold };
 
-// The star strip: five goal stars drawn at the top of the board; lit ones are gold.
+// The strip at the top of the board (theme.stripFor): five goal stars (003–005), six pillars of iman (006) or eleven
+// numbered steps (007); lit ones are gold, the newest one sparkles.
+const STAR_D = "M0 -26 L7.6 -8.4 L26 -7 L12 5.6 L16.4 24 L0 14 L-16.4 24 L-12 5.6 L-26 -7 L-7.6 -8.4 Z";
+export const StripMark: React.FC<{ kind: "star" | "pillar" | "step"; lit: boolean; label?: string; light?: boolean }> = ({ kind, lit, label, light }) => {
+  const fill = lit ? theme.star : light ? "rgba(255,255,255,0.15)" : "#fff";
+  const stroke = light ? "#fff" : lit ? "#c98f12" : theme.starOff;
+  if (kind === "star") return <path d={STAR_D} fill={fill} stroke={stroke} strokeWidth={3} />;
+  if (kind === "pillar") return (
+    <g stroke={stroke} strokeWidth={3} fill={fill}>
+      <rect x={-22} y={-28} width={44} height={9} rx={2} /><rect x={-14} y={-19} width={28} height={38} /><rect x={-22} y={19} width={44} height={9} rx={2} />
+      <line x1={-5} y1={-17} x2={-5} y2={17} /><line x1={5} y1={-17} x2={5} y2={17} />
+    </g>
+  );
+  return (
+    <g>
+      <rect x={-24} y={-24} width={48} height={48} rx={10} fill={fill} stroke={stroke} strokeWidth={3} />
+      <text y={10} textAnchor="middle" fontSize={label && label.length > 1 ? 24 : 28} fontWeight={700} fill={lit ? "#fff" : light ? "#fff" : theme.starOff} fontFamily={theme.font}>{label}</text>
+    </g>
+  );
+};
 export const StarStrip: React.FC<{ chapter: string; sparkle: number; frame: number }> = ({ chapter, sparkle, frame }) => {
   const lit = starsLit[chapter] ?? 0;
+  const strip = stripFor(chapter);
+  const n = strip.labels.length;
+  const gap = n <= 5 ? 190 : n <= 6 ? 168 : 88;
+  const x0 = BOARD.x + BOARD.w / 2 - ((n - 1) * gap) / 2;
   return (
-    <g transform={`translate(${BOARD.x + 120} ${BOARD.y + 58})`}>
-      {[0, 1, 2, 3, 4].map((i) => {
+    <g transform={`translate(${x0} ${BOARD.y + 58})`}>
+      {strip.labels.map((label, i) => {
         const isLit = i < lit;
         const isNew = isLit && i === lit - 1 && sparkle > 0;
         const s = isNew ? 1 + Math.sin(frame / 3) * 0.12 * sparkle : 1;
         return (
-          <g key={i} transform={`translate(${i * 190} 0)`}>
+          <g key={i} transform={`translate(${i * gap} 0)`}>
             {isNew ? <circle r={46} fill={theme.star} opacity={0.25 * sparkle} /> : null}
-            <path d="M0 -26 L7.6 -8.4 L26 -7 L12 5.6 L16.4 24 L0 14 L-16.4 24 L-12 5.6 L-26 -7 L-7.6 -8.4 Z"
-              fill={isLit ? theme.star : "#fff"} stroke={isLit ? "#c98f12" : theme.starOff} strokeWidth={3} transform={`scale(${s})`} />
-            <text y={50} textAnchor="middle" fontSize={20} fontWeight={700} fill={isLit ? theme.inkGold : theme.starOff} fontFamily={theme.font}>{STAR_LABELS[i]}</text>
+            <g transform={`scale(${s})`}><StripMark kind={strip.kind} lit={isLit} label={label} /></g>
+            {strip.kind !== "step" ? <text y={50} textAnchor="middle" fontSize={20} fontWeight={700} fill={isLit ? theme.inkGold : theme.starOff} fontFamily={theme.font}>{label}</text> : null}
           </g>
         );
       })}

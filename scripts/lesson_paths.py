@@ -18,7 +18,7 @@ META_PATH = LESSON / "script/lesson.json"
 META = json.loads(META_PATH.read_text(encoding="utf-8")) if META_PATH.exists() else None
 TIMELINE = ROOT / "video/src" / ("timeline.json" if LESSON_ID == "003" else f"timeline-{LESSON_ID}.json")
 BASE_AUDIO = ROOT / "lessons/003/audio"  # approved clips of the one-hour film (reused by hash)
-CLIP_DIRS = [LESSON / "audio/clips"] + ([BASE_AUDIO / "clips"] + sorted(p for p in (ROOT / "lessons").glob("R0[45]/audio/clips")
+CLIP_DIRS = [LESSON / "audio/clips"] + ([BASE_AUDIO / "clips"] + sorted(p for p in (ROOT / "lessons").glob("R0[4-7]/audio/clips")
                                                                  if p != LESSON / "audio/clips") if LESSON_ID != "003" else [])
 MINUTES = tuple(META["minutes"]) if META else (55, 65)
 

@@ -19,6 +19,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from lesson_paths import ROOT, LESSON, CH_DIR, META, TIMELINE, chapter_files  # noqa: E402,F401
 FPS = 30
 PLANNED_TOTAL = META["planned_seconds"] if META else 3600
+HDR = f"{META['number']}-сабак ({META['id']})" if META else "3-сабак"  # header of the generated .md files
 
 
 def base(rel):
@@ -29,7 +30,7 @@ def base(rel):
 # Pace calibration: measured on the 40 s ElevenLabs eleven_v4 trial (script/tts-trial/trial-ky-40s.json):
 # ustaz 110.6 and 100.2 wpm (mean ~105), child 89.2 wpm. "slow" = children's delivery at speed 0.9.
 PACE = {"tts": {"ustaz": 105.0, "child": 90.0}, "slow": {"ustaz": 94.5, "child": 81.0}}
-LINE_GAP = 0.6  # silence between consecutive lines, s
+LINE_GAP = (META or {}).get("line_gap", 0.6)  # silence between consecutive lines, s (lessons 006/007: 0.8 — calmer pace for children)
 QUESTION_GAP = 1.2  # thinking time after a question the ustaz asks the children, s
 TITLE_FRAMES = 90  # chapter title card (3 s) before the first scene of ch01..ch16
 COVER_FRAMES = 90  # course-wide opening cover, exactly 3 s from frame 0 (OPENING_COVER_RULES.md)
@@ -160,7 +161,7 @@ def cmd_render(_):
     rows = {r["scene"]: r for r in estimate(chs)}
     out = LESSON / "script"
     # chapters.ky.md - readable full script
-    md = ["# 3-сабак (VID-001) — толук сценарий (ДОЛБООР)\n",
+    md = [f"# {HDR} — толук сценарий\n" if META else "# 3-сабак (VID-001) — толук сценарий (ДОЛБООР)\n",
           "> Автоматтык түрдө `chapters/chNN.json` файлдарынан түзүлдү (`python3 scripts/lesson_script.py render`). Кол менен оңдобоңуз.  ",
           "> **[ПЕД]** — авторлук педагогикалык кошумча (устаздын сөзү эмес). **⛔ Rx/Bx** — текшерүү күтүп жаткан реплика ([qa-blockers.md](qa-blockers.md)); үнгө жазылбайт.  ",
           "> Булак: `I.. чч:мм:сс–чч:мм:сс` — оригиналдык лекциянын убактысы ([meaning-map-reviewed.csv](../analysis/meaning-map-reviewed.csv)).  ",
@@ -189,7 +190,7 @@ def cmd_render(_):
     (out / "chapters.ky.md").write_text("\n".join(md) + "\n", encoding="utf-8")
 
     # storyboard.md
-    sb = ["# 3-сабак — раскадровка (storyboard)\n",
+    sb = [f"# {HDR} — раскадровка (storyboard)\n",
           "Ар бир сахна: локация, камера, каармандар, доскадагы сүрөттөр жана анимациялар. Булак: `chapters/chNN.json`.\n",
           "| Сахна | Аталышы | Локация / камера | Каармандар | Доска | Анимация жана кыймыл | Болжол, сек |",
           "|---|---|---|---|---|---|---|"]
@@ -203,7 +204,7 @@ def cmd_render(_):
 
     # durations.md
     t_a = t_b = 0.0
-    du = ["# 3-сабак — узундуктун болжолдуу баасы\n",
+    du = [f"# {HDR} — узундуктун болжолдуу баасы\n",
           "**Бул өлчөнгөн узундук эмес.** Формула: сөз саны / темп × 60 + ар бир репликадан кийин 0,6 сек + белгиленген тыным/визуалдык бөлүктөр.",
           f"Темп ElevenLabs eleven_v4 сыноосунан өлчөнгөн (40 сек, `tts-trial/trial-ky-40s.json`): устаз ≈ {PACE['tts']['ustaz']:.0f} сөз/мүн, бала ≈ {PACE['tts']['child']:.0f}. "
           f"«Жай» вариант — балдар үчүн 0,9 ылдамдык (устаз ≈ {PACE['slow']['ustaz']:.0f}, бала ≈ {PACE['slow']['child']:.0f}).",
@@ -247,7 +248,7 @@ def cmd_render(_):
     (out / "durations.md").write_text("\n".join(du) + "\n", encoding="utf-8")
 
     # assets.md - drawings and animations list
-    asset = ["# 3-сабак — доскадагы сүрөттөр жана анимациялар тизмеси\n",
+    asset = [f"# {HDR} — доскадагы сүрөттөр жана анимациялар тизмеси\n",
              "Remotion үчүн өндүрүш тизмеси. Ар бир пункт сахнанын id'си менен.\n", "## Доска\n"]
     for ch in chs:
         for s in ch["scenes"]:

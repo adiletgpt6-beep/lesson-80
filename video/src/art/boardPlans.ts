@@ -97,3 +97,7 @@ export const boardPlans: Record<string, Row[]> = {
   "o05-s03": [[I("starOutline", "b", "3", 90), I("starOutline", "b", "4", 90), I("starOutline", "b", "5", 90)], [T("Эмне үчүн дароо бейишке эмес?", "b", 40)], [T("Бисмиллахир рахманир рахим", "g", 40)]],
   "ch16-s01": [[I("star", "y", undefined, 100), I("star", "y", undefined, 100), I("star", "y", undefined, 100), I("star", "y", undefined, 100), I("star", "y", undefined, 100)], [T("Бул беш максат менен жашасак —", "g", 38)], [T("бекер келбейбиз", "g", 48)]],
 };
+
+// lessons 006 / 007 (Studio VID-003)
+import { boardPlans67 } from "./boardPlans67";
+Object.assign(boardPlans, boardPlans67);

@@ -1,0 +1,9 @@
+{
+ "clip": "M17",
+ "source_start": "00:43:20",
+ "source_end": "00:43:50",
+ "model": "facebook/mms-1b-all",
+ "adapter": "kir",
+ "text": "өзүнөн өзү амалын күчөй бе ал бол болсо мне амал жок кайса амал фрдеровк агылабыз  анан адеп келекзага бүт нерсени алла контролуку улут тураткенин түшүндүнң жен    тааныды",
+ "note": "machine cross-check, not human listening; audio_verified stays false"
+}

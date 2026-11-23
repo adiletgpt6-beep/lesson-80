@@ -1,0 +1,143 @@
+{
+ "id": "b05",
+ "title_ky": "6-тепкич: Сүйүү",
+ "planned_seconds": 160,
+ "source_ideas": [
+  "I48"
+ ],
+ "scenes": [
+  {
+   "id": "b05-s01",
+   "title_ky": "Аллахка сүйүү",
+   "setting": "класс, доска",
+   "camera": "орто план → балдарга",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "6. СҮЙҮҮ ♥",
+    "«Аллах аларды сүйөт, алар да Аллахты сүйүшөт» (Маида, 54)"
+   ],
+   "animation": [
+    "Доскада чоң жүрөк тартылат, ичинде «Аллахка»"
+   ],
+   "beats": [
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ыйман келгенден кийин Аллахты тааныйбыз, Аллахка ишенебиз. Анан алтынчы тепкич — сүйүү келет.",
+     "source": [
+      "I48 00:40:10–00:40:55"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Адамдын жүрөгүндө Аллахка болгон сүйүү пайда болот.",
+     "source": [
+      "I48 00:40:10–00:40:55"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Куранда Аллах айтат: «Аллах аларды сүйөт, алар да Аллахты сүйүшөт». Маида сүрөсү, элүү төртүнчү аят.",
+     "source": [
+      "I48 00:40:10–00:40:55"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Демек, ыймандуу адамдар Аллахты сүйүшөт.",
+     "source": [
+      "I48 00:40:10–00:40:55"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бирөөнү сүйсөк, аны көп эстейбиз го. Аллахты сүйгөн адам да Аны көп эстейт, Ага көп шүгүр кылат.",
+     "source": [
+      "I48 00:40:10–00:40:55"
+     ],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Мен тамак алдында «Бисмиллах», тамактан кийин «Алхамдулиллах» деп эстейм!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Баракелде, Бектур!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Айзада, сен апаңды сүйөсүңбү?",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Абдан сүйөм!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Апаң бир нерсе сураса, кандай аткарасың?",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Чуркап барып аткарам!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Мына! Сүйгөн адамдын тапшырмасы жеңил болот. Кийинки тепкич ушул жөнүндө.",
+     "source": [
+      "I49 00:40:55–00:41:40"
+     ],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "visual",
+     "seconds": 3.0,
+     "description": "Алтынчы тепкич жанат, жылдыз жаркырайт"
+    }
+   ]
+  }
+ ]
+}

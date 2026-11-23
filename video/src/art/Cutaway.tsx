@@ -517,7 +517,223 @@ const Oven: React.FC<P> = ({ frame, t }) => {
   );
 };
 
+// ---- lessons 006 / 007 (Studio VID-003) -------------------------------------------------------------------------
+// Hot summer road: the air above the asphalt shimmers (the ustaz's image for things our eyes cannot catch).
+const Mirage: React.FC<P> = ({ frame, t }) => (
+  <g>
+    <rect width={1920} height={1080} fill="#ffe7b0" />
+    <Sun x={1600} y={170} r={95} frame={frame} />
+    <Hills y={560} color="#c9b46a" />
+    <path d="M760 560 L1160 560 L1920 1080 L0 1080 Z" fill="#5d5f66" />
+    {[0, 1, 2, 3, 4].map((i) => { const y = 600 + ((i * 110 + frame * 3) % 520); const w = 8 + (y - 560) * 0.05; return <rect key={i} x={960 - w / 2} y={y} width={w} height={36 + (y - 560) * 0.08} fill="#f2f2f2" />; })}
+    {Array.from({ length: 9 }).map((_, i) => (
+      <path key={i} d={`M${700 - i * 40} ${600 + i * 14} q 60 ${-10 - 8 * Math.sin(frame / 6 + i)} 120 0 t 120 0 t 120 0 t 120 0 t 120 0`}
+        stroke="#dff3ff" strokeWidth={6} fill="none" opacity={0.25 + 0.25 * Math.sin(frame / 7 + i)} />
+    ))}
+    <rect x={720} y={590} width={480} height={60} fill="#bfe3f7" opacity={0.25 + 0.15 * Math.sin(frame / 9)} />
+    <text x={960} y={110} textAnchor="middle" fontSize={50} fontWeight={700} fill="#8a6240" opacity={easeOut(t * 3)}>көзгө илинбеген нерселер да бар</text>
+  </g>
+);
+// Small class of 15 vs a hall of 1500 — every head raises a question mark.
+const Hall: React.FC<P> = ({ frame, t }) => {
+  const big = easeInOut(Math.max(0, Math.min(1, (t - 0.35) * 2.5)));
+  const n = big > 0 ? 300 : 15;
+  return (
+    <g>
+      <rect width={1920} height={1080} fill={big > 0 ? "#e9dcc2" : "#f5ead7"} />
+      <rect x={160} y={80} width={1600} height={170} rx={14} fill="#8a6240" opacity={0.25} />
+      <text x={960} y={190} textAnchor="middle" fontSize={64} fontWeight={700} fill="#1f3b57">{big > 0 ? "1500 адам → көп суроо" : "15 адам → 10 суроо"}</text>
+      {Array.from({ length: n }).map((_, i) => {
+        const cols = big > 0 ? 30 : 5, sx = big > 0 ? 58 : 230, sy = big > 0 ? 70 : 170;
+        const x = 960 - ((cols - 1) * sx) / 2 + (i % cols) * sx, y = (big > 0 ? 330 : 420) + Math.floor(i / cols) * sy;
+        const s = big > 0 ? 0.32 : 1;
+        const q = (Math.sin(frame / 10 + i * 1.7) + 1) / 2;
+        return (
+          <g key={i} transform={`translate(${x} ${y}) scale(${s})`} opacity={big > 0 ? big : 1 - Math.min(1, (t - 0.3) * 6)}>
+            <circle cy={-40} r={34} fill={["#e4b48c", "#f0c9a8", "#d8a57c"][i % 3]} /><path d="M-50 40 q50 -60 100 0 v40 h-100 z" fill={["#3a7bd5", "#e46a8a", "#2a7f5a", "#d9a21b"][i % 4]} />
+            <text y={-90 - q * 14} textAnchor="middle" fontSize={56} fontWeight={700} fill="#c8443a" opacity={0.4 + q * 0.6}>?</text>
+          </g>
+        );
+      })}
+    </g>
+  );
+};
+// Sun, moon and planets, each swimming in its own orbit (Анбия, 33).
+const Orbits: React.FC<P> = ({ frame }) => (
+  <g>
+    <rect width={1920} height={1080} fill={NIGHT} />
+    {Array.from({ length: 90 }).map((_, i) => <circle key={i} cx={noise(i) * 1920} cy={noise(i + 50) * 1080} r={1 + noise(i + 7) * 2} fill="#fff" opacity={0.4 + 0.5 * Math.abs(Math.sin(frame / 30 + i))} />)}
+    <g transform="translate(960 520)">
+      {[170, 260, 360, 470].map((r, i) => <ellipse key={r} rx={r} ry={r * 0.42} fill="none" stroke="#5f7fb8" strokeWidth={2} strokeDasharray="6 10" />)}
+      <circle r={78} fill="#ffd34d" /><circle r={110} fill="#ffe08a" opacity={0.25} />
+      {[170, 260, 360, 470].map((r, i) => { const a = frame / (40 + i * 25) + i * 1.3; return <circle key={r} cx={Math.cos(a) * r} cy={Math.sin(a) * r * 0.42} r={[16, 22, 26, 34][i]} fill={["#c97b4a", "#e3b26c", "#4f9fd8", "#d9a25b"][i]} />; })}
+      {(() => { const a = frame / 40 + 1.3, ex = Math.cos(a) * 360, ey = Math.sin(a) * 360 * 0.42, b = frame / 9; return <circle cx={ex + Math.cos(b) * 52} cy={ey + Math.sin(b) * 22} r={9} fill="#eeeeee" />; })()}
+    </g>
+    <text x={960} y={90} textAnchor="middle" fontSize={48} fontWeight={700} fill="#ffe08a">«Ай да, күн да өз орбитасында сүзүп жүрөт»</text>
+  </g>
+);
+// Taif: a small town between two mountains; a soft light in the sky (no angel is depicted).
+const Taif: React.FC<P> = ({ frame, t }) => (
+  <g>
+    <rect width={1920} height={1080} fill="#f6d9a8" />
+    <circle cx={960} cy={220} r={160 + 20 * Math.sin(frame / 25)} fill="#fff7de" opacity={0.6 * easeOut(t * 2)} />
+    <path d="M0 1080 L0 420 L520 140 L860 700 L860 1080 Z" fill="#a9876a" /><path d="M1920 1080 L1920 420 L1400 140 L1060 700 L1060 1080 Z" fill="#a9876a" />
+    <path d="M0 1080 L0 560 L420 300 L780 760 L780 1080 Z" fill="#8f6f55" /><path d="M1920 1080 L1920 560 L1500 300 L1140 760 L1140 1080 Z" fill="#8f6f55" />
+    {[0, 1, 2, 3, 4, 5].map((i) => <g key={i} transform={`translate(${820 + (i % 3) * 120} ${840 + Math.floor(i / 3) * 90})`}><rect x={-45} y={-60} width={90} height={60} fill="#efe0c4" /><rect x={-12} y={-34} width={24} height={34} fill="#8a6240" /></g>)}
+    {[0, 1, 2].map((i) => <path key={i} d={`M${860 + i * 90} 760 q10 -40 0 -80`} stroke="#5f8f4a" strokeWidth={10} fill="none" />)}
+    <path d="M760 1080 C820 980 900 960 960 940" stroke="#d9c7a8" strokeWidth={30} fill="none" />
+    <text x={960} y={120} textAnchor="middle" fontSize={50} fontWeight={700} fill="#1f3b57">Таиф</text>
+  </g>
+);
+// Mecca: a town in the valley, then a big heart — forgiveness (no people).
+const Mecca: React.FC<P> = ({ frame, t }) => (
+  <g>
+    <rect width={1920} height={1080} fill="#fbe8c8" />
+    <Sun x={1650} y={180} frame={frame} />
+    <path d="M0 760 L300 420 L640 760 L980 380 L1360 760 L1700 460 L1920 700 L1920 1080 L0 1080 Z" fill="#b98f6a" />
+    <rect y={820} width={1920} height={260} fill="#e9d3ad" />
+    {Array.from({ length: 12 }).map((_, i) => <g key={i} transform={`translate(${180 + i * 140} ${860 + (i % 2) * 30})`}><rect x={-50} y={-70} width={100} height={70} fill="#f6ead2" /><rect x={-14} y={-40} width={28} height={40} fill="#8a6240" /></g>)}
+    <g transform={`translate(960 ${520 - easeOut(t * 2) * 60}) scale(${easeOut((t - 0.25) * 2.5) * (1 + 0.04 * Math.sin(frame / 8))})`}>
+      <path d="M0 60 C-110 -20 -150 -110 -80 -150 C-40 -170 -10 -150 0 -120 C10 -150 40 -170 80 -150 C150 -110 110 -20 0 60 Z" fill="#e46a8a" />
+    </g>
+    <text x={960} y={760} textAnchor="middle" fontSize={56} fontWeight={700} fill="#1f3b57" opacity={easeOut((t - 0.35) * 3)}>КЕЧИРИМ</text>
+  </g>
+);
+// Sadaqa jariya: a school, a mosque, a bridge and a tree appear; little figures use them.
+const Sadaqa: React.FC<P> = ({ frame, t }) => {
+  const a = (i: number) => easeOut(t * 5 - i * 0.9);
+  return (
+    <g>
+      <rect width={1920} height={1080} fill={SKY} />
+      <Sun x={1700} y={150} frame={frame} /><Cloud x={400} y={140} frame={frame} />
+      <Hills y={700} />
+      <path d="M0 960 C500 900 1200 1000 1920 930 L1920 1080 L0 1080 Z" fill={WATER} />
+      <g opacity={a(0)} transform={`translate(330 ${760 + (1 - a(0)) * 40})`}><rect x={-160} y={-170} width={320} height={170} fill="#f3e7d3" /><path d="M-180 -170 L0 -260 L180 -170 Z" fill={ROOF} />{[-100, 0, 100].map((x) => <rect key={x} x={x - 25} y={-130} width={50} height={50} fill="#9ad1f0" />)}<text y={-200} textAnchor="middle" fontSize={34} fontWeight={700} fill="#fff">мектеп</text></g>
+      <g opacity={a(1)} transform={`translate(780 ${760 + (1 - a(1)) * 40})`}><rect x={-120} y={-160} width={240} height={160} fill="#fdfaf2" /><path d="M-90 -160 Q0 -290 90 -160 Z" fill="#2a7f5a" /><rect x={140} y={-300} width={34} height={300} fill="#fdfaf2" /><path d="M140 -300 L157 -340 L174 -300 Z" fill="#2a7f5a" /><path d="M-24 0 v-70 q24 -30 48 0 v70 z" fill="#8a6240" /></g>
+      <g opacity={a(2)}><path d="M1050 940 Q1290 820 1530 940" stroke="#8a6240" strokeWidth={26} fill="none" />{[1110, 1200, 1290, 1380, 1470].map((x) => <rect key={x} x={x - 6} y={870 - Math.abs(x - 1290) * 0.35} width={12} height={70} fill="#8a6240" />)}</g>
+      <g opacity={a(3)}><Tree x={1700} y={820} s={1.4} frame={frame} fruit="#d9342b" /></g>
+      {t > 0.7 ? [0, 1, 2].map((i) => <Figure key={i} x={((frame * 2 + i * 300) % 1700) + 100} y={1000} h={150} color={["#3a7bd5", "#e46a8a", "#2a7f5a"][i]} walk={Math.sin(frame / 5 + i)} />) : null}
+      <text x={960} y={120} textAnchor="middle" fontSize={56} fontWeight={700} fill="#1f3b57">САДАКА ЖАРИЯ — сообу токтобойт</text>
+    </g>
+  );
+};
+// Phone battery draining to 5 %, then the charger plugs in and it fills to 100 %.
+const Battery: React.FC<P> = ({ frame, t }) => {
+  const charge = t < 0.45 ? 1 - easeInOut(t / 0.45) * 0.95 : 0.05 + easeInOut((t - 0.55) / 0.45) * 0.95;
+  const plugged = t >= 0.5;
+  const col = charge < 0.2 ? "#c8443a" : charge < 0.5 ? "#d9a21b" : "#2a7f5a";
+  return (
+    <g>
+      <rect width={1920} height={1080} fill="#eef4f8" />
+      <rect x={760} y={170} width={400} height={740} rx={60} fill="#222" /><rect x={790} y={220} width={340} height={640} rx={26} fill="#0f1b3d" />
+      <rect x={860} y={330} width={200} height={400} rx={18} fill="none" stroke="#fff" strokeWidth={10} /><rect x={920} y={300} width={80} height={30} rx={6} fill="#fff" />
+      <rect x={872} y={342 + 376 * (1 - charge)} width={176} height={376 * charge} rx={10} fill={col} />
+      <text x={960} y={810} textAnchor="middle" fontSize={64} fontWeight={700} fill="#fff">{Math.round(charge * 100)}%</text>
+      {plugged ? <g opacity={easeOut((t - 0.5) * 6)}><path d={`M960 1080 L960 ${930 + 10 * Math.sin(frame / 6)}`} stroke="#555" strokeWidth={18} /><rect x={930} y={900} width={60} height={50} rx={8} fill="#777" />
+        <path d="M990 480 L940 560 L975 560 L930 640 L1010 540 L970 540 Z" fill="#ffd34d" opacity={0.6 + 0.4 * Math.sin(frame / 4)} /></g> : null}
+      <text x={420} y={540} textAnchor="middle" fontSize={50} fontWeight={700} fill="#1f3b57">ЫЙМАН</text>
+      {plugged ? ["илим", "намаз", "зикир", "Куран"].map((w, i) => <text key={w} x={1480} y={380 + i * 110} textAnchor="middle" fontSize={50} fontWeight={700} fill="#2a7f5a" opacity={easeOut((t - 0.55) * 8 - i)}>{w} ⚡</text>) : null}
+    </g>
+  );
+};
+// A chess board whose pieces move by themselves — grandmasters see many moves ahead.
+const Chess: React.FC<P> = ({ frame, t }) => {
+  const sq = 96, ox = 576, oy = 150;
+  const knight = { x: 1 + Math.min(2, Math.floor(t * 6)) , y: 7 - Math.min(2, Math.floor(t * 6)) * 2 };
+  return (
+    <g>
+      <rect width={1920} height={1080} fill="#3c2f26" />
+      {Array.from({ length: 64 }).map((_, i) => <rect key={i} x={ox + (i % 8) * sq} y={oy + Math.floor(i / 8) * sq} width={sq} height={sq} fill={(i + Math.floor(i / 8)) % 2 ? "#a57a52" : "#f0d9b5"} />)}
+      {[[0, 0], [7, 0], [3, 0], [4, 0]].map(([x, y], i) => <circle key={i} cx={ox + x * sq + 50} cy={oy + y * sq + 50} r={32} fill="#222" />)}
+      {[[0, 7], [7, 7], [4, 7]].map(([x, y], i) => <circle key={i} cx={ox + x * sq + 50} cy={oy + y * sq + 50} r={32} fill="#fafafa" stroke="#999" strokeWidth={3} />)}
+      <g transform={`translate(${ox + knight.x * sq + 50} ${oy + knight.y * sq + 50})`}><path d="M-26 34 h52 v-12 h-8 c4 -30 -6 -54 -30 -60 l-14 10 l4 10 l-14 12 l8 10 l14 -8 c-4 10 -10 20 -12 28 h-8 z" fill="#fafafa" stroke="#555" strokeWidth={3} /></g>
+      {[0, 1, 2].map((i) => <path key={i} d={`M${ox + 150 + i * 200} ${oy + 650 - i * 200} q 80 -60 ${120} -${160}`} stroke="#ffd34d" strokeWidth={5} strokeDasharray="10 10" fill="none" opacity={0.5 + 0.5 * Math.sin(frame / 6 + i)} />)}
+      <text x={960} y={95} textAnchor="middle" fontSize={46} fontWeight={700} fill="#ffe08a">гроссмейстер көп жүрүштү алдын ала көрөт</text>
+    </g>
+  );
+};
+// A baby on a rug examines a toy by tasting it — learning starts from the first days.
+const Baby: React.FC<P> = ({ frame }) => (
+  <Room frame={frame}>
+    <ellipse cx={760} cy={840} rx={420} ry={90} fill="#c8443a" opacity={0.85} /><ellipse cx={760} cy={840} rx={360} ry={70} fill="none" stroke="#f2b32a" strokeWidth={8} />
+    <g transform="translate(760 720)">
+      <ellipse cy={80} rx={110} ry={80} fill="#fdf6e3" />
+      <circle cy={-40} r={78} fill="#f0c9a8" /><path d="M-60 -80 q60 -50 120 0" fill="#7a4f2a" />
+      <circle cx={-26} cy={-46} r={7} fill="#2b1d14" /><circle cx={26} cy={-46} r={7} fill="#2b1d14" />
+      <g transform={`translate(0 ${-10 + Math.sin(frame / 6) * 6})`}><rect x={-36} y={-20} width={72} height={40} rx={20} fill="#3a7bd5" /><circle cx={-36} r={22} fill="#d9a21b" /><circle cx={36} r={22} fill="#2a7f5a" /></g>
+      <path d="M-90 40 q-40 -40 -30 -80" stroke="#f0c9a8" strokeWidth={30} fill="none" strokeLinecap="round" /><path d="M90 40 q40 -40 30 -80" stroke="#f0c9a8" strokeWidth={30} fill="none" strokeLinecap="round" />
+    </g>
+    <text x={760} y={480} textAnchor="middle" fontSize={64} fontWeight={700} fill="#c8443a">«Бул эмне экен?»</text>
+  </Room>
+);
+// Four holy books on a shelf light up one by one (no people).
+const Books: React.FC<P> = ({ frame, t }) => (
+  <g>
+    <rect width={1920} height={1080} fill="#f5ead7" />
+    <rect x={260} y={700} width={1400} height={34} fill="#8a6240" /><rect x={260} y={734} width={1400} height={20} fill="#6b4a2e" />
+    {["Тоорат", "Забур", "Инжил", "Куран"].map((name, i) => {
+      const on = easeOut(t * 5 - i);
+      return (
+        <g key={name} transform={`translate(${420 + i * 360} 700)`}>
+          <circle cy={-200} r={170} fill="#ffe08a" opacity={0.35 * on * (0.8 + 0.2 * Math.sin(frame / 9 + i))} />
+          <rect x={-90} y={-380} width={180} height={380} rx={14} fill={["#8a4fa3", "#1f3b57", "#c8443a", "#2a7f5a"][i]} />
+          <rect x={-70} y={-340} width={140} height={10} fill="#f2b32a" /><rect x={-70} y={-40} width={140} height={10} fill="#f2b32a" />
+          <text y={70} textAnchor="middle" fontSize={50} fontWeight={700} fill="#1f3b57" opacity={0.3 + 0.7 * on}>{name}</text>
+        </g>
+      );
+    })}
+    <text x={960} y={180} textAnchor="middle" fontSize={56} fontWeight={700} fill="#1f3b57">Төрт ыйык китеп</text>
+  </g>
+);
+// Bektur pats his old bicycle and smiles — contentment (канаат).
+const Bike: React.FC<P> = ({ frame, t }) => (
+  <g>
+    <rect width={1920} height={1080} fill={SKY} />
+    <Sun x={1650} y={170} frame={frame} /><Cloud x={300} y={150} frame={frame} />
+    <rect y={760} width={1920} height={320} fill={GRASS} />
+    <g transform="translate(1060 780)">
+      {[-170, 170].map((x) => <g key={x} transform={`translate(${x} 0) rotate(${frame * 0.5})`}><circle r={110} fill="none" stroke="#333" strokeWidth={14} />{[0, 60, 120].map((a) => <line key={a} x1={-100} x2={100} transform={`rotate(${a})`} stroke="#999" strokeWidth={4} />)}</g>)}
+      <path d="M-170 0 L-40 -150 L130 -150 L170 0 M-40 -150 L20 0 L130 -150 M120 -180 L150 -230 M-60 -170 h60" stroke="#2a7f5a" strokeWidth={14} fill="none" strokeLinecap="round" />
+    </g>
+    <KidFigure x={700} y={700} frame={frame} arm={-60 + Math.sin(frame / 8) * 15} />
+    <text x={960} y={260} textAnchor="middle" fontSize={60} fontWeight={700} fill="#2a7f5a" opacity={easeOut(t * 3)}>«Меники да жакшы! Алхамдулиллах!»</text>
+  </g>
+);
+// Birds beat both wings and climb into the sky — two kinds of knowledge (захир + батын).
+const Wings: React.FC<P> = ({ frame, t }) => (
+  <g>
+    <rect width={1920} height={1080} fill={SKY_DEEP} />
+    <Sun x={1600} y={180} frame={frame} /><Cloud x={500} y={260} frame={frame} speed={0.8} /><Cloud x={1300} y={420} s={0.8} frame={frame} speed={0.6} />
+    <Mountains y={760} />
+    {[0, 1, 2].map((i) => {
+      const x = 300 + i * 420 + t * 500, y = 760 - t * 420 - i * 60, w = Math.sin(frame / 4 + i) * 40;
+      return (
+        <g key={i} transform={`translate(${x} ${y}) scale(${1.6 - i * 0.3})`}>
+          <path d={`M0 0 C-40 ${-30 - w} -90 ${-20 - w} -120 ${10 - w * 0.6} C-80 0 -40 10 0 10 Z`} fill="#fff" />
+          <path d={`M0 0 C40 ${-30 - w} 90 ${-20 - w} 120 ${10 - w * 0.6} C80 0 40 10 0 10 Z`} fill="#fff" />
+          <ellipse cx={0} cy={6} rx={22} ry={14} fill="#f2f2f2" /><path d="M20 4 l14 4 l-14 4 z" fill="#f2b32a" />
+        </g>
+      );
+    })}
+    <text x={480} y={110} textAnchor="middle" fontSize={54} fontWeight={700} fill="#fff">захир илим</text>
+    <text x={1440} y={110} textAnchor="middle" fontSize={54} fontWeight={700} fill="#fff">батын илим</text>
+  </g>
+);
+// A child reflects on a hill under the open sky (тафаккур).
+const HillThink: React.FC<P> = ({ frame, t }) => (
+  <g>
+    <rect width={1920} height={1080} fill={t < 0.5 ? SKY : "#253a6b"} />
+    {t >= 0.5 ? Array.from({ length: 70 }).map((_, i) => <circle key={i} cx={noise(i) * 1920} cy={noise(i + 30) * 620} r={1.5 + noise(i + 3) * 2} fill="#fff" opacity={easeOut((t - 0.5) * 4) * (0.5 + 0.5 * Math.sin(frame / 20 + i))} />) : <Sun x={1500} y={200} frame={frame} />}
+    <Mountains y={600} />
+    <path d="M0 1080 L0 860 Q600 700 1200 860 T1920 900 L1920 1080 Z" fill={t < 0.5 ? GRASS : "#2f5a3a"} />
+    <KidFigure x={760} y={790} frame={frame} s={0.9} />
+    <text x={760} y={600} textAnchor="middle" fontSize={64} fontWeight={700} fill={t < 0.5 ? "#1f3b57" : "#ffe08a"}>{t < 0.5 ? "ойлонуу…" : "Субханаллах!"}</text>
+  </g>
+);
+
 const REGISTRY: Record<CutawayId, React.FC<P>> = {
+  mirage: Mirage, hall: Hall, orbits: Orbits, taif: Taif, mecca: Mecca, sadaqa: Sadaqa, battery: Battery, chess: Chess,
+  baby: Baby, books: Books, bike: Bike, wings: Wings, hillThink: HillThink,
   nature: Nature, doors: Doors, window: Window, space: (p) => <Space {...p} />, spaceReturn: (p) => <Space {...p} back />,
   glacier: Glacier, villages: Villages, growth: Growth, snakeRopes: SnakeRopes, seaCrown: SeaCrown, bekturRoom: BekturRoom,
   aizadaBed: AizadaBed, homeKitchen: HomeKitchen, streetBread: StreetBread, orchard: Orchard, race: Race, dawnRoom: DawnRoom,
