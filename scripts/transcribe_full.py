@@ -18,14 +18,17 @@ import json
 import re
 import subprocess
 import sys
+import os
 import tempfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from scribe_clip import tc, transcribe  # noqa: E402
 
-OUT = Path("lessons/003/transcript")
-MANIFEST = Path("lessons/003/source/manifest.json")
+# Defaults = lesson 003 (VID-001). Other sources: TRANSCRIPT_DIR=lessons/VID-003/transcript
+# SOURCE_MANIFEST=lessons/VID-003/source/manifest.json python3 scripts/transcribe_full.py ...
+OUT = Path(os.environ.get("TRANSCRIPT_DIR", "lessons/003/transcript"))
+MANIFEST = Path(os.environ.get("SOURCE_MANIFEST", "lessons/003/source/manifest.json"))
 CHUNK = 300.0          # nominal chunk length, s
 HALF_OVERLAP = 7.0     # each seam is covered by both neighbours for 2 * 7 = 14 s
 LANG = "kir"
@@ -129,6 +132,45 @@ def cmd_next(a):
              response_headers=headers)
     dump(OUT / "progress.json", prog)
     print(f"{c['id']} done: {tc(c['start'])}–{tc(c['end'])}, {len(words)} words, lang={raw.get('language_code')}")
+
+
+def cmd_parallel(a):
+    """Transcribe all pending chunks with N worker threads (source verified once; progress saved under a lock)."""
+    import threading
+    from concurrent.futures import ThreadPoolExecutor
+    verify_source(a.source)
+    prog = load(OUT / "progress.json")
+    lock = threading.Lock()
+
+    def work(c):
+        for attempt in range(4):
+            try:
+                with tempfile.TemporaryDirectory() as tmp:
+                    wav = Path(tmp) / "clip.wav"
+                    subprocess.run(["ffmpeg", "-nostdin", "-v", "error", "-y", "-ss", str(c["start"]), "-to", str(c["end"]),
+                                    "-i", a.source, "-vn", "-ac", "1", "-ar", "16000", "-c:a", "pcm_s16le", str(wav)],
+                                   check=True)
+                    headers = {}
+                    raw = transcribe(wav, LANG, headers)
+                break
+            except Exception as e:  # network hiccup: retry this chunk only
+                print(f"{c['id']} attempt {attempt + 1} failed: {type(e).__name__}", flush=True)
+        else:
+            return
+        dump(OUT / "chunks" / f"{c['id']}.raw.json", raw)
+        words = abs_words(raw, c["start"])
+        (OUT / "chunks" / f"{c['id']}.kir.txt").write_text(
+            f"# {c['id']}: {tc(c['start'])} – {tc(c['end'])} (absolute source time)\n"
+            + "".join(f"[{tc(s['start'])} – {tc(s['end'])}] {s['text']}\n" for s in segment(words)), encoding="utf-8")
+        with lock:
+            c.update(status="done", audio_seconds=round(c["end"] - c["start"], 3), words=len(words),
+                     language_detected=raw.get("language_code"), language_probability=raw.get("language_probability"),
+                     response_headers=headers)
+            dump(OUT / "progress.json", prog)
+        print(f"{c['id']} done: {len(words)} words", flush=True)
+
+    with ThreadPoolExecutor(a.workers) as ex:
+        list(ex.map(work, [c for c in prog["chunks"] if c["status"] != "done"]))
 
 
 def abs_words(raw, offset):
@@ -275,8 +317,9 @@ def write_outputs(prog, segs, seams):
     (OUT / "full.kir.txt").write_text(
         "".join(f"[{tc(s['start'])} – {tc(s['end'])}] {s['text']}\n" for s in segs), encoding="utf-8")
 
-    md = ["# VID-001 / урок 003 — полный транскрипт (кыргызский, Scribe v2, без правок)\n",
-          "Абсолютные таймкоды источника `1000218169.mp4`. Текст — машинное распознавание; "
+    src = load(MANIFEST)
+    md = [f"# {src.get('studio_id', 'VID-001')} — полный транскрипт (кыргызский, Scribe v2, без правок)\n",
+          f"Абсолютные таймкоды источника `{src.get('filename', '1000218169.mp4')}`. Текст — машинное распознавание; "
           "спорные места — в [`review-flags.csv`](review-flags.csv) и [`README.md`](README.md).\n"]
     minute_block = -1
     for s in segs:
@@ -306,8 +349,11 @@ def main():
         sp = sub.add_parser(name)
         sp.add_argument("source")
     sub.add_parser("merge")
+    sp = sub.add_parser("parallel")
+    sp.add_argument("source")
+    sp.add_argument("--workers", type=int, default=6)
     a = p.parse_args()
-    {"plan": cmd_plan, "next": cmd_next, "merge": cmd_merge}[a.cmd](a)
+    {"plan": cmd_plan, "next": cmd_next, "merge": cmd_merge, "parallel": cmd_parallel}[a.cmd](a)
 
 
 if __name__ == "__main__":
