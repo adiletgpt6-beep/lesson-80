@@ -12,7 +12,7 @@
  "fps": 30,
  "width": 1920,
  "height": 1080,
- "durationInFrames": 52497,
+ "durationInFrames": 52511,
  "plannedFrames": 54000,
  "timing_note": "estimate unless beat.timing == 'audio'; blocked lines absent or replaced ([ПЕД])",
  "stats": {
@@ -76,7 +76,7 @@
    "id": "a07",
    "title": "Жыйынтык",
    "from": 48498,
-   "frames": 3999,
+   "frames": 4013,
    "planned_seconds": 130
   }
  ],
@@ -4093,7 +4093,7 @@
     "устаз кол булгалайт"
    ],
    "from": 51454,
-   "frames": 1043,
+   "frames": 1057,
    "beats": [
     {
      "key": "a07-s02#0",
@@ -4159,11 +4159,11 @@
      "key": "a07-s02#5",
      "type": "line",
      "speaker": "both_children",
-     "text": "Ваалейкум ассалам! Көрүшкөнчө!",
+     "text": "Ваалейкум ассалам! Кош болуңуз, устаз!",
      "from": 934,
-     "frames": 109,
+     "frames": 123,
      "timing": "audio",
-     "audio": "a07-s02_5_11ed5fc2780d3d7d.mp3",
+     "audio": "a07-s02_5_754994511133dbcd.mp3",
      "ped": true,
      "replaced_from": null
     }

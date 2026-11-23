@@ -664,17 +664,6 @@
    "replaced_from": null,
    "text": "Мына, бул — тафаккур. Бир алма жөнүндө ойлонуп, Аллахтын кудуретин көрдүк."
   },
-  "b02-s01#14": {
-   "file": "b02-s01_14_48483f82f6c6b93d.mp3",
-   "hash": "48483f82f6c6b93d",
-   "seconds": 10.841,
-   "speaker": "ustaz",
-   "credits": 30,
-   "chars": 136,
-   "ped": false,
-   "replaced_from": null,
-   "text": "Мындай ойлонгон адамдарды Аллах «акыл ээлери» деп атайт. Али Имран сүрөсүндө: алар асмандардын жана жердин жаратылышы жөнүндө ойлонушат."
-  },
   "b02-s01#15": {
    "file": "b02-s01_14_48483f82f6c6b93d.mp3",
    "hash": "48483f82f6c6b93d",
@@ -2433,15 +2422,15 @@
    "text": "Көзгө көрүнгөн нерселердин илими: математика, Куран окуу!"
   },
   "b13-s04#2": {
-   "file": "b13-s04_2_034a85c5fbdf1674.mp3",
-   "hash": "034a85c5fbdf1674",
-   "seconds": 1.646,
+   "file": "b13-s04_2_c4ee5b51e81e95fd.mp3",
+   "hash": "c4ee5b51e81e95fd",
+   "seconds": 2.273,
    "speaker": "ustaz",
-   "credits": 4,
-   "chars": 17,
+   "credits": 5,
+   "chars": 24,
    "ped": true,
    "replaced_from": null,
-   "text": "Ыклас деген эмне?"
+   "text": "Ал эми ыклас деген эмне?"
   },
   "b13-s04#3": {
    "file": "b13-s04_3_739ad012cddd6b00.mp3",
@@ -2554,15 +2543,15 @@
    "text": "Төртүнчүсү — кабыл алуу!"
   },
   "b13-s05#4": {
-   "file": "b13-s05_4_cef30dfc28ba81ef.mp3",
-   "hash": "cef30dfc28ba81ef",
-   "seconds": 2.586,
+   "file": "b13-s05_4_6c8b55787a5d7abf.mp3",
+   "hash": "6c8b55787a5d7abf",
+   "seconds": 2.769,
    "speaker": "aizada",
-   "credits": 4,
-   "chars": 18,
+   "credits": 5,
+   "chars": 23,
    "ped": true,
    "replaced_from": null,
-   "text": "Бешинчиси — ыйман!"
+   "text": "Бешинчи тепкич — ыйман!"
   },
   "b13-s05#5": {
    "file": "b13-s05_5_386f503c117935df.mp3",
@@ -2675,15 +2664,16 @@
    "text": "Көңүл бурганыңар үчүн Аллах ыраазы болсун! Ассалому алейкум!"
   },
   "b13-s06#4": {
-   "file": "b13-s06_4_11ed5fc2780d3d7d.mp3",
-   "hash": "11ed5fc2780d3d7d",
-   "seconds": 2.9,
+   "file": "a07-s02_5_754994511133dbcd.mp3",
+   "hash": "754994511133dbcd",
+   "seconds": 3.291,
    "speaker": "both_children",
-   "credits": 14,
-   "chars": 30,
+   "credits": 0,
+   "chars": 38,
    "ped": true,
    "replaced_from": null,
-   "text": "Ваалейкум ассалам! Көрүшкөнчө!"
+   "text": "Ваалейкум ассалам! Кош болуңуз, устаз!",
+   "reused_from": "R06:a07-s02#5"
   },
   "b02-s01#17": {
    "file": "b02-s01_16_3f69e70ea3a6420b.mp3",

@@ -248,7 +248,7 @@
     {
      "type": "line",
      "speaker": "ustaz",
-     "text": "Ыклас деген эмне?",
+     "text": "Ал эми ыклас деген эмне?",
      "source": [
       "I55 00:46:00–00:47:40"
      ],
@@ -362,7 +362,7 @@
     {
      "type": "line",
      "speaker": "aizada",
-     "text": "Бешинчиси — ыйман!",
+     "text": "Бешинчи тепкич — ыйман!",
      "source": [],
      "ped": true,
      "blocked": null
@@ -484,7 +484,7 @@
     {
      "type": "line",
      "speaker": "both_children",
-     "text": "Ваалейкум ассалам! Көрүшкөнчө!",
+     "text": "Ваалейкум ассалам! Кош болуңуз, устаз!",
      "source": [],
      "ped": true,
      "blocked": null
