@@ -1,0 +1,413 @@
+{
+ "source": {
+  "file": "source.mp4",
+  "size_bytes": 278031004,
+  "sha256": "695a20a2210e476243739ab6aa6b8ff74c200aef23656e594e237d86b3e85ad9",
+  "duration_s": 8137.897506
+ },
+ "api": {
+  "model_id": "scribe_v2",
+  "language_code": "kir",
+  "timestamps_granularity": "word",
+  "tag_audio_events": true,
+  "diarize": false,
+  "paid_addons": "none (no keyterms, no entity detection)"
+ },
+ "chunk_seconds": 300.0,
+ "overlap_seconds": 14.0,
+ "planned_audio_seconds": 8515.898,
+ "chunks": [
+  {
+   "id": "c00",
+   "start": 0.0,
+   "end": 307.0,
+   "status": "done",
+   "audio_seconds": 307.0,
+   "words": 559,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "47",
+    "fiat-cost-before-overages": "0.017108"
+   }
+  },
+  {
+   "id": "c01",
+   "start": 293.0,
+   "end": 607.0,
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 610,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "48",
+    "fiat-cost-before-overages": "0.017472"
+   }
+  },
+  {
+   "id": "c02",
+   "start": 593.0,
+   "end": 907.0,
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 525,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "48",
+    "fiat-cost-before-overages": "0.017472"
+   }
+  },
+  {
+   "id": "c03",
+   "start": 893.0,
+   "end": 1207.0,
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 531,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "48",
+    "fiat-cost-before-overages": "0.017472"
+   }
+  },
+  {
+   "id": "c04",
+   "start": 1193.0,
+   "end": 1507.0,
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 554,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "48",
+    "fiat-cost-before-overages": "0.017472"
+   }
+  },
+  {
+   "id": "c05",
+   "start": 1493.0,
+   "end": 1807.0,
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 520,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "48",
+    "fiat-cost-before-overages": "0.017472"
+   }
+  },
+  {
+   "id": "c06",
+   "start": 1793.0,
+   "end": 2107.0,
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 494,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "48",
+    "fiat-cost-before-overages": "0.017472"
+   }
+  },
+  {
+   "id": "c07",
+   "start": 2093.0,
+   "end": 2407.0,
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 552,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "48",
+    "fiat-cost-before-overages": "0.017472"
+   }
+  },
+  {
+   "id": "c08",
+   "start": 2393.0,
+   "end": 2707.0,
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 452,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "48",
+    "fiat-cost-before-overages": "0.017472"
+   }
+  },
+  {
+   "id": "c09",
+   "start": 2693.0,
+   "end": 3007.0,
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 475,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "48",
+    "fiat-cost-before-overages": "0.017472"
+   }
+  },
+  {
+   "id": "c10",
+   "start": 2993.0,
+   "end": 3307.0,
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 509,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "48",
+    "fiat-cost-before-overages": "0.017472"
+   }
+  },
+  {
+   "id": "c11",
+   "start": 3293.0,
+   "end": 3607.0,
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 609,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "48",
+    "fiat-cost-before-overages": "0.017472"
+   }
+  },
+  {
+   "id": "c12",
+   "start": 3593.0,
+   "end": 3907.0,
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 496,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "48",
+    "fiat-cost-before-overages": "0.017472"
+   }
+  },
+  {
+   "id": "c13",
+   "start": 3893.0,
+   "end": 4207.0,
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 390,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "48",
+    "fiat-cost-before-overages": "0.017472"
+   }
+  },
+  {
+   "id": "c14",
+   "start": 4193.0,
+   "end": 4507.0,
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 522,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "48",
+    "fiat-cost-before-overages": "0.017472"
+   }
+  },
+  {
+   "id": "c15",
+   "start": 4493.0,
+   "end": 4807.0,
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 478,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "48",
+    "fiat-cost-before-overages": "0.017472"
+   }
+  },
+  {
+   "id": "c16",
+   "start": 4793.0,
+   "end": 5107.0,
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 440,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "48",
+    "fiat-cost-before-overages": "0.017472"
+   }
+  },
+  {
+   "id": "c17",
+   "start": 5093.0,
+   "end": 5407.0,
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 587,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "48",
+    "fiat-cost-before-overages": "0.017472"
+   }
+  },
+  {
+   "id": "c18",
+   "start": 5393.0,
+   "end": 5707.0,
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 508,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "48",
+    "fiat-cost-before-overages": "0.017472"
+   }
+  },
+  {
+   "id": "c19",
+   "start": 5693.0,
+   "end": 6007.0,
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 529,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "48",
+    "fiat-cost-before-overages": "0.017472"
+   }
+  },
+  {
+   "id": "c20",
+   "start": 5993.0,
+   "end": 6307.0,
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 611,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "48",
+    "fiat-cost-before-overages": "0.017472"
+   }
+  },
+  {
+   "id": "c21",
+   "start": 6293.0,
+   "end": 6607.0,
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 519,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "48",
+    "fiat-cost-before-overages": "0.017472"
+   }
+  },
+  {
+   "id": "c22",
+   "start": 6593.0,
+   "end": 6907.0,
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 468,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "48",
+    "fiat-cost-before-overages": "0.017472"
+   }
+  },
+  {
+   "id": "c23",
+   "start": 6893.0,
+   "end": 7207.0,
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 530,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "48",
+    "fiat-cost-before-overages": "0.017472"
+   }
+  },
+  {
+   "id": "c24",
+   "start": 7193.0,
+   "end": 7507.0,
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 270,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "48",
+    "fiat-cost-before-overages": "0.017472"
+   }
+  },
+  {
+   "id": "c25",
+   "start": 7493.0,
+   "end": 7807.0,
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 546,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "48",
+    "fiat-cost-before-overages": "0.017472"
+   }
+  },
+  {
+   "id": "c26",
+   "start": 7793.0,
+   "end": 8107.0,
+   "status": "done",
+   "audio_seconds": 314.0,
+   "words": 420,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "48",
+    "fiat-cost-before-overages": "0.017472"
+   }
+  },
+  {
+   "id": "c27",
+   "start": 8093.0,
+   "end": 8137.898,
+   "status": "done",
+   "audio_seconds": 44.898,
+   "words": 68,
+   "language_detected": "kir",
+   "language_probability": 1.0,
+   "response_headers": {
+    "character-cost": "7",
+    "fiat-cost-before-overages": "0.002548"
+   }
+  }
+ ]
+}
