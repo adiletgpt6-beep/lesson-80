@@ -13,7 +13,7 @@
 | ⬇ MP4 | [lesson-006-final.mp4](https://github.com/adiletgpt6-beep/lesson-80/releases/download/lesson-006-final/lesson-006-final.mp4) | [lesson-007-final.mp4](https://github.com/adiletgpt6-beep/lesson-80/releases/download/lesson-007-final/lesson-007-final.mp4) |
 | ⬇ Обложка 1280×720 | [lesson-006-thumbnail.jpg](https://github.com/adiletgpt6-beep/lesson-80/releases/download/lesson-006-final/lesson-006-thumbnail.jpg) | [lesson-007-thumbnail.jpg](https://github.com/adiletgpt6-beep/lesson-80/releases/download/lesson-007-final/lesson-007-thumbnail.jpg) |
 | ⬇ Описание / главы / SRT | [описание](https://github.com/adiletgpt6-beep/lesson-80/releases/download/lesson-006-final/lesson-006-youtube-description.txt) · [главы](https://github.com/adiletgpt6-beep/lesson-80/releases/download/lesson-006-final/lesson-006-chapters.txt) · [SRT](https://github.com/adiletgpt6-beep/lesson-80/releases/download/lesson-006-final/lesson-006.ky.srt) | [описание](https://github.com/adiletgpt6-beep/lesson-80/releases/download/lesson-007-final/lesson-007-youtube-description.txt) · [главы](https://github.com/adiletgpt6-beep/lesson-80/releases/download/lesson-007-final/lesson-007-chapters.txt) · [SRT](https://github.com/adiletgpt6-beep/lesson-80/releases/download/lesson-007-final/lesson-007.ky.srt) |
-| ▶ Смотреть | см. §4 | см. §4 |
+| ▶ Смотреть | [страница-плеер 006](https://claude.ai/artifact/4G9JRWh8isLbMFLE8PB2FF) | [страница-плеер 007](https://claude.ai/artifact/EQL2Wa7zTSFetig4qs2ynk) |
 | Длительность | 00:29:10.37 (вкл. обложку 3 с) | 00:28:35.40 |
 | Размер MP4 | 296 882 446 байт | 286 183 311 байт |
 | SHA-256 MP4 (GitHub digest) | `bb6055729638a716783ee5bed90f87e2d93336c6ff80a11e432867229411430e` | `cb91d06423806ad67450ff39488a4b5bc30bd2f8675cd7cefecdf45944fa38f2` |
@@ -50,7 +50,12 @@
 ## 4. Ссылки для просмотра
 
 Ассеты релизов GitHub отдаются с `Content-Disposition: attachment` (это ссылки на скачивание). Для просмотра в браузере —
-страница-плеер (claude.ai Artifact) с той же анимацией и звуком в 960×540; ссылка — в STATUS и итоговом ответе.
+страница-плеер (claude.ai Artifact) с той же анимацией и звуком в 960×540 (локальный рендер того же таймлайна и той же звуковой дорожки, 18 частей по 100 с, бесшовный переход между частями, переход по главам):
+
+- 006: https://claude.ai/artifact/4G9JRWh8isLbMFLE8PB2FF
+- 007: https://claude.ai/artifact/EQL2Wa7zTSFetig4qs2ynk
+
+Страницы приватные: открываются владельцем аккаунта; другим людям — через меню «Поделиться» на странице.
 
 ## 5. Не выполнено / ограничения
 

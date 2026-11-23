@@ -8,6 +8,11 @@ Remotion-проект, ElevenLabs-конвейер, Scribe, аудио-QA, об�
 и **007 (4Б)**; производственные ID **R06** и **R07** (`lessons/R06`, `lessons/R07`). Если владелец решит иначе,
 номер меняется в одном месте — `production/lesson-006-007/build_script.py` (`LESSONS`).
 
+**Выдача (2026-11-23):** релизы [lesson-006-final](https://github.com/adiletgpt6-beep/lesson-80/releases/tag/lesson-006-final) (00:29:10) и
+[lesson-007-final](https://github.com/adiletgpt6-beep/lesson-80/releases/tag/lesson-007-final) (00:28:35); страницы просмотра
+[006](https://claude.ai/artifact/4G9JRWh8isLbMFLE8PB2FF) и [007](https://claude.ai/artifact/EQL2Wa7zTSFetig4qs2ynk) (приватные); проверки — REPORT.md.
+Страница-плеер собирается вне репозитория: локальный рендер 960×540 → части по 100 с → Artifact (по ≤5 частей за публикацию).
+
 ## 1. Источник
 
 | | |
