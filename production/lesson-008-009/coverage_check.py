@@ -49,7 +49,7 @@ def main():
     only_ped = [r["idea_id"] for r in rows if not r["decision"].startswith("omit")
                 and all(ped for _, ped in {"008": c8, "009": c9}.get(r["lesson"], {}).get(r["idea_id"], [("", True)]))]
     print(f"ideas: {len(rows)} (use {used}, omit {omitted}); lines citing ideas: 008 {sum(map(len, c8.values()))}, "
-          f"007 {sum(map(len, c9.values()))}")
+          f"009 {sum(map(len, c9.values()))}")
     print(f"ideas carried only by [ПЕД] retellings: {only_ped or 'none'}")
     for e in errors:
         print("ERROR", e)

@@ -1,0 +1,4596 @@
+{
+ "lesson": {
+  "id": "R08",
+  "number": 8,
+  "title": "Аллах — Жалгыз",
+  "subtitle": "Таухиддин үч жагы жана Ыклас сүрөсү",
+  "opening_scene": "c00-s01",
+  "final_scene": "c12-s02",
+  "cover": true,
+  "topic": "Аллах — Жалгыз: таухид жана Ыклас сүрөсү"
+ },
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "durationInFrames": 56162,
+ "plannedFrames": 54000,
+ "timing_note": "estimate unless beat.timing == 'audio'; blocked lines absent or replaced ([ПЕД])",
+ "stats": {
+  "lines": 264,
+  "audio": 264,
+  "estimate": 0,
+  "replaced": 0,
+  "dropped_scenes": []
+ },
+ "chapters": [
+  {
+   "id": "c00",
+   "title": "Ачылыш",
+   "from": 0,
+   "frames": 2064,
+   "planned_seconds": 100
+  },
+  {
+   "id": "c01",
+   "title": "Таухиддин үч жагы",
+   "from": 2064,
+   "frames": 2385,
+   "planned_seconds": 120
+  },
+  {
+   "id": "c02",
+   "title": "Жаратуучу — Жалгыз",
+   "from": 4449,
+   "frames": 8213,
+   "planned_seconds": 300
+  },
+  {
+   "id": "c03",
+   "title": "Аллах жүрөккө карайт",
+   "from": 12662,
+   "frames": 1887,
+   "planned_seconds": 110
+  },
+  {
+   "id": "c04",
+   "title": "Ибадат — Аллахка гана",
+   "from": 14549,
+   "frames": 5881,
+   "planned_seconds": 230
+  },
+  {
+   "id": "c05",
+   "title": "Ысымдары жана сыпаттары",
+   "from": 20430,
+   "frames": 5003,
+   "planned_seconds": 200
+  },
+  {
+   "id": "c06",
+   "title": "Ыклас сүрөсү: Ахад",
+   "from": 25433,
+   "frames": 5772,
+   "planned_seconds": 230
+  },
+  {
+   "id": "c07",
+   "title": "Самад, төрөбөгөн, төрөлбөгөн",
+   "from": 31205,
+   "frames": 6117,
+   "planned_seconds": 260
+  },
+  {
+   "id": "c08",
+   "title": "Эч ким Ага тең эмес",
+   "from": 37322,
+   "frames": 3003,
+   "planned_seconds": 160
+  },
+  {
+   "id": "c09",
+   "title": "«Бол!» десе — болот",
+   "from": 40325,
+   "frames": 5167,
+   "planned_seconds": 230
+  },
+  {
+   "id": "c10",
+   "title": "Ааламдагы тартип",
+   "from": 45492,
+   "frames": 5466,
+   "planned_seconds": 230
+  },
+  {
+   "id": "c11",
+   "title": "Бардык пайгамбарлар — бир жолдо",
+   "from": 50958,
+   "frames": 3466,
+   "planned_seconds": 160
+  },
+  {
+   "id": "c12",
+   "title": "Жыйынтык",
+   "from": 54424,
+   "frames": 1738,
+   "planned_seconds": 110
+  }
+ ],
+ "scenes": [
+  {
+   "id": "c00-s01",
+   "chapter": "c00",
+   "chapterTitle": "Ачылыш",
+   "title": "Салам, достор!",
+   "setting": "класс, доска",
+   "camera": "жалпы план → орто план",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "ЫЙМАНДЫН 6 ШАРТЫ → 1. АЛЛАХ",
+    "ТАУХИД"
+   ],
+   "animation": [
+    "Устаз кол булгалап учурашат",
+    "балдар жылмайып кол булгалашат"
+   ],
+   "from": 0,
+   "frames": 2064,
+   "beats": [
+    {
+     "key": "c00-s01#cover",
+     "type": "cover",
+     "speaker": null,
+     "text": "80 САБАКТЫН 8-САБАГЫ · Аллах — Жалгыз: таухид жана Ыклас сүрөсү",
+     "from": 0,
+     "frames": 90,
+     "timing": "fixed",
+     "audio": null
+    },
+    {
+     "key": "c00-s01#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ассалому алейкум, балдар!",
+     "from": 90,
+     "frames": 69,
+     "timing": "audio",
+     "audio": "ch00-s01_1_43891c4c4ba288b1.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c00-s01#1",
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Ваалейкум ассалам, устаз!",
+     "from": 159,
+     "frames": 95,
+     "timing": "audio",
+     "audio": "ch00-s01_2_f367e1a255bca5da.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c00-s01#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Кана, эстейличи: өткөн сабакта эмнени үйрөндүк эле?",
+     "from": 254,
+     "frames": 165,
+     "timing": "audio",
+     "audio": "c00-s01_2_575af909485cbf17.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c00-s01#3",
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Ыймандын алты шартын, устаз!",
+     "from": 419,
+     "frames": 102,
+     "timing": "audio",
+     "audio": "c00-s01_3_21e2cf914d526266.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c00-s01#4",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Туура! Аллахка, периштелерге, китептерге, пайгамбарларга, тагдырга жана акырет күнүнө ыйман келтирүү.",
+     "from": 521,
+     "frames": 289,
+     "timing": "audio",
+     "audio": "c00-s01_4_50ff1956fa8b3af7.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c00-s01#5",
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Алтоосун тең манжаларым менен санап алдым!",
+     "from": 810,
+     "frames": 116,
+     "timing": "audio",
+     "audio": "c00-s01_5_5f2230b3e6932d9c.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c00-s01#6",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бүгүн ошол алты шарттын биринчисине тереңирээк киребиз: Аллах Таала жалгыз.",
+     "from": 926,
+     "frames": 222,
+     "timing": "audio",
+     "audio": "c00-s01_6_beae01314df1515d.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c00-s01#7",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллахты жалгыз деп билүүнү таухид дейбиз. Таухид!",
+     "from": 1148,
+     "frames": 176,
+     "timing": "audio",
+     "audio": "c00-s01_7_4d05b38e2bb55a17.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c00-s01#8",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Кайталагылачы: таухид!",
+     "from": 1324,
+     "frames": 102,
+     "timing": "audio",
+     "audio": "c00-s01_8_741f8359be8dee03.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c00-s01#9",
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Таухид!",
+     "from": 1426,
+     "frames": 61,
+     "timing": "audio",
+     "audio": "c00-s01_9_36b337f1785c4da8.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c00-s01#10",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Азаматсыңар! Сабакты Аллахтын аты менен баштайлы: Бисмиллахир рахманир рахим.",
+     "from": 1487,
+     "frames": 225,
+     "timing": "audio",
+     "audio": "c00-s01_10_81ce1c09ab01a165.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c00-s01#11",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Силер да, экрандын алдындагы балдар, биз менен кошо ойлонгула. Суроо берсем, үйдөн жооп бергиле, макулбу?",
+     "from": 1712,
+     "frames": 262,
+     "timing": "audio",
+     "audio": "ch00-s02_8_e85a1037ead9655a.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c00-s01#12",
+     "type": "visual",
+     "speaker": null,
+     "text": "Доскада «ТАУХИД» деген сөз жазылат, жылдызча жаркырайт",
+     "from": 1974,
+     "frames": 90,
+     "timing": "fixed",
+     "audio": null
+    }
+   ]
+  },
+  {
+   "id": "c01-s01",
+   "chapter": "c01",
+   "chapterTitle": "Таухиддин үч жагы",
+   "title": "Үч жагы бар",
+   "setting": "доска",
+   "camera": "доска ири план",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "ТАУХИД: 1. Жаратуучу — Жалгыз",
+    "2. Ибадат — Ага гана",
+    "3. Ысымдары — теңдешсиз"
+   ],
+   "animation": [
+    "Устаз үч тегерек тартып, ар бирине номер жазат"
+   ],
+   "from": 2064,
+   "frames": 2385,
+   "beats": [
+    {
+     "key": "c01-s01#title",
+     "type": "title",
+     "speaker": null,
+     "text": "Таухиддин үч жагы",
+     "from": 0,
+     "frames": 90,
+     "timing": "fixed",
+     "audio": null,
+     "n": 1
+    },
+    {
+     "key": "c01-s01#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аалымдар таухидди үч бөлүккө бөлүшкөн.",
+     "from": 90,
+     "frames": 107,
+     "timing": "audio",
+     "audio": "c01-s01_0_61847ae76a2cfa8e.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c01-s01#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Биринчиси — Рубубия. Аллах — жалгыз Жаратуучу, жалгыз Раббибиз.",
+     "from": 197,
+     "frames": 203,
+     "timing": "audio",
+     "audio": "c01-s01_1_40f76eb9a8a6d71d.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c01-s01#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Экинчиси — Улухия. Ибадат кылууга, сыйынууга татыктуу бир гана Аллах.",
+     "from": 400,
+     "frames": 210,
+     "timing": "audio",
+     "audio": "c01-s01_2_7381369d9d752f54.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c01-s01#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Үчүнчүсү — Асма ва сыфат. Аллах ысымдарында жана сыпаттарында теңдешсиз, жалгыз.",
+     "from": 610,
+     "frames": 265,
+     "timing": "audio",
+     "audio": "c01-s01_3_3598c6242ec1177c.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c01-s01#4",
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Устаз, сөздөрү кыйын экен. Мен «Рубубия» деп айта албай калдым.",
+     "from": 875,
+     "frames": 198,
+     "timing": "audio",
+     "audio": "c01-s01_4_989b43db7667be47.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c01-s01#5",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Эч нерсе эмес, Айзада. Сөздөрдү жаттабасаң да болот. Маанисин эстеп ал: Аллах баарында жалгыз.",
+     "from": 1073,
+     "frames": 261,
+     "timing": "audio",
+     "audio": "c01-s01_5_ec10f86a09f51208.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c01-s01#6",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бул үчөө — бир эле нерсенин үч жагы. Бирок ар бири башка нерсени түшүндүрөт.",
+     "from": 1334,
+     "frames": 205,
+     "timing": "audio",
+     "audio": "c01-s01_6_a5f6fbd29824fa12.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c01-s01#7",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Мисалы, бир алманы карагылачы. Анын түсү бар, даамы бар, жыпар жыты бар. Бирок алма — бирөө.",
+     "from": 1539,
+     "frames": 270,
+     "timing": "audio",
+     "audio": "c01-s01_7_62b96d2fa3f40b1a.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c01-s01#8",
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Ооба! Үч жагы бар, бирок алма бир эле!",
+     "from": 1809,
+     "frames": 138,
+     "timing": "audio",
+     "audio": "c01-s01_8_9eb9ab38c2bac2f6.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c01-s01#9",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Мына ушундай. Аллах жаратууда да жалгыз, ибадатта да жалгыз, ырыскы берүүдө да жалгыз.",
+     "from": 1947,
+     "frames": 232,
+     "timing": "audio",
+     "audio": "c01-s01_9_0985a57104fab6ec.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c01-s01#10",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бүгүн ушул үч жакты бирден ачабыз.",
+     "from": 2179,
+     "frames": 116,
+     "timing": "audio",
+     "audio": "c01-s01_10_1bd538bba1d2384a.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c01-s01#11",
+     "type": "visual",
+     "speaker": null,
+     "text": "Доскадагы үч тегерек бирден жашыл түскө боёлот",
+     "from": 2295,
+     "frames": 90,
+     "timing": "fixed",
+     "audio": null
+    }
+   ]
+  },
+  {
+   "id": "c02-s01",
+   "chapter": "c02",
+   "chapterTitle": "Жаратуучу — Жалгыз",
+   "title": "Баарын Ал жараткан",
+   "setting": "доска",
+   "camera": "орто план: устаз + доска",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "1. РУБУБИЯ",
+    "Аллах: жаратат · ырыскы берет · кебете берет",
+    "жардамчы ✗ · кеңешчи ✗"
+   ],
+   "animation": [
+    "Устаз маркер менен «ЖАРАТУУЧУ» деп жазат",
+    "балдар баш ийкешет"
+   ],
+   "from": 4449,
+   "frames": 1407,
+   "beats": [
+    {
+     "key": "c02-s01#title",
+     "type": "title",
+     "speaker": null,
+     "text": "Жаратуучу — Жалгыз",
+     "from": 0,
+     "frames": 90,
+     "timing": "fixed",
+     "audio": null,
+     "n": 2
+    },
+    {
+     "key": "c02-s01#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Таухиддин биринчи жагы: Аллах — жалгыз Жаратуучу.",
+     "from": 90,
+     "frames": 157,
+     "timing": "audio",
+     "audio": "c02-s01_0_5259a5190f705b3b.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s01#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллах ырыскы берүүдө жалгыз. Жашатууда жалгыз. Ар бир адамга кебете, сүрөт берүүдө жалгыз.",
+     "from": 247,
+     "frames": 270,
+     "timing": "audio",
+     "audio": "c02-s01_1_691205e780260f6e.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s01#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Айзада, сенин көзүң күрөң, Бектурдуку кара. Ар кимибиздин жүзүбүз башка. Муну ким тандаган?",
+     "from": 517,
+     "frames": 262,
+     "timing": "audio",
+     "audio": "c02-s01_2_08cfd7f70d5d57e1.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s01#3",
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Аллах!",
+     "from": 779,
+     "frames": 56,
+     "timing": "audio",
+     "audio": "c02-s01_3_d3d16a4845136d5e.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s01#4",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Туура. Аллах эч кимди шерик кылган жок. Бирөөдөн кеңеш да сураган жок.",
+     "from": 835,
+     "frames": 189,
+     "timing": "audio",
+     "audio": "c02-s01_4_fc1efc0a26a94bd5.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s01#5",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бирөө Аллахка «мындай жашоо болсун» деп кеңеш да берген жок.",
+     "from": 1024,
+     "frames": 169,
+     "timing": "audio",
+     "audio": "c02-s01_5_0beb068745d835ce.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s01#6",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллахка жардамчы да, кеңешчи да керек эмес. Ал баарын билет, баарына кудуреттүү.",
+     "from": 1193,
+     "frames": 214,
+     "timing": "audio",
+     "audio": "c02-s01_6_9051503e621d2a85.mp3",
+     "ped": true,
+     "replaced_from": null
+    }
+   ]
+  },
+  {
+   "id": "c02-s02",
+   "chapter": "c02",
+   "chapterTitle": "Жаратуучу — Жалгыз",
+   "title": "Баары өз ордунда",
+   "setting": "класс, доска",
+   "camera": "устаз ири план → балдарга",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "ар нерсе өз ордунда → ТАКТЫК → ЖАРАТУУЧУ БАР"
+   ],
+   "animation": [
+    "Доскада тиштүү дөңгөлөктөр бири-бирине тийип айланат"
+   ],
+   "from": 5856,
+   "frames": 858,
+   "beats": [
+    {
+     "key": "c02-s02#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Өзүбүздүн жашообузду карасаңар — ушунчалык кызыктуу.",
+     "from": 0,
+     "frames": 128,
+     "timing": "audio",
+     "audio": "c02-s02_0_0d4aac80e58ef900.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s02#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ар бир нерсе бир нерсеге байланган. Бири экинчисине жардам берет.",
+     "from": 128,
+     "frames": 176,
+     "timing": "audio",
+     "audio": "c02-s02_1_2157a676ae2071fe.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s02#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Мисалы, күн нур берет, жамгыр жаайт, дан өсөт, андан нан бышат. Баары бири-бирине туташ.",
+     "from": 304,
+     "frames": 261,
+     "timing": "audio",
+     "audio": "c02-s02_2_408e51b9015c9319.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s02#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ар бир нерсени ушундай тактык менен өз ордуна койгон Жаратуучу бар экенин бул далилдеп турат.",
+     "from": 565,
+     "frames": 203,
+     "timing": "audio",
+     "audio": "c02-s02_3_0b6e64300a5958ac.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s02#4",
+     "type": "pause",
+     "speaker": null,
+     "text": "балдар ойлонот",
+     "from": 768,
+     "frames": 90,
+     "timing": "fixed",
+     "audio": null
+    }
+   ]
+  },
+  {
+   "id": "c02-s03",
+   "chapter": "c02",
+   "chapterTitle": "Жаратуучу — Жалгыз",
+   "title": "Таштандыдан учак?",
+   "setting": "таштанды жана бороон",
+   "camera": "жалпы план",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "таштанды + бороон = учак ?",
+    "✗ өзүнөн-өзү болбойт"
+   ],
+   "animation": [
+    "Таштанды үймөгү, катуу шамал, эски темирлер учуп, кайра жерге түшөт"
+   ],
+   "from": 6714,
+   "frames": 2017,
+   "beats": [
+    {
+     "key": "c02-s03#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Кээ бир адамдар «бул аалам өзүнөн-өзү, бир чоң жарылуудан пайда болуп калган» дешет.",
+     "from": 0,
+     "frames": 196,
+     "timing": "audio",
+     "audio": "c02-s03_0_bda41e5c9f130f0c.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s03#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Мага бул күлкүлүү көрүнөт. Эмне үчүн? Бир таштандыны элестеткилечи.",
+     "from": 196,
+     "frames": 186,
+     "timing": "audio",
+     "audio": "c02-s03_1_b993723c775e0f8f.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s03#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ал жерге эски темирлерди, зымдарды ыргытышкан. Таштанды толтура.",
+     "from": 382,
+     "frames": 193,
+     "timing": "audio",
+     "audio": "c02-s03_2_6510d3ffab7fc53a.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s03#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Анан бир күнү катуу бороон соккон. Шамал баарын учуруп-учуруп кеткен.",
+     "from": 575,
+     "frames": 189,
+     "timing": "audio",
+     "audio": "c02-s03_3_fd7f7472ce0af532.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s03#4",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бороон басылганда — карасаң, ошол жерде учууга даяр самолет турат!",
+     "from": 764,
+     "frames": 167,
+     "timing": "audio",
+     "audio": "c02-s03_4_e25e5067c8353f93.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s03#5",
+     "type": "visual",
+     "speaker": null,
+     "text": "Бороон таштандыны аралаштырат; темирлер учуп кайра жерге чачылат — самолет пайда болбойт",
+     "from": 931,
+     "frames": 150,
+     "timing": "fixed",
+     "audio": null
+    },
+    {
+     "key": "c02-s03#6",
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Ха-ха! Мындай болбойт да, устаз! Самолетту инженерлер жасайт.",
+     "from": 1081,
+     "frames": 174,
+     "timing": "audio",
+     "audio": "c02-s03_6_9fee57c3898e188e.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s03#7",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ошондой. «Аалам өзүнөн-өзү жаралды» деген сөз «таштандыдан самолет пайда болду» дегенге окшош.",
+     "from": 1255,
+     "frames": 234,
+     "timing": "audio",
+     "audio": "c02-s03_7_37a24dc1d8221b46.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s03#8",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Кичинекей самолетко да аны жасаган уста керек. Ушунчалык чоң, кооз дүйнөнүн да Жаратуучусу бар — Ал Аллах.",
+     "from": 1489,
+     "frames": 287,
+     "timing": "audio",
+     "audio": "c02-s03_8_be40ee5ec15697f6.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s03#9",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аалымдар ааламды изилдешет — бул жакшы иш. Изилдеген сайын Аллахтын кереметин көбүрөөк көрөбүз.",
+     "from": 1776,
+     "frames": 241,
+     "timing": "audio",
+     "audio": "c02-s03_9_94b3b96af0273065.mp3",
+     "ped": true,
+     "replaced_from": null
+    }
+   ]
+  },
+  {
+   "id": "c02-s04",
+   "chapter": "c02",
+   "chapterTitle": "Жаратуучу — Жалгыз",
+   "title": "Белгилер өзүбүздө",
+   "setting": "класс, доска",
+   "camera": "орто план: устаз + доска",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "Белгилер: асманда · өзүңдө",
+    "Фуссилат, 53",
+    "клетка × миллиард",
+    "телефон → программалар"
+   ],
+   "animation": [
+    "Доскада адамдын силуэти жана майда клеткалар",
+    "телефондун ичинде программалар"
+   ],
+   "from": 8731,
+   "frames": 1966,
+   "beats": [
+    {
+     "key": "c02-s04#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллах Куранда эмне дейт? Аллахтын белгилери ааламда жана силердин өзүңөрдө бар.",
+     "from": 0,
+     "frames": 198,
+     "timing": "audio",
+     "audio": "c02-s04_0_b2227b9121bb0342.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s04#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бул — Фуссилат сүрөсүнүн элүү үчүнчү аятынын мааниси.",
+     "from": 198,
+     "frames": 153,
+     "timing": "audio",
+     "audio": "c02-s04_1_04ac5675137ca26a.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s04#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Асманды карагыла, ааламды изилдегиле. Өзүңөрдү да изилдеп көргүлө — Аллахтын белгилерин көрөсүңөр.",
+     "from": 351,
+     "frames": 253,
+     "timing": "audio",
+     "audio": "c02-s04_2_1b1ee2d0b5fc0558.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s04#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Сен өзүң миллиарддаган клеткалардан турасың.",
+     "from": 604,
+     "frames": 124,
+     "timing": "audio",
+     "audio": "c02-s04_3_33eb5f9f7ab98305.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s04#4",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ар бир органың өз милдетин так аткарат. Бирөөсү гана токтосо, ооруп каласың.",
+     "from": 728,
+     "frames": 198,
+     "timing": "audio",
+     "audio": "c02-s04_4_c735a079ce270fc1.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s04#5",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Жүрөгүң сен уктап жатканда да согот. Ага «сок» деп ким буйруйт? Сенби?",
+     "from": 926,
+     "frames": 210,
+     "timing": "audio",
+     "audio": "c02-s04_5_0482b56bc1a7bf8d.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s04#6",
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Жок... Мен уктап жатам да.",
+     "from": 1136,
+     "frames": 99,
+     "timing": "audio",
+     "audio": "c02-s04_6_d503b58423044feb.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s04#7",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Мына. Жүрөгүңдү Аллах иштетип турат.",
+     "from": 1235,
+     "frames": 119,
+     "timing": "audio",
+     "audio": "c02-s04_7_dfceef34966d299a.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s04#8",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Телефонду карагылачы. Ал көп программадан турат.",
+     "from": 1354,
+     "frames": 133,
+     "timing": "audio",
+     "audio": "c02-s04_8_4d864b8faf7e8f3d.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s04#9",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "«Бул телефон шамалдан, бороондон өзүнөн-өзү пайда болуп калды» десең, ишенесиңерби?",
+     "from": 1487,
+     "frames": 208,
+     "timing": "audio",
+     "audio": "c02-s04_9_202ef6339b537a58.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s04#10",
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Жок!",
+     "from": 1695,
+     "frames": 51,
+     "timing": "audio",
+     "audio": "ch11-s04_1_c9580d4e52ac7069.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s04#11",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Туура. Ар бир программаны бирөө жазган. Денебиздин «программасы» андан миң эсе татаал.",
+     "from": 1746,
+     "frames": 220,
+     "timing": "audio",
+     "audio": "c02-s04_11_21a70b0b870aed01.mp3",
+     "ped": true,
+     "replaced_from": null
+    }
+   ]
+  },
+  {
+   "id": "c02-s05",
+   "chapter": "c02",
+   "chapterTitle": "Жаратуучу — Жалгыз",
+   "title": "Жер жана Күн",
+   "setting": "космос",
+   "camera": "жалпы план",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "КҮН ☀ — ЖЕР 🌍: жакын → ысык ✗",
+    "алыс → суук ✗",
+    "дал ушул жерде ✓"
+   ],
+   "animation": [
+    "Жер Күндү айланат",
+    "Жер жакындаса кызарат, алыстаса муз басат, анан өз ордуна кайтат"
+   ],
+   "from": 10697,
+   "frames": 1055,
+   "beats": [
+    {
+     "key": "c02-s05#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Жер Күндүн айланасында айланат. Ал Күндөн так бир аралыкта турат.",
+     "from": 0,
+     "frames": 167,
+     "timing": "audio",
+     "audio": "c02-s05_0_ea6562e90b406613.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s05#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ысык да эмес, суук да эмес. Жашоого эң ыңгайлуу аралыкта.",
+     "from": 167,
+     "frames": 178,
+     "timing": "audio",
+     "audio": "c02-s05_1_5fba1c7ce09cfc27.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s05#2",
+     "type": "visual",
+     "speaker": null,
+     "text": "Жер Күнгө жакындаса — кызарып ысыйт; алыстаса — муз басат; анан өз ордуна кайтат",
+     "from": 345,
+     "frames": 150,
+     "timing": "fixed",
+     "audio": null
+    },
+    {
+     "key": "c02-s05#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Эгер Жер Күнгө жакыныраак болсо, баары күйүп кетмек. Алыстаса — баары тоңуп калмак.",
+     "from": 495,
+     "frames": 212,
+     "timing": "audio",
+     "audio": "c02-s05_3_b803a64abf60e20f.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s05#4",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ушундай так жерде турган Жер «өзүнөн-өзү пайда болуп калды» деш — бул жөн эле акылга сыйбаган сөз.",
+     "from": 707,
+     "frames": 229,
+     "timing": "audio",
+     "audio": "c02-s05_4_84f9b856b7d60541.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s05#5",
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Аллах аны дал ушул жерге койгон экен да!",
+     "from": 936,
+     "frames": 119,
+     "timing": "audio",
+     "audio": "c02-s05_5_57812bb6e88301fe.mp3",
+     "ped": true,
+     "replaced_from": null
+    }
+   ]
+  },
+  {
+   "id": "c02-s06",
+   "chapter": "c02",
+   "chapterTitle": "Жаратуучу — Жалгыз",
+   "title": "Аллахтын буйругу",
+   "setting": "доска",
+   "camera": "орто план: устаз + доска",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "Аллахтын буйругу → баары жаралды",
+    "Адам (а.с.) ← жан (рух)"
+   ],
+   "animation": [
+    "Доскада «БУЙРУК» деген сөздөн нурлар тарап, жылдыздар, тоолор пайда болот"
+   ],
+   "from": 11752,
+   "frames": 910,
+   "beats": [
+    {
+     "key": "c02-s06#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Мунун баары Аллахтын буйругу менен болду. Аллах буйрук берди — баары жаралды.",
+     "from": 0,
+     "frames": 205,
+     "timing": "audio",
+     "audio": "c02-s06_0_f75ad0d475d6ebba.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s06#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Адам алейхиссалам да Аллахтын буйругу менен жаралды. Аллахтын буйругу менен ага жан, рух берилди.",
+     "from": 205,
+     "frames": 250,
+     "timing": "audio",
+     "audio": "c02-s06_1_8dae35b245583fb5.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s06#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Биз Адам атанын урпактарыбыз. Ар бирибизге жанды Аллах берген.",
+     "from": 455,
+     "frames": 196,
+     "timing": "audio",
+     "audio": "c02-s06_2_6e4b1b77570cd2ca.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s06#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ошентип таухиддин биринчи жагы: Аллах — жалгыз Жаратуучу.",
+     "from": 651,
+     "frames": 169,
+     "timing": "audio",
+     "audio": "c02-s06_3_34cea1e7f202511f.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c02-s06#4",
+     "type": "visual",
+     "speaker": null,
+     "text": "Доскадагы биринчи тегерек жанып, жылдыз жаркырайт",
+     "from": 820,
+     "frames": 90,
+     "timing": "fixed",
+     "audio": null
+    }
+   ]
+  },
+  {
+   "id": "c03-s01",
+   "chapter": "c03",
+   "chapterTitle": "Аллах жүрөккө карайт",
+   "title": "Жүрөк жана эскертүү",
+   "setting": "класс, доска",
+   "camera": "устаз ири план → балдарга",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "❤ жүрөк · 💡 акыл · нафс",
+    "Аллах ЖҮРӨККӨ карайт",
+    "пайгамбарлар + китептер = эскертүү"
+   ],
+   "animation": [
+    "Устаз колун жүрөгүнө коюп сүйлөйт",
+    "доскада жүрөк сүрөтү жаркырайт"
+   ],
+   "from": 12662,
+   "frames": 1887,
+   "beats": [
+    {
+     "key": "c03-s01#title",
+     "type": "title",
+     "speaker": null,
+     "text": "Аллах жүрөккө карайт",
+     "from": 0,
+     "frames": 90,
+     "timing": "fixed",
+     "audio": null,
+     "n": 3
+    },
+    {
+     "key": "c03-s01#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллах ичибизде да системаларды түздү: жүрөк бар, акыл бар, нафс бар.",
+     "from": 90,
+     "frames": 189,
+     "timing": "audio",
+     "audio": "c03-s01_0_ca48b81d40bab9f0.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c03-s01#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Жүрөктүн да өзүнүн «акылы» бар. Жүрөгү күчтүү адамдар жашоодо көп ийгиликке жетишет.",
+     "from": 279,
+     "frames": 220,
+     "timing": "audio",
+     "audio": "c03-s01_1_4779e9aec5788951.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c03-s01#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллах жүрөк менен мамиле кылат.",
+     "from": 499,
+     "frames": 99,
+     "timing": "audio",
+     "audio": "c03-s01_2_1a54f3ba6ec295c7.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c03-s01#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Пайгамбарыбыз саллаллаху алейхи ва саллам айткан: «Аллах силердин сырт көрүнүшүңөргө карабайт. Жүрөгүңөргө жана иштериңерге карайт». Бул хадисти имам Муслим жеткирген.",
+     "from": 598,
+     "frames": 404,
+     "timing": "audio",
+     "audio": "c03-s01_3_09793b0c3fe6e3ef.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c03-s01#4",
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Анда жүрөгүбүз таза болушу керек экен.",
+     "from": 1002,
+     "frames": 114,
+     "timing": "audio",
+     "audio": "c03-s01_4_e96f3b29f02da448.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c03-s01#5",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Туура, Айзада!",
+     "from": 1116,
+     "frames": 71,
+     "timing": "audio",
+     "audio": "c03-s01_5_8c6d6de6d26e0434.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c03-s01#6",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллах бизди унутчаак болуп, эч нерсе түшүнбөй калбасын деп пайгамбарларды жиберди, китеп түшүрдү.",
+     "from": 1187,
+     "frames": 232,
+     "timing": "audio",
+     "audio": "c03-s01_6_0472289d936e7dae.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c03-s01#7",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ошол китеп жана пайгамбарлар аркылуу «Мен бармын, унутпагыла» деп эскертти.",
+     "from": 1419,
+     "frames": 207,
+     "timing": "audio",
+     "audio": "c03-s01_7_feed52508182fab7.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c03-s01#8",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллах ушунчалык мээримдүү. Бизге түшүндүрүп, бизди коргоп турат.",
+     "from": 1626,
+     "frames": 171,
+     "timing": "audio",
+     "audio": "c03-s01_8_3f847f503fae8698.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c03-s01#9",
+     "type": "pause",
+     "speaker": null,
+     "text": "балдар ойлонот",
+     "from": 1797,
+     "frames": 90,
+     "timing": "fixed",
+     "audio": null
+    }
+   ]
+  },
+  {
+   "id": "c04-s01",
+   "chapter": "c04",
+   "chapterTitle": "Ибадат — Аллахка гана",
+   "title": "Илах деген эмне?",
+   "setting": "доска",
+   "camera": "доска ири план",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "2. УЛУХИЯ",
+    "ИЛАХ = ибадат кылына турган",
+    "намаз · орозо · зекет · жакшы иш → Аллахка"
+   ],
+   "animation": [
+    "Устаз «ИЛАХ» деп жазып, астына сызат",
+    "намаз килеми, ай белгилери пайда болот"
+   ],
+   "from": 14549,
+   "frames": 1282,
+   "beats": [
+    {
+     "key": "c04-s01#title",
+     "type": "title",
+     "speaker": null,
+     "text": "Ибадат — Аллахка гана",
+     "from": 0,
+     "frames": 90,
+     "timing": "fixed",
+     "audio": null,
+     "n": 4
+    },
+    {
+     "key": "c04-s01#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Таухиддин экинчи жагы — Улухия. Аллах ибадат кылууда да жалгыз.",
+     "from": 90,
+     "frames": 196,
+     "timing": "audio",
+     "audio": "c04-s01_0_a644753332373709.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c04-s01#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Араб тилинде «илах» деген сөз бар. Илах — сыйына турган, ибадат кылына турган зат.",
+     "from": 286,
+     "frames": 232,
+     "timing": "audio",
+     "audio": "c04-s01_1_591b639304ff0238.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c04-s01#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Кимге ибадат кылыш керек? Кимге намаз окуйбуз? Ким үчүн орозо кармайбыз, зекет беребиз?",
+     "from": 518,
+     "frames": 237,
+     "timing": "audio",
+     "audio": "c04-s01_2_9d53ad37f9c88815.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c04-s01#3",
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Аллах үчүн!",
+     "from": 755,
+     "frames": 66,
+     "timing": "audio",
+     "audio": "c04-s01_3_49fcaa4e2d92ee7d.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c04-s01#4",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Туура. Жакшы сөздөрдү, жакшы иштерди да Аллах үчүн кылабыз. Ошол заттын аты — илах.",
+     "from": 821,
+     "frames": 234,
+     "timing": "audio",
+     "audio": "c04-s01_4_7370b43d55a7df28.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c04-s01#5",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Фатиха сүрөсүндө ар дайым айтабыз: «Сага гана ибадат кылабыз, Сенден гана жардам сурайбыз».",
+     "from": 1055,
+     "frames": 227,
+     "timing": "audio",
+     "audio": "c04-s01_5_0f216c7e4547cdb4.mp3",
+     "ped": true,
+     "replaced_from": null
+    }
+   ]
+  },
+  {
+   "id": "c04-s02",
+   "chapter": "c04",
+   "chapterTitle": "Ибадат — Аллахка гана",
+   "title": "Ла илаха иллаллах",
+   "setting": "доска",
+   "camera": "орто план: устаз + доска",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "ЛА ИЛАХА ИЛЛАЛЛАХ",
+    "= Аллахтан башка ибадатка татыктуу эч ким жок"
+   ],
+   "animation": [
+    "Устаз келмени доскага кооз тамгалар менен жазат"
+   ],
+   "from": 15831,
+   "frames": 1375,
+   "beats": [
+    {
+     "key": "c04-s02#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ошондуктан ыйман келмесинде эмне деп айтабыз? «Ла илаха иллаллах».",
+     "from": 0,
+     "frames": 196,
+     "timing": "audio",
+     "audio": "c04-s02_0_bf323977e813b105.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c04-s02#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Мааниси: Аллахтан башка илах жок. Аллахтан башка сыйына турган, кулчулук кыла турган эч ким жок.",
+     "from": 196,
+     "frames": 268,
+     "timing": "audio",
+     "audio": "c04-s02_1_05f72d038884b942.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c04-s02#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Кайталайлычы: Ла илаха иллаллах.",
+     "from": 464,
+     "frames": 145,
+     "timing": "audio",
+     "audio": "c04-s02_2_047acac6c1c1eb15.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c04-s02#3",
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Ла илаха иллаллах!",
+     "from": 609,
+     "frames": 99,
+     "timing": "audio",
+     "audio": "c04-s02_3_b8b8cc00d52ff53d.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c04-s02#4",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "«Ла илаха иллаллах» деген адам жүрөгүндө Аллахтан башка сыйына турган эч ким жок экенин билдирет.",
+     "from": 708,
+     "frames": 243,
+     "timing": "audio",
+     "audio": "c04-s02_4_23a43917193b3838.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c04-s02#5",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Демек, сен «Аллахым, Сага ибадат кылам, намаз окуйм» деп убада бердиң.",
+     "from": 951,
+     "frames": 205,
+     "timing": "audio",
+     "audio": "c04-s02_5_1f0899ce8ffb0740.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c04-s02#6",
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Келме — бул убада экен да!",
+     "from": 1156,
+     "frames": 112,
+     "timing": "audio",
+     "audio": "c04-s02_6_92c0fdd1269c261b.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c04-s02#7",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ооба, Айзада. Эң чоң убада.",
+     "from": 1268,
+     "frames": 107,
+     "timing": "audio",
+     "audio": "c04-s02_7_c599a2f9294e0ed4.mp3",
+     "ped": true,
+     "replaced_from": null
+    }
+   ]
+  },
+  {
+   "id": "c04-s03",
+   "chapter": "c04",
+   "chapterTitle": "Ибадат — Аллахка гана",
+   "title": "Билишкен, бирок...",
+   "setting": "доска",
+   "camera": "орто план: устаз + доска",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "Жаратуучу — Аллах ✓",
+    "бирок буттарга сыйынышкан ✗"
+   ],
+   "animation": [
+    "Доскада таш буттардын сүрөтү пайда болуп, үстүнөн кызыл сызык чийилет"
+   ],
+   "from": 17206,
+   "frames": 1224,
+   "beats": [
+    {
+     "key": "c04-s03#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Адамдардын түшүнүгүндө эки нерсе бар экен.",
+     "from": 0,
+     "frames": 107,
+     "timing": "audio",
+     "audio": "c04-s03_0_6a064269f41603a0.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c04-s03#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Мурунку арабдар «бул ааламды жараткан — Аллах» дей беришкен.",
+     "from": 107,
+     "frames": 164,
+     "timing": "audio",
+     "audio": "c04-s03_1_ce318e980d74beb0.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c04-s03#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бирок сыйынуучу катары башка нерселерди элестетишкен — таштан жасалган буттарга сыйынышкан.",
+     "from": 271,
+     "frames": 220,
+     "timing": "audio",
+     "audio": "c04-s03_2_7d6a933bfa6edae6.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c04-s03#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Куранда да айтылат: алардан «асман менен жерди ким жараткан?» деп сурасаң, «Аллах» деп жооп беришет. Лукман сүрөсү, жыйырма бешинчи аят.",
+     "from": 491,
+     "frames": 361,
+     "timing": "audio",
+     "audio": "c04-s03_3_3c5561172e88c1a3.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c04-s03#4",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Сен Жаратуучуңа сыйынасыңбы, же башка бирөөгө сыйынасыңбы? Жаратуучу да Аллах, сыйына турган да — Аллах.",
+     "from": 852,
+     "frames": 282,
+     "timing": "audio",
+     "audio": "c04-s03_4_7f0292336de5faef.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c04-s03#5",
+     "type": "pause",
+     "speaker": null,
+     "text": "суроо — балдар ойлонот",
+     "from": 1134,
+     "frames": 90,
+     "timing": "fixed",
+     "audio": null
+    }
+   ]
+  },
+  {
+   "id": "c04-s04",
+   "chapter": "c04",
+   "chapterTitle": "Ибадат — Аллахка гана",
+   "title": "Кимден сурайбыз?",
+   "setting": "тоо этеги",
+   "camera": "жалпы план → доска",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "тоо ✗ · таш ✗ · дарак ✗",
+    "сура → АЛЛАХТАН ✓"
+   ],
+   "animation": [
+    "Тоо этегинде адамдар чүпүрөк байлап жатышат",
+    "анан кол көтөрүп дуба кылган үй-бүлө көрсөтүлөт"
+   ],
+   "from": 18430,
+   "frames": 2000,
+   "beats": [
+    {
+     "key": "c04-s04#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бүгүнкү күндө да ушундай болот. Адамдын башына кичине кыйынчылык келсе, башка жактан «илах» издей баштайт.",
+     "from": 0,
+     "frames": 246,
+     "timing": "audio",
+     "audio": "c04-s04_0_6ec900bf42592f45.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c04-s04#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Мисалы, кээ бирөөлөрдүн баласы болбой калса, Сулайман-Тоого барып, андан жардам күтүшөт.",
+     "from": 246,
+     "frames": 212,
+     "timing": "audio",
+     "audio": "c04-s04_1_a803ded354e1f543.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c04-s04#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Тоо жардам берип коё тургандай. Же башка бир нерселерден үмүт кылышат.",
+     "from": 458,
+     "frames": 176,
+     "timing": "audio",
+     "audio": "c04-s04_2_f738e1e3a1362cf7.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c04-s04#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ошол нерсени жүрөктөн эмне кылыш керек? Чыгарыш керек!",
+     "from": 634,
+     "frames": 153,
+     "timing": "audio",
+     "audio": "c04-s04_3_6a2a728126b1343b.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c04-s04#4",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Илах катары бир гана Аллах бар.",
+     "from": 787,
+     "frames": 109,
+     "timing": "audio",
+     "audio": "c04-s04_4_6182e424aa1bff3b.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c04-s04#5",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Тоо да, таш да, дарак да — Аллахтын жаратканы. Алар эч кимге жардам бере албайт.",
+     "from": 896,
+     "frames": 232,
+     "timing": "audio",
+     "audio": "c04-s04_5_54daa937225ba6a8.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c04-s04#6",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Пайгамбарыбыз Ибн Аббаска айткан: «Сурасаң — Аллахтан сура. Жардам керек болсо — Аллахтан жардам тиле». Бул хадисти Тирмизи жеткирген.",
+     "from": 1128,
+     "frames": 363,
+     "timing": "audio",
+     "audio": "c04-s04_6_09545050cee429f5.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c04-s04#7",
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Мен ооруп калганда апам дарыга да барат, Аллахка да дуба кылат.",
+     "from": 1491,
+     "frames": 171,
+     "timing": "audio",
+     "audio": "c04-s04_7_b09375645fd1d8d6.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c04-s04#8",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Азамат, Бектур! Дарыгер да, дары да — себеп. Ал эми айыктыруучу — Аллах.",
+     "from": 1662,
+     "frames": 248,
+     "timing": "audio",
+     "audio": "c04-s04_8_40b7972d260e33d0.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c04-s04#9",
+     "type": "visual",
+     "speaker": null,
+     "text": "Экинчи тегерек жанып, жылдыз жаркырайт",
+     "from": 1910,
+     "frames": 90,
+     "timing": "fixed",
+     "audio": null
+    }
+   ]
+  },
+  {
+   "id": "c05-s01",
+   "chapter": "c05",
+   "chapterTitle": "Ысымдары жана сыпаттары",
+   "title": "Ар-Рахман, Ар-Рахим",
+   "setting": "доска",
+   "camera": "орто план: устаз + доска",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "3. АСМА ВА СЫФАТ",
+    "АР-РАХМАН — Мээримдүү",
+    "АР-РАХИМ — Ырайымдуу",
+    "99 ысым"
+   ],
+   "animation": [
+    "Доскада жүрөк сүрөтү чоңоюп, айланасына жылдыздар тизилет"
+   ],
+   "from": 20430,
+   "frames": 1495,
+   "beats": [
+    {
+     "key": "c05-s01#title",
+     "type": "title",
+     "speaker": null,
+     "text": "Ысымдары жана сыпаттары",
+     "from": 0,
+     "frames": 90,
+     "timing": "fixed",
+     "audio": null,
+     "n": 5
+    },
+    {
+     "key": "c05-s01#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Таухиддин үчүнчү жагы: Аллах ысымдарында жана сыпаттарында жалгыз.",
+     "from": 90,
+     "frames": 191,
+     "timing": "audio",
+     "audio": "c05-s01_0_c1e72a508121bc8b.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c05-s01#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "«Аллах» деген ысым — Өзүнө гана тиешелүү ысым.",
+     "from": 281,
+     "frames": 135,
+     "timing": "audio",
+     "audio": "c05-s01_1_bef975b83b383c97.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c05-s01#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллах — Ар-Рахман, мээримдүү. Биз «биз да мээримдүүбүз» деп ойлошубуз мүмкүн.",
+     "from": 416,
+     "frames": 232,
+     "timing": "audio",
+     "audio": "c05-s01_2_3d18de4198cb567f.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c05-s01#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Жок! Биздин мээримибиз Аллахтын мээримине эч окшобойт.",
+     "from": 648,
+     "frames": 176,
+     "timing": "audio",
+     "audio": "c05-s01_3_2b36635325296dad.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c05-s01#4",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ар-Рахим — ырайымдуу. Биздин ырайымыбыз да Аллахтыкына эч качан окшобойт.",
+     "from": 824,
+     "frames": 217,
+     "timing": "audio",
+     "audio": "c05-s01_4_815709720e7008a5.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c05-s01#5",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллахтын токсон тогуз ысымы жана сыпаттары бар. Ар биринде Ал эч кимге окшобойт.",
+     "from": 1041,
+     "frames": 227,
+     "timing": "audio",
+     "audio": "c05-s01_5_94251e6fa0992e02.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c05-s01#6",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Пайгамбарыбыз Аллахтын токсон тогуз ысымы бар экенин айткан. Бул хадисти имам Бухари жеткирген.",
+     "from": 1268,
+     "frames": 227,
+     "timing": "audio",
+     "audio": "c05-s01_6_acbcbefa697d55d8.mp3",
+     "ped": true,
+     "replaced_from": null
+    }
+   ]
+  },
+  {
+   "id": "c05-s02",
+   "chapter": "c05",
+   "chapterTitle": "Ысымдары жана сыпаттары",
+   "title": "Ага окшош эч нерсе жок",
+   "setting": "класс, доска",
+   "camera": "устаз ири план → балдарга",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "«Ага окшош эч нерсе жок. Ал — Угуучу, Көрүүчү» (Шура, 11)",
+    "👂 👁 — бизге берилген"
+   ],
+   "animation": [
+    "Устаз колун жайып түшүндүрөт",
+    "Бектур колун кулагына коюп угат"
+   ],
+   "from": 21925,
+   "frames": 1641,
+   "beats": [
+    {
+     "key": "c05-s02#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Куранда Аллах айтат: «Ага окшош эч нерсе жок. Ал — Угуучу, Көрүүчү». Шура сүрөсү, он биринчи аят.",
+     "from": 0,
+     "frames": 291,
+     "timing": "audio",
+     "audio": "c05-s02_0_f4392f6b826cb819.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c05-s02#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллахтын угуусу да, көрүүсү да бизге окшобойт.",
+     "from": 291,
+     "frames": 150,
+     "timing": "audio",
+     "audio": "c05-s02_1_54b5d7a967832098.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c05-s02#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Биз кулагыбыз менен угабыз, көзүбүз менен көрөбүз. Ошондуктан «Аллахтын да бизге окшош кулагы, көзү бар» деп ойлобошубуз керек.",
+     "from": 441,
+     "frames": 299,
+     "timing": "audio",
+     "audio": "c05-s02_2_0097269a0015d388.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c05-s02#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Андай эмес. Аллах бизге — Өзү жараткан макулуктарга ылайык кылып — угууну, көрүүнү берген.",
+     "from": 740,
+     "frames": 239,
+     "timing": "audio",
+     "audio": "c05-s02_3_1f970e0e1911c0f9.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c05-s02#4",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бизге жүрөк берди, акыл берди. Башка макулуктардан өзгөчө кылды.",
+     "from": 979,
+     "frames": 189,
+     "timing": "audio",
+     "audio": "c05-s02_4_911b82072e886262.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c05-s02#5",
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Демек, Аллахты элестетүүгө болбойт экен да?",
+     "from": 1168,
+     "frames": 131,
+     "timing": "audio",
+     "audio": "c05-s02_5_2b6eff51a9b4e069.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c05-s02#6",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Туура, Айзада. Аллах эч нерсеге окшобойт. Ошондуктан Аны эч качан сүрөткө тартпайбыз. Аны ысымдары жана кереметтери аркылуу тааныйбыз.",
+     "from": 1299,
+     "frames": 342,
+     "timing": "audio",
+     "audio": "c05-s02_6_5252e6b20571a1ab.mp3",
+     "ped": true,
+     "replaced_from": null
+    }
+   ]
+  },
+  {
+   "id": "c05-s03",
+   "chapter": "c05",
+   "chapterTitle": "Ысымдары жана сыпаттары",
+   "title": "Абдусамат жана мээрим",
+   "setting": "класс, доска",
+   "camera": "орто план: устаз + доска",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "АБДУ + САМАТ = Самаддын кулу",
+    "Аллахтын мээрими — чексиз ∞",
+    "биз — өзүбүзгө ылайык мээримдүү"
+   ],
+   "animation": [
+    "Доскада «∞» белгиси, кичинекей жүрөктөр"
+   ],
+   "from": 23566,
+   "frames": 1867,
+   "beats": [
+    {
+     "key": "c05-s03#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бизде Абдусамат деген ат бар. Мааниси — «эч нерсеге муктаж болбогон Аллахтын кулу».",
+     "from": 0,
+     "frames": 210,
+     "timing": "audio",
+     "audio": "c05-s03_0_4a78f846b5051fbf.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c05-s03#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллах эч нерсеге муктаж эмес. Ал эми биз баарыбыз муктажбыз.",
+     "from": 210,
+     "frames": 174,
+     "timing": "audio",
+     "audio": "c05-s03_1_d54e88ec47b45c58.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c05-s03#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Биз Аллахка окшобойбуз. Бирок Анын сыпаттарынын шооласын жерде көрсөтө алабыз.",
+     "from": 384,
+     "frames": 207,
+     "timing": "audio",
+     "audio": "c05-s03_2_eea7a38ee8bcab5b.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c05-s03#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Мисалы, Аллах — Ар-Рахман, мээримдүү. Биз да өзүбүзгө ылайык мээримдүү болушубуз керек.",
+     "from": 591,
+     "frames": 255,
+     "timing": "audio",
+     "audio": "c05-s03_3_2508aef65048cce5.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c05-s03#4",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллахтын мээрими чексиз. Ал Фараонго да ойлонууга мүмкүнчүлүк берген. Биз анын миллиондон бирине да жете албайбыз.",
+     "from": 846,
+     "frames": 270,
+     "timing": "audio",
+     "audio": "c05-s03_4_11ea552feb231b33.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c05-s03#5",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Пайгамбарыбыз айткан: Аллах мээримди жүз бөлүккө бөлүп, бир бөлүгүн гана жерге түшүргөн. Ошол бир бөлүктүн аркасында эне баласын, жаныбар төлүн аяйт. Бул хадисти имам Бухари жеткирген.",
+     "from": 1116,
+     "frames": 438,
+     "timing": "audio",
+     "audio": "c05-s03_5_3947c59af3fd82f6.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c05-s03#6",
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Анда мен иниме мээримдүү болом. Оюнчугумду бөлүшөм!",
+     "from": 1554,
+     "frames": 150,
+     "timing": "audio",
+     "audio": "c05-s03_6_c661ce9b76627c55.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c05-s03#7",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Баракелде, Бектур!",
+     "from": 1704,
+     "frames": 73,
+     "timing": "audio",
+     "audio": "b05-s01_6_87b6ed8dff0c092a.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c05-s03#8",
+     "type": "visual",
+     "speaker": null,
+     "text": "Үчүнчү тегерек жанып, жылдыз жаркырайт",
+     "from": 1777,
+     "frames": 90,
+     "timing": "fixed",
+     "audio": null
+    }
+   ]
+  },
+  {
+   "id": "c06-s01",
+   "chapter": "c06",
+   "chapterTitle": "Ыклас сүрөсү: Ахад",
+   "title": "«Сенин Кудайың ким?»",
+   "setting": "Мекке, Кааба",
+   "camera": "жалпы план → доска",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "Кааба: 360 бут ✗",
+    "«Кудайың ким?» → ЫКЛАС СҮРӨСҮ (4 аят)"
+   ],
+   "animation": [
+    "Түнкү Мекке",
+    "Кааба алыстан көрүнөт",
+    "асманда жылдыздар"
+   ],
+   "from": 25433,
+   "frames": 1955,
+   "beats": [
+    {
+     "key": "c06-s01#title",
+     "type": "title",
+     "speaker": null,
+     "text": "Ыклас сүрөсү: Ахад",
+     "from": 0,
+     "frames": 90,
+     "timing": "fixed",
+     "audio": null,
+     "n": 6
+    },
+    {
+     "key": "c06-s01#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Дүйнөдө көп адамдар Аллахтан башка нерселерге сыйынып, алардан жардам сурашат.",
+     "from": 90,
+     "frames": 174,
+     "timing": "audio",
+     "audio": "c06-s01_0_beba6d1e2bc743d4.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c06-s01#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Мисалы, кээ бир адамдар «бизди ким жараткан?» десең, «Кудай жараткан» дешет. Бирок «кимге сыйынасың?» десең, «Иса пайгамбарга» дешет.",
+     "from": 264,
+     "frames": 330,
+     "timing": "audio",
+     "audio": "c06-s01_1_f682617db354a603.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c06-s01#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Жаратуучу катары Аллахты таанып туруп, сыйынуучу катары Иса алейхиссаламды коюп алышат.",
+     "from": 594,
+     "frames": 207,
+     "timing": "audio",
+     "audio": "c06-s01_2_1930678fee086734.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c06-s01#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Меккедеги мушриктер да Пайгамбарыбызга келип сурашкан: «Сенин Кудайың ким? Көрсөтчү бизге!»",
+     "from": 801,
+     "frames": 236,
+     "timing": "audio",
+     "audio": "c06-s01_3_a6a82ccd52296133.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c06-s01#4",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "«Биздин кудайларыбыз Каабанын ичинде турат. Үч жүз алтымыш кудайыбыз бар. Алар көрүнүп турат. Сеники ким?»",
+     "from": 1037,
+     "frames": 255,
+     "timing": "audio",
+     "audio": "c06-s01_4_9b0cd636d46b113e.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c06-s01#5",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ошол убакта Каабанын айланасында чындап эле үч жүз алтымыш бут турган. Аларды кийин Пайгамбарыбыз талкалаган. Бул имам Бухаринин хадисинде айтылат.",
+     "from": 1292,
+     "frames": 359,
+     "timing": "audio",
+     "audio": "c06-s01_5_20f5f2e85c2d3dcb.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c06-s01#6",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Риваяттарда айтылгандай, ошондо Аллах Куранда эң кыска сүрөлөрдүн бирин түшүрдү. Төрт аяттан турган сүрө — Ыклас сүрөсү.",
+     "from": 1651,
+     "frames": 304,
+     "timing": "audio",
+     "audio": "c06-s01_6_dc3979b7c3947b78.mp3",
+     "ped": false,
+     "replaced_from": null
+    }
+   ]
+  },
+  {
+   "id": "c06-s02",
+   "chapter": "c06",
+   "chapterTitle": "Ыклас сүрөсү: Ахад",
+   "title": "«Айт!»",
+   "setting": "доска",
+   "camera": "доска ири план",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "КУЛ = «Айт!» → буйрук Аллахтан",
+    "Куран — Аллахтын сөзү"
+   ],
+   "animation": [
+    "Доскада «КУЛ» деген сөздүн жанына жебе тартылат"
+   ],
+   "from": 27388,
+   "frames": 1097,
+   "beats": [
+    {
+     "key": "c06-s02#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Сүрөнүн биринчи сөзү — «Кул». «Кул» — «Айт!» деген буйрук.",
+     "from": 0,
+     "frames": 167,
+     "timing": "audio",
+     "audio": "c06-s02_0_13583309dab75a94.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c06-s02#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Демек, Пайгамбарыбызга бирөөдөн буйрук келди. Кимден?",
+     "from": 167,
+     "frames": 160,
+     "timing": "audio",
+     "audio": "c06-s02_1_4b4d3d14871d89e5.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c06-s02#2",
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Аллахтан!",
+     "from": 327,
+     "frames": 63,
+     "timing": "audio",
+     "audio": "c06-s02_2_6726b9ed09e1d613.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c06-s02#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Туура. Кээ бирөөлөр «Куранды Мухаммад өзү жазып алган» дешет. Бирок алар Куранды ачып окушкан эмес.",
+     "from": 390,
+     "frames": 234,
+     "timing": "audio",
+     "audio": "c06-s02_3_7f27803a5bfb000b.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c06-s02#4",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Куранды ачсаң, ичинде «Кул — Айт!» деген сөз абдан көп. «Айт, эй Мухаммад, адамдарга».",
+     "from": 624,
+     "frames": 261,
+     "timing": "audio",
+     "audio": "c06-s02_4_a785b692031088f3.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c06-s02#5",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Эгер өзү жазса, өзүнө «айт» деп буйрук бермек беле? Куран — Аллахтын сөзү.",
+     "from": 885,
+     "frames": 212,
+     "timing": "audio",
+     "audio": "c06-s02_5_5f70fc6f7e9ec6b5.mp3",
+     "ped": true,
+     "replaced_from": null
+    }
+   ]
+  },
+  {
+   "id": "c06-s03",
+   "chapter": "c06",
+   "chapterTitle": "Ыклас сүрөсү: Ахад",
+   "title": "Ахад — Жалгыз",
+   "setting": "доска",
+   "camera": "орто план: устаз + доска",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "1. АХАД = Жалгыз, экинчиси жок",
+    "«Айт: Ал — Аллах, Жалгыз» (Ыклас, 1)"
+   ],
+   "animation": [
+    "Устаз чоң «1» тартып, жанына «2» деп жазып, аны өчүрөт"
+   ],
+   "from": 28485,
+   "frames": 861,
+   "beats": [
+    {
+     "key": "c06-s03#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "«Айт: Ал — Аллах, Ахад».",
+     "from": 0,
+     "frames": 124,
+     "timing": "audio",
+     "audio": "c06-s03_0_c50ec53b66430fe3.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c06-s03#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "«Ахад» деген сөздүн мааниси — жалгыз. Шериги жок. Анын артында эч ким жок.",
+     "from": 124,
+     "frames": 217,
+     "timing": "audio",
+     "audio": "c06-s03_1_d0b37817703971b5.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c06-s03#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "«Бир» десек, андан кийин эки, үч келет го. Ал эми «Ахад» — экинчиси жок, теңдеши жок жалгыз.",
+     "from": 341,
+     "frames": 289,
+     "timing": "audio",
+     "audio": "c06-s03_2_c9f784ff3e9d81d3.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c06-s03#3",
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Бир, эки, үч... Аллахта «эки» жок!",
+     "from": 630,
+     "frames": 155,
+     "timing": "audio",
+     "audio": "c06-s03_3_a38c0c0c3051a500.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c06-s03#4",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Дал ошондой, Айзада!",
+     "from": 785,
+     "frames": 76,
+     "timing": "audio",
+     "audio": "c06-s03_4_f37b9ab5799ebdab.mp3",
+     "ped": true,
+     "replaced_from": null
+    }
+   ]
+  },
+  {
+   "id": "c06-s04",
+   "chapter": "c06",
+   "chapterTitle": "Ыклас сүрөсү: Ахад",
+   "title": "Билалдын «Ахад!» деген үнү",
+   "setting": "ысык чөл",
+   "camera": "жалпы план",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "Билал (р.а.): «АХАД! АХАД!»",
+    "☀ ысык · оор таш · бирок ыйман бекем"
+   ],
+   "animation": [
+    "Ысык чөл, күн аптап",
+    "кумдун үстүндө чоң таш",
+    "шамал кумду учурат (адам сүрөттөлбөйт)"
+   ],
+   "from": 29346,
+   "frames": 1859,
+   "beats": [
+    {
+     "key": "c06-s04#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Билал деген сахаба болгонун билесиңерби?",
+     "from": 0,
+     "frames": 124,
+     "timing": "audio",
+     "audio": "c06-s04_0_ec3d3e88d3730e3f.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c06-s04#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ыйман келтиргени үчүн аны ысык чөлгө алып чыгышкан. Күн аябай ысык болгон.",
+     "from": 124,
+     "frames": 200,
+     "timing": "audio",
+     "audio": "c06-s04_1_1e6b68b362bcbcef.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c06-s04#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Колдорун, буттарын байлап, үстүнө үч-төрт адам араң көтөргөн оор ташты коюшкан.",
+     "from": 324,
+     "frames": 210,
+     "timing": "audio",
+     "audio": "c06-s04_2_3719b007732bca28.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c06-s04#3",
+     "type": "visual",
+     "speaker": null,
+     "text": "Ысык чөл, күн аптап; кумдун үстүндө чоң таш жатат, шамал кумду учурат",
+     "from": 534,
+     "frames": 120,
+     "timing": "fixed",
+     "audio": null
+    },
+    {
+     "key": "c06-s04#4",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Алар Билалдан «Аллахты танып, биздин буттарга кайт» деп талап кылышкан.",
+     "from": 654,
+     "frames": 184,
+     "timing": "audio",
+     "audio": "c06-s04_4_e95286f8d3f36428.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c06-s04#5",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ал эми Билал радыяллаху анху «Ахад! Ахад!» деп айта берген. «Аллах — Жалгыз!»",
+     "from": 838,
+     "frames": 248,
+     "timing": "audio",
+     "audio": "c06-s04_5_82a5d4f0b39e3ee5.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c06-s04#6",
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Ушунчалык оор болсо да, баш тартпаган экен!",
+     "from": 1086,
+     "frames": 124,
+     "timing": "audio",
+     "audio": "c06-s04_6_8b8fd1bf3facdc92.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c06-s04#7",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ооба. Анын ыйманы таштан да бекем болгон. Кийин Билал Пайгамбарыбыздын азанчысы болгон — эң биринчи азанды окуган.",
+     "from": 1210,
+     "frames": 287,
+     "timing": "audio",
+     "audio": "c06-s04_7_09b9de861769a72e.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c06-s04#8",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ахад. Аллах жалгыз. Анын теңдеши жок. Ал эч нерсеге окшобойт. Бардык нерсеси менен жалгыз.",
+     "from": 1497,
+     "frames": 272,
+     "timing": "audio",
+     "audio": "c06-s04_8_e0959cba6b1d037c.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c06-s04#9",
+     "type": "pause",
+     "speaker": null,
+     "text": "балдар ойлонот",
+     "from": 1769,
+     "frames": 90,
+     "timing": "fixed",
+     "audio": null
+    }
+   ]
+  },
+  {
+   "id": "c07-s01",
+   "chapter": "c07",
+   "chapterTitle": "Самад, төрөбөгөн, төрөлбөгөн",
+   "title": "Ас-Самад",
+   "setting": "доска",
+   "camera": "орто план: устаз + доска",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "2. АС-САМАД = эч нерсеге муктаж эмес",
+    "баары → Ага муктаж"
+   ],
+   "animation": [
+    "Доскада ортодо чоң тегерек, айланасындагы кичинекей тегеректерден ага жебелер тартылат"
+   ],
+   "from": 31205,
+   "frames": 721,
+   "beats": [
+    {
+     "key": "c07-s01#title",
+     "type": "title",
+     "speaker": null,
+     "text": "Самад, төрөбөгөн, төрөлбөгөн",
+     "from": 0,
+     "frames": 90,
+     "timing": "fixed",
+     "audio": null,
+     "n": 7
+    },
+    {
+     "key": "c07-s01#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Экинчи аят: «Аллахус-Самад».",
+     "from": 90,
+     "frames": 116,
+     "timing": "audio",
+     "audio": "c07-s01_0_3e919028bb5646ce.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c07-s01#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Самад — эч кимге, эч нерсеге муктаж эмес дегенди билдирет.",
+     "from": 206,
+     "frames": 164,
+     "timing": "audio",
+     "audio": "c07-s01_1_562da508f1dd0c13.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c07-s01#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Тескерисинче, баары Ага муктаж.",
+     "from": 370,
+     "frames": 105,
+     "timing": "audio",
+     "audio": "c07-s01_2_c894878dec59e502.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c07-s01#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Биз тамакка, сууга, абага, уйкуга муктажбыз. Ал эми Аллах эч нерсеге муктаж эмес.",
+     "from": 475,
+     "frames": 246,
+     "timing": "audio",
+     "audio": "c07-s01_3_901ede2370e51618.mp3",
+     "ped": true,
+     "replaced_from": null
+    }
+   ]
+  },
+  {
+   "id": "c07-s02",
+   "chapter": "c07",
+   "chapterTitle": "Самад, төрөбөгөн, төрөлбөгөн",
+   "title": "Кудайдын өлчөмү",
+   "setting": "класс, доска",
+   "camera": "устаз ири план → балдарга",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "Кудай болуш үчүн: АХАД ✓ · САМАД ✓",
+    "тамак 🍞 · уйку 🛏 · суу 💧 → муктаж → Кудай ✗"
+   ],
+   "animation": [
+    "Доскада нан, төшөк, суу тамчысы тартылып, ар биринин жанына «муктаж» деп жазылат"
+   ],
+   "from": 31926,
+   "frames": 1608,
+   "beats": [
+    {
+     "key": "c07-s02#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Карагылачы: бул сүрөдө Аллах «Кудай ким?» деген суроого жооп берип, Кудайдын өлчөмүн коёт.",
+     "from": 0,
+     "frames": 229,
+     "timing": "audio",
+     "audio": "c07-s02_0_32711559473627ef.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c07-s02#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Кудай болуш үчүн кандай сапатка ээ болуш керек? Ахад болуш керек. Самад болуш керек.",
+     "from": 229,
+     "frames": 229,
+     "timing": "audio",
+     "audio": "c07-s02_1_c885292a28a2b469.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c07-s02#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Эми Иса алейхиссаламды алалы. Ал — Аллахтын урматтуу пайгамбары. Бирок ал адам болгон.",
+     "from": 458,
+     "frames": 246,
+     "timing": "audio",
+     "audio": "c07-s02_2_5406b94b0d4ace73.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c07-s02#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ал кийим кийгенби? Тамак жегенби? Уктаганбы? Суу ичкенби?",
+     "from": 704,
+     "frames": 188,
+     "timing": "audio",
+     "audio": "c07-s02_3_0441e1aefcbf9aae.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c07-s02#4",
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Ооба!",
+     "from": 892,
+     "frames": 56,
+     "timing": "audio",
+     "audio": "c07-s02_4_25b712e5bfb5ac3d.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c07-s02#5",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Демек, ал муктаж болгон. Сен эмнеге муктаж болсоң, ал да ошого муктаж болгон.",
+     "from": 948,
+     "frames": 205,
+     "timing": "audio",
+     "audio": "c07-s02_5_34c348e87c7d9371.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c07-s02#6",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Муктаж болгон Кудай боло албайт.",
+     "from": 1153,
+     "frames": 97,
+     "timing": "audio",
+     "audio": "c07-s02_6_13410078c531a6d3.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c07-s02#7",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Куранда да айтылат: Иса жана анын энеси экөө тең тамак жешчү. Маида сүрөсү, жетимиш бешинчи аят.",
+     "from": 1250,
+     "frames": 268,
+     "timing": "audio",
+     "audio": "c07-s02_7_a76f27d7bc1fd804.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c07-s02#8",
+     "type": "pause",
+     "speaker": null,
+     "text": "суроо — балдар ойлонот",
+     "from": 1518,
+     "frames": 90,
+     "timing": "fixed",
+     "audio": null
+    }
+   ]
+  },
+  {
+   "id": "c07-s03",
+   "chapter": "c07",
+   "chapterTitle": "Самад, төрөбөгөн, төрөлбөгөн",
+   "title": "Төрөбөгөн жана төрөлбөгөн",
+   "setting": "доска",
+   "camera": "доска ири план",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "3. ТӨРӨБӨГӨН · ТӨРӨЛБӨГӨН",
+    "ата-эне ✗ · бала ✗"
+   ],
+   "animation": [
+    "Устаз эки сөздү жазып, астына сызат"
+   ],
+   "from": 33534,
+   "frames": 866,
+   "beats": [
+    {
+     "key": "c07-s03#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Үчүнчү аят: «Лам йалид ва лам йулад». Ал төрөбөгөн жана төрөлбөгөн.",
+     "from": 0,
+     "frames": 232,
+     "timing": "audio",
+     "audio": "c07-s03_0_c82a1d9ac9a6fe4f.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c07-s03#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ал эч кимдин атасы да, энеси да эмес. Эч кимдин баласы да эмес.",
+     "from": 232,
+     "frames": 193,
+     "timing": "audio",
+     "audio": "c07-s03_1_15609b9569d99914.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c07-s03#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Жер бетинде улуу инсандар, пайгамбарлар болгон. Алардын баары бирөөнүн баласы, бирөөнүн атасы болгон.",
+     "from": 425,
+     "frames": 255,
+     "timing": "audio",
+     "audio": "c07-s03_2_fdf6fa6fe5cf0784.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c07-s03#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ошондуктан алар Кудай боло албайт. Кудайдын атасы да, баласы да болбойт.",
+     "from": 680,
+     "frames": 186,
+     "timing": "audio",
+     "audio": "c07-s03_3_2e94bf357fe23fac.mp3",
+     "ped": false,
+     "replaced_from": null
+    }
+   ]
+  },
+  {
+   "id": "c07-s04",
+   "chapter": "c07",
+   "chapterTitle": "Самад, төрөбөгөн, төрөлбөгөн",
+   "title": "Эң урматтуу адам ким?",
+   "setting": "класс, доска",
+   "camera": "орто план: устаз + доска",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "💰 бай · 👑 бийлик · ⭐ атак → ✗",
+    "ТАКВА ✓ (Хужурат, 13)"
+   ],
+   "animation": [
+    "Доскада байлык, таажы, жылдыз сүрөттөрү чийилип, жүрөк сүрөтү жаркырайт"
+   ],
+   "from": 34400,
+   "frames": 1850,
+   "beats": [
+    {
+     "key": "c07-s04#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Иса алейхиссаламдын энеси Мариям да биздин энелерибиздей эле аял болгон.",
+     "from": 0,
+     "frames": 176,
+     "timing": "audio",
+     "audio": "c07-s04_0_d4da93b79f367f7f.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c07-s04#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Болгону ал таква, Аллахка жакын, Аллахтан коркуп жакшылык кылган сүйкүмдүү аял болгон.",
+     "from": 176,
+     "frames": 239,
+     "timing": "audio",
+     "audio": "c07-s04_1_572df35e5ddb55d9.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c07-s04#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллах бардык адамдарды бир атадан, бир энеден жаратып, анан элдер, уруулар кылды.",
+     "from": 415,
+     "frames": 225,
+     "timing": "audio",
+     "audio": "c07-s04_2_0952e2239c845482.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c07-s04#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бирок Аллах айтат: «Силердин эң урматтууңар — эң такваңар». Хужурат сүрөсү, он үчүнчү аят.",
+     "from": 640,
+     "frames": 270,
+     "timing": "audio",
+     "audio": "c07-s04_3_1b71be77bb22cb4f.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c07-s04#4",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бай болуп кеткен, бийлик алган, атактуу болуп кеткен адам Аллахка жакын эмес экен. Аллахка жакын — такваңар.",
+     "from": 910,
+     "frames": 294,
+     "timing": "audio",
+     "audio": "c07-s04_4_5c4cf620b569c26c.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c07-s04#5",
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Устаз, таква деген эмне?",
+     "from": 1204,
+     "frames": 109,
+     "timing": "audio",
+     "audio": "c07-s04_5_a96f79a7cb09db7a.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c07-s04#6",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Таква — Аллахты эстеп, жаман иштен сактанып, жакшылык кылуу. Жашыруун жерде да ошондой болуу.",
+     "from": 1313,
+     "frames": 258,
+     "timing": "audio",
+     "audio": "c07-s04_6_8078f50b68ef9acb.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c07-s04#7",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Мариям да, Иса алейхиссалам да таква болгону үчүн Аллахка жакын болушкан. Аллах Куранда аларды мактады.",
+     "from": 1571,
+     "frames": 279,
+     "timing": "audio",
+     "audio": "c07-s04_7_5540617873f4f3d2.mp3",
+     "ped": false,
+     "replaced_from": null
+    }
+   ]
+  },
+  {
+   "id": "c07-s05",
+   "chapter": "c07",
+   "chapterTitle": "Самад, төрөбөгөн, төрөлбөгөн",
+   "title": "Байлык көбүртпөсүн",
+   "setting": "доска",
+   "camera": "орто план: устаз + доска",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "байлык + бийлик → «мен улукмун» ✗",
+    "Фараон (Назиат, 24)"
+   ],
+   "animation": [
+    "Доскада таажы сүрөтү",
+    "анын жанына кызыл суроо белгиси"
+   ],
+   "from": 36250,
+   "frames": 1072,
+   "beats": [
+    {
+     "key": "c07-s05#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ыклас сүрөсүн түшүнгөн адам эч кимди Кудай деп айтпайт.",
+     "from": 0,
+     "frames": 135,
+     "timing": "audio",
+     "audio": "c07-s05_0_423e39dfc6443b2d.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c07-s05#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Кээде Аллах бирөөгө көбүрөөк байлык же бийлик берсе, ал адам өзүн башкача сезе баштайт.",
+     "from": 135,
+     "frames": 225,
+     "timing": "audio",
+     "audio": "c07-s05_1_5a67f1de57f2ca0e.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c07-s05#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Фараон айткандай: «Мен силердин эң улук раббиңермин» деген даражага чейин адамдын нафсы жеткирет экен.",
+     "from": 360,
+     "frames": 248,
+     "timing": "audio",
+     "audio": "c07-s05_2_608bdbac458d332e.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c07-s05#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бул сөз Назиат сүрөсүнүн жыйырма төртүнчү аятында айтылат. Фараон ушинтип адашып кеткен.",
+     "from": 608,
+     "frames": 212,
+     "timing": "audio",
+     "audio": "c07-s05_3_b46e78346f2164ae.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c07-s05#4",
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Мен бай болсом да текеберленбейм!",
+     "from": 820,
+     "frames": 97,
+     "timing": "audio",
+     "audio": "c07-s05_4_5b285fd84892baff.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c07-s05#5",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Азамат! Байлыгың болсо — шүгүр кылып, жакшылыкка жумша.",
+     "from": 917,
+     "frames": 155,
+     "timing": "audio",
+     "audio": "c07-s05_5_b031411365d4e14c.mp3",
+     "ped": true,
+     "replaced_from": null
+    }
+   ]
+  },
+  {
+   "id": "c08-s01",
+   "chapter": "c08",
+   "chapterTitle": "Эч ким Ага тең эмес",
+   "title": "Тең эмес",
+   "setting": "доска",
+   "camera": "доска ири план",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "ЫКЛАС: 1. Жалгыз · 2. Муктаж эмес · 3. Төрөбөгөн, төрөлбөгөн · 4. Эч ким тең эмес"
+   ],
+   "animation": [
+    "Устаз төрт сапты бирден жазат",
+    "ар бири жашыл белги алат"
+   ],
+   "from": 37322,
+   "frames": 924,
+   "beats": [
+    {
+     "key": "c08-s01#title",
+     "type": "title",
+     "speaker": null,
+     "text": "Эч ким Ага тең эмес",
+     "from": 0,
+     "frames": 90,
+     "timing": "fixed",
+     "audio": null,
+     "n": 8
+    },
+    {
+     "key": "c08-s01#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Төртүнчү аят: «Ва лам йакун лаху куфуван ахад». Эч ким Ага тең эмес.",
+     "from": 90,
+     "frames": 217,
+     "timing": "audio",
+     "audio": "c08-s01_0_6f82fc675b08eb16.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c08-s01#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллахтын күч-кудуретине эч кимдин күч-кудурети жетпейт. Эч кимдики!",
+     "from": 307,
+     "frames": 189,
+     "timing": "audio",
+     "audio": "c08-s01_1_d9e4cfa8fc8fe159.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c08-s01#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Доскага жазып коёлу. Аллах — Жалгыз. Эч нерсеге муктаж эмес. Төрөбөгөн, төрөлбөгөн. Эч ким Ага тең эмес.",
+     "from": 496,
+     "frames": 308,
+     "timing": "audio",
+     "audio": "c08-s01_2_f93bb7434d7f262f.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c08-s01#3",
+     "type": "visual",
+     "speaker": null,
+     "text": "Доскада Ыклас сүрөсүнүн төрт сабагы бирден жашыл белги алат",
+     "from": 804,
+     "frames": 120,
+     "timing": "fixed",
+     "audio": null
+    }
+   ]
+  },
+  {
+   "id": "c08-s02",
+   "chapter": "c08",
+   "chapterTitle": "Эч ким Ага тең эмес",
+   "title": "Иса алейхиссалам — адам",
+   "setting": "класс, доска",
+   "camera": "устаз ири план → балдарга",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "Иса (а.с.) — урматтуу пайгамбар",
+    "Аллах аны Өзүнө көтөргөн (Ниса, 158)"
+   ],
+   "animation": [
+    "Доскада асманга карай жебе жана нур тартылат (пайгамбар сүрөттөлбөйт)"
+   ],
+   "from": 38246,
+   "frames": 2079,
+   "beats": [
+    {
+     "key": "c08-s02#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Кээ бир адамдардын түшүнүгүндө Иса алейхиссаламды душмандары кармап, айкаш жыгачка асышкан.",
+     "from": 0,
+     "frames": 217,
+     "timing": "audio",
+     "audio": "c08-s02_0_85e52670d93c0eb7.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c08-s02#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бирок Куранда Аллах айтат: аны асышкан да, өлтүрүшкөн да жок. Аллах аны Өзүнө көтөрдү.",
+     "from": 217,
+     "frames": 268,
+     "timing": "audio",
+     "audio": "c08-s02_1_8ce23da819f16fc7.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c08-s02#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бул Ниса сүрөсүнүн жүз элүү жетинчи жана жүз элүү сегизинчи аяттарында айтылат.",
+     "from": 485,
+     "frames": 198,
+     "timing": "audio",
+     "audio": "c08-s02_2_387dac951cbd42c6.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c08-s02#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ал жана анын энеси тамак жешчү. Силерге окшоп эле тамак жешчү. Демек, ал адам болгон.",
+     "from": 683,
+     "frames": 229,
+     "timing": "audio",
+     "audio": "c08-s02_3_7f0a8f700b90b247.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c08-s02#4",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Канча кылымдан бери миллиарддаган адамдар аны «Кудайдын баласы» десе да, ал эч качан Кудай боло албайт.",
+     "from": 912,
+     "frames": 241,
+     "timing": "audio",
+     "audio": "c08-s02_4_cb56ade9cc6abec5.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c08-s02#5",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Эмне үчүн? Анткени Аллах Кудайлыктын өлчөмүн ушул сүрөдө көрсөтүп койду.",
+     "from": 1153,
+     "frames": 193,
+     "timing": "audio",
+     "audio": "c08-s02_5_ddb9548a624965cb.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c08-s02#6",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ушуну Аллах Өз пайгамбарына үйрөттү: «Айт, эй Мухаммад: Аллах жалгыз. Ал эч кимге муктаж эмес. Төрөбөгөн, төрөлбөгөн. Эч ким Ага тең эмес».",
+     "from": 1346,
+     "frames": 421,
+     "timing": "audio",
+     "audio": "c08-s02_6_0d832f85789f645e.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c08-s02#7",
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Төрт аят — төрт сабак!",
+     "from": 1767,
+     "frames": 87,
+     "timing": "audio",
+     "audio": "c08-s02_7_bbee63b7bfd91e5f.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c08-s02#8",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Туура! Ыклас сүрөсүн окуган сайын ушуларды эстейли.",
+     "from": 1854,
+     "frames": 135,
+     "timing": "audio",
+     "audio": "c08-s02_8_7b1c9725c0b6b393.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c08-s02#9",
+     "type": "pause",
+     "speaker": null,
+     "text": "балдар ойлонот",
+     "from": 1989,
+     "frames": 90,
+     "timing": "fixed",
+     "audio": null
+    }
+   ]
+  },
+  {
+   "id": "c09-s01",
+   "chapter": "c09",
+   "chapterTitle": "«Бол!» десе — болот",
+   "title": "Кун фа йакун",
+   "setting": "доска",
+   "camera": "орто план: устаз + доска",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "«БОЛ!» → дароо болот",
+    "Кун · фа · йакун (Ясин, 82)"
+   ],
+   "animation": [
+    "Доскада «БОЛ!» деген сөздөн жарык чачырап, гүлдөр ачылат"
+   ],
+   "from": 40325,
+   "frames": 1145,
+   "beats": [
+    {
+     "key": "c09-s01#title",
+     "type": "title",
+     "speaker": null,
+     "text": "«Бол!» десе — болот",
+     "from": 0,
+     "frames": 90,
+     "timing": "fixed",
+     "audio": null,
+     "n": 9
+    },
+    {
+     "key": "c09-s01#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллах бир нерсени кааласа, ага «Кун — Бол!» деп буйрук берет.",
+     "from": 90,
+     "frames": 176,
+     "timing": "audio",
+     "audio": "c09-s01_0_6a695d7c9eb23746.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c09-s01#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Анын артынан эмне келет? «Фа йакун». Араб тилинде «фа» — тездикти билдирет.",
+     "from": 266,
+     "frames": 214,
+     "timing": "audio",
+     "audio": "c09-s01_1_a1c0b2bcb696f532.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c09-s01#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Демек, Аллах «Бол!» десе — дароо болот. Күтпөйт.",
+     "from": 480,
+     "frames": 169,
+     "timing": "audio",
+     "audio": "c09-s01_2_35fbf5e465e7eecc.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c09-s01#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "«Кун» — бол деген буйрук. «Йакун» — болот. Болгондо да дароо болот.",
+     "from": 649,
+     "frames": 207,
+     "timing": "audio",
+     "audio": "c09-s01_3_aab28fab38adcff3.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c09-s01#4",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бул Ясин сүрөсүнүн сексен экинчи аятында айтылат: «Ал бир нерсени кааласа, ага \"Бол!\" дейт — ал болот».",
+     "from": 856,
+     "frames": 289,
+     "timing": "audio",
+     "audio": "c09-s01_4_297bad42cc519bfc.mp3",
+     "ped": true,
+     "replaced_from": null
+    }
+   ]
+  },
+  {
+   "id": "c09-s02",
+   "chapter": "c09",
+   "chapterTitle": "«Бол!» десе — болот",
+   "title": "Салих пайгамбар жана төө",
+   "setting": "таш тоо, ачык асман",
+   "camera": "жалпы план",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "Салих (а.с.)",
+    "таш тоо → БОЗ ТӨӨ",
+    "таш боор 9 адам ✗ · жумшак жүрөк ✓"
+   ],
+   "animation": [
+    "Таш тоо",
+    "тоо жарылып, ичинен чоң боз төө чыгат",
+    "эл таң калып карайт (пайгамбар сүрөттөлбөйт)"
+   ],
+   "from": 41470,
+   "frames": 2766,
+   "beats": [
+    {
+     "key": "c09-s02#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Салих деген пайгамбар болгон. Анын коомунда таш боор, Аллахтан алыс, ыйманга келбеген адамдар жашаган.",
+     "from": 0,
+     "frames": 263,
+     "timing": "audio",
+     "audio": "c09-s02_0_e8f8996e395538e7.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c09-s02#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Алардын арасында эң катаал, жаман тогуз адам бар эле деп Куранда айтылат.",
+     "from": 263,
+     "frames": 203,
+     "timing": "audio",
+     "audio": "c09-s02_1_298153fa7e17ca0e.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c09-s02#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ошолор бүт элди чогултуп келип: «Эй Салих, чын пайгамбар болсоң, ушул тоону көрдүңбү?» дешти.",
+     "from": 466,
+     "frames": 253,
+     "timing": "audio",
+     "audio": "c09-s02_2_c9f197b8154595e2.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c09-s02#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ал таш тоо болчу. «Ушул таштын ичинен боз төө чыгарып берсең, ишенебиз!» дешти.",
+     "from": 719,
+     "frames": 225,
+     "timing": "audio",
+     "audio": "c09-s02_3_00d23ab26c03319b.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c09-s02#4",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Алар «муну кыла албайт» деп ойлошту. Бирок Аллах кыла албай турган нерсе жок.",
+     "from": 944,
+     "frames": 205,
+     "timing": "audio",
+     "audio": "c09-s02_4_a8b6cd87db1a57d5.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c09-s02#5",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Салих алейхиссалам колун жайып, Аллахка дуба кылды.",
+     "from": 1149,
+     "frames": 150,
+     "timing": "audio",
+     "audio": "c09-s02_5_099b1171208d34cf.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c09-s02#6",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Тафсир китептеринде айтылгандай, Аллахтын буйругу менен таш жарылып, ичинен чоң боз төө чыкты!",
+     "from": 1299,
+     "frames": 232,
+     "timing": "audio",
+     "audio": "c09-s02_6_3e45dc26539d508e.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c09-s02#7",
+     "type": "visual",
+     "speaker": null,
+     "text": "Таш тоо жарылып, ичинен чоң боз төө акырын басып чыгат; эл таң калып карайт",
+     "from": 1531,
+     "frames": 150,
+     "timing": "fixed",
+     "audio": null
+    },
+    {
+     "key": "c09-s02#8",
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Ваай! Таштан төө чыкты!",
+     "from": 1681,
+     "frames": 107,
+     "timing": "audio",
+     "audio": "c09-s02_8_03705bb278d73b05.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c09-s02#9",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Таштын ичинен төө чыгарсаң ишенебиз дегендер эми «бул сыйкыр» дешти.",
+     "from": 1788,
+     "frames": 184,
+     "timing": "audio",
+     "audio": "c09-s02_9_0eebf2a6c6ed4b07.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c09-s02#10",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бирок карап турган адамдардын арасынан жүрөгү жумшак, текеберленбеген адамдар ыйман келтиришти.",
+     "from": 1972,
+     "frames": 229,
+     "timing": "audio",
+     "audio": "c09-s02_10_ef733d00f6dc10bb.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c09-s02#11",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Салих алейхиссалам эскертти: «Бул — Аллахтын төөсү. Ага тийбегиле». Бирок алар кийин төөнү өлтүрүп, азапка калышты.",
+     "from": 2201,
+     "frames": 320,
+     "timing": "audio",
+     "audio": "c09-s02_11_c3a87a77d40ef440.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c09-s02#12",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бул окуя Аъраф сүрөсүндө жана башка сүрөлөрдө айтылат.",
+     "from": 2521,
+     "frames": 148,
+     "timing": "audio",
+     "audio": "c09-s02_12_df3ebcd63715ea5e.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c09-s02#13",
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Текеберлик ушунчалык жаман экен!",
+     "from": 2669,
+     "frames": 97,
+     "timing": "audio",
+     "audio": "c09-s02_13_c2a0db976efa0402.mp3",
+     "ped": true,
+     "replaced_from": null
+    }
+   ]
+  },
+  {
+   "id": "c09-s03",
+   "chapter": "c09",
+   "chapterTitle": "«Бол!» десе — болот",
+   "title": "Дубаң ишке ашат",
+   "setting": "класс, доска",
+   "camera": "устаз ири план → балдарга",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "чын жүрөктөн ДУБА → Аллах «Бол!» десе → болот",
+    "качан? — Аллах билет"
+   ],
+   "animation": [
+    "Айзада колун жайып дуба кылат",
+    "доскада кичинекей жылдыздар жанат"
+   ],
+   "from": 44236,
+   "frames": 1256,
+   "beats": [
+    {
+     "key": "c09-s03#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллах «Бол!» десе — таштын ичинен төө чыгат. Заматта!",
+     "from": 0,
+     "frames": 174,
+     "timing": "audio",
+     "audio": "c09-s03_0_5c55c7248f5cd4fc.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c09-s03#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Биз да чын жүрөктөн Аллахтан бир нерсе сурасак, дуба кылсак, Аллах кабыл кылса — ал сөзсүз болот.",
+     "from": 174,
+     "frames": 255,
+     "timing": "audio",
+     "audio": "c09-s03_1_165aa5509460c62c.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c09-s03#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллах «бол» деген убакта болот. Дубаң өз убагында ишке ашат.",
+     "from": 429,
+     "frames": 186,
+     "timing": "audio",
+     "audio": "c09-s03_2_f155ff76a04aec93.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c09-s03#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Куранда Аллах айтат: «Мага дуба кылгыла, жооп беремин». Гафир сүрөсү, алтымышынчы аят.",
+     "from": 615,
+     "frames": 253,
+     "timing": "audio",
+     "audio": "c09-s03_3_0641b0eeb590afe0.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c09-s03#4",
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Мен апамдын айыгышын сураганмын. Апам айыгып кетти!",
+     "from": 868,
+     "frames": 160,
+     "timing": "audio",
+     "audio": "c09-s03_4_435ec9295dc97e07.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c09-s03#5",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Алхамдулиллах, Айзада! Аллах дубаңды уккан.",
+     "from": 1028,
+     "frames": 138,
+     "timing": "audio",
+     "audio": "c09-s03_5_e60587f455bd5ba2.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c09-s03#6",
+     "type": "pause",
+     "speaker": null,
+     "text": "балдар ойлонот",
+     "from": 1166,
+     "frames": 90,
+     "timing": "fixed",
+     "audio": null
+    }
+   ]
+  },
+  {
+   "id": "c10-s01",
+   "chapter": "c10",
+   "chapterTitle": "Ааламдагы тартип",
+   "title": "Силердин Илахыңар — Жалгыз",
+   "setting": "доска",
+   "camera": "орто план: устаз + доска",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "«Силердин Илахыңар — жалгыз Илах» (Бакара, 163)",
+    "Аллахтын баласы жок ✓"
+   ],
+   "animation": [
+    "Доскада «1» саны алтын түскө боёлот"
+   ],
+   "from": 45492,
+   "frames": 1000,
+   "beats": [
+    {
+     "key": "c10-s01#title",
+     "type": "title",
+     "speaker": null,
+     "text": "Ааламдагы тартип",
+     "from": 0,
+     "frames": 90,
+     "timing": "fixed",
+     "audio": null,
+     "n": 10
+    },
+    {
+     "key": "c10-s01#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бакара сүрөсүндө Аллах айтат: «Силердин Илахыңар — жалгыз Илах. Андан башка илах жок. Ал — Рахман, Рахим».",
+     "from": 90,
+     "frames": 320,
+     "timing": "audio",
+     "audio": "c10-s01_0_bd4ab1a580cbd761.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c10-s01#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Кудай катары Анын Өзү гана бар. Башка бирөөнү Кудай катары кабыл албагыла.",
+     "from": 410,
+     "frames": 196,
+     "timing": "audio",
+     "audio": "c10-s01_1_2f967986564672e2.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c10-s01#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Кээ бирөөлөр Исаны, кээ бирөөлөр Узайрды «Кудайдын уулу» дешти. Аллах андай кемчиликтен таза.",
+     "from": 606,
+     "frames": 261,
+     "timing": "audio",
+     "audio": "c10-s01_2_83ba51d482abb3c2.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c10-s01#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Асман менен жерди жараткан — жалгыз Аллах.",
+     "from": 867,
+     "frames": 133,
+     "timing": "audio",
+     "audio": "c10-s01_3_8dda2ef4cd1bba26.mp3",
+     "ped": false,
+     "replaced_from": null
+    }
+   ]
+  },
+  {
+   "id": "c10-s02",
+   "chapter": "c10",
+   "chapterTitle": "Ааламдагы тартип",
+   "title": "Эки кожоюн болсо...",
+   "setting": "кеме жана деңиз",
+   "camera": "жалпы план",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "2 кудай → бузулат ✗",
+    "1 Аллах → тартип ✓ (Анбия, 22)"
+   ],
+   "animation": [
+    "Кайыкта эки руль: бири оңго, бири солго тартып, кайык айланып калат",
+    "анан бир руль — кайык түз сүзөт"
+   ],
+   "from": 46492,
+   "frames": 1673,
+   "beats": [
+    {
+     "key": "c10-s02#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллах Куранда айтат: эгер асман менен жерде Аллахтан башка дагы кудай болгондо, экөө тең бузулуп кетмек.",
+     "from": 0,
+     "frames": 255,
+     "timing": "audio",
+     "audio": "c10-s02_0_b0b99591ac23181e.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c10-s02#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Эмне үчүн? Анткени экинчи «кудай» айтмак: «Мен мындай жер кылбадым. Жер башка жакка айлансын!»",
+     "from": 255,
+     "frames": 253,
+     "timing": "audio",
+     "audio": "c10-s02_1_df3a975bdea6582a.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c10-s02#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Күнгө да «жок, мен башкача кылам» дей бермек.",
+     "from": 508,
+     "frames": 131,
+     "timing": "audio",
+     "audio": "c10-s02_2_272d40ac8dd24d7d.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c10-s02#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бир кайыкты эки адам эки жакка бурса эмне болот?",
+     "from": 639,
+     "frames": 150,
+     "timing": "audio",
+     "audio": "c10-s02_3_1e8fd3ce80ba627a.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c10-s02#4",
+     "type": "visual",
+     "speaker": null,
+     "text": "Кайыкты эки руль эки жакка тартат — кайык ордунда айланат; анан бир руль калат — кайык түз сүзөт",
+     "from": 789,
+     "frames": 120,
+     "timing": "fixed",
+     "audio": null
+    },
+    {
+     "key": "c10-s02#5",
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Кайык айланып калат! Эч жакка бара албайт!",
+     "from": 909,
+     "frames": 135,
+     "timing": "audio",
+     "audio": "c10-s02_5_dcd2f1d17693d60d.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c10-s02#6",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Туура. Ал эми айланабызда эч бир нерсе өз ордун бузбайт. Ар бир жаратылган нерсе өз милдетин так аткарат.",
+     "from": 1044,
+     "frames": 284,
+     "timing": "audio",
+     "audio": "c10-s02_6_018ae1f670a53462.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c10-s02#7",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Баары шуруга тизилген мончоктой тизилип турат. Бул Аллахтын жалгыз экенин далилдейт.",
+     "from": 1328,
+     "frames": 210,
+     "timing": "audio",
+     "audio": "c10-s02_7_bfe045c96cf728d5.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c10-s02#8",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бул Анбия сүрөсүнүн жыйырма экинчи аятынын мааниси.",
+     "from": 1538,
+     "frames": 135,
+     "timing": "audio",
+     "audio": "c10-s02_8_af6e95447a038439.mp3",
+     "ped": true,
+     "replaced_from": null
+    }
+   ]
+  },
+  {
+   "id": "c10-s03",
+   "chapter": "c10",
+   "chapterTitle": "Ааламдагы тартип",
+   "title": "Башталышы да, аягы да жок",
+   "setting": "доска",
+   "camera": "доска ири план",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "АЛ-АВВАЛ · АЛ-АХИР (Хадид, 3)",
+    "башталышы ✗ · аягы ✗ · убакыт ✗"
+   ],
+   "animation": [
+    "Доскада узун сызык тартылып, эки учу жоголуп кетет"
+   ],
+   "from": 48165,
+   "frames": 1058,
+   "beats": [
+    {
+     "key": "c10-s03#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллах — улуулуктун ээси. Бардык нерсени Өзү жараткан. Анын шериги болушу мүмкүн эмес.",
+     "from": 0,
+     "frames": 225,
+     "timing": "audio",
+     "audio": "c10-s03_0_6d794d8fb657115c.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c10-s03#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Куранда: «Ал — Эң Башкы жана Эң Акыркы». Хадид сүрөсү, үчүнчү аят.",
+     "from": 225,
+     "frames": 241,
+     "timing": "audio",
+     "audio": "c10-s03_1_d09ec8ac5b39e179.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c10-s03#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Биздин түшүнүгүбүздө бардык нерсенин башталышы бар, аягы бар. Бирок Аллахтын башталышы да, аягы да жок.",
+     "from": 466,
+     "frames": 284,
+     "timing": "audio",
+     "audio": "c10-s03_2_4be33a59bf596cb5.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c10-s03#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллах үчүн убакыт деген жок. Убакытты да Ал жараткан.",
+     "from": 750,
+     "frames": 160,
+     "timing": "audio",
+     "audio": "c10-s03_3_43ebdde9ffefa6b5.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c10-s03#4",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Убакыт жөнүндө кийинки сабакта көп сүйлөшөбүз, иншаллах.",
+     "from": 910,
+     "frames": 148,
+     "timing": "audio",
+     "audio": "c10-s03_4_df7da8bdeeba5a7f.mp3",
+     "ped": true,
+     "replaced_from": null
+    }
+   ]
+  },
+  {
+   "id": "c10-s04",
+   "chapter": "c10",
+   "chapterTitle": "Ааламдагы тартип",
+   "title": "Жылдыздарга чейинки жол",
+   "setting": "космос",
+   "camera": "жалпы план",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "жарык: 300 000 км/сек",
+    "эң жакын жылдыз → 4 жылдан ашык (жарык менен!)",
+    "периштелер · жиндер · адамдар"
+   ],
+   "animation": [
+    "Космос: жылдыздар, жарык нуру учуп баратат, ракета артта калат"
+   ],
+   "from": 49223,
+   "frames": 1735,
+   "beats": [
+    {
+     "key": "c10-s04#0",
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Устаз, башка планеталарда да адамдар барбы?",
+     "from": 0,
+     "frames": 126,
+     "timing": "audio",
+     "audio": "c10-s04_0_d379cb819c907401.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c10-s04#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бизге белгисиз. Куранда үч түрдүү акылдуу макулук айтылат: периштелер, жиндер жана биз — адамдар.",
+     "from": 126,
+     "frames": 277,
+     "timing": "audio",
+     "audio": "c10-s04_1_3b0b84896cfd4cae.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c10-s04#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ар бир жылдыз — өзүнчө бир күн. Анын айланасында да планеталар болушу мүмкүн.",
+     "from": 403,
+     "frames": 196,
+     "timing": "audio",
+     "audio": "c10-s04_2_a55a0b0419e25dd5.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c10-s04#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бизге эң жакын жылдызга чейинки аралыкты жарык төрт жылдан ашык убакытта басат.",
+     "from": 599,
+     "frames": 189,
+     "timing": "audio",
+     "audio": "c10-s04_3_a98a17345f3a71d6.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c10-s04#4",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Жарык бир секундада үч жүз миң километр учат! Биздин эң тез ракеталар андан миңдеген эсе жай.",
+     "from": 788,
+     "frames": 234,
+     "timing": "audio",
+     "audio": "c10-s04_4_ec7ccf008aeaa574.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c10-s04#5",
+     "type": "visual",
+     "speaker": null,
+     "text": "Жарык нуру жылдыздарды көздөй учат; ракета артта калып баратат",
+     "from": 1022,
+     "frames": 150,
+     "timing": "fixed",
+     "audio": null
+    },
+    {
+     "key": "c10-s04#6",
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Ааламдын чоңдугун элестете да албайм!",
+     "from": 1172,
+     "frames": 112,
+     "timing": "audio",
+     "audio": "c10-s04_6_e89fb05339073771.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c10-s04#7",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Мына ушул чексиз чоң ааламды жараткан, башкарган — жалгыз Аллах.",
+     "from": 1284,
+     "frames": 203,
+     "timing": "audio",
+     "audio": "c10-s04_7_ca5a87c3246b64ff.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c10-s04#8",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Дагы бир кеңеш: интернеттеги ар бир маалымат туура боло бербейт. Ар дайым текшерип, билгенден сурагыла.",
+     "from": 1487,
+     "frames": 248,
+     "timing": "audio",
+     "audio": "c10-s04_8_4477b2df2729a900.mp3",
+     "ped": true,
+     "replaced_from": null
+    }
+   ]
+  },
+  {
+   "id": "c11-s01",
+   "chapter": "c11",
+   "chapterTitle": "Бардык пайгамбарлар — бир жолдо",
+   "title": "Жер жүзүндөгү пайгамбарлар",
+   "setting": "дүйнө картасы",
+   "camera": "жалпы план → доска",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "🌍 ар бир элге пайгамбар (Нахл, 36)",
+    "Мекке · Кааба",
+    "«Ахмад» (Сафф, 6)"
+   ],
+   "animation": [
+    "Дүйнө картасында чекиттер бирден жанат",
+    "Мекке алтын түстө жаркырайт"
+   ],
+   "from": 50958,
+   "frames": 1695,
+   "beats": [
+    {
+     "key": "c11-s01#title",
+     "type": "title",
+     "speaker": null,
+     "text": "Бардык пайгамбарлар — бир жолдо",
+     "from": 0,
+     "frames": 90,
+     "timing": "fixed",
+     "audio": null,
+     "n": 11
+    },
+    {
+     "key": "c11-s01#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Карагыла, бул — Жер. Мына бул жерде Мекке, Кааба бар.",
+     "from": 90,
+     "frames": 178,
+     "timing": "audio",
+     "audio": "c11-s01_0_7498663697300687.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c11-s01#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Жер жүзүнүн ар бир чекитинде пайгамбарлар жашап өткөн. Аллах ар бир элге пайгамбар жиберген.",
+     "from": 268,
+     "frames": 239,
+     "timing": "audio",
+     "audio": "c11-s01_1_cb7276d33d916ef6.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c11-s01#2",
+     "type": "visual",
+     "speaker": null,
+     "text": "Дүйнө картасында чекиттер бирден жанат, Мекке алтын түстө жаркырайт",
+     "from": 507,
+     "frames": 120,
+     "timing": "fixed",
+     "audio": null
+    },
+    {
+     "key": "c11-s01#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллах бардык пайгамбарлардан убада алган: «Акыркы пайгамбар Мухаммад келсе, ага ишенип, жардам бересиңерби?»",
+     "from": 627,
+     "frames": 289,
+     "timing": "audio",
+     "audio": "c11-s01_3_5b9b387502f0d0fa.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c11-s01#4",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Баары бир ооздон: «Биз ага жардам беребиз» деп убада беришкен. Бул Аалы Имран сүрөсүндө айтылат.",
+     "from": 916,
+     "frames": 248,
+     "timing": "audio",
+     "audio": "c11-s01_4_433a5f90defb29a5.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c11-s01#5",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ар бир пайгамбар Мухаммад алейхиссалам жөнүндө кабардар болгон.",
+     "from": 1164,
+     "frames": 160,
+     "timing": "audio",
+     "audio": "c11-s01_5_7a1289709156abb0.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c11-s01#6",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Иса алейхиссалам: «Менден кийин Ахмад аттуу пайгамбар келет» деп сүйүнчүлөгөн. Сафф сүрөсү, алтынчы аят.",
+     "from": 1324,
+     "frames": 272,
+     "timing": "audio",
+     "audio": "c11-s01_6_67f9cea9f64544b9.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c11-s01#7",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Тооратта да анын сыпаттары айтылган.",
+     "from": 1596,
+     "frames": 99,
+     "timing": "audio",
+     "audio": "c11-s01_7_e9191ff747fbec35.mp3",
+     "ped": false,
+     "replaced_from": null
+    }
+   ]
+  },
+  {
+   "id": "c11-s02",
+   "chapter": "c11",
+   "chapterTitle": "Бардык пайгамбарлар — бир жолдо",
+   "title": "Бирин-бири улаган",
+   "setting": "доска",
+   "camera": "орто план: устаз + доска",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "Давуд (а.с.) → Забур",
+    "Сулайман · Закария · Яхья (а.с.)",
+    "Иса (а.с.) → Инжил",
+    "~600 жыл → Мухаммад ﷺ → Куран"
+   ],
+   "animation": [
+    "Доскада узун жол",
+    "анын боюнда китептердин белгилери бирден пайда болот"
+   ],
+   "from": 52653,
+   "frames": 1771,
+   "beats": [
+    {
+     "key": "c11-s02#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Иса алейхиссалам менен Пайгамбарыбыздын ортосунда алты жүз жылдай убакыт өткөн. Бул аралыкта пайгамбар келген эмес.",
+     "from": 0,
+     "frames": 248,
+     "timing": "audio",
+     "audio": "c11-s02_0_69569a0c2a929ae3.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c11-s02#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ага чейин пайгамбарлар тынымсыз, бирин-бири улап келишкен.",
+     "from": 248,
+     "frames": 157,
+     "timing": "audio",
+     "audio": "c11-s02_1_3ff3f89b96bde696.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c11-s02#2",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Мисалы, Давуд алейхиссаламга Забур түшкөн. Андан кийин Сулайман, Закария, Яхья алейхиссаламдар ошол жолду улантышкан.",
+     "from": 405,
+     "frames": 306,
+     "timing": "audio",
+     "audio": "c11-s02_2_5e86b5c54e4943e6.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c11-s02#3",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Анан Иса алейхиссалам жаңы китеп — Инжил менен келген.",
+     "from": 711,
+     "frames": 157,
+     "timing": "audio",
+     "audio": "c11-s02_3_29c9b37997cff5ce.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c11-s02#4",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Коом чоңоюп, өзгөргөн сайын жаңы мыйзамдар түшүп турган.",
+     "from": 868,
+     "frames": 153,
+     "timing": "audio",
+     "audio": "c11-s02_4_1526eadc9a2f2aa8.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c11-s02#5",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Мисалы, мурда бажы деген түшүнүк болгон эмес. Бажы пайда болгондо, бажы мыйзамы пайда болду. Салык пайда болгондо — салык мыйзамы.",
+     "from": 1021,
+     "frames": 306,
+     "timing": "audio",
+     "audio": "c11-s02_5_d36815b5acd51428.mp3",
+     "ped": false,
+     "replaced_from": null
+    },
+    {
+     "key": "c11-s02#6",
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Мектебибизге да жаңы окуучулар келгенде жаңы эрежелер чыкты!",
+     "from": 1327,
+     "frames": 157,
+     "timing": "audio",
+     "audio": "c11-s02_6_d79852beaf571797.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c11-s02#7",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Дал ошондой, Бектур! Бирок бардык пайгамбарлардын негизги сөзү бирөө эле: «Аллах — Жалгыз, Ага гана ибадат кылгыла».",
+     "from": 1484,
+     "frames": 287,
+     "timing": "audio",
+     "audio": "c11-s02_7_ea8c0f5576b27db6.mp3",
+     "ped": true,
+     "replaced_from": null
+    }
+   ]
+  },
+  {
+   "id": "c12-s01",
+   "chapter": "c12",
+   "chapterTitle": "Жыйынтык",
+   "title": "Эмнени үйрөндүк?",
+   "setting": "класс, доска",
+   "camera": "жалпы план → доска",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "ТАУХИД: Жаратуучу — Жалгыз ✓ · Ибадат — Ага гана ✓ · Ысымдары — теңдешсиз ✓",
+    "ЫКЛАС: Ахад · Самад · Төрөбөгөн · Тең эмес"
+   ],
+   "animation": [
+    "Доскадагы үч тегерек жана Ыклас сүрөсүнүн төрт сабагы кайра жанат"
+   ],
+   "from": 54424,
+   "frames": 1013,
+   "beats": [
+    {
+     "key": "c12-s01#title",
+     "type": "title",
+     "speaker": null,
+     "text": "Жыйынтык",
+     "from": 0,
+     "frames": 90,
+     "timing": "fixed",
+     "audio": null,
+     "n": 12
+    },
+    {
+     "key": "c12-s01#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Кана, балдар, бүгүн эмнени үйрөндүк? Таухиддин үч жагын ким айтат?",
+     "from": 90,
+     "frames": 198,
+     "timing": "audio",
+     "audio": "c12-s01_0_bd93576c2025a0d0.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c12-s01#1",
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Аллах — жалгыз Жаратуучу!",
+     "from": 288,
+     "frames": 99,
+     "timing": "audio",
+     "audio": "c12-s01_1_e54229d71f794555.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c12-s01#2",
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Ибадат — Аллахка гана!",
+     "from": 387,
+     "frames": 99,
+     "timing": "audio",
+     "audio": "c12-s01_2_683489d88de5182a.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c12-s01#3",
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Аллахтын ысымдары эч кимге окшобойт!",
+     "from": 486,
+     "frames": 116,
+     "timing": "audio",
+     "audio": "c12-s01_3_c3bd50d6850c44e2.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c12-s01#4",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Баракелде! Баарын туура таптыңар.",
+     "from": 602,
+     "frames": 105,
+     "timing": "audio",
+     "audio": "a07-s03_10_d4530a5401a03bbc.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c12-s01#5",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Азаматсыңар! Экрандын алдындагы балдар, силер да санап чыктыңарбы?",
+     "from": 707,
+     "frames": 186,
+     "timing": "audio",
+     "audio": "d15-s01_5_bc97e25bf0fde8ce.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c12-s01#6",
+     "type": "pause",
+     "speaker": null,
+     "text": "экрандын алдындагы балдар жооп беришет",
+     "from": 893,
+     "frames": 120,
+     "timing": "fixed",
+     "audio": null
+    }
+   ]
+  },
+  {
+   "id": "c12-s02",
+   "chapter": "c12",
+   "chapterTitle": "Жыйынтык",
+   "title": "Үй тапшырма жана коштошуу",
+   "setting": "класс",
+   "camera": "жалпы план",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "Үй тапшырма: Аллахтын бир кереметин байка",
+    "«Алхамдулиллах»"
+   ],
+   "animation": [
+    "Устаз балдарга кол булгалайт",
+    "балдар кубанып кол булгалашат"
+   ],
+   "from": 55437,
+   "frames": 725,
+   "beats": [
+    {
+     "key": "c12-s02#0",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Үй тапшырма: бүгүн Аллахтын бир кереметин байкап, үйдөгүлөргө айтып бергиле. Тамак жегенде «Алхамдулиллах» дегенди унутпагыла!",
+     "from": 0,
+     "frames": 318,
+     "timing": "audio",
+     "audio": "e04-s02_3_03ef4fde3fe8b5d5.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c12-s02#1",
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Убактыңарды баалагыла, балдар! Көрүшкөнчө! Ассалому алейкум!",
+     "from": 318,
+     "frames": 169,
+     "timing": "audio",
+     "audio": "d15-s02_4_3e04b0f9c7417263.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c12-s02#2",
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Ваалейкум ассалам, устаз! Кош болуңуз!",
+     "from": 487,
+     "frames": 118,
+     "timing": "audio",
+     "audio": "d15-s02_5_0c05e525b428469e.mp3",
+     "ped": true,
+     "replaced_from": null
+    },
+    {
+     "key": "c12-s02#3",
+     "type": "visual",
+     "speaker": null,
+     "text": "Устаз жана балдар кол булгалашат; доскада «ТАУХИД» деген сөз жаркырайт",
+     "from": 605,
+     "frames": 120,
+     "timing": "fixed",
+     "audio": null
+    }
+   ]
+  }
+ ]
+}

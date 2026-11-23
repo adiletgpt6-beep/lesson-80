@@ -5,7 +5,11 @@ export type CutawayId =
   | "seaCrown" | "bekturRoom" | "aizadaBed" | "homeKitchen" | "streetBread" | "orchard" | "race" | "dawnRoom"
   | "neighbor" | "electrician" | "wheatField" | "kettle" | "winterBirds" | "garage" | "brightPath" | "oven"
   // lessons 006 / 007 (Studio VID-003)
-  | "mirage" | "hall" | "orbits" | "taif" | "mecca" | "sadaqa" | "battery" | "chess" | "baby" | "books" | "bike" | "wings" | "hillThink";
+  | "mirage" | "hall" | "orbits" | "taif" | "mecca" | "sadaqa" | "battery" | "chess" | "baby" | "books" | "bike" | "wings" | "hillThink"
+  // lessons 008 / 009 (Studio VID-004)
+  | "junkStorm" | "heartBody" | "phoneApps" | "earthSun" | "kaabaNight" | "desertStone" | "camelRock" | "boatRudders" | "lightSpeed"
+  | "worldMap" | "mountainAsk" | "scaleHeart" | "dayCycle" | "sandCastle" | "familyCar" | "grandpaWill" | "grandpaChest" | "studyNight" | "oldHouse"
+  | "taxiRoad" | "horseBag";
 
 export const visualCutaways: Record<string, CutawayId> = {
   "ch01-s01#1": "nature",

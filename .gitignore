@@ -30,3 +30,9 @@ lessons/R0[45]/audio/clips/*.v1.mp3
 !lessons/R07/audio/clips/*.mp3
 lessons/R0[67]/audio/clips/*.v0.mp3
 lessons/R0[67]/audio/clips/*.v1.mp3
+
+# Voice clips of lessons 008/009 (R08/R09, Studio VID-004): kept in Git so CI can render without re-spending credits
+!lessons/R08/audio/clips/*.mp3
+!lessons/R09/audio/clips/*.mp3
+lessons/R0[89]/audio/clips/*.v0.mp3
+lessons/R0[89]/audio/clips/*.v1.mp3

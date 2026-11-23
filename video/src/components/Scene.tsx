@@ -167,6 +167,16 @@ export const SceneView: React.FC<{ scene: Scene; sceneIndex: number; meta?: Less
   let cutId = sceneCut ?? beatCut, cutT = 0, cutAlpha = 0;
   if (sceneCut) {
     cutT = frame / scene.frames; cutAlpha = 1;
+  } else if (beatCut && beat && (meta?.number ?? 0) >= 8) {
+    // lessons 008+: consecutive beats with the same illustration play as ONE continuous insert (no dip to the
+    // classroom between lines, the animation does not restart)
+    const cutOf = (x?: Beat) => (!x ? undefined : x.type === "visual" ? visualCutaways[x.key] : x.type === "line" ? lineCutaways[x.key] : undefined);
+    let i0 = bi, i1 = bi;
+    while (i0 > 0 && cutOf(scene.beats[i0 - 1]) === beatCut) i0--;
+    while (i1 < scene.beats.length - 1 && cutOf(scene.beats[i1 + 1]) === beatCut) i1++;
+    const rs = scene.beats[i0].from, re = scene.beats[i1].from + scene.beats[i1].frames;
+    cutT = (frame - rs) / Math.max(1, re - rs);
+    cutAlpha = Math.min(1, (frame - rs) / 12, (re - frame) / 12);
   } else if (beatCut && beat) {
     cutT = fib / beat.frames;
     cutAlpha = Math.min(1, fib / 10, (beat.frames - fib) / 10);
