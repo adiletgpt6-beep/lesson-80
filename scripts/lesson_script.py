@@ -37,7 +37,7 @@ COVER_FRAMES = 90  # course-wide opening cover, exactly 3 s from frame 0 (OPENIN
 SPEAKERS = {"ustaz", "bektur", "aizada", "both_children"}
 WORD = re.compile(r"[^\s«»“”\"—–.,!?…:;()]+")
 ARABIC_HINTS = re.compile(r"(халак|лияъбуд|инна лиллахи|илайхи|ражиун|раббук|юдоиф|ля илаха|ла илаха|шухха|муфлихун|лакад|кабад|бисмиллах|субхана|рахман|рахим|халифа|фастабику|ассалому|алейкум|салам|алхамдулиллах|машаллах|иншаллах)", re.I)
-TIME = re.compile(r"^I\d{2} \d{2}:\d{2}:\d{2}–\d{2}:\d{2}:\d{2}$")
+TIME = re.compile(r"^[IJ]\d{2,3} \d{2}:\d{2}:\d{2}–\d{2}:\d{2}:\d{2}$")
 
 
 def chapters():

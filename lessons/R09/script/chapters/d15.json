@@ -1,0 +1,171 @@
+{
+ "id": "d15",
+ "title_ky": "Жыйынтык жана дуба",
+ "planned_seconds": 160,
+ "source_ideas": [
+  "J57",
+  "J111"
+ ],
+ "scenes": [
+  {
+   "id": "d15-s01",
+   "title_ky": "Төрт ачкыч",
+   "setting": "класс, доска",
+   "camera": "жалпы план → доска",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "АСР СҮРӨСҮ: 🔑 Ыйман · 🔑 Жакшы амал · 🔑 Акыйкатты айтуу · 🔑 Сабыр"
+   ],
+   "animation": [
+    "Доскадагы төрт ачкыч бирден жаркырап, кум саат айланат"
+   ],
+   "beats": [
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Кана, балдар, ийгиликтин төрт ачкычын ким айтат?",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Биринчиси — ыйман!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Экинчиси — жакшы амал!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Үчүнчүсү — акыйкатты бири-бирибизге айтуу!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Төртүнчүсү — сабыр!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Азаматсыңар! Экрандын алдындагы балдар, силер да санап чыктыңарбы?",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "pause",
+     "seconds": 4.0,
+     "reason": "экрандын алдындагы балдар жооп беришет"
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Үй тапшырма: бүгүн бир сааттык убактыңарды пайдалуу ишке жумшагыла — сабак, жардам, Куран окуу. Анан үйдөгүлөргө Аср сүрөсүнүн маанисин айтып бергиле.",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    }
+   ]
+  },
+  {
+   "id": "d15-s02",
+   "title_ky": "Дуба жана коштошуу",
+   "setting": "класс",
+   "camera": "жалпы план",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "«Сен үйрөткөндөн башка бизде илим жок» (Бакара, 32)"
+   ],
+   "animation": [
+    "Устаз колун жайып дуба кылат",
+    "балдар да колдорун жайышат",
+    "анан кол булгалашат"
+   ],
+   "beats": [
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Чындыгын Аллах билет. Сабакты дуба менен бүтүрөлү: «Аллахым, Сен бардык кемчиликтен тазасың. Сен үйрөткөндөн башка бизде илим жок. Сен баарын билүүчү, даанышмансың».",
+     "source": [
+      "J57 00:51:00–00:51:35"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "«Жүрөктөрдү бурган Аллахым, жүрөгүбүздү Өз диниңде бекем кыл».",
+     "source": [
+      "J111 02:15:00–02:15:38"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "«Раббибиз, бизге дүйнөдө да, акыретте да жакшылык бер, бизди тозоктун азабынан сакта».",
+     "source": [
+      "J111 02:15:00–02:15:38"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Амин!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Убактыңарды баалагыла, балдар! Көрүшкөнчө! Ассалому алейкум!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Ваалейкум ассалам, устаз! Кош болуңуз!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "visual",
+     "seconds": 4.0,
+     "description": "Устаз жана балдар кол булгалашат; доскада төрт ачкыч жаркырайт"
+    }
+   ]
+  }
+ ]
+}

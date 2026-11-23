@@ -3,6 +3,8 @@ import dataR04 from "./timeline-R04.json";
 import dataR05 from "./timeline-R05.json";
 import dataR06 from "./timeline-R06.json";
 import dataR07 from "./timeline-R07.json";
+import dataR08 from "./timeline-R08.json";
+import dataR09 from "./timeline-R09.json";
 
 export type BeatType = "line" | "pause" | "visual" | "title" | "cover";
 export type Speaker = "ustaz" | "bektur" | "aizada" | "both_children";
@@ -60,4 +62,6 @@ export const timelines: Record<string, Timeline> = {
   R05: dataR05 as unknown as Timeline,
   R06: dataR06 as unknown as Timeline, // lesson 006 (Studio VID-003, part 1)
   R07: dataR07 as unknown as Timeline, // lesson 007 (Studio VID-003, part 2)
+  R08: dataR08 as unknown as Timeline, // lesson 008 (Studio VID-004, part 1)
+  R09: dataR09 as unknown as Timeline, // lesson 009 (Studio VID-004, part 2)
 };

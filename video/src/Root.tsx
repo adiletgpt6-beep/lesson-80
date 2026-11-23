@@ -16,7 +16,7 @@ export const RemotionRoot: React.FC = () => (
         width={timeline.width} height={timeline.height} defaultProps={{ chapter: c.id }} />
     ))}
     {/* New lessons 004 / 005 (production ids R04 / R05), split from the one-hour lesson 003. */}
-    {(["R04", "R05", "R06", "R07"] as const).map((L) => {
+    {(["R04", "R05", "R06", "R07", "R08", "R09"] as const).map((L) => {
       const t = timelines[L];
       const n = String(t.lesson?.number ?? 0).padStart(3, "0");
       return (

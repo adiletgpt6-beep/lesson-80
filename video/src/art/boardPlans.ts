@@ -101,3 +101,5 @@ export const boardPlans: Record<string, Row[]> = {
 // lessons 006 / 007 (Studio VID-003)
 import { boardPlans67 } from "./boardPlans67";
 Object.assign(boardPlans, boardPlans67);
+import { boardPlans89 } from "./boardPlans89";
+Object.assign(boardPlans, boardPlans89);

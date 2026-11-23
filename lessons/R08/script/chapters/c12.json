@@ -1,0 +1,174 @@
+{
+ "id": "c12",
+ "title_ky": "Жыйынтык",
+ "planned_seconds": 130,
+ "source_ideas": [
+  "J36"
+ ],
+ "scenes": [
+  {
+   "id": "c12-s01",
+   "title_ky": "Эмнени үйрөндүк?",
+   "setting": "класс, доска",
+   "camera": "жалпы план → доска",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "ТАУХИД: Жаратуучу — Жалгыз ✓ · Ибадат — Ага гана ✓ · Ысымдары — теңдешсиз ✓",
+    "ЫКЛАС: Ахад · Самад · Төрөбөгөн · Тең эмес"
+   ],
+   "animation": [
+    "Доскадагы үч тегерек жана Ыклас сүрөсүнүн төрт сабагы кайра жанат"
+   ],
+   "beats": [
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Кана, балдар, бүгүн эмнени үйрөндүк? Таухиддин үч жагын ким айтат?",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Аллах — жалгыз Жаратуучу!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Ибадат — Аллахка гана!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Аллахтын ысымдары эч кимге окшобойт!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Баракелде! Ал эми Ыклас сүрөсүнүн төрт сабагы?",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Аллах — Жалгыз. Эч нерсеге муктаж эмес. Төрөбөгөн, төрөлбөгөн. Эч ким Ага тең эмес!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Азаматсыңар! Экрандын алдындагы балдар, силер да айта алдыңарбы?",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "pause",
+     "seconds": 4.0,
+     "reason": "экрандын алдындагы балдар жооп беришет"
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллахтын ысымдарын жана сыпаттарын кийинки сабактарда тереңирээк үйрөнөбүз, иншаллах.",
+     "source": [
+      "J36 00:29:30–00:30:00"
+     ],
+     "ped": false,
+     "blocked": null
+    }
+   ]
+  },
+  {
+   "id": "c12-s02",
+   "title_ky": "Үй тапшырма жана коштошуу",
+   "setting": "класс",
+   "camera": "жалпы план",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "Үй тапшырма: Ыклас сүрөсүн окуп, маанисин үй-бүлөгө айтып бер"
+   ],
+   "animation": [
+    "Устаз балдарга кол булгалайт",
+    "балдар кубанып кол булгалашат"
+   ],
+   "beats": [
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Үй тапшырма: Ыклас сүрөсүн окугула жана анын төрт сабагын үйдөгүлөргө айтып бергиле.",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Пайгамбарыбыз айткан: Ыклас сүрөсү Курандын үчтөн бирине тең. Бул хадисти имам Бухари жеткирген.",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Анда мен аны күн сайын окуйм!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллах ыйманыбызды бекем кылсын! Кийинки сабакта Аср сүрөсүн — убакыт жөнүндөгү сүрөнү үйрөнөбүз.",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Көрүшкөнчө, балдар! Ассалому алейкум!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Ваалейкум ассалам, устаз! Кош болуңуз!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "visual",
+     "seconds": 4.0,
+     "description": "Устаз жана балдар кол булгалашат; доскада «ТАУХИД» деген сөз жаркырайт"
+    }
+   ]
+  }
+ ]
+}

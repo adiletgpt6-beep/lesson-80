@@ -70,10 +70,13 @@ import dataR04 from "../timeline-R04.json";
 import dataR05 from "../timeline-R05.json";
 import dataR06 from "../timeline-R06.json";
 import dataR07 from "../timeline-R07.json";
+import dataR08 from "../timeline-R08.json";
+import dataR09 from "../timeline-R09.json";
 import { visual67, scene67, line67 } from "./scenePlan67";
+import { visual89, scene89, line89 } from "./scenePlan89";
 type B = { key: string; type: string; text: string };
 export const starBeats = new Set(
-  [data, dataR04, dataR05, dataR06, dataR07].flatMap((d) => (d as unknown as { scenes: { beats: B[] }[] }).scenes).flatMap((s) => s.beats)
+  [data, dataR04, dataR05, dataR06, dataR07, dataR08, dataR09].flatMap((d) => (d as unknown as { scenes: { beats: B[] }[] }).scenes).flatMap((s) => s.beats)
     .filter((b) => b.type === "visual" && /жылдыз/i.test(b.text) && /жан|жаркыра|жылт/i.test(b.text)).map((b) => b.key),
 );
 
@@ -81,3 +84,7 @@ export const starBeats = new Set(
 Object.assign(visualCutaways, visual67);
 Object.assign(sceneCutaways, scene67);
 Object.assign(lineCutaways, line67);
+// lessons 008 / 009: production/lesson-008-009/cutaways.py
+Object.assign(visualCutaways, visual89);
+Object.assign(sceneCutaways, scene89);
+Object.assign(lineCutaways, line89);

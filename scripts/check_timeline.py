@@ -55,7 +55,7 @@ def main() -> int:
                 errors.append(f"{b['key']}: clip not in audio manifest")
             elif c["seconds"] * fps > b["frames"] + 1:
                 errors.append(f"{b['key']}: clip {c['seconds']:.2f}s longer than beat {b['frames'] / fps:.2f}s")
-    src = "\n".join(p.read_text(encoding="utf-8") for p in PLANS).replace("export const visual67", "export const visualCutaways").replace("export const line67", "export const lineCutaways")
+    src = re.sub(r"export const line\d\d\b", "export const lineCutaways", re.sub(r"export const visual\d\d\b", "export const visualCutaways", "\n".join(p.read_text(encoding="utf-8") for p in PLANS)))
     sections = re.split(r"export const (\w+)", src)
     for name, body in zip(sections[1::2], sections[2::2]):
         if name not in ("visualCutaways", "lineCutaways"):

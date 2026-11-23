@@ -11,10 +11,16 @@ const COLORS: Record<Col, string> = { b: theme.ink, g: theme.inkGreen, r: theme.
 // The strip at the top of the board (theme.stripFor): five goal stars (003–005), six pillars of iman (006) or eleven
 // numbered steps (007); lit ones are gold, the newest one sparkles.
 const STAR_D = "M0 -26 L7.6 -8.4 L26 -7 L12 5.6 L16.4 24 L0 14 L-16.4 24 L-12 5.6 L-26 -7 L-7.6 -8.4 Z";
-export const StripMark: React.FC<{ kind: "star" | "pillar" | "step"; lit: boolean; label?: string; light?: boolean }> = ({ kind, lit, label, light }) => {
+export const StripMark: React.FC<{ kind: "star" | "pillar" | "step" | "key"; lit: boolean; label?: string; light?: boolean }> = ({ kind, lit, label, light }) => {
   const fill = lit ? theme.star : light ? "rgba(255,255,255,0.15)" : "#fff";
   const stroke = light ? "#fff" : lit ? "#c98f12" : theme.starOff;
   if (kind === "star") return <path d={STAR_D} fill={fill} stroke={stroke} strokeWidth={3} />;
+  if (kind === "key") return (
+    <g stroke={stroke} strokeWidth={3} fill={fill} transform="rotate(-35)">
+      <circle cx={-14} cy={0} r={13} /><circle cx={-14} cy={0} r={5} fill={light ? "none" : "#fff"} />
+      <path d="M-1 -4 H28 V4 H-1 Z" /><path d="M18 4 V12 H23 V4 M10 4 V10 H14 V4" />
+    </g>
+  );
   if (kind === "pillar") return (
     <g stroke={stroke} strokeWidth={3} fill={fill}>
       <rect x={-22} y={-28} width={44} height={9} rx={2} /><rect x={-14} y={-19} width={28} height={38} /><rect x={-22} y={19} width={44} height={9} rx={2} />
