@@ -1,0 +1,14 @@
+{
+ "model_id": "eleven_v4",
+ "language_code": "ky",
+ "output_format": "mp3_44100_128",
+ "voice_settings": {"stability": 0.5, "similarity_boost": 0.75, "speed": 0.9},
+ "credits_per_char_observed": 0.49,
+ "credits_note": "observed on the 40 s trial: 276 chars -> 134 credits (character-cost header)",
+ "voices": {
+  "ustaz": {"voice_id": "NVEGeFqcDqc5o29VoAQm", "name": "BalaGo KG husband", "category": "generated (designed voice, not a clone)"},
+  "bektur": {"voice_id": "8QMDSJuOqCscZvQ6PqlL", "name": "KG-boy a2-3", "category": "generated"},
+  "aizada": {"voice_id": "4q3KVinKK1sxbDaHp5Le", "name": "KG-girl g4-1", "category": "generated"},
+  "both_children": {"voice_id": "8QMDSJuOqCscZvQ6PqlL", "name": "KG-boy a2-3 (placeholder; mix both voices later)", "category": "generated"}
+ }
+}

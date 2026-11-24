@@ -29,6 +29,8 @@ export const theme = {
 export const starsLit: Record<string, number> = {
   ch00: 0, ch01: 0, ch02: 0, ch03: 1, ch04: 1, ch05: 1, ch06: 2, ch07: 3, ch08: 3,
   ch09: 4, ch10: 4, ch11: 4, ch12: 4, ch13: 5, ch14: 5, ch15: 5, ch16: 5,
+  e04: 2, // lesson 004 closing chapter (two stars lit)
+  o05: 2, // lesson 005 opening chapter (recap of the two stars of lesson 004)
 };
 // Chapters whose first scene lights a new star (sparkle animation).
 export const newStarChapters = new Set(["ch03", "ch06", "ch07", "ch09", "ch13"]);

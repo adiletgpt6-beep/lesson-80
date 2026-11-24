@@ -54,13 +54,20 @@ export const lineCutaways: Record<string, CutawayId> = {
   "ch11-s02#1": "nature",     // тоодо жашаган бала
   "ch11-s02#2": "villages",   // шаардагы мектеп
   "ch15-s03#8": "nature",     // тоолор, суулар, бак-дарактар
+  // lessons 004/005 (recap lines of the new closing/opening chapters)
+  "e04-s01#5": "nature",      // кереметтери: тоолор, дарыялар
+  "e04-s01#6": "seaCrown",    // Фараон (таажы, деңиз — адам сүрөттөлбөйт)
+  "o05-s02#4": "nature",
+  "o05-s02#5": "seaCrown",
 };
 
 // Visual beats whose description says a star lights up (sparkle on the board's star strip). Derived from the
 // beat text so it cannot drift when beats are re-indexed.
 import data from "../timeline.json";
+import dataR04 from "../timeline-R04.json";
+import dataR05 from "../timeline-R05.json";
 type B = { key: string; type: string; text: string };
 export const starBeats = new Set(
-  (data as unknown as { scenes: { beats: B[] }[] }).scenes.flatMap((s) => s.beats)
+  [data, dataR04, dataR05].flatMap((d) => (d as unknown as { scenes: { beats: B[] }[] }).scenes).flatMap((s) => s.beats)
     .filter((b) => b.type === "visual" && /жылдыз/i.test(b.text) && /жан|жаркыра|жылт/i.test(b.text)).map((b) => b.key),
 );

@@ -15,11 +15,16 @@ import re
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-LESSON = ROOT / "lessons/003"
-CH_DIR = LESSON / "script/chapters"
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from lesson_paths import ROOT, LESSON, CH_DIR, META, TIMELINE, chapter_files  # noqa: E402,F401
 FPS = 30
-PLANNED_TOTAL = 3600
+PLANNED_TOTAL = META["planned_seconds"] if META else 3600
+
+
+def base(rel):
+    """A lesson file, falling back to lessons/003 (R04/R05 share its meaning map and blocker register)."""
+    p = LESSON / rel
+    return p if p.exists() else ROOT / "lessons/003" / rel
 
 # Pace calibration: measured on the 40 s ElevenLabs eleven_v4 trial (script/tts-trial/trial-ky-40s.json):
 # ustaz 110.6 and 100.2 wpm (mean ~105), child 89.2 wpm. "slow" = children's delivery at speed 0.9.
@@ -27,6 +32,7 @@ PACE = {"tts": {"ustaz": 105.0, "child": 90.0}, "slow": {"ustaz": 94.5, "child":
 LINE_GAP = 0.6  # silence between consecutive lines, s
 QUESTION_GAP = 1.2  # thinking time after a question the ustaz asks the children, s
 TITLE_FRAMES = 90  # chapter title card (3 s) before the first scene of ch01..ch16
+COVER_FRAMES = 90  # course-wide opening cover, exactly 3 s from frame 0 (OPENING_COVER_RULES.md)
 SPEAKERS = {"ustaz", "bektur", "aizada", "both_children"}
 WORD = re.compile(r"[^\s«»“”\"—–.,!?…:;()]+")
 ARABIC_HINTS = re.compile(r"(халак|лияъбуд|инна лиллахи|илайхи|ражиун|раббук|юдоиф|ля илаха|ла илаха|шухха|муфлихун|лакад|кабад|бисмиллах|субхана|рахман|рахим|халифа|фастабику|ассалому|алейкум|салам|алхамдулиллах|машаллах|иншаллах)", re.I)
@@ -34,7 +40,7 @@ TIME = re.compile(r"^I\d{2} \d{2}:\d{2}:\d{2}–\d{2}:\d{2}:\d{2}$")
 
 
 def chapters():
-    return [json.loads(p.read_text(encoding="utf-8")) for p in sorted(CH_DIR.glob("ch*.json"))]
+    return [json.loads(p.read_text(encoding="utf-8")) for p in chapter_files()]
 
 
 def words(text):
@@ -51,14 +57,14 @@ def beat_seconds(b, pace):
 
 
 def blockers():
-    text = (LESSON / "script/qa-blockers.md").read_text(encoding="utf-8")
+    text = base("script/qa-blockers.md").read_text(encoding="utf-8")
     return set(re.findall(r"^\| ([A-Z]\d+[a-z]?) \|", text, re.M))
 
 
 def cmd_validate(_):
     errs, ids = [], set()
     known_blockers = blockers()
-    ideas = {r["idea_id"] for r in csv.DictReader(open(LESSON / "analysis/meaning-map-reviewed.csv", encoding="utf-8"))}
+    ideas = {r["idea_id"] for r in csv.DictReader(open(base("analysis/meaning-map-reviewed.csv"), encoding="utf-8"))}
     chs = chapters()
     for ch in chs:
         for k in ("id", "title_ky", "planned_seconds", "source_ideas", "scenes"):
@@ -272,13 +278,22 @@ def cmd_timeline(_):
     real = json.loads(manifest_path.read_text()).get("clips", {}) if manifest_path.exists() else {}
     frame, scenes, chapters_out, dropped = 0, [], [], []
     stats = {"lines": 0, "audio": 0, "estimate": 0, "replaced": 0}
-    for ch, eff in effective_chapters():
+    eff_chapters = effective_chapters()
+    first_ch = eff_chapters[0][0]["id"]
+    for n_ch, (ch, eff) in enumerate(eff_chapters):
         ch_start = frame
         for n_scene, (s, beats_in, st) in enumerate(eff):
             beats, start = [], frame
-            if n_scene == 0 and ch["id"] != "ch00":
+            if META and META.get("cover") and n_ch == 0 and n_scene == 0:
+                beats.append({"key": f"{s['id']}#cover", "type": "cover", "speaker": None,
+                              "text": f"80 САБАКТЫН {META['number']}-САБАГЫ · {META['topic']}",
+                              "from": 0, "frames": COVER_FRAMES, "timing": "fixed", "audio": None})
+                frame += COVER_FRAMES
+            if n_scene == 0 and ch["id"] != first_ch:
                 beats.append({"key": f"{s['id']}#title", "type": "title", "speaker": None, "text": ch["title_ky"],
                               "from": 0, "frames": TITLE_FRAMES, "timing": "fixed", "audio": None})
+                if META:  # chapter number inside this lesson (the opening chapter has no card)
+                    beats[-1]["n"] = n_ch
                 frame += TITLE_FRAMES
             for b in beats_in:
                 key = b["key"]
@@ -312,16 +327,18 @@ def cmd_timeline(_):
                 dropped.append(s["id"])
         chapters_out.append({"id": ch["id"], "title": ch["title_ky"], "from": ch_start, "frames": frame - ch_start,
                              "planned_seconds": ch["planned_seconds"]})
-    out = ROOT / "video/src/timeline.json"
+    out = TIMELINE
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(json.dumps({"fps": FPS, "width": 1920, "height": 1080, "durationInFrames": frame,
-                               "plannedFrames": PLANNED_TOTAL * FPS,
+    planned = (META["planned_seconds"] if META else PLANNED_TOTAL) * FPS
+    extra = {"lesson": {k: META[k] for k in ("id", "number", "title", "subtitle", "opening_scene", "final_scene", "cover", "topic")}} if META else {}
+    out.write_text(json.dumps({**extra, "fps": FPS, "width": 1920, "height": 1080, "durationInFrames": frame,
+                               "plannedFrames": planned,
                                "timing_note": "estimate unless beat.timing == 'audio'; blocked lines absent or replaced ([ПЕД])",
                                "stats": {**stats, "dropped_scenes": dropped},
                                "chapters": chapters_out, "scenes": scenes}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"timeline: {len(chapters_out)} chapters, {len(scenes)} scenes, {frame} frames ({fmt(frame / FPS)}); "
           f"lines {stats['lines']} (audio {stats['audio']}, estimate {stats['estimate']}, replaced {stats['replaced']}); "
-          f"dropped scenes {dropped or 'none'}; planned {PLANNED_TOTAL * FPS}")
+          f"dropped scenes {dropped or 'none'}; planned {planned}")
     for c in chapters_out:
         print(f"  {c['id']} {fmt(c['frames'] / FPS)} (plan {fmt(c['planned_seconds'])})")
 

@@ -1,6 +1,8 @@
 import data from "./timeline.json";
+import dataR04 from "./timeline-R04.json";
+import dataR05 from "./timeline-R05.json";
 
-export type BeatType = "line" | "pause" | "visual" | "title";
+export type BeatType = "line" | "pause" | "visual" | "title" | "cover";
 export type Speaker = "ustaz" | "bektur" | "aizada" | "both_children";
 
 export type Beat = {
@@ -14,6 +16,7 @@ export type Beat = {
   audio: string | null;
   ped?: boolean;
   replaced_from?: string | null;
+  n?: number; // title beats of R04/R05: chapter number inside the lesson
 };
 
 export type Scene = {
@@ -33,7 +36,11 @@ export type Scene = {
 
 export type Chapter = { id: string; title: string; from: number; frames: number; planned_seconds: number };
 
+// R04/R05 (new lessons 004/005 split from 003): number/title for the opening card and the end credit.
+export type LessonMeta = { id: string; number: number; title: string; subtitle: string; opening_scene: string; final_scene: string; cover?: boolean; topic?: string };
+
 export type Timeline = {
+  lesson?: LessonMeta;
   fps: number;
   width: number;
   height: number;
@@ -44,3 +51,9 @@ export type Timeline = {
 };
 
 export const timeline = data as unknown as Timeline;
+// "003" = the one-hour film (unchanged); "R04"/"R05" = lessons 004/005.
+export const timelines: Record<string, Timeline> = {
+  "003": timeline,
+  R04: dataR04 as unknown as Timeline,
+  R05: dataR05 as unknown as Timeline,
+};

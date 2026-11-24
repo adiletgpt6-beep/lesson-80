@@ -11,15 +11,15 @@ Rules (preview version):
 import json
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[1]
-LESSON = ROOT / "lessons/003"
-CH_DIR = LESSON / "script/chapters"
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from lesson_paths import ROOT, LESSON, CH_DIR, chapter_files  # noqa: E402,F401
 REPL_PATH = LESSON / "script/ped-replacements.json"
 EXTRA_PATH = LESSON / "script/ped-extra-beats.json"
 
 
 def chapters():
-    return [json.loads(p.read_text(encoding="utf-8")) for p in sorted(CH_DIR.glob("ch*.json"))]
+    return [json.loads(p.read_text(encoding="utf-8")) for p in chapter_files()]
 
 
 def replacements():
