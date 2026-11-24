@@ -1,0 +1,322 @@
+{
+ "film": "/tmp/claude-0/-home-user-lesson-80/8a7511bd-0ce8-59dc-9dc3-b15439301b51/scratchpad/media/out/lesson-80-vid002-rework-part-01-ky-preview-v1.mp4",
+ "joins": 273,
+ "clipped_samples": 40,
+ "dc": -0.0004,
+ "problems": [
+  {
+   "type": "clipping",
+   "samples": 40
+  },
+  {
+   "type": "burst",
+   "key": "ch00-s03#3",
+   "at": 74.218,
+   "zone": "end",
+   "dbfs": -20.6
+  },
+  {
+   "type": "loud_clip_end",
+   "key": "ch00-s03#3",
+   "at": 74.293,
+   "dbfs": -25.5
+  },
+  {
+   "type": "burst",
+   "key": "ch01-s01#2",
+   "at": 102.269,
+   "zone": "end",
+   "dbfs": -20.0
+  },
+  {
+   "type": "burst",
+   "key": "ch01-s02#1",
+   "at": 138.919,
+   "zone": "end",
+   "dbfs": -15.9
+  },
+  {
+   "type": "loud_clip_end",
+   "key": "ch01-s02#1",
+   "at": 138.944,
+   "dbfs": -15.9
+  },
+  {
+   "type": "burst",
+   "key": "ch02-s02#4",
+   "at": 232.509,
+   "zone": "end",
+   "dbfs": -16.8
+  },
+  {
+   "type": "loud_clip_end",
+   "key": "ch02-s02#4",
+   "at": 232.544,
+   "dbfs": -17.9
+  },
+  {
+   "type": "burst",
+   "key": "ch02-s03#4",
+   "at": 276.644,
+   "zone": "end",
+   "dbfs": -23.5
+  },
+  {
+   "type": "burst",
+   "key": "ch02-s04#5",
+   "at": 339.121,
+   "zone": "end",
+   "dbfs": -18.6
+  },
+  {
+   "type": "burst",
+   "key": "ch02-s05#2",
+   "at": 387.714,
+   "zone": "end",
+   "dbfs": -21.9
+  },
+  {
+   "type": "burst",
+   "key": "ch02-s05#3",
+   "at": 394.596,
+   "zone": "end",
+   "dbfs": -17.8
+  },
+  {
+   "type": "burst",
+   "key": "ch03-s02#3",
+   "at": 556.653,
+   "zone": "end",
+   "dbfs": -21.5
+  },
+  {
+   "type": "burst",
+   "key": "ch03-s04#1",
+   "at": 617.834,
+   "zone": "end",
+   "dbfs": -21.4
+  },
+  {
+   "type": "burst",
+   "key": "ch03-s04#4",
+   "at": 637.721,
+   "zone": "end",
+   "dbfs": -13.1
+  },
+  {
+   "type": "burst",
+   "key": "ch04-s01#2",
+   "at": 797.179,
+   "zone": "end",
+   "dbfs": -18.2
+  },
+  {
+   "type": "burst",
+   "key": "ch04-s01#4",
+   "at": 813.421,
+   "zone": "end",
+   "dbfs": -18.1
+  },
+  {
+   "type": "burst",
+   "key": "ch04-s02#1",
+   "at": 836.979,
+   "zone": "end",
+   "dbfs": -17.9
+  },
+  {
+   "type": "burst",
+   "key": "ch04-s04#6",
+   "at": 959.203,
+   "zone": "end",
+   "dbfs": -16.3
+  },
+  {
+   "type": "burst",
+   "key": "ch04-s05#3",
+   "at": 985.783,
+   "zone": "end",
+   "dbfs": -28.3
+  },
+  {
+   "type": "burst",
+   "key": "ch04-s06#1",
+   "at": 1043.479,
+   "zone": "end",
+   "dbfs": -22.2
+  },
+  {
+   "type": "burst",
+   "key": "ch05-s03#6",
+   "at": 1169.197,
+   "zone": "end",
+   "dbfs": -23.9
+  },
+  {
+   "type": "burst",
+   "key": "ch05-s03#8",
+   "at": 1187.282,
+   "zone": "end",
+   "dbfs": -17.2
+  },
+  {
+   "type": "burst",
+   "key": "ch05-s04#5",
+   "at": 1228.999,
+   "zone": "end",
+   "dbfs": -20.6
+  },
+  {
+   "type": "burst",
+   "key": "ch05-s05#2",
+   "at": 1259.67,
+   "zone": "end",
+   "dbfs": -27.6
+  },
+  {
+   "type": "burst",
+   "key": "ch05-s05#5",
+   "at": 1276.104,
+   "zone": "end",
+   "dbfs": -18.2
+  },
+  {
+   "type": "loud_clip_end",
+   "key": "ch06-s01#1",
+   "at": 1359.364,
+   "dbfs": -26.8
+  },
+  {
+   "type": "burst",
+   "key": "ch06-s01#4",
+   "at": 1383.631,
+   "zone": "end",
+   "dbfs": -24.6
+  },
+  {
+   "type": "burst",
+   "key": "ch06-s02#2",
+   "at": 1409.929,
+   "zone": "end",
+   "dbfs": -19.9
+  },
+  {
+   "type": "burst",
+   "key": "ch06-s02#3",
+   "at": 1420.449,
+   "zone": "end",
+   "dbfs": -27.5
+  },
+  {
+   "type": "burst",
+   "key": "ch06-s02#5",
+   "at": 1430.753,
+   "zone": "end",
+   "dbfs": -29.2
+  },
+  {
+   "type": "burst",
+   "key": "ch06-s04#4",
+   "at": 1517.435,
+   "zone": "end",
+   "dbfs": -21.3
+  },
+  {
+   "type": "burst",
+   "key": "ch06-s06#2",
+   "at": 1584.029,
+   "zone": "end",
+   "dbfs": -16.0
+  },
+  {
+   "type": "burst",
+   "key": "ch06-s07#5",
+   "at": 1654.245,
+   "zone": "end",
+   "dbfs": -17.3
+  },
+  {
+   "type": "burst",
+   "key": "ch07-s01#2",
+   "at": 1709.201,
+   "zone": "end",
+   "dbfs": -18.4
+  },
+  {
+   "type": "loud_clip_end",
+   "key": "ch07-s01#9",
+   "at": 1740.902,
+   "dbfs": -24.0
+  },
+  {
+   "type": "burst",
+   "key": "ch07-s02#1",
+   "at": 1756.614,
+   "zone": "end",
+   "dbfs": -19.9
+  },
+  {
+   "type": "burst",
+   "key": "ch07-s02#3",
+   "at": 1776.147,
+   "zone": "end",
+   "dbfs": -24.2
+  },
+  {
+   "type": "burst",
+   "key": "ch07-s03#4",
+   "at": 1822.024,
+   "zone": "end",
+   "dbfs": -18.0
+  },
+  {
+   "type": "burst",
+   "key": "ch07-s03#9",
+   "at": 1848.29,
+   "zone": "end",
+   "dbfs": -22.3
+  },
+  {
+   "type": "burst",
+   "key": "ch08-s01#1",
+   "at": 1875.731,
+   "zone": "end",
+   "dbfs": -24.5
+  },
+  {
+   "type": "burst",
+   "key": "ch08-s01#2",
+   "at": 1888.027,
+   "zone": "end",
+   "dbfs": -19.4
+  },
+  {
+   "type": "burst",
+   "key": "ch08-s01#3",
+   "at": 1892.465,
+   "zone": "end",
+   "dbfs": -19.8
+  },
+  {
+   "type": "loud_clip_end",
+   "key": "ch09-s01#0",
+   "at": 1925.299,
+   "dbfs": -13.6
+  },
+  {
+   "type": "burst",
+   "key": "ch09-s02#3",
+   "at": 1997.094,
+   "zone": "end",
+   "dbfs": -15.6
+  },
+  {
+   "type": "burst",
+   "key": "ch09-s02#4",
+   "at": 2009.309,
+   "zone": "end",
+   "dbfs": -21.9
+  }
+ ],
+ "verdict": "FAIL"
+}

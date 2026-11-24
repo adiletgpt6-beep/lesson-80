@@ -1,0 +1,7843 @@
+{
+ "clips": {
+  "ch00-s01#1": {
+   "file": "ch00-s01_1_80e6db3378ec21fe.c1.mp3",
+   "hash": "80e6db3378ec21fe",
+   "seconds": 4.049,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 60,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ассалому алейкум, кымбаттуу балдар! Сабагыбызга кош келгиле!",
+   "reused_from": "002:ch00-s01#1",
+   "raw_file": "ch00-s01_1_80e6db3378ec21fe.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7412,
+     "dc": -0.00044,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7191,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch00-s01#2": {
+   "file": "ch00-s01_2_091bc501045649dc.c1.mp3",
+   "hash": "091bc501045649dc",
+   "seconds": 2.09,
+   "speaker": "both_children",
+   "credits": 0,
+   "chars": 23,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Алейкум ассалам, устаз!",
+   "reused_from": "002:ch00-s01#2",
+   "raw_file": "ch00-s01_2_091bc501045649dc.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.9865,
+     "dc": -0.00097,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.8243,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "gain_db",
+      -1.3,
+      0
+     ]
+    ]
+   }
+  },
+  "ch00-s01#3": {
+   "file": "ch00-s01_3_1570830cfe7c2cdf.c1.mp3",
+   "hash": "1570830cfe7c2cdf",
+   "seconds": 4.989,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 70,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Мен силердин устазыңармын. Бүгүн дагы бирге жаңы нерселерди үйрөнөбүз.",
+   "reused_from": "002:ch00-s01#3",
+   "raw_file": "ch00-s01_3_1570830cfe7c2cdf.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7131,
+     "dc": -0.00053,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6927,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch00-s02#0": {
+   "file": "ch00-s02_0_2bc14a2bab938b73.c1.mp3",
+   "hash": "2bc14a2bab938b73",
+   "seconds": 5.956,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 80,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Адегенде бир нерсени эстеп алалы. Биринчи сабагыбызда доскага эмне тарткан элек?",
+   "reused_from": "002:ch00-s02#0",
+   "raw_file": "ch00-s02_0_2bc14a2bab938b73.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6395,
+     "dc": -0.00061,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6214,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch00-s02#1": {
+   "file": "ch00-s02_1_2c3d35e9d9bd834e.c1.mp3",
+   "hash": "2c3d35e9d9bd834e",
+   "seconds": 3.161,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 23,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Үй! Беш түркүгү бар үй!",
+   "reused_from": "002:ch00-s02#1",
+   "raw_file": "ch00-s02_1_2c3d35e9d9bd834e.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.8047,
+     "dc": -0.00047,
+     "head5ms": 0.287,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7806,
+     "dc": -0.0,
+     "head5ms": 0.168,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch00-s02#2": {
+   "file": "ch00-s02_2_008092046f72dad5.c1.mp3",
+   "hash": "008092046f72dad5",
+   "seconds": 8.594,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 96,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Туура, Айзада! Ислам — беш түркүктүү үй сыяктуу. Ал түркүктөр кайсылар эле? Бектур, санап берчи.",
+   "reused_from": "002:ch00-s02#2",
+   "raw_file": "ch00-s02_2_008092046f72dad5.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7137,
+     "dc": -0.00037,
+     "head5ms": 0.002,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6931,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch00-s02#3": {
+   "file": "ch00-s02_3_105384ac44894ff9.c1.mp3",
+   "hash": "105384ac44894ff9",
+   "seconds": 6.609,
+   "speaker": "bektur",
+   "credits": 0,
+   "chars": 59,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Биринчиси — ыйман, шахада. Андан кийин намаз, зекет, орозо…",
+   "reused_from": "002:ch00-s02#3",
+   "raw_file": "ch00-s02_3_105384ac44894ff9.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.5136,
+     "dc": -0.00041,
+     "head5ms": 0.0,
+     "tail5ms": 0.069,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.4989,
+     "dc": 0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "tail",
+      6.55,
+      0.01
+     ]
+    ]
+   }
+  },
+  "ch00-s02#4": {
+   "file": "ch00-s02_4_5c0fb4f5d11736a7.c1.mp3",
+   "hash": "5c0fb4f5d11736a7",
+   "seconds": 1.567,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 12,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Жана ажылык!",
+   "reused_from": "002:ch00-s02#4",
+   "raw_file": "ch00-s02_4_5c0fb4f5d11736a7.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7029,
+     "dc": -0.00064,
+     "head5ms": 0.079,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6828,
+     "dc": 1e-05,
+     "head5ms": 0.037,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch00-s02#5": {
+   "file": "ch00-s02_5_d469136b4e48a2b2.c1.mp3",
+   "hash": "d469136b4e48a2b2",
+   "seconds": 8.281,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 90,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Баракелде! Шахада, намаз, зекет, орозо, ажылык. Үй ушул беш түркүктүн үстүндө бекем турат.",
+   "reused_from": "002:ch00-s02#5",
+   "raw_file": "ch00-s02_5_d469136b4e48a2b2.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7354,
+     "dc": -0.00043,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7147,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch00-s03#0": {
+   "file": "ch00-s03_0_1c742faa1124b251.c1.mp3",
+   "hash": "1c742faa1124b251",
+   "seconds": 5.251,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 78,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Бүгүн мен силерге абдан кызык бир окуя айтып берем. Бир сырдуу мейман жөнүндө.",
+   "reused_from": "002:ch00-s03#0",
+   "raw_file": "ch00-s03_0_1c742faa1124b251.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7062,
+     "dc": -0.00046,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6855,
+     "dc": 0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch00-s03#1": {
+   "file": "ch00-s03_1_e9ef8d09930a3f59.c1.mp3",
+   "hash": "e9ef8d09930a3f59",
+   "seconds": 2.691,
+   "speaker": "bektur",
+   "credits": 0,
+   "chars": 27,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Сырдуу мейман? Ал ким экен?",
+   "reused_from": "002:ch00-s03#1",
+   "raw_file": "ch00-s03_1_e9ef8d09930a3f59.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.4689,
+     "dc": -0.00037,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.4544,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch00-s03#2": {
+   "file": "ch00-s03_2_fbaadb3ed6bb0e2f.c1.mp3",
+   "hash": "fbaadb3ed6bb0e2f",
+   "seconds": 6.609,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 81,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Азыр айтпайм, аягында өзүңөр билесиңер. Бир гана белгиси: анын кийими аппак экен.",
+   "reused_from": "002:ch00-s03#2",
+   "raw_file": "ch00-s03_2_fbaadb3ed6bb0e2f.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7041,
+     "dc": -0.00043,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6836,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch00-s03#3": {
+   "file": "ch00-s03_3_c104a97675934e48.c1.mp3",
+   "hash": "c104a97675934e48",
+   "seconds": 3.161,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 32,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Аппак кийим! Ал кайдан келиптир?",
+   "reused_from": "002:ch00-s03#3",
+   "raw_file": "ch00-s03_3_c104a97675934e48.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.8669,
+     "dc": -0.00056,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.8233,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "gain_db",
+      -0.18,
+      0
+     ]
+    ]
+   }
+  },
+  "ch00-s03#4": {
+   "file": "ch00-s03_4_82da96b065e39a42.c1.mp3",
+   "hash": "82da96b065e39a42",
+   "seconds": 4.362,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 57,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Аны бирге табабыз. Мейман берген суроолор үч сөз жөнүндө.",
+   "reused_from": "002:ch00-s03#4",
+   "raw_file": "ch00-s03_4_82da96b065e39a42.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6966,
+     "dc": -0.00053,
+     "head5ms": 0.0,
+     "tail5ms": 0.015,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6772,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.002,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch00-s03#6": {
+   "file": "ch00-s03_6_5ad10d1190f789ad.c1.mp3",
+   "hash": "5ad10d1190f789ad",
+   "seconds": 11.807,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 105,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Биринчиси — Ислам. Экинчиси — Ыйман. Үчүнчүсү — Ихсан. Кана, мени менен кайталагыла: Ислам, Ыйман, Ихсан!",
+   "reused_from": "002:ch00-s03#6",
+   "raw_file": "ch00-s03_6_5ad10d1190f789ad.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7182,
+     "dc": -0.00039,
+     "head5ms": 0.005,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6972,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch00-s03#7": {
+   "file": "ch00-s03_7_2be5a8a7249e8c0d.c1.mp3",
+   "hash": "2be5a8a7249e8c0d",
+   "seconds": 3.553,
+   "speaker": "both_children",
+   "credits": 0,
+   "chars": 20,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ислам! Ыйман! Ихсан!",
+   "reused_from": "002:ch00-s03#7",
+   "raw_file": "ch00-s03_7_2be5a8a7249e8c0d.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.8582,
+     "dc": -0.00083,
+     "head5ms": 0.153,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.8246,
+     "dc": 0.0,
+     "head5ms": 0.076,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "gain_db",
+      -0.09,
+      0
+     ]
+    ]
+   }
+  },
+  "ch00-s03#8": {
+   "file": "ch00-s03_8_c96176236c40abf9.c1.mp3",
+   "hash": "c96176236c40abf9",
+   "seconds": 6.844,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 85,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ар бир жоопту билгенде, бир жылдыз жанат. Аягында үчөө тең жанышы керек. Даярсыңарбы?",
+   "reused_from": "002:ch00-s03#9",
+   "raw_file": "ch00-s03_8_c96176236c40abf9.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6939,
+     "dc": -0.00048,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6737,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch00-s03#9": {
+   "file": "ch00-s03_9_053432fa46de9da0.c1.mp3",
+   "hash": "053432fa46de9da0",
+   "seconds": 1.149,
+   "speaker": "both_children",
+   "credits": 0,
+   "chars": 8,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Даярбыз!",
+   "reused_from": "002:ch00-s03#10",
+   "raw_file": "ch00-s03_9_053432fa46de9da0.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.9893,
+     "dc": -0.00108,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.8242,
+     "dc": -1e-05,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "gain_db",
+      -1.33,
+      0
+     ]
+    ]
+   }
+  },
+  "ch01-s01#0": {
+   "file": "ch01-s01_0_9dc514f97abb7af1.c1.mp3",
+   "hash": "9dc514f97abb7af1",
+   "seconds": 7.811,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 104,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Балдар, динибиздин ичинде илим көп. Бирок ошол илимдердин баары негизги үч илимдин ичинен бөлүнүп чыгат.",
+   "reused_from": "002:ch01-s01#0",
+   "raw_file": "ch01-s01_0_9dc514f97abb7af1.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6599,
+     "dc": -0.00054,
+     "head5ms": 0.001,
+     "tail5ms": 0.17,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6422,
+     "dc": -1e-05,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "tail",
+      7.75,
+      0.01
+     ]
+    ]
+   }
+  },
+  "ch01-s01#1": {
+   "file": "ch01-s01_1_45d48dcd454f1389.c1.mp3",
+   "hash": "45d48dcd454f1389",
+   "seconds": 5.068,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 63,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Анда ал илимди каяктан алабыз? Динибиздеги илим каяктан алынат?",
+   "reused_from": "002:ch01-s01#1",
+   "raw_file": "ch01-s01_1_45d48dcd454f1389.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6288,
+     "dc": -0.0006,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6105,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch01-s01#3": {
+   "file": "ch01-s01_3_4ad3340dbc2f2971.c1.mp3",
+   "hash": "4ad3340dbc2f2971",
+   "seconds": 1.228,
+   "speaker": "bektur",
+   "credits": 0,
+   "chars": 9,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Курандан!",
+   "reused_from": "002:ch01-s01#3",
+   "raw_file": "ch01-s01_3_4ad3340dbc2f2971.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7838,
+     "dc": -0.00029,
+     "head5ms": 0.0,
+     "tail5ms": 0.001,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7602,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch01-s01#4": {
+   "file": "ch01-s01_4_96693b1ca92975ef.c1.mp3",
+   "hash": "96693b1ca92975ef",
+   "seconds": 7.314,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 67,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Туура! Биринчиси — Куран. Экинчиси — хадис кудси. Үчүнчүсү — хадис.",
+   "reused_from": "002:ch01-s01#4",
+   "raw_file": "ch01-s01_4_96693b1ca92975ef.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6933,
+     "dc": -0.00038,
+     "head5ms": 0.0,
+     "tail5ms": 0.044,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6723,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "tail",
+      7.25,
+      0.03
+     ]
+    ]
+   }
+  },
+  "ch01-s01#5": {
+   "file": "ch01-s01_5_e1b2dd33caccf180.c1.mp3",
+   "hash": "e1b2dd33caccf180",
+   "seconds": 4.362,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 42,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Хадис кудси… Бул сөздү биринчи угуп жатам.",
+   "reused_from": "002:ch01-s01#5",
+   "raw_file": "ch01-s01_5_e1b2dd33caccf180.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.547,
+     "dc": -0.00042,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.53,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch01-s01#6": {
+   "file": "ch01-s01_6_915ab8062332dc28.c1.mp3",
+   "hash": "915ab8062332dc28",
+   "seconds": 12.199,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 151,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Хадис кудси менен хадис экөө тең Пайгамбарыбыздын, саллаллаху алейхи ва саллам, сөздөрү. Бирок экөөнүн айырмасы бар. Кандай айырма? Азыр бирге көрөбүз.",
+   "reused_from": "002:ch01-s01#6",
+   "raw_file": "ch01-s01_6_915ab8062332dc28.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.689,
+     "dc": -0.00048,
+     "head5ms": 0.003,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6692,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch01-s01#7": {
+   "file": "ch01-s01_7_4c654efb8c963487.c1.mp3",
+   "hash": "4c654efb8c963487",
+   "seconds": 6.348,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 88,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Тоодогу булактан таза суу агып келет эмеспи. Биздин илим да ушул үч таза булактан келет.",
+   "reused_from": "002:ch01-s01#7",
+   "raw_file": "ch01-s01_7_4c654efb8c963487.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7225,
+     "dc": -0.0005,
+     "head5ms": 0.008,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7011,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch01-s02#0": {
+   "file": "ch01-s02_0_05e4990ee9c1e10d.c1.mp3",
+   "hash": "05e4990ee9c1e10d",
+   "seconds": 5.329,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 62,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Биринчи булак — Куран. Курандын сөзү да, мааниси да Аллахтыкы.",
+   "reused_from": "002:ch01-s02#0",
+   "raw_file": "ch01-s02_0_05e4990ee9c1e10d.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6622,
+     "dc": -0.00042,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6435,
+     "dc": 0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch01-s02#1": {
+   "file": "ch01-s02_1_0ea3cca252900662.c1.mp3",
+   "hash": "0ea3cca252900662",
+   "seconds": 7.811,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 108,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Пайгамбарыбыз, саллаллаху алейхи ва саллам, Куранга өзүнөн бир да сөз кошкон эмес, бир да маани кошкон эмес.",
+   "reused_from": "002:ch01-s02#1",
+   "raw_file": "ch01-s02_1_0ea3cca252900662.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6862,
+     "dc": -0.0005,
+     "head5ms": 0.0,
+     "tail5ms": 0.266,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6659,
+     "dc": -1e-05,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "tail",
+      7.74,
+      0.02
+     ]
+    ]
+   }
+  },
+  "ch01-s02#2": {
+   "file": "ch01-s02_2_442a359d90c8edf2.c1.mp3",
+   "hash": "442a359d90c8edf2",
+   "seconds": 5.146,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 57,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Жүздөн жүз пайыз: Курандын сөзү да, мааниси да Аллахтыкы.",
+   "reused_from": "002:ch01-s02#2",
+   "raw_file": "ch01-s02_2_442a359d90c8edf2.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7357,
+     "dc": -0.0005,
+     "head5ms": 0.045,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7141,
+     "dc": -1e-05,
+     "head5ms": 0.024,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch01-s02#3": {
+   "file": "ch01-s02_3_d33134b50a0e36f9.c1.mp3",
+   "hash": "d33134b50a0e36f9",
+   "seconds": 3.161,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 29,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Жүздөн жүз? Таптакыр баарыбы?",
+   "reused_from": "002:ch01-s02#3",
+   "raw_file": "ch01-s02_3_d33134b50a0e36f9.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6053,
+     "dc": -0.00053,
+     "head5ms": 0.156,
+     "tail5ms": 0.001,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.587,
+     "dc": 2e-05,
+     "head5ms": 0.065,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch01-s02#4": {
+   "file": "ch01-s02_4_c38fa49e3098eac3.c1.mp3",
+   "hash": "c38fa49e3098eac3",
+   "seconds": 8.124,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 105,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ооба, Айзада, таптакыр баары. Ошон үчүн биз Куранды өзгөчө урматтайбыз, аны таза колубуз менен кармайбыз.",
+   "reused_from": "002:ch01-s02#4",
+   "raw_file": "ch01-s02_4_c38fa49e3098eac3.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7128,
+     "dc": -0.00046,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6916,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch01-s03#0": {
+   "file": "ch01-s03_0_9ebefcb69f06ea9c.c1.mp3",
+   "hash": "9ebefcb69f06ea9c",
+   "seconds": 9.169,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 118,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Экинчи булак — хадис кудси. Анын сөзү — Пайгамбарыбыздын, саллаллаху алейхи ва саллам, сөзү, ал эми мааниси Аллахтыкы.",
+   "reused_from": "002:ch01-s03#0",
+   "raw_file": "ch01-s03_0_9ebefcb69f06ea9c.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6955,
+     "dc": -0.00047,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.675,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch01-s03#1": {
+   "file": "ch01-s03_1_b3fc4b0f9cdd99ff.c1.mp3",
+   "hash": "b3fc4b0f9cdd99ff",
+   "seconds": 10.109,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 124,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Мындай хадис кантип башталат? «Аллах Таала айтты» деп башталат. Пайгамбарыбыз: «Аллах Таала мындай деди», — деп айтып берет.",
+   "reused_from": "002:ch01-s03#1",
+   "raw_file": "ch01-s03_1_b3fc4b0f9cdd99ff.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.747,
+     "dc": -0.00041,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7235,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch01-s03#2": {
+   "file": "ch01-s03_2_a6603eda62457999.c1.mp3",
+   "hash": "a6603eda62457999",
+   "seconds": 4.206,
+   "speaker": "bektur",
+   "credits": 0,
+   "chars": 53,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Устаз, Пайгамбарыбыз Аллахтын айтканын кайдан билген?",
+   "reused_from": "002:ch01-s03#2",
+   "raw_file": "ch01-s03_2_a6603eda62457999.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6638,
+     "dc": -0.00037,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6448,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch01-s03#3": {
+   "file": "ch01-s03_3_eee5e1b044c4524e.c1.mp3",
+   "hash": "eee5e1b044c4524e",
+   "seconds": 5.642,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 71,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Абдан жакшы суроо, Бектур! Аллахтан Пайгамбарыбызга вахий келип турган.",
+   "reused_from": "002:ch01-s03#3",
+   "raw_file": "ch01-s03_3_eee5e1b044c4524e.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.8185,
+     "dc": -0.0004,
+     "head5ms": 0.0,
+     "tail5ms": 0.24,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7947,
+     "dc": -1e-05,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "tail",
+      5.58,
+      0.02
+     ]
+    ]
+   }
+  },
+  "ch01-s03#4": {
+   "file": "ch01-s03_4_72c040496deff8b4.c1.mp3",
+   "hash": "72c040496deff8b4",
+   "seconds": 7.706,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 105,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Вахий — бул Аллах менен Пайгамбарыбыздын ортосундагы байланыш, Аллахтын Өз пайгамбарына билдирген кабары.",
+   "reused_from": "002:ch01-s03#4",
+   "raw_file": "ch01-s03_4_72c040496deff8b4.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7077,
+     "dc": -0.0005,
+     "head5ms": 0.001,
+     "tail5ms": 0.142,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.687,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "tail",
+      7.6,
+      0.08
+     ]
+    ]
+   }
+  },
+  "ch01-s04#0": {
+   "file": "ch01-s04_0_29987ac3f65ab64a.c1.mp3",
+   "hash": "29987ac3f65ab64a",
+   "seconds": 8.046,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 106,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Үчүнчү булак — хадис. Хадистин сөзү да, мааниси да Пайгамбарыбыздын, саллаллаху алейхи ва саллам, өзүнүкү.",
+   "reused_from": "002:ch01-s04#0",
+   "raw_file": "ch01-s04_0_29987ac3f65ab64a.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.752,
+     "dc": -0.00045,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7302,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch01-s04#1": {
+   "file": "ch01-s04_1_229d6e3bdf293947.c1.mp3",
+   "hash": "229d6e3bdf293947",
+   "seconds": 5.251,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 67,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Хадисте Пайгамбарыбыздын айткан сөздөрү жана кылган иштери айтылат.",
+   "reused_from": "002:ch01-s04#1",
+   "raw_file": "ch01-s04_1_229d6e3bdf293947.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6671,
+     "dc": -0.00055,
+     "head5ms": 0.0,
+     "tail5ms": 0.267,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6468,
+     "dc": 2e-05,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "tail",
+      5.18,
+      0.02
+     ]
+    ]
+   }
+  },
+  "ch01-s04#2": {
+   "file": "ch01-s04_2_f46b5eca594c052e.c1.mp3",
+   "hash": "f46b5eca594c052e",
+   "seconds": 7.471,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 101,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Бирок Пайгамбарыбыз өз оюнан, өз ичинен эч нерсе чыгарган эмес. Аллахтан алган илимден гана сүйлөгөн.",
+   "reused_from": "002:ch01-s04#2",
+   "raw_file": "ch01-s04_2_f46b5eca594c052e.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7153,
+     "dc": -0.00055,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6958,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch01-s05#0": {
+   "file": "ch01-s05_0_33de13f5cda5bb4a.c1.mp3",
+   "hash": "33de13f5cda5bb4a",
+   "seconds": 8.281,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 124,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Эми силерге бир кызык нерсе айтайын. Аллахтан илим келгенге чейин Пайгамбарыбыз, саллаллаху алейхи ва саллам, кандай болгон?",
+   "reused_from": "002:ch01-s05#0",
+   "raw_file": "ch01-s05_0_33de13f5cda5bb4a.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.785,
+     "dc": -0.00044,
+     "head5ms": 0.0,
+     "tail5ms": 0.035,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7619,
+     "dc": 0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "tail",
+      8.23,
+      0.01
+     ]
+    ]
+   }
+  },
+  "ch01-s05#1": {
+   "file": "ch01-s05_1_a554b62efcc90fc9.c1.mp3",
+   "hash": "a554b62efcc90fc9",
+   "seconds": 9.326,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 110,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Ал уммий болгон. Уммий деген эмне? Ал окуганды да, жазганды да үйрөнбөгөн. Таптакыр окуп-жазганды билген эмес.",
+   "reused_from": "002:ch01-s05#1",
+   "raw_file": "ch01-s05_1_a554b62efcc90fc9.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6598,
+     "dc": -0.00048,
+     "head5ms": 0.001,
+     "tail5ms": 0.007,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6413,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.001,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch01-s05#2": {
+   "file": "ch01-s05_2_3b0da9f47c1db78d.c1.mp3",
+   "hash": "3b0da9f47c1db78d",
+   "seconds": 4.284,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 49,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Мен сыяктуубу? Мен да жакында гана окуп баштадым.",
+   "reused_from": "002:ch01-s05#2",
+   "raw_file": "ch01-s05_2_3b0da9f47c1db78d.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.8081,
+     "dc": -0.00048,
+     "head5ms": 0.004,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7847,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch01-s05#3": {
+   "file": "ch01-s05_3_163a539cbd7a9c76.c1.mp3",
+   "hash": "163a539cbd7a9c76",
+   "seconds": 9.326,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 122,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Жакшы салыштырдың, Айзада. Бирок кызыгы мына: Пайгамбарыбыз окуп-жазганды билбесе да, адамдарды окутуп, жаздырып үйрөткөн.",
+   "reused_from": "002:ch01-s05#3",
+   "raw_file": "ch01-s05_3_163a539cbd7a9c76.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7589,
+     "dc": -0.00051,
+     "head5ms": 0.0,
+     "tail5ms": 0.01,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7367,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.003,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch01-s05#4": {
+   "file": "ch01-s05_4_1ed968c215cc28a5.c1.mp3",
+   "hash": "1ed968c215cc28a5",
+   "seconds": 2.429,
+   "speaker": "bektur",
+   "credits": 0,
+   "chars": 28,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Анда ал илимди кайдан алган?",
+   "reused_from": "002:ch01-s05#4",
+   "raw_file": "ch01-s05_4_1ed968c215cc28a5.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.8749,
+     "dc": -0.00045,
+     "head5ms": 0.004,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.8243,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "gain_db",
+      -0.26,
+      0
+     ]
+    ]
+   }
+  },
+  "ch01-s05#5": {
+   "file": "ch01-s05_5_564581caf46f0310.c1.mp3",
+   "hash": "564581caf46f0310",
+   "seconds": 6.922,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 86,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Илим Аллахтан келген. Ошон үчүн бардык хадистердеги илим түпкүлүгүндө Аллахтан келген.",
+   "reused_from": "002:ch01-s05#5",
+   "raw_file": "ch01-s05_5_564581caf46f0310.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7446,
+     "dc": -0.00047,
+     "head5ms": 0.006,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7234,
+     "dc": -0.0,
+     "head5ms": 0.003,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch01-s05#6": {
+   "file": "ch01-s05_6_90a9576323e9c389.c1.mp3",
+   "hash": "90a9576323e9c389",
+   "seconds": 10.109,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 118,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Куранда Нажм сүрөсүндө бир аят бар. Мааниси мындай: ал өз каалоосу менен сүйлөбөйт, анын сөзү — ага келген вахий гана.",
+   "reused_from": "002:ch01-s05#6",
+   "raw_file": "ch01-s05_6_90a9576323e9c389.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7136,
+     "dc": -0.00046,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6932,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch01-s05#7": {
+   "file": "ch01-s05_7_b0418f439df6eded.c1.mp3",
+   "hash": "b0418f439df6eded",
+   "seconds": 7.889,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 111,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Пайгамбарыбыз өзүнчө ойлоп чыгарып, бир нерсе сүйлөгөн эмес. Аллах Таала эмнени үйрөтсө, ошону бизге жеткирген.",
+   "reused_from": "002:ch01-s05#7",
+   "raw_file": "ch01-s05_7_b0418f439df6eded.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.65,
+     "dc": -0.00053,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6303,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch01-s06#0": {
+   "file": "ch01-s06_0_8ddb8021cca5e9d2.c1.mp3",
+   "hash": "8ddb8021cca5e9d2",
+   "seconds": 8.516,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 114,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Бир мисал айтайын. Бектур, апаң агаңа: «Айзадага айтып кой, кечки тамак даяр», — десе, агаң кимдин сөзүн жеткирет?",
+   "reused_from": "002:ch01-s06#0",
+   "raw_file": "ch01-s06_0_8ddb8021cca5e9d2.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6549,
+     "dc": -0.00048,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6364,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch01-s06#1": {
+   "file": "ch01-s06_1_9404fa65ee04d983.c1.mp3",
+   "hash": "9404fa65ee04d983",
+   "seconds": 3.709,
+   "speaker": "bektur",
+   "credits": 0,
+   "chars": 39,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Апамдын сөзүн! Өзүнөн эч нерсе кошпойт.",
+   "reused_from": "002:ch01-s06#1",
+   "raw_file": "ch01-s06_1_9404fa65ee04d983.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6458,
+     "dc": -0.0004,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6271,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch01-s06#2": {
+   "file": "ch01-s06_2_99046fcc0b390a6b.c1.mp3",
+   "hash": "99046fcc0b390a6b",
+   "seconds": 12.042,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 161,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Туура! Жакшы бала сөздү так жеткирет. Ал эми Пайгамбарыбыз, саллаллаху алейхи ва саллам, эң ишенимдүү жеткирүүчү болгон. Аллахтын үйрөткөнүн бизге так жеткирген.",
+   "reused_from": "002:ch01-s06#2",
+   "raw_file": "ch01-s06_2_99046fcc0b390a6b.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7422,
+     "dc": -0.00045,
+     "head5ms": 0.0,
+     "tail5ms": 0.093,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7196,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "tail",
+      11.92,
+      0.08
+     ]
+    ]
+   }
+  },
+  "ch01-s06#3": {
+   "file": "ch01-s06_3_00ce40dca8e145a8.c1.mp3",
+   "hash": "00ce40dca8e145a8",
+   "seconds": 7.079,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 79,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Демек, динибиздеги илим ушул үч булактан алынат: Куран, хадис кудси жана хадис.",
+   "reused_from": "002:ch01-s06#3",
+   "raw_file": "ch01-s06_3_00ce40dca8e145a8.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7394,
+     "dc": -0.00041,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7175,
+     "dc": 0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch01-s06#4": {
+   "file": "ch01-s06_4_7c46c0a4af2c4077.c1.mp3",
+   "hash": "7c46c0a4af2c4077",
+   "seconds": 6.191,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 76,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Эми ошол хадистердин бирин угалы. Ал абдан кооз окуя. Сырдуу мейман жөнүндө!",
+   "reused_from": "002:ch01-s06#7",
+   "raw_file": "ch01-s06_4_7c46c0a4af2c4077.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6318,
+     "dc": -0.0005,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6136,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch02-s01#0": {
+   "file": "ch02-s01_0_52f6221e73500d36.c1.mp3",
+   "hash": "52f6221e73500d36",
+   "seconds": 8.359,
+   "speaker": "ustaz",
+   "credits": 23,
+   "chars": 105,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Бул окуяны Умар, радыяллаху анху, айтып берген. Ал — сахаба. Бул хадис Имам Муслимдин китебинде жазылган.",
+   "raw_file": "ch02-s01_0_52f6221e73500d36.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6525,
+     "dc": -0.00042,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6332,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch02-s01#1": {
+   "file": "ch02-s01_1_685ed05643217ecc.c1.mp3",
+   "hash": "685ed05643217ecc",
+   "seconds": 2.769,
+   "speaker": "bektur",
+   "credits": 0,
+   "chars": 24,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Устаз, сахаба деген ким?",
+   "reused_from": "002:ch02-s01#1",
+   "raw_file": "ch02-s01_1_685ed05643217ecc.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6544,
+     "dc": -0.00029,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6349,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch02-s01#2": {
+   "file": "ch02-s01_2_9b023d8beecf4beb.c1.mp3",
+   "hash": "9b023d8beecf4beb",
+   "seconds": 8.829,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 121,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Сахаба — Пайгамбарыбыз, саллаллаху алейхи ва саллам, көзү менен көргөн, анын жанында жүрүп, андан илим үйрөнгөн мусулман.",
+   "reused_from": "002:ch02-s01#2",
+   "raw_file": "ch02-s01_2_9b023d8beecf4beb.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7105,
+     "dc": -0.00059,
+     "head5ms": 0.007,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6895,
+     "dc": -0.0,
+     "head5ms": 0.002,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch02-s01#4": {
+   "file": "ch02-s01_4_1e1e7453c0aafc0d.c1.mp3",
+   "hash": "1e1e7453c0aafc0d",
+   "seconds": 9.482,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 134,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Умар мындай дейт: «Күндөрдүн биринде биз Пайгамбарыбыздын, саллаллаху алейхи ва саллам, жанында, ал насаат айткан жерде отурган элек».",
+   "reused_from": "002:ch02-s01#6",
+   "raw_file": "ch02-s01_4_1e1e7453c0aafc0d.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6808,
+     "dc": -0.0005,
+     "head5ms": 0.001,
+     "tail5ms": 0.007,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.661,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.001,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch02-s01#5": {
+   "file": "ch02-s01_5_651fcf4964aa20a4.c1.mp3",
+   "hash": "651fcf4964aa20a4",
+   "seconds": 8.046,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 88,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ойлонуп көргүлө: сахабалар тегерек отуруп, кулак салып угуп жатышат. Тынч, жарык, жылуу.",
+   "reused_from": "002:ch02-s01#9",
+   "raw_file": "ch02-s01_5_651fcf4964aa20a4.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6331,
+     "dc": -0.00041,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6153,
+     "dc": 0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch02-s02#0": {
+   "file": "ch02-s02_0_69ebbbf40ecfc9ab.c1.mp3",
+   "hash": "69ebbbf40ecfc9ab",
+   "seconds": 4.989,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 61,
+   "ped": false,
+   "replaced_from": null,
+   "text": "«Ошол жерге бир киши келди. Кийими аппак, чачы капкара экен».",
+   "reused_from": "002:ch02-s02#0",
+   "raw_file": "ch02-s02_0_69ebbbf40ecfc9ab.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6004,
+     "dc": -0.00039,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.5829,
+     "dc": 0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch02-s02#1": {
+   "file": "ch02-s02_1_0fbd6d370500ba58.c1.mp3",
+   "hash": "0fbd6d370500ba58",
+   "seconds": 4.362,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 54,
+   "ped": false,
+   "replaced_from": null,
+   "text": "«Бети-башы таптаза. Узак жолдон келгени эч билинбейт».",
+   "reused_from": "002:ch02-s02#1",
+   "raw_file": "ch02-s02_1_0fbd6d370500ba58.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7843,
+     "dc": -0.00047,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7621,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch02-s02#2": {
+   "file": "ch02-s02_2_7023abfa7d438e80.c1.mp3",
+   "hash": "7023abfa7d438e80",
+   "seconds": 5.329,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 74,
+   "ped": true,
+   "replaced_from": null,
+   "text": "«Аны биздин арабыздан эч ким тааныбайт экен». Хадисте ушундай деп айтылат.",
+   "reused_from": "002:ch02-s02#2",
+   "raw_file": "ch02-s02_2_7023abfa7d438e80.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6451,
+     "dc": -0.00045,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6259,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch02-s02#3": {
+   "file": "ch02-s02_3_a2abcee09f4de5b2.c1.mp3",
+   "hash": "a2abcee09f4de5b2",
+   "seconds": 5.146,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 64,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Балдар, ойлонуп көргүлө. Алыскы жолдон келген адам кандай болот?",
+   "reused_from": "002:ch02-s02#3",
+   "raw_file": "ch02-s02_3_a2abcee09f4de5b2.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7093,
+     "dc": -0.00042,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6883,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch02-s02#5": {
+   "file": "ch02-s02_5_b4bdf89b2a38e960.c1.mp3",
+   "hash": "b4bdf89b2a38e960",
+   "seconds": 3.082,
+   "speaker": "bektur",
+   "credits": 0,
+   "chars": 38,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Чаңдап калат! Бут кийими кирдеп калат.",
+   "reused_from": "002:ch02-s02#5",
+   "raw_file": "ch02-s02_5_b4bdf89b2a38e960.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6293,
+     "dc": -0.00039,
+     "head5ms": 0.001,
+     "tail5ms": 0.002,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6108,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch02-s02#6": {
+   "file": "ch02-s02_6_36bb739dcc7bf990.c1.mp3",
+   "hash": "36bb739dcc7bf990",
+   "seconds": 2.273,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 21,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Чарчап, суусап калат!",
+   "reused_from": "002:ch02-s02#6",
+   "raw_file": "ch02-s02_6_36bb739dcc7bf990.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.9023,
+     "dc": -0.0007,
+     "head5ms": 0.007,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.8251,
+     "dc": -0.0,
+     "head5ms": 0.005,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "gain_db",
+      -0.52,
+      0
+     ]
+    ]
+   }
+  },
+  "ch02-s02#7": {
+   "file": "ch02-s02_7_fb4e513eca56f26f.c1.mp3",
+   "hash": "fb4e513eca56f26f",
+   "seconds": 11.546,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 124,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Туура. Ал убакта адамдар чөлдө жөө же төөгө минип узак жол басышчу. Чаң, тер, чарчоо. А бул кишиде андай белги таптакыр жок!",
+   "reused_from": "002:ch02-s02#7",
+   "raw_file": "ch02-s02_7_fb4e513eca56f26f.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7114,
+     "dc": -0.00047,
+     "head5ms": 0.0,
+     "tail5ms": 0.006,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6905,
+     "dc": 0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.001,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch02-s02#8": {
+   "file": "ch02-s02_8_b128499e7af497b8.c1.mp3",
+   "hash": "b128499e7af497b8",
+   "seconds": 9.169,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 118,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ушул жердин адамы десе, аны эч ким тааныбайт. Алыстан келди десе, жолдун изи жок. Мына ошон үчүн бардыгы таң калышкан.",
+   "reused_from": "002:ch02-s02#9",
+   "raw_file": "ch02-s02_8_b128499e7af497b8.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7024,
+     "dc": -0.00048,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6812,
+     "dc": 0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch02-s03#0": {
+   "file": "ch02-s03_0_1e78d91d1210d961.c1.mp3",
+   "hash": "1e78d91d1210d961",
+   "seconds": 7.471,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 109,
+   "ped": false,
+   "replaced_from": null,
+   "text": "«Ал киши Пайгамбарыбыздын, саллаллаху алейхи ва саллам, жанына келип, тизесин анын тизесине тийгизип отурду».",
+   "reused_from": "002:ch02-s03#0",
+   "raw_file": "ch02-s03_0_1e78d91d1210d961.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6537,
+     "dc": -0.00049,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6346,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch02-s03#1": {
+   "file": "ch02-s03_1_bda8fde0f6a2829b.c1.mp3",
+   "hash": "bda8fde0f6a2829b",
+   "seconds": 3.971,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 48,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Тизесин тийгизип? Эмне үчүн ушунча жакын отурду?",
+   "reused_from": "002:ch02-s03#1",
+   "raw_file": "ch02-s03_1_bda8fde0f6a2829b.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7315,
+     "dc": -0.00054,
+     "head5ms": 0.008,
+     "tail5ms": 0.032,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7092,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.003,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch02-s03#2": {
+   "file": "ch02-s03_2_c9a9883280a5885a.c1.mp3",
+   "hash": "c9a9883280a5885a",
+   "seconds": 8.046,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 110,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Сабакты жакшы уккусу келген окуучу мугалимге жакын отурат эмеспи. Бул киши да абдан көңүл буруп, жакын отурду.",
+   "reused_from": "002:ch02-s03#2",
+   "raw_file": "ch02-s03_2_c9a9883280a5885a.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6631,
+     "dc": -0.00062,
+     "head5ms": 0.002,
+     "tail5ms": 0.362,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6432,
+     "dc": 2e-05,
+     "head5ms": 0.002,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "tail",
+      7.96,
+      0.04
+     ]
+    ]
+   }
+  },
+  "ch02-s03#3": {
+   "file": "ch02-s03_3_29d0569dd2d0280a.c1.mp3",
+   "hash": "29d0569dd2d0280a",
+   "seconds": 8.908,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 118,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Дагы бир нерсени байкадыңарбы? Ал адегенде жакын келип, сылык отурду, анан гана сурады. Суроону да адеп менен беришет.",
+   "reused_from": "002:ch02-s03#4",
+   "raw_file": "ch02-s03_3_29d0569dd2d0280a.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6362,
+     "dc": -0.00043,
+     "head5ms": 0.005,
+     "tail5ms": 0.005,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6177,
+     "dc": -0.0,
+     "head5ms": 0.003,
+     "tail5ms": 0.001,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch02-s03#4": {
+   "file": "ch02-s03_4_ad83fc093943d81c.c1.mp3",
+   "hash": "ad83fc093943d81c",
+   "seconds": 5.564,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 68,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Анан ал киши Пайгамбарыбызга мындай деди: «Мага исламдан кабар бер».",
+   "reused_from": "002:ch02-s03#5",
+   "raw_file": "ch02-s03_4_ad83fc093943d81c.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6502,
+     "dc": -0.00049,
+     "head5ms": 0.002,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6306,
+     "dc": 0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch02-s03#5": {
+   "file": "ch02-s03_5_d033c59fe2d5ca1b.c1.mp3",
+   "hash": "d033c59fe2d5ca1b",
+   "seconds": 6.034,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 82,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Кабар бер деген — айтып бер, түшүндүрүп бер дегени. Мына ушул биринчи суроо болду.",
+   "reused_from": "002:ch02-s03#6",
+   "raw_file": "ch02-s03_5_d033c59fe2d5ca1b.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7161,
+     "dc": -0.00044,
+     "head5ms": 0.008,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6944,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch02-s04#0": {
+   "file": "ch02-s04_0_e37673c35464d5e1.c1.mp3",
+   "hash": "e37673c35464d5e1",
+   "seconds": 5.251,
+   "speaker": "bektur",
+   "credits": 0,
+   "chars": 69,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Устаз, мен билем! Ал алыскы шаардан келген бир окумуштуу болсо керек!",
+   "reused_from": "002:ch02-s04#0",
+   "raw_file": "ch02-s04_0_e37673c35464d5e1.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6152,
+     "dc": -0.00044,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.5957,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch02-s04#1": {
+   "file": "ch02-s04_1_56265af9f45a7b69.c1.mp3",
+   "hash": "56265af9f45a7b69",
+   "seconds": 3.971,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 42,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Же болбосо… кандайдыр бир жашыруун мейман!",
+   "reused_from": "002:ch02-s04#1",
+   "raw_file": "ch02-s04_1_56265af9f45a7b69.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6135,
+     "dc": -0.00063,
+     "head5ms": 0.233,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.5946,
+     "dc": -1e-05,
+     "head5ms": 0.081,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch02-s04#2": {
+   "file": "ch02-s04_2_4b7ac7afeb902903.c1.mp3",
+   "hash": "4b7ac7afeb902903",
+   "seconds": 8.516,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 110,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ар кимиң өз оюңду айттың, азаматсыңар! Бирок мен азыр айтпайм. Окуяны акырына чейин уксаңар, өзүңөр билесиңер.",
+   "reused_from": "002:ch02-s04#2",
+   "raw_file": "ch02-s04_2_4b7ac7afeb902903.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7936,
+     "dc": -0.0005,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7696,
+     "dc": 0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch02-s04#3": {
+   "file": "ch02-s04_3_f4b76f535f7545da.c1.mp3",
+   "hash": "f4b76f535f7545da",
+   "seconds": 7.889,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 102,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Бир кеңеш берейин: бул мейман жөн эле суроо берген жок. Анын ар бир суроосунда биз үчүн чоң сабак бар.",
+   "reused_from": "002:ch02-s04#3",
+   "raw_file": "ch02-s04_3_f4b76f535f7545da.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6714,
+     "dc": -0.00052,
+     "head5ms": 0.0,
+     "tail5ms": 0.001,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6516,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch02-s04#4": {
+   "file": "ch02-s04_4_544773aeb46503e9.c1.mp3",
+   "hash": "544773aeb46503e9",
+   "seconds": 7.628,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 77,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Устаз, мен ушул окуянын сүрөтүн тартайын! Пальмалар, мечит, эшиктен ак жарык…",
+   "reused_from": "002:ch02-s04#10",
+   "raw_file": "ch02-s04_4_544773aeb46503e9.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.737,
+     "dc": -0.00044,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7151,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch02-s04#5": {
+   "file": "ch02-s04_5_64169d233bf26f34.c1.mp3",
+   "hash": "64169d233bf26f34",
+   "seconds": 9.796,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 122,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Абдан жакшы ой, Айзада! Бирок бир эрежени эсиңе тут: Пайгамбарыбыздын жана анын сахабаларынын сүрөтүн эч качан тартпайбыз.",
+   "reused_from": "002:ch02-s04#11",
+   "raw_file": "ch02-s04_5_64169d233bf26f34.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7732,
+     "dc": -0.00049,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7508,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch02-s04#6": {
+   "file": "ch02-s04_6_5249d4e88f26784e.c1.mp3",
+   "hash": "5249d4e88f26784e",
+   "seconds": 6.922,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 93,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Аларды урматтагандыктан, сөз менен гана айтабыз. Пальмаларды, мечитти, жарыкты тартсаң болот.",
+   "reused_from": "002:ch02-s04#12",
+   "raw_file": "ch02-s04_6_5249d4e88f26784e.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7351,
+     "dc": -0.00042,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7132,
+     "dc": 0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch02-s04#7": {
+   "file": "ch02-s04_7_a045bec573f08eef.c1.mp3",
+   "hash": "a045bec573f08eef",
+   "seconds": 3.709,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 43,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Макул! Анда мейманды ак жарык кылып тартам.",
+   "reused_from": "002:ch02-s04#13",
+   "raw_file": "ch02-s04_7_a045bec573f08eef.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.8872,
+     "dc": -0.00057,
+     "head5ms": 0.004,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.8247,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "gain_db",
+      -0.38,
+      0
+     ]
+    ]
+   }
+  },
+  "ch02-s04#8": {
+   "file": "ch02-s04_8_09fa3cd6e00e96ec.c1.mp3",
+   "hash": "09fa3cd6e00e96ec",
+   "seconds": 5.799,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 75,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Туптуура! Эми Пайгамбарыбыздын, саллаллаху алейхи ва саллам, жообун угабыз.",
+   "reused_from": "002:ch02-s04#14",
+   "raw_file": "ch02-s04_8_09fa3cd6e00e96ec.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7508,
+     "dc": -0.00054,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7288,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch03-s01#0": {
+   "file": "ch03-s01_0_f54fc6cc1e0ee37f.c1.mp3",
+   "hash": "f54fc6cc1e0ee37f",
+   "seconds": 8.046,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 112,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Мейман: «Мага исламдан кабар бер», — деди. Ошондо Пайгамбарыбыз, саллаллаху алейхи ва саллам, мындай жооп берди.",
+   "reused_from": "002:ch03-s01#0",
+   "raw_file": "ch03-s01_0_f54fc6cc1e0ee37f.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6795,
+     "dc": -0.0005,
+     "head5ms": 0.001,
+     "tail5ms": 0.001,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6597,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch03-s01#1": {
+   "file": "ch03-s01_1_116a053fd4da0b41.c1.mp3",
+   "hash": "116a053fd4da0b41",
+   "seconds": 7.811,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 94,
+   "ped": false,
+   "replaced_from": null,
+   "text": "«Ислам — бул Аллахтын жалгыздыгына жана Мухаммад Анын кулу жана элчиси экенине күбөлүк берүү».",
+   "reused_from": "002:ch03-s01#1",
+   "raw_file": "ch03-s01_1_116a053fd4da0b41.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7433,
+     "dc": -0.00052,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7216,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch03-s01#2": {
+   "file": "ch03-s01_2_c5616cf36bceedfa.c1.mp3",
+   "hash": "c5616cf36bceedfa",
+   "seconds": 5.956,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 70,
+   "ped": false,
+   "replaced_from": null,
+   "text": "«Андан кийин намаз окууң, зекет берүүң, Рамазан айында орозо кармооң».",
+   "reused_from": "002:ch03-s01#2",
+   "raw_file": "ch03-s01_2_c5616cf36bceedfa.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7197,
+     "dc": -0.00047,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6985,
+     "dc": 0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch03-s01#3": {
+   "file": "ch03-s01_3_e58483eeb137bcb5.c1.mp3",
+   "hash": "e58483eeb137bcb5",
+   "seconds": 4.362,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 54,
+   "ped": false,
+   "replaced_from": null,
+   "text": "«Жана күчүң жетсе, өмүрүңдө бир жолу ажылыкка барууң».",
+   "reused_from": "002:ch03-s01#3",
+   "raw_file": "ch03-s01_3_e58483eeb137bcb5.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7262,
+     "dc": -0.00048,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7055,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch03-s01#4": {
+   "file": "ch03-s01_4_ed8111b8523e4adc.c1.mp3",
+   "hash": "ed8111b8523e4adc",
+   "seconds": 3.161,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 32,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Устаз, бул биздин беш түркүк го!",
+   "reused_from": "002:ch03-s01#4",
+   "raw_file": "ch03-s01_4_ed8111b8523e4adc.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.5713,
+     "dc": -0.0005,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.5531,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch03-s01#5": {
+   "file": "ch03-s01_5_7b87d85c3b144ff5.c1.mp3",
+   "hash": "7b87d85c3b144ff5",
+   "seconds": 7.001,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 82,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Туптуура, Айзада! Бул — беш түркүктүү үй. Ислам ушул беш нерсенин үстүнө курулган.",
+   "reused_from": "002:ch03-s01#5",
+   "raw_file": "ch03-s01_5_7b87d85c3b144ff5.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7863,
+     "dc": -0.00046,
+     "head5ms": 0.009,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7632,
+     "dc": 0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch03-s02#0": {
+   "file": "ch03-s02_0_ab792cc57144617c.c1.mp3",
+   "hash": "ab792cc57144617c",
+   "seconds": 14.028,
+   "speaker": "ustaz",
+   "credits": 40,
+   "chars": 183,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Бул жоопто бир нече маанилүү сөз бар. Биринчиси — күбөлүк. Күбөлүк берүү деген — чын жүрөктөн ишенип, тил менен айтуу: Аллах бир, Мухаммад, саллаллаху алейхи ва саллам, — Анын элчиси.",
+   "raw_file": "ch03-s02_0_ab792cc57144617c.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6711,
+     "dc": -0.00045,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6515,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch03-s02#1": {
+   "file": "ch03-s02_1_5f81b5354637d3e1.c1.mp3",
+   "hash": "5f81b5354637d3e1",
+   "seconds": 2.847,
+   "speaker": "bektur",
+   "credits": 0,
+   "chars": 34,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Анан «кулу» деген эмнени билдирет?",
+   "reused_from": "002:ch03-s02#1",
+   "raw_file": "ch03-s02_1_5f81b5354637d3e1.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.5194,
+     "dc": -0.0004,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.5034,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch03-s02#2": {
+   "file": "ch03-s02_2_0d0d585dab464ad4.c1.mp3",
+   "hash": "0d0d585dab464ad4",
+   "seconds": 11.233,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 138,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Аллахтын кулу — Аллахка баш ийген, Ага ибадат кылган пенде. Пайгамбарыбыз да, саллаллаху алейхи ва саллам, Аллахтын кулу жана Анын элчиси.",
+   "reused_from": "002:ch03-s02#2",
+   "raw_file": "ch03-s02_2_0d0d585dab464ad4.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7504,
+     "dc": -0.00043,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7284,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch03-s02#3": {
+   "file": "ch03-s02_3_97944fdb988b1b78.c1.mp3",
+   "hash": "97944fdb988b1b78",
+   "seconds": 3.004,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 31,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ажылыкка баары эле бара береби?",
+   "reused_from": "002:ch03-s02#7",
+   "raw_file": "ch03-s02_3_97944fdb988b1b78.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7246,
+     "dc": -0.00054,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7034,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch03-s02#4": {
+   "file": "ch03-s02_4_60d89b571b367824.c1.mp3",
+   "hash": "60d89b571b367824",
+   "seconds": 10.998,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 140,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ажылык — Меккеге барып, ибадат кылуу. Ал өмүрдө бир жолу, күчү жеткен адамга милдет. Күчү жетсе деген — ден соолугу жана мүмкүнчүлүгү болсо.",
+   "reused_from": "002:ch03-s02#8",
+   "raw_file": "ch03-s02_4_60d89b571b367824.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7315,
+     "dc": -0.00044,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7092,
+     "dc": 0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch03-s03#0": {
+   "file": "ch03-s03_0_7c56c067d1f2bec3.c1.mp3",
+   "hash": "7c56c067d1f2bec3",
+   "seconds": 4.754,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 72,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Ошондо мейман эмне деди дейсиңер? «Туура айттың», — деп тастыктап койду.",
+   "reused_from": "002:ch03-s03#0",
+   "raw_file": "ch03-s03_0_7c56c067d1f2bec3.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6673,
+     "dc": -0.00043,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.647,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch03-s03#1": {
+   "file": "ch03-s03_1_a374aad33c42f44d.c1.mp3",
+   "hash": "a374aad33c42f44d",
+   "seconds": 3.474,
+   "speaker": "bektur",
+   "credits": 0,
+   "chars": 36,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Эмне? Өзү сурап, өзү «туура» дедиби?",
+   "reused_from": "002:ch03-s03#1",
+   "raw_file": "ch03-s03_1_a374aad33c42f44d.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6608,
+     "dc": -0.00041,
+     "head5ms": 0.006,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6406,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch03-s03#2": {
+   "file": "ch03-s03_2_f61449fe5de466f8.c1.mp3",
+   "hash": "f61449fe5de466f8",
+   "seconds": 8.516,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 120,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Мына ошого сахабалар да таң калышкан. Умар айтат: «Ал суроо берип, кайра жоопту өзү тастыктап койгонуна биз таң калдык».",
+   "reused_from": "002:ch03-s03#2",
+   "raw_file": "ch03-s03_2_f61449fe5de466f8.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6827,
+     "dc": -0.00049,
+     "head5ms": 0.002,
+     "tail5ms": 0.001,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6629,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch03-s03#3": {
+   "file": "ch03-s03_3_ea662e8eb2bf9ba9.c1.mp3",
+   "hash": "ea662e8eb2bf9ba9",
+   "seconds": 6.034,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 89,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Буга чейин эч ким Пайгамбарыбыз, саллаллаху алейхи ва саллам, менен андай сүйлөшкөн эмес.",
+   "reused_from": "002:ch03-s03#3",
+   "raw_file": "ch03-s03_3_ea662e8eb2bf9ba9.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6989,
+     "dc": -0.00051,
+     "head5ms": 0.001,
+     "tail5ms": 0.004,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6789,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.001,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch03-s03#4": {
+   "file": "ch03-s03_4_3c5a45c18cfb9c92.c1.mp3",
+   "hash": "3c5a45c18cfb9c92",
+   "seconds": 10.031,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 118,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ойлонуп көргүлө: мен силерден «эки кошуу эки канча?» деп сурасам, силер «төрт» десеңер, мен «туура» деймин. Эмне үчүн?",
+   "reused_from": "002:ch03-s03#4",
+   "raw_file": "ch03-s03_4_3c5a45c18cfb9c92.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7548,
+     "dc": -0.00037,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7325,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch03-s03#6": {
+   "file": "ch03-s03_6_d5c086cb4e9c0756.c1.mp3",
+   "hash": "d5c086cb4e9c0756",
+   "seconds": 5.721,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 68,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Анткени сиз жоопту билесиз! Демек, мейман да жоопту мурунтан билген!",
+   "reused_from": "002:ch03-s03#6",
+   "raw_file": "ch03-s03_6_d5c086cb4e9c0756.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6561,
+     "dc": -0.0006,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6357,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch03-s03#7": {
+   "file": "ch03-s03_7_c44d992211599103.c1.mp3",
+   "hash": "c44d992211599103",
+   "seconds": 8.046,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 97,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Акылдуусуң, Айзада! Ал жоопту билген. Бирок эмнеге сурады экен? Бул сырды окуянын аягында ачабыз.",
+   "reused_from": "002:ch03-s03#7",
+   "raw_file": "ch03-s03_7_c44d992211599103.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7249,
+     "dc": -0.00052,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7037,
+     "dc": 0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch03-s04#0": {
+   "file": "ch03-s04_0_de51ba4d92604ee2.c1.mp3",
+   "hash": "de51ba4d92604ee2",
+   "seconds": 9.718,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 95,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Демек, биринчи суроо: Ислам деген эмне? Жооп: беш түркүк — шахада, намаз, зекет, орозо, ажылык.",
+   "reused_from": "002:ch03-s04#0",
+   "raw_file": "ch03-s04_0_de51ba4d92604ee2.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6217,
+     "dc": -0.0004,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6033,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch03-s04#2": {
+   "file": "ch03-s04_2_b941cef69759cd25.c1.mp3",
+   "hash": "b941cef69759cd25",
+   "seconds": 3.004,
+   "speaker": "bektur",
+   "credits": 0,
+   "chars": 28,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Жанды! Биринчи жылдыз жанды!",
+   "reused_from": "002:ch03-s04#5",
+   "raw_file": "ch03-s04_2_b941cef69759cd25.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7042,
+     "dc": -0.00042,
+     "head5ms": 0.014,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6829,
+     "dc": -0.0,
+     "head5ms": 0.009,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch03-s04#3": {
+   "file": "ch03-s04_3_0e01363e9605ff21.c1.mp3",
+   "hash": "0e01363e9605ff21",
+   "seconds": 4.833,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 66,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Бир жылдыз жанды. Эми мейман экинчи суроосун берет. Кулак салгыла!",
+   "reused_from": "002:ch03-s04#7",
+   "raw_file": "ch03-s04_3_0e01363e9605ff21.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7414,
+     "dc": -0.00045,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7195,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s01#0": {
+   "file": "ch04-s01_0_e545e7e649637ed1.c1.mp3",
+   "hash": "e545e7e649637ed1",
+   "seconds": 4.519,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 59,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Андан кийин мейман: «Анда мага ыймандан кабар бер», — деди.",
+   "reused_from": "002:ch04-s01#0",
+   "raw_file": "ch04-s01_0_e545e7e649637ed1.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6653,
+     "dc": -0.00054,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6457,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s01#1": {
+   "file": "ch04-s01_1_c4b63cdc3bb5c07d.c1.mp3",
+   "hash": "c4b63cdc3bb5c07d",
+   "seconds": 12.356,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 157,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Пайгамбарыбыз, саллаллаху алейхи ва саллам, мындай жооп берди: «Ыйман — Аллахка, Анын периштелерине, китептерине, пайгамбарларына жана акырет күнүнө ишенүү».",
+   "reused_from": "002:ch04-s01#1",
+   "raw_file": "ch04-s01_1_c4b63cdc3bb5c07d.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7599,
+     "dc": -0.00044,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7383,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s01#2": {
+   "file": "ch04-s01_2_b5becde8cb0201f9.c1.mp3",
+   "hash": "b5becde8cb0201f9",
+   "seconds": 4.989,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 63,
+   "ped": false,
+   "replaced_from": null,
+   "text": "«Жана тагдырдын жакшысы да, жаманы да Аллахтан экенине ишенүү».",
+   "reused_from": "002:ch04-s01#2",
+   "raw_file": "ch04-s01_2_b5becde8cb0201f9.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6877,
+     "dc": -0.00058,
+     "head5ms": 0.0,
+     "tail5ms": 0.003,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6684,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.001,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s01#3": {
+   "file": "ch04-s01_3_6802c9ce828eafc9.c1.mp3",
+   "hash": "6802c9ce828eafc9",
+   "seconds": 3.082,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 36,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Мейман дагы: «Туура айттың», — деди.",
+   "reused_from": "002:ch04-s01#3",
+   "raw_file": "ch04-s01_3_6802c9ce828eafc9.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7203,
+     "dc": -0.00029,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6981,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s01#4": {
+   "file": "ch04-s01_4_c45c2f420cfa30de.c1.mp3",
+   "hash": "c45c2f420cfa30de",
+   "seconds": 4.049,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 44,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Дагы тастыктады! Демек, муну да билген экен.",
+   "reused_from": "002:ch04-s01#4",
+   "raw_file": "ch04-s01_4_c45c2f420cfa30de.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.829,
+     "dc": -0.00065,
+     "head5ms": 0.002,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.8061,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s01#5": {
+   "file": "ch04-s01_5_6f042120d9e77ac4.c1.mp3",
+   "hash": "6f042120d9e77ac4",
+   "seconds": 7.393,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 94,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ооба. Эми бул жоопту жакшылап түшүнүп алалы. Ыймандын алты негизи бар. Аларды бирден карайбыз.",
+   "reused_from": "002:ch04-s01#5",
+   "raw_file": "ch04-s01_5_6f042120d9e77ac4.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7009,
+     "dc": -0.00045,
+     "head5ms": 0.001,
+     "tail5ms": 0.008,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6805,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.002,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s01#6": {
+   "file": "ch04-s01_6_adcba4fd7c1fe9ca.c1.mp3",
+   "hash": "adcba4fd7c1fe9ca",
+   "seconds": 4.519,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 55,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ар бирин билгенде, бир манжаңарды бүккүлө. Даярсыңарбы?",
+   "reused_from": "002:ch04-s01#6",
+   "raw_file": "ch04-s01_6_adcba4fd7c1fe9ca.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7477,
+     "dc": -0.00045,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7255,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s01#7": {
+   "file": "ch04-s01_7_053432fa46de9da0.c1.mp3",
+   "hash": "053432fa46de9da0",
+   "seconds": 1.149,
+   "speaker": "both_children",
+   "credits": 0,
+   "chars": 8,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Даярбыз!",
+   "reused_from": "002:ch04-s01#7",
+   "raw_file": "ch04-s01_7_053432fa46de9da0.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.9744,
+     "dc": -0.00124,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.8254,
+     "dc": -1e-05,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "gain_db",
+      -1.18,
+      0
+     ]
+    ]
+   }
+  },
+  "ch04-s02#0": {
+   "file": "ch04-s02_0_10176a8b5e98aca8.c1.mp3",
+   "hash": "10176a8b5e98aca8",
+   "seconds": 6.191,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 75,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Биринчиси — Аллахтын жалгыздыгына ишенүү. Аллах бир, Андан башка кудай жок.",
+   "reused_from": "002:ch04-s02#0",
+   "raw_file": "ch04-s02_0_10176a8b5e98aca8.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6512,
+     "dc": -0.00045,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6332,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s02#1": {
+   "file": "ch04-s02_1_fda9f2a622856ef3.c1.mp3",
+   "hash": "fda9f2a622856ef3",
+   "seconds": 5.407,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 54,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Балдар, асманды, жерди, күндү жана бизди ким жараткан?",
+   "reused_from": "002:ch04-s02#1",
+   "raw_file": "ch04-s02_1_fda9f2a622856ef3.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6396,
+     "dc": -0.00046,
+     "head5ms": 0.083,
+     "tail5ms": 0.219,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6204,
+     "dc": -0.0,
+     "head5ms": 0.037,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "tail",
+      5.34,
+      0.02
+     ]
+    ]
+   }
+  },
+  "ch04-s02#3": {
+   "file": "ch04-s02_3_3967c38d1237ff48.c1.mp3",
+   "hash": "3967c38d1237ff48",
+   "seconds": 1.384,
+   "speaker": "both_children",
+   "credits": 0,
+   "chars": 6,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Аллах!",
+   "reused_from": "002:ch04-s02#3",
+   "raw_file": "ch04-s02_3_3967c38d1237ff48.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 1.2355,
+     "dc": -0.00083,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 54
+    },
+    "after": {
+     "peak": 0.8225,
+     "dc": -1e-05,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "gain_db",
+      -3.24,
+      0
+     ]
+    ]
+   }
+  },
+  "ch04-s02#4": {
+   "file": "ch04-s02_4_6eaa136dae9b6386.c1.mp3",
+   "hash": "6eaa136dae9b6386",
+   "seconds": 10.762,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 139,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Туура. Биз Аллахты бул дүйнөдө көзүбүз менен көрбөйбүз. Бирок Анын жараткандарын көрүп, Ал бар экенин билебиз. Ал баарын көрүп, угуп турат.",
+   "reused_from": "002:ch04-s02#4",
+   "raw_file": "ch04-s02_4_6eaa136dae9b6386.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7016,
+     "dc": -0.0005,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6814,
+     "dc": 0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s02#5": {
+   "file": "ch04-s02_5_b0e787e4c9a81b6d.c1.mp3",
+   "hash": "b0e787e4c9a81b6d",
+   "seconds": 5.878,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 77,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Аллах эч нерсеге окшобойт. Ошон үчүн Аны элестетип, сүрөтүн тартууга болбойт.",
+   "reused_from": "002:ch04-s02#7",
+   "raw_file": "ch04-s02_5_b0e787e4c9a81b6d.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7356,
+     "dc": -0.00051,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7137,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s03#0": {
+   "file": "ch04-s03_0_d362c4b8739b32fb.c1.mp3",
+   "hash": "d362c4b8739b32fb",
+   "seconds": 3.318,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 41,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Экинчиси — Аллахтын периштелерине ишенүү.",
+   "reused_from": "002:ch04-s03#0",
+   "raw_file": "ch04-s03_0_d362c4b8739b32fb.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7004,
+     "dc": -0.0006,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6805,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s03#1": {
+   "file": "ch04-s03_1_34fd012e6db179c0.c1.mp3",
+   "hash": "34fd012e6db179c0",
+   "seconds": 3.318,
+   "speaker": "bektur",
+   "credits": 0,
+   "chars": 41,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Устаз, периштелерди биз көрө албайбыз го?",
+   "reused_from": "002:ch04-s03#1",
+   "raw_file": "ch04-s03_1_34fd012e6db179c0.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.5826,
+     "dc": -0.0004,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.5653,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s03#2": {
+   "file": "ch04-s03_2_bb7b52845fcf9f32.c1.mp3",
+   "hash": "bb7b52845fcf9f32",
+   "seconds": 5.799,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 72,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ооба, көрбөйбүз. Бирок аба жөнүндө ойлонуп көр, Бектур. Абаны көрөсүңбү?",
+   "reused_from": "002:ch04-s03#2",
+   "raw_file": "ch04-s03_2_bb7b52845fcf9f32.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6974,
+     "dc": -0.00041,
+     "head5ms": 0.02,
+     "tail5ms": 0.001,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6773,
+     "dc": -0.0,
+     "head5ms": 0.01,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s03#3": {
+   "file": "ch04-s03_3_276efcf3029825ae.c1.mp3",
+   "hash": "276efcf3029825ae",
+   "seconds": 2.926,
+   "speaker": "bektur",
+   "credits": 0,
+   "chars": 31,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Жок… бирок азыр дем алып жатам!",
+   "reused_from": "002:ch04-s03#3",
+   "raw_file": "ch04-s03_3_276efcf3029825ae.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.5997,
+     "dc": -0.00035,
+     "head5ms": 0.029,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.5821,
+     "dc": -0.0,
+     "head5ms": 0.019,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s03#4": {
+   "file": "ch04-s03_4_d1dd769b953e0c44.c1.mp3",
+   "hash": "d1dd769b953e0c44",
+   "seconds": 7.811,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 97,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Мына! Абаны көрбөйбүз, бирок ал бар. Периштелер да ошондой: биз аларды көрбөйбүз, бирок алар бар.",
+   "reused_from": "002:ch04-s03#4",
+   "raw_file": "ch04-s03_4_d1dd769b953e0c44.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6864,
+     "dc": -0.00044,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6666,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s03#5": {
+   "file": "ch04-s03_5_7935acf35ab62f29.c1.mp3",
+   "hash": "7935acf35ab62f29",
+   "seconds": 6.034,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 78,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Периштелер Аллахтын буйругун аткарышат. Алар эч качан Аллахка каршы чыгышпайт.",
+   "reused_from": "002:ch04-s03#5",
+   "raw_file": "ch04-s03_5_7935acf35ab62f29.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7014,
+     "dc": -0.00047,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6805,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s04#0": {
+   "file": "ch04-s04_0_bf1e8ca65b6476f7.c1.mp3",
+   "hash": "bf1e8ca65b6476f7",
+   "seconds": 3.318,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 39,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Үчүнчүсү — Аллахтын китептерине ишенүү.",
+   "reused_from": "002:ch04-s04#0",
+   "raw_file": "ch04-s04_0_bf1e8ca65b6476f7.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7281,
+     "dc": -0.00049,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7063,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s04#1": {
+   "file": "ch04-s04_1_3b05f2f1b1b1ed54.c1.mp3",
+   "hash": "3b05f2f1b1b1ed54",
+   "seconds": 10.684,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 125,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Аллах адамдарга туура жолду көрсөтүү үчүн пайгамбарларына китептерди түшүргөн. Тоорат, Забур, Инжил жана эң акыркысы — Куран.",
+   "reused_from": "002:ch04-s04#1",
+   "raw_file": "ch04-s04_1_3b05f2f1b1b1ed54.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7225,
+     "dc": -0.00043,
+     "head5ms": 0.018,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7015,
+     "dc": 0.0,
+     "head5ms": 0.006,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s04#2": {
+   "file": "ch04-s04_2_f3047403141b3a5e.c1.mp3",
+   "hash": "f3047403141b3a5e",
+   "seconds": 12.121,
+   "speaker": "ustaz",
+   "credits": 33,
+   "chars": 151,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Тоорат Муса алейхиссаламга, Забур Дауд алейхиссаламга, Инжил Иса алейхиссаламга, ал эми Куран Пайгамбарыбызга, саллаллаху алейхи ва саллам, түшүрүлгөн.",
+   "raw_file": "ch04-s04_2_f3047403141b3a5e.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6786,
+     "dc": -0.00047,
+     "head5ms": 0.005,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6586,
+     "dc": 0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s04#3": {
+   "file": "ch04-s04_3_db75dd4e0fe345ef.c1.mp3",
+   "hash": "db75dd4e0fe345ef",
+   "seconds": 6.922,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 73,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Куран! Сабактын башында сүйлөштүк го: анын сөзү да, мааниси да Аллахтыкы!",
+   "reused_from": "002:ch04-s04#3",
+   "raw_file": "ch04-s04_3_db75dd4e0fe345ef.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.814,
+     "dc": -0.00071,
+     "head5ms": 0.01,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7911,
+     "dc": 0.0,
+     "head5ms": 0.004,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s04#4": {
+   "file": "ch04-s04_4_de9ce6630475dfef.c1.mp3",
+   "hash": "de9ce6630475dfef",
+   "seconds": 9.796,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 118,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Азаматсың, эсиңде экен! Куран — Аллахтын акыркы китеби. Аны биз окуйбуз, урматтайбыз жана анын айтканы менен жашайбыз.",
+   "reused_from": "002:ch04-s04#4",
+   "raw_file": "ch04-s04_4_de9ce6630475dfef.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6952,
+     "dc": -0.00044,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6744,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s05#0": {
+   "file": "ch04-s05_0_04730f6f8d73334e.c1.mp3",
+   "hash": "04730f6f8d73334e",
+   "seconds": 3.553,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 45,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Төртүнчүсү — Аллахтын пайгамбарларына ишенүү.",
+   "reused_from": "002:ch04-s05#0",
+   "raw_file": "ch04-s05_0_04730f6f8d73334e.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7835,
+     "dc": -0.00048,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7601,
+     "dc": 0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s05#1": {
+   "file": "ch04-s05_1_6735c0a47138a1b2.c1.mp3",
+   "hash": "6735c0a47138a1b2",
+   "seconds": 13.009,
+   "speaker": "ustaz",
+   "credits": 34,
+   "chars": 156,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Аллах адамдарга жакшылыкты үйрөтүү үчүн пайгамбарларды жиберген. Биринчиси — Адам алейхиссалам. Андан кийин Нух, Ибрахим, Муса, Иса алейхимуссалам келишкен.",
+   "raw_file": "ch04-s05_1_6735c0a47138a1b2.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6927,
+     "dc": -0.00045,
+     "head5ms": 0.002,
+     "tail5ms": 0.024,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6719,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "tail",
+      12.93,
+      0.03
+     ]
+    ]
+   }
+  },
+  "ch04-s05#2": {
+   "file": "ch04-s05_2_cc81ac057e4df5c9.c1.mp3",
+   "hash": "cc81ac057e4df5c9",
+   "seconds": 7.158,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 96,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Эң акыркы пайгамбар — Пайгамбарыбыз, саллаллаху алейхи ва саллам. Андан кийин пайгамбар келбейт.",
+   "reused_from": "002:ch04-s05#2",
+   "raw_file": "ch04-s05_2_cc81ac057e4df5c9.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7877,
+     "dc": -0.00045,
+     "head5ms": 0.002,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7648,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s06#0": {
+   "file": "ch04-s06_0_bc6b10d4e522762d.c1.mp3",
+   "hash": "bc6b10d4e522762d",
+   "seconds": 6.034,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 72,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Бешинчиси — акырет күнүнө ишенүү. Өлгөндөн кийин кайра тирилүүгө ишенүү.",
+   "reused_from": "002:ch04-s06#0",
+   "raw_file": "ch04-s06_0_bc6b10d4e522762d.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.5969,
+     "dc": -0.00054,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.5787,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s06#1": {
+   "file": "ch04-s06_1_15ddce2c6bfa9ca6.c1.mp3",
+   "hash": "15ddce2c6bfa9ca6",
+   "seconds": 2.586,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 32,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Кайра тирилүү деген эмне, устаз?",
+   "reused_from": "002:ch04-s06#1",
+   "raw_file": "ch04-s06_1_15ddce2c6bfa9ca6.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6679,
+     "dc": -0.00062,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6471,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s06#2": {
+   "file": "ch04-s06_2_d361a8f686d2ad9b.c1.mp3",
+   "hash": "d361a8f686d2ad9b",
+   "seconds": 8.359,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 107,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Бул дүйнө бир күнү бүтөт. Ошондо Аллах бардык адамдарды кайра тирилтет. Ар ким өзү кылган жакшылыгын көрөт.",
+   "reused_from": "002:ch04-s06#2",
+   "raw_file": "ch04-s06_2_d361a8f686d2ad9b.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7734,
+     "dc": -0.00046,
+     "head5ms": 0.005,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.751,
+     "dc": 0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s06#3": {
+   "file": "ch04-s06_3_cd9fcbfbea0c70e0.c1.mp3",
+   "hash": "cd9fcbfbea0c70e0",
+   "seconds": 9.482,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 131,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ошон үчүн бүгүн кылган кичинекей жакшылыгыбыз да жоголбойт. Аллах баарын билет. Бул тууралуу кийин кооз бир мисал менен сүйлөшөбүз.",
+   "reused_from": "002:ch04-s06#6",
+   "raw_file": "ch04-s06_3_cd9fcbfbea0c70e0.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7056,
+     "dc": -0.00049,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6853,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s07#0": {
+   "file": "ch04-s07_0_d67c80bf06dbe77f.c1.mp3",
+   "hash": "d67c80bf06dbe77f",
+   "seconds": 6.191,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 83,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Алтынчысы — тагдырга ишенүү: тагдырдын жакшысы да, жаманы да Аллахтан экенин билүү.",
+   "reused_from": "002:ch04-s07#0",
+   "raw_file": "ch04-s07_0_d67c80bf06dbe77f.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.721,
+     "dc": -0.00055,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7002,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s07#1": {
+   "file": "ch04-s07_1_c7939d05da11df4c.c1.mp3",
+   "hash": "c7939d05da11df4c",
+   "seconds": 5.564,
+   "speaker": "bektur",
+   "credits": 0,
+   "chars": 64,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Жаманы да? Мисалы, футбол ойногону чыкканда жамгыр жаап калсачы?",
+   "reused_from": "002:ch04-s07#1",
+   "raw_file": "ch04-s07_1_c7939d05da11df4c.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.5834,
+     "dc": -0.00044,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.5663,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s07#2": {
+   "file": "ch04-s07_2_9057487a9b52cc64.c1.mp3",
+   "hash": "9057487a9b52cc64",
+   "seconds": 8.908,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 107,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ооба, Бектур. Жамгыр да Аллахтын каалоосу менен жаайт. Биз аракет кылабыз, ал эми эмне болорун Аллах билет.",
+   "reused_from": "002:ch04-s07#2",
+   "raw_file": "ch04-s07_2_9057487a9b52cc64.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7046,
+     "dc": -0.00041,
+     "head5ms": 0.013,
+     "tail5ms": 0.155,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6835,
+     "dc": -0.0,
+     "head5ms": 0.007,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "tail",
+      8.86,
+      0.02
+     ]
+    ]
+   }
+  },
+  "ch04-s07#3": {
+   "file": "ch04-s07_3_a982a0ab794830f0.c1.mp3",
+   "hash": "a982a0ab794830f0",
+   "seconds": 9.482,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 127,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Бир нерсе ойдогудай болбой калса, ыйлап, ачууланбайбыз. «Аллах мага жакшылыкты каалайт» деп, сабыр кылып, кайра аракет кылабыз.",
+   "reused_from": "002:ch04-s07#3",
+   "raw_file": "ch04-s07_3_a982a0ab794830f0.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7032,
+     "dc": -0.0005,
+     "head5ms": 0.0,
+     "tail5ms": 0.039,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6831,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "tail",
+      9.43,
+      0.01
+     ]
+    ]
+   }
+  },
+  "ch04-s07#4": {
+   "file": "ch04-s07_4_41afa10aed8952bb.c1.mp3",
+   "hash": "41afa10aed8952bb",
+   "seconds": 3.631,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 44,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Карагылачы! Жамгырдан кийин асан-үсөн чыкты!",
+   "reused_from": "002:ch04-s07#4",
+   "raw_file": "ch04-s07_4_41afa10aed8952bb.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.8717,
+     "dc": -0.00073,
+     "head5ms": 0.015,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.8244,
+     "dc": -0.0,
+     "head5ms": 0.002,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "gain_db",
+      -0.23,
+      0
+     ]
+    ]
+   }
+  },
+  "ch04-s07#5": {
+   "file": "ch04-s07_5_68be0c72320a271e.c1.mp3",
+   "hash": "68be0c72320a271e",
+   "seconds": 6.687,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 95,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Мына! Кээде биз жаман деп ойлогон нерседен да жакшылык чыгат. Аллах биз билбеген нерсени билет.",
+   "reused_from": "002:ch04-s07#5",
+   "raw_file": "ch04-s07_5_68be0c72320a271e.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7163,
+     "dc": -0.00049,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6959,
+     "dc": 0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s08#0": {
+   "file": "ch04-s08_0_f966233da976d11a.c1.mp3",
+   "hash": "f966233da976d11a",
+   "seconds": 6.609,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 88,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ислам — колубуз жана тилибиз менен кылган иштерибиз болсо, ыйман — жүрөгүбүздөгү ишеним.",
+   "reused_from": "002:ch04-s08#5",
+   "raw_file": "ch04-s08_0_f966233da976d11a.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6396,
+     "dc": -0.00059,
+     "head5ms": 0.001,
+     "tail5ms": 0.074,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6213,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "tail",
+      6.55,
+      0.01
+     ]
+    ]
+   }
+  },
+  "ch04-s08#1": {
+   "file": "ch04-s08_1_ac5c7d6358caf82b.c1.mp3",
+   "hash": "ac5c7d6358caf82b",
+   "seconds": 4.676,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 52,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Эми эмне болду? Биринчиси — ислам, экинчиси — ыйман.",
+   "reused_from": "002:ch04-s08#6",
+   "raw_file": "ch04-s08_1_ac5c7d6358caf82b.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6357,
+     "dc": -0.00049,
+     "head5ms": 0.007,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6158,
+     "dc": -0.0,
+     "head5ms": 0.003,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s08#3": {
+   "file": "ch04-s08_3_e5ecbe832e06a1d6.c1.mp3",
+   "hash": "e5ecbe832e06a1d6",
+   "seconds": 3.082,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 35,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Эки жылдыз жанды! Бирөө гана калды!",
+   "reused_from": "002:ch04-s08#8",
+   "raw_file": "ch04-s08_3_e5ecbe832e06a1d6.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.8134,
+     "dc": -0.00064,
+     "head5ms": 0.414,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7888,
+     "dc": 2e-05,
+     "head5ms": 0.16,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch04-s08#4": {
+   "file": "ch04-s08_4_584d60d1d634e09d.c1.mp3",
+   "hash": "584d60d1d634e09d",
+   "seconds": 6.531,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 87,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Үчүнчү жылдыз — эң сырдуусу. Бирок ага чейин акырет жөнүндө бир кооз мисал айтып берем.",
+   "reused_from": "002:ch04-s08#9",
+   "raw_file": "ch04-s08_4_584d60d1d634e09d.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7808,
+     "dc": -0.00055,
+     "head5ms": 0.0,
+     "tail5ms": 0.002,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7594,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.001,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch05-s01#1": {
+   "file": "ch05-s01_1_0b7edbc6bf2189c2.c1.mp3",
+   "hash": "0b7edbc6bf2189c2",
+   "seconds": 6.609,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 88,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Балдар, ыймандын алты негизинин бирин жакшылап карайлы. Бешинчиси эмне эле? Акырет күнү.",
+   "reused_from": "002:ch05-s01#1",
+   "raw_file": "ch05-s01_1_0b7edbc6bf2189c2.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.672,
+     "dc": -0.00045,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6502,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch05-s01#2": {
+   "file": "ch05-s01_2_1c1fa6a526301d14.c1.mp3",
+   "hash": "1c1fa6a526301d14",
+   "seconds": 3.161,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 25,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Устаз, акырет деген эмне?",
+   "reused_from": "002:ch05-s01#2",
+   "raw_file": "ch05-s01_2_1c1fa6a526301d14.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7492,
+     "dc": -0.00044,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7263,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch05-s01#3": {
+   "file": "ch05-s01_3_8c4ac2634dc0e155.c1.mp3",
+   "hash": "8c4ac2634dc0e155",
+   "seconds": 9.482,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 125,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Акырет — бул дүйнөдөн кийинки жашоо. Адам өлгөндөн кийин Аллах аны кайра тирилтет. Бул биздин жашообуздагы эң маанилүү нерсе.",
+   "reused_from": "002:ch05-s01#3",
+   "raw_file": "ch05-s01_3_8c4ac2634dc0e155.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7797,
+     "dc": -0.00049,
+     "head5ms": 0.034,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7568,
+     "dc": 0.0,
+     "head5ms": 0.017,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch05-s01#4": {
+   "file": "ch05-s01_4_5df669ed345d4ec9.c1.mp3",
+   "hash": "5df669ed345d4ec9",
+   "seconds": 3.161,
+   "speaker": "bektur",
+   "credits": 0,
+   "chars": 43,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ак кийимчен мейман бул жөнүндө да сурадыбы?",
+   "reused_from": "002:ch05-s01#4",
+   "raw_file": "ch05-s01_4_5df669ed345d4ec9.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.642,
+     "dc": -0.00046,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6235,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch05-s01#5": {
+   "file": "ch05-s01_5_7b0ea47b2f619b42.c1.mp3",
+   "hash": "7b0ea47b2f619b42",
+   "seconds": 13.714,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 185,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Ооба, сураган. Мейман: «Кыямат качан болот?» деп сураган. Пайгамбарыбыз, саллаллаху алейхи ва саллам, мындай деп жооп берген: «Бул тууралуу суралган адам сураган адамдан артык билбейт».",
+   "reused_from": "002:ch05-s01#5",
+   "raw_file": "ch05-s01_5_7b0ea47b2f619b42.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7575,
+     "dc": -0.00045,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.735,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch05-s01#6": {
+   "file": "ch05-s01_6_8c60a2cdd4a5f810.c1.mp3",
+   "hash": "8c60a2cdd4a5f810",
+   "seconds": 6.766,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 87,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Башкача айтканда, кыяматтын качан болорун Аллах гана билет. Аны эч ким так айта албайт.",
+   "reused_from": "002:ch05-s01#6",
+   "raw_file": "ch05-s01_6_8c60a2cdd4a5f810.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.8375,
+     "dc": -0.00045,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.8104,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch05-s01#7": {
+   "file": "ch05-s01_7_f2608db48078b483.c1.mp3",
+   "hash": "f2608db48078b483",
+   "seconds": 10.841,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 145,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Кайра тирилүү ушунчалык маанилүү болгондуктан, мейман ал жөнүндө өзүнчө сураган. Аллах Куранда кайра тирилүү жөнүндө бизге абдан көп кабар берет.",
+   "reused_from": "002:ch05-s01#7",
+   "raw_file": "ch05-s01_7_f2608db48078b483.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7016,
+     "dc": -0.00053,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6812,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch05-s02#0": {
+   "file": "ch05-s02_0_3ef77f8ce9d2c1a2.c1.mp3",
+   "hash": "3ef77f8ce9d2c1a2",
+   "seconds": 5.799,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 73,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Эми бир суроо. Кыш келгенде бактар кандай болуп калат? Айзада, сен айтчы.",
+   "reused_from": "002:ch05-s02#0",
+   "raw_file": "ch05-s02_0_3ef77f8ce9d2c1a2.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.678,
+     "dc": -0.00045,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6584,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch05-s02#2": {
+   "file": "ch05-s02_2_23c04545c1764d91.c1.mp3",
+   "hash": "23c04545c1764d91",
+   "seconds": 4.206,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 49,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Жалбырактары түшүп калат. Чөптөр да куурап калат.",
+   "reused_from": "002:ch05-s02#2",
+   "raw_file": "ch05-s02_2_23c04545c1764d91.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7131,
+     "dc": -0.00043,
+     "head5ms": 0.002,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6921,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch05-s02#3": {
+   "file": "ch05-s02_3_ebdb1de4cc40440e.c1.mp3",
+   "hash": "ebdb1de4cc40440e",
+   "seconds": 10.606,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 137,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Туура! Аллах Куранда дал ушуну мисал кылат. Кыш келгенде бардык өсүмдүктөр өлгөндөй болот. Жаз келгенде кайра жерден көгөрүп, өсүп чыгат.",
+   "reused_from": "002:ch05-s02#3",
+   "raw_file": "ch05-s02_3_ebdb1de4cc40440e.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.789,
+     "dc": -0.00047,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.767,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch05-s02#5": {
+   "file": "ch05-s02_5_42e3bb0b47b21849.c1.mp3",
+   "hash": "42e3bb0b47b21849",
+   "seconds": 10.109,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 124,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Чөптөр, дарактар кайрадан гүлдөп, жап-жашыл болуп калат. Анан Аллах эмне дейт? «Силер да дал ушундай болуп кайра чыгасыңар».",
+   "reused_from": "002:ch05-s02#5",
+   "raw_file": "ch05-s02_5_42e3bb0b47b21849.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7531,
+     "dc": -0.00034,
+     "head5ms": 0.005,
+     "tail5ms": 0.008,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7312,
+     "dc": 0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.001,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch05-s02#6": {
+   "file": "ch05-s02_6_7dea2c6503fdc996.c1.mp3",
+   "hash": "7dea2c6503fdc996",
+   "seconds": 8.986,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 116,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Куранда, Рум сүрөсүндө мындай маани бар: Аллах жерди өлгөнүнөн кийин тирилтет. Силер да ушундай кайра чыгарыласыңар.",
+   "reused_from": "002:ch05-s02#6",
+   "raw_file": "ch05-s02_6_7dea2c6503fdc996.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6727,
+     "dc": -0.00047,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6531,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch05-s02#7": {
+   "file": "ch05-s02_7_69742bd18ae5d2d5.c1.mp3",
+   "hash": "69742bd18ae5d2d5",
+   "seconds": 2.011,
+   "speaker": "both_children",
+   "credits": 0,
+   "chars": 19,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Кыштан кийин — жаз!",
+   "reused_from": "002:ch05-s02#7",
+   "raw_file": "ch05-s02_7_69742bd18ae5d2d5.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7407,
+     "dc": -0.00101,
+     "head5ms": 0.018,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7197,
+     "dc": -1e-05,
+     "head5ms": 0.006,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch05-s03#0": {
+   "file": "ch05-s03_0_d59ee413cad8afcd.c1.mp3",
+   "hash": "d59ee413cad8afcd",
+   "seconds": 9.561,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 136,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Силерге бир сыр айтайын. Мен жаш кезимде динди али түшүнө элек элем. Адамдар акырет жөнүндө бир нерсе айтса, ичимден көп суроо берчүмүн.",
+   "reused_from": "002:ch05-s03#0",
+   "raw_file": "ch05-s03_0_d59ee413cad8afcd.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7497,
+     "dc": -0.00046,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7277,
+     "dc": 0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch05-s03#1": {
+   "file": "ch05-s03_1_895ed70a5478aab7.c1.mp3",
+   "hash": "895ed70a5478aab7",
+   "seconds": 7.628,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 104,
+   "ped": false,
+   "replaced_from": null,
+   "text": "«Өлгөндөн кийин эмне болот? Бул кандайча болот?» деп көп ойлончумун. Ал кезде бул мага түшүнүксүз болчу.",
+   "reused_from": "002:ch05-s03#1",
+   "raw_file": "ch05-s03_1_895ed70a5478aab7.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6491,
+     "dc": -0.00045,
+     "head5ms": 0.0,
+     "tail5ms": 0.103,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6293,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "tail",
+      7.59,
+      0.01
+     ]
+    ]
+   }
+  },
+  "ch05-s03#2": {
+   "file": "ch05-s03_2_0c4107a43758308d.c1.mp3",
+   "hash": "0c4107a43758308d",
+   "seconds": 3.788,
+   "speaker": "bektur",
+   "credits": 0,
+   "chars": 51,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Сиз да суроо берчү белеңиз? Мен да көп суроо берем!",
+   "reused_from": "002:ch05-s03#2",
+   "raw_file": "ch05-s03_2_0c4107a43758308d.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.5656,
+     "dc": -0.00041,
+     "head5ms": 0.0,
+     "tail5ms": 0.043,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.5485,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "tail",
+      3.75,
+      0.01
+     ]
+    ]
+   }
+  },
+  "ch05-s03#3": {
+   "file": "ch05-s03_3_b29ad417793ade23.c1.mp3",
+   "hash": "b29ad417793ade23",
+   "seconds": 11.311,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 153,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Суроо берүү жакшы, Бектур. Мен анан Куранды окуп, маанисин түшүнө баштадым. Аллах Куранда «силер өлгөндөн кийин кайра тирилесиңер» деп көп жолу эскертет.",
+   "reused_from": "002:ch05-s03#3",
+   "raw_file": "ch05-s03_3_b29ad417793ade23.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7771,
+     "dc": -0.0005,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7542,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch05-s03#4": {
+   "file": "ch05-s03_4_cf9718faa34cf1f8.c1.mp3",
+   "hash": "cf9718faa34cf1f8",
+   "seconds": 5.721,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 73,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Ошондо жүрөгүм тынчып, тойгондой болду. Суроомдун жообун Курандан таптым.",
+   "reused_from": "002:ch05-s03#4",
+   "raw_file": "ch05-s03_4_cf9718faa34cf1f8.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.641,
+     "dc": -0.00049,
+     "head5ms": 0.002,
+     "tail5ms": 0.001,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.622,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch05-s03#5": {
+   "file": "ch05-s03_5_d1e7e80d59ccc144.c1.mp3",
+   "hash": "d1e7e80d59ccc144",
+   "seconds": 6.922,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 91,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Силерде да суроо пайда болсо, уялбагыла. Билимдүү адамдан сурагыла. Суроо — билимдин эшиги.",
+   "reused_from": "002:ch05-s03#5",
+   "raw_file": "ch05-s03_5_d1e7e80d59ccc144.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7204,
+     "dc": -0.00048,
+     "head5ms": 0.012,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6995,
+     "dc": 0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch05-s04#0": {
+   "file": "ch05-s04_0_974c7a53de15cd49.c1.mp3",
+   "hash": "974c7a53de15cd49",
+   "seconds": 7.158,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 88,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Дагы бир нерсе бар. Аллах толук адилеттүү. Анын адилеттүүлүгүндө эч кандай кемчилик жок.",
+   "reused_from": "002:ch05-s04#0",
+   "raw_file": "ch05-s04_0_974c7a53de15cd49.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7055,
+     "dc": -0.00045,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6854,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch05-s04#1": {
+   "file": "ch05-s04_1_dd6ab1e12a99f9e1.c1.mp3",
+   "hash": "dd6ab1e12a99f9e1",
+   "seconds": 4.127,
+   "speaker": "bektur",
+   "credits": 0,
+   "chars": 53,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Менин жакшы ишимди эч ким көрбөсө, ал жоголуп кетеби?",
+   "reused_from": "002:ch05-s04#1",
+   "raw_file": "ch05-s04_1_dd6ab1e12a99f9e1.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6667,
+     "dc": -0.00051,
+     "head5ms": 0.001,
+     "tail5ms": 0.076,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6467,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "tail",
+      4.01,
+      0.07
+     ]
+    ]
+   }
+  },
+  "ch05-s04#2": {
+   "file": "ch05-s04_2_d6656074ada1fe2d.c1.mp3",
+   "hash": "d6656074ada1fe2d",
+   "seconds": 8.281,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 101,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Жок, жоголбойт! Кайра тирилүү болбосо, адилеттүүлүк болбойт эле. Ошондуктан кайра тирилүү сөзсүз бар.",
+   "reused_from": "002:ch05-s04#2",
+   "raw_file": "ch05-s04_2_d6656074ada1fe2d.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6666,
+     "dc": -0.00042,
+     "head5ms": 0.012,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6486,
+     "dc": -0.0,
+     "head5ms": 0.008,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch05-s04#3": {
+   "file": "ch05-s04_3_a0e2e0906acf6276.c1.mp3",
+   "hash": "a0e2e0906acf6276",
+   "seconds": 6.687,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 86,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Бирөөгө жашыруун жардам бердиңби? Аллах көрдү. Анын алдында бир да жакшылык жоголбойт.",
+   "reused_from": "002:ch05-s04#3",
+   "raw_file": "ch05-s04_3_a0e2e0906acf6276.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7017,
+     "dc": -0.00045,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6809,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch05-s05#0": {
+   "file": "ch05-s05_0_39ad9ab2c3076970.c1.mp3",
+   "hash": "39ad9ab2c3076970",
+   "seconds": 4.049,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 53,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Эми айткылачы, силер өзүңөргө жамандык каалайсыңарбы?",
+   "reused_from": "002:ch05-s05#0",
+   "raw_file": "ch05-s05_0_39ad9ab2c3076970.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6469,
+     "dc": -0.00058,
+     "head5ms": 0.004,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6278,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch05-s05#1": {
+   "file": "ch05-s05_1_2542bf80773282b5.c1.mp3",
+   "hash": "2542bf80773282b5",
+   "seconds": 3.056,
+   "speaker": "both_children",
+   "credits": 0,
+   "chars": 27,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Жок! Жакшы жашагыбыз келет!",
+   "reused_from": "002:ch05-s05#1",
+   "raw_file": "ch05-s05_1_2542bf80773282b5.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.9396,
+     "dc": -0.00083,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.8257,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "gain_db",
+      -0.86,
+      0
+     ]
+    ]
+   }
+  },
+  "ch05-s05#2": {
+   "file": "ch05-s05_2_d28fd6d39ec0da60.c1.mp3",
+   "hash": "d28fd6d39ec0da60",
+   "seconds": 8.438,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 109,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Туура. Ар ким «келечекте жакшы жашасам» дейт. Анда эмне үчүн кийинки жашообуздун да жакшы болушун каалабайлы?",
+   "reused_from": "002:ch05-s05#2",
+   "raw_file": "ch05-s05_2_d28fd6d39ec0da60.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7438,
+     "dc": -0.00046,
+     "head5ms": 0.003,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7241,
+     "dc": 0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch05-s05#3": {
+   "file": "ch05-s05_3_5fd7836f2c44886d.c1.mp3",
+   "hash": "5fd7836f2c44886d",
+   "seconds": 7.471,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 101,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Кээде акылыбыз аркы жээкке жетпейт. Көпүрөдөн өтүп, дарыянын наркы бетинен бул жакты карап көрбөйбүз.",
+   "reused_from": "002:ch05-s05#3",
+   "raw_file": "ch05-s05_3_5fd7836f2c44886d.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.739,
+     "dc": -0.00042,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7162,
+     "dc": 0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch05-s05#5": {
+   "file": "ch05-s05_5_61ea525839bf1dee.c1.mp3",
+   "hash": "61ea525839bf1dee",
+   "seconds": 8.908,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 119,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Келгиле, ойлонуп, аркы жээкке өтүп көрөлү. Ошол жерде туруп, азыркы жашообузду карайлы. Ал жакта мага эмне керек болот?",
+   "reused_from": "002:ch05-s05#5",
+   "raw_file": "ch05-s05_5_61ea525839bf1dee.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.668,
+     "dc": -0.00047,
+     "head5ms": 0.004,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.648,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch05-s05#6": {
+   "file": "ch05-s05_6_7ae861493b046ca9.c1.mp3",
+   "hash": "7ae861493b046ca9",
+   "seconds": 6.034,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 82,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Ошону ал жакта туруп ойлонуп табабыз. Анан бул жакта ошол иштерди аткарып кетебиз.",
+   "reused_from": "002:ch05-s05#6",
+   "raw_file": "ch05-s05_6_7ae861493b046ca9.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7025,
+     "dc": -0.00052,
+     "head5ms": 0.002,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6826,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch05-s05#7": {
+   "file": "ch05-s05_7_80f644759e1f6746.c1.mp3",
+   "hash": "80f644759e1f6746",
+   "seconds": 10.188,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 119,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Ал жакта бизге эмне керек? Жакшылыкка чакыруу, жамандыктан тыюу, жакшы жашоо, такыба болуу, тазалануу жана тообо кылуу.",
+   "reused_from": "002:ch05-s05#8",
+   "raw_file": "ch05-s05_7_80f644759e1f6746.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.76,
+     "dc": -0.00042,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7372,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch05-s05#8": {
+   "file": "ch05-s05_8_5143148469548ac1.c1.mp3",
+   "hash": "5143148469548ac1",
+   "seconds": 11.154,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 144,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Аллах тообо кылгандарды жана тазалангандарды сүйөт. Такыбаларды, жакшылык кылгандарды сүйөт. Демек, биздин жолубуз — Аллахка сүйүктүү кул болуу.",
+   "reused_from": "002:ch05-s05#9",
+   "raw_file": "ch05-s05_8_5143148469548ac1.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.8015,
+     "dc": -0.00041,
+     "head5ms": 0.004,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7784,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch05-s05#9": {
+   "file": "ch05-s05_9_0e524111a8d9e133.c1.mp3",
+   "hash": "0e524111a8d9e133",
+   "seconds": 2.038,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 24,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Тообо деген эмне, устаз?",
+   "reused_from": "002:ch05-s05#10",
+   "raw_file": "ch05-s05_9_0e524111a8d9e133.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6221,
+     "dc": -0.00061,
+     "head5ms": 0.0,
+     "tail5ms": 0.001,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6039,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.001,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch05-s05#10": {
+   "file": "ch05-s05_10_f5361f827a8d6eb6.c1.mp3",
+   "hash": "f5361f827a8d6eb6",
+   "seconds": 5.799,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 70,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ката кылсаң, өкүнүп, «Аллахым, кечир, мындан кийин кылбайм» деп айтуу.",
+   "reused_from": "002:ch05-s05#11",
+   "raw_file": "ch05-s05_10_f5361f827a8d6eb6.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6601,
+     "dc": -0.00039,
+     "head5ms": 0.0,
+     "tail5ms": 0.024,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6413,
+     "dc": 0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "tail",
+      5.75,
+      0.01
+     ]
+    ]
+   }
+  },
+  "ch05-s05#11": {
+   "file": "ch05-s05_11_24cf14ddf05e9652.c1.mp3",
+   "hash": "24cf14ddf05e9652",
+   "seconds": 8.594,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 116,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ошентип, кыштан кийин жаз келгендей, Аллах бизди да кайра тирилтет. Ал жакка керектүү жакшы иштерди азыр даярдайбыз.",
+   "reused_from": "002:ch05-s05#12",
+   "raw_file": "ch05-s05_11_24cf14ddf05e9652.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7575,
+     "dc": -0.00044,
+     "head5ms": 0.003,
+     "tail5ms": 0.001,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7343,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch06-s01#1": {
+   "file": "ch06-s01_1_ff48c5dc59b843c9.c1.mp3",
+   "hash": "ff48c5dc59b843c9",
+   "seconds": 7.967,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 102,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Эми ак кийимчен меймандын үчүнчү суроосуна келдик. Биринчиси — ислам, экинчиси — ыйман. Үчүнчүсү эмне?",
+   "reused_from": "002:ch06-s01#1",
+   "raw_file": "ch06-s01_1_ff48c5dc59b843c9.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7469,
+     "dc": -0.00047,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.725,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch06-s01#2": {
+   "file": "ch06-s01_2_b2eab66e84dc83e1.c1.mp3",
+   "hash": "b2eab66e84dc83e1",
+   "seconds": 2.926,
+   "speaker": "bektur",
+   "credits": 0,
+   "chars": 29,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ихсан! Доскада жазылып турат.",
+   "reused_from": "002:ch06-s01#2",
+   "raw_file": "ch06-s01_2_b2eab66e84dc83e1.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6602,
+     "dc": -0.00034,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6403,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch06-s01#3": {
+   "file": "ch06-s01_3_ab9ebee0dd239e6f.c1.mp3",
+   "hash": "ab9ebee0dd239e6f",
+   "seconds": 5.251,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 56,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Ооба. Мейман: «Эми мага ихсан жөнүндө айтып берчи» деди.",
+   "reused_from": "002:ch06-s01#3",
+   "raw_file": "ch06-s01_3_ab9ebee0dd239e6f.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7136,
+     "dc": -0.00048,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6924,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch06-s01#4": {
+   "file": "ch06-s01_4_785574171d53fcd8.c1.mp3",
+   "hash": "785574171d53fcd8",
+   "seconds": 11.964,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 156,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Пайгамбарыбыз, саллаллаху алейхи ва саллам, мындай деп жооп берди: «Ихсан — Аллахты көрүп тургандай ибадат кылуу. Сен Аны көрбөсөң да, Ал сени көрүп турат».",
+   "reused_from": "002:ch06-s01#4",
+   "raw_file": "ch06-s01_4_785574171d53fcd8.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7639,
+     "dc": -0.00047,
+     "head5ms": 0.007,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7411,
+     "dc": -0.0,
+     "head5ms": 0.004,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch06-s01#6": {
+   "file": "ch06-s01_6_9a6253a1870c90e4.c1.mp3",
+   "hash": "9a6253a1870c90e4",
+   "seconds": 8.751,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 100,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Мына, ушул — ихсан. Келгиле, менин артымдан кайталагыла: «Сен Аны көрбөсөң да, Ал сени көрүп турат».",
+   "reused_from": "002:ch06-s01#6",
+   "raw_file": "ch06-s01_6_9a6253a1870c90e4.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6819,
+     "dc": -0.00049,
+     "head5ms": 0.126,
+     "tail5ms": 0.032,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6613,
+     "dc": 0.0,
+     "head5ms": 0.06,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "tail",
+      8.71,
+      0.01
+     ]
+    ]
+   }
+  },
+  "ch06-s01#7": {
+   "file": "ch06-s01_7_f80377b3967ce8a0.c1.mp3",
+   "hash": "f80377b3967ce8a0",
+   "seconds": 3.944,
+   "speaker": "both_children",
+   "credits": 0,
+   "chars": 41,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Сен Аны көрбөсөң да, Ал сени көрүп турат.",
+   "reused_from": "002:ch06-s01#7",
+   "raw_file": "ch06-s01_7_f80377b3967ce8a0.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.5312,
+     "dc": -0.00079,
+     "head5ms": 0.004,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.5137,
+     "dc": -0.0,
+     "head5ms": 0.003,
+     "tail5ms": 0.001,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch06-s01#8": {
+   "file": "ch06-s01_8_5291a6dfee2d6d11.c1.mp3",
+   "hash": "5291a6dfee2d6d11",
+   "seconds": 2.847,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 31,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Бирок биз Аллахты көрбөйбүз да?",
+   "reused_from": "002:ch06-s01#8",
+   "raw_file": "ch06-s01_8_5291a6dfee2d6d11.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.8373,
+     "dc": -0.0005,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.8119,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch06-s01#9": {
+   "file": "ch06-s01_9_86c370e4dc239aaa.c1.mp3",
+   "hash": "86c370e4dc239aaa",
+   "seconds": 10.109,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 128,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Туура, Айзада. Бул дүйнөдө Аллахты эч ким көрбөйт, Аны сүрөткө да тартууга болбойт. Бирок Аллах баарын көрүп, баарын угуп турат.",
+   "reused_from": "002:ch06-s01#9",
+   "raw_file": "ch06-s01_9_86c370e4dc239aaa.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7554,
+     "dc": -0.00034,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7333,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch06-s01#10": {
+   "file": "ch06-s01_10_78a7a678ff667b65.c1.mp3",
+   "hash": "78a7a678ff667b65",
+   "seconds": 4.284,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 60,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Анда мен бөлмөдө жалгыз отурсам да, Аллах мени көрүп турабы?",
+   "reused_from": "002:ch06-s01#10",
+   "raw_file": "ch06-s01_10_78a7a678ff667b65.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7953,
+     "dc": -0.00058,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.771,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch06-s01#11": {
+   "file": "ch06-s01_11_17bd5e4364bec584.c1.mp3",
+   "hash": "17bd5e4364bec584",
+   "seconds": 10.371,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 134,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ооба, ар дайым. Бул бизди коркутпайт, тескерисинче, жүрөгүбүзгө тынчтык берет. Аллах бизди коргойт, ар бир жакшылыгыбызды көрүп турат.",
+   "reused_from": "002:ch06-s01#11",
+   "raw_file": "ch06-s01_11_17bd5e4364bec584.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.692,
+     "dc": -0.00041,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6713,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch06-s02#0": {
+   "file": "ch06-s02_0_d6fcbb5b7251f8f9.c1.mp3",
+   "hash": "d6fcbb5b7251f8f9",
+   "seconds": 7.314,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 99,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Келгиле, бир мисал карайлы. Бектур, мугалим тапшырма берди дейли. Ал карап турганда кандай жазасың?",
+   "reused_from": "002:ch06-s02#0",
+   "raw_file": "ch06-s02_0_d6fcbb5b7251f8f9.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7083,
+     "dc": -0.00038,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6881,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch06-s02#1": {
+   "file": "ch06-s02_1_e8610fd8df21a3e0.c1.mp3",
+   "hash": "e8610fd8df21a3e0",
+   "seconds": 2.691,
+   "speaker": "bektur",
+   "credits": 0,
+   "chars": 25,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Абдан кылдат, таза жазам!",
+   "reused_from": "002:ch06-s02#1",
+   "raw_file": "ch06-s02_1_e8610fd8df21a3e0.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7848,
+     "dc": -0.00034,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7598,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch06-s02#2": {
+   "file": "ch06-s02_2_71571f11a2ef4f05.c1.mp3",
+   "hash": "71571f11a2ef4f05",
+   "seconds": 2.508,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 33,
+   "ped": true,
+   "replaced_from": null,
+   "text": "А мугалим класстан чыгып кетсечи?",
+   "reused_from": "002:ch06-s02#2",
+   "raw_file": "ch06-s02_2_71571f11a2ef4f05.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6987,
+     "dc": -0.00056,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6779,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch06-s02#3": {
+   "file": "ch06-s02_3_356f568f5caca012.c1.mp3",
+   "hash": "356f568f5caca012",
+   "seconds": 4.598,
+   "speaker": "bektur",
+   "credits": 0,
+   "chars": 49,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Мм… Кээ бир балдар ойной башташат. Мен да бир аз…",
+   "reused_from": "002:ch06-s02#3",
+   "raw_file": "ch06-s02_3_356f568f5caca012.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7778,
+     "dc": -0.00034,
+     "head5ms": 0.006,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7545,
+     "dc": -0.0,
+     "head5ms": 0.003,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch06-s02#4": {
+   "file": "ch06-s02_4_7366b6b686d3f535.c1.mp3",
+   "hash": "7366b6b686d3f535",
+   "seconds": 8.046,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 104,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ихсан деген — мугалим бар болсо да, жок болсо да бирдей жакшы жасоо. Анткени Аллах ар дайым көрүп турат.",
+   "reused_from": "002:ch06-s02#4",
+   "raw_file": "ch06-s02_4_7366b6b686d3f535.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6991,
+     "dc": -0.00042,
+     "head5ms": 0.002,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6774,
+     "dc": 0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch06-s02#5": {
+   "file": "ch06-s02_5_ba11c96097b4a3ff.c1.mp3",
+   "hash": "ba11c96097b4a3ff",
+   "seconds": 4.676,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 57,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Апам үйдө жок болсо да, бөлмөмдү жыйнайм. Бул да ихсанбы?",
+   "reused_from": "002:ch06-s02#5",
+   "raw_file": "ch06-s02_5_ba11c96097b4a3ff.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.9326,
+     "dc": -0.00053,
+     "head5ms": 0.037,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.8247,
+     "dc": -0.0,
+     "head5ms": 0.018,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "gain_db",
+      -0.81,
+      0
+     ]
+    ]
+   }
+  },
+  "ch06-s02#6": {
+   "file": "ch06-s02_6_8530a731354e938f.c1.mp3",
+   "hash": "8530a731354e938f",
+   "seconds": 5.329,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 65,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ооба, Айзада! Эч ким көрбөсө да жакшы кылсаң — бул ихсанга кадам.",
+   "reused_from": "002:ch06-s02#6",
+   "raw_file": "ch06-s02_6_8530a731354e938f.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.702,
+     "dc": -0.00047,
+     "head5ms": 0.03,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6812,
+     "dc": 0.0,
+     "head5ms": 0.01,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch06-s02#7": {
+   "file": "ch06-s02_7_eecc72a9a7760dc1.c1.mp3",
+   "hash": "eecc72a9a7760dc1",
+   "seconds": 9.718,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 124,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ихсан деген сөздүн дагы бир мааниси бар: бир ишти эң сонун кылып аткаруу. Намаз окусак да, сабак окусак да — эң жакшы кылып.",
+   "reused_from": "002:ch06-s02#7",
+   "raw_file": "ch06-s02_7_eecc72a9a7760dc1.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6881,
+     "dc": -0.00047,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6675,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch06-s03#0": {
+   "file": "ch06-s03_0_0d7947f3541e14f1.c1.mp3",
+   "hash": "0d7947f3541e14f1",
+   "seconds": 10.188,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 131,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Эми үч жылдызды бирге карайлы. Ислам — бул биздин кыймыл-аракетибиз: намаз окуйбуз, орозо кармайбыз. Денебиз менен кылган кулчулук.",
+   "reused_from": "002:ch06-s03#0",
+   "raw_file": "ch06-s03_0_0d7947f3541e14f1.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7271,
+     "dc": -0.00045,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7053,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch06-s03#1": {
+   "file": "ch06-s03_1_48efb197e7fb80d5.c1.mp3",
+   "hash": "48efb197e7fb80d5",
+   "seconds": 6.687,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 81,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Ыйман — бул ишеним. Аллахтын жалгыздыгына, периштелерге, пайгамбарларга ишенебиз.",
+   "reused_from": "002:ch06-s03#1",
+   "raw_file": "ch06-s03_1_48efb197e7fb80d5.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6636,
+     "dc": -0.00045,
+     "head5ms": 0.007,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6449,
+     "dc": 0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch06-s03#2": {
+   "file": "ch06-s03_2_102103805d969ee7.c1.mp3",
+   "hash": "102103805d969ee7",
+   "seconds": 6.766,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 77,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ал эми ихсан — жүрөк. Кандай жүрөк менен кылабыз? Таза, ыкластуу жүрөк менен.",
+   "reused_from": "002:ch06-s03#2",
+   "raw_file": "ch06-s03_2_102103805d969ee7.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.8351,
+     "dc": -0.00039,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.811,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch06-s03#4": {
+   "file": "ch06-s03_4_28db7da9ecf5c657.c1.mp3",
+   "hash": "28db7da9ecf5c657",
+   "seconds": 6.426,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 81,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Ар бирин үйрөткөн өзүнчө илим бар. Аалымдар баарын Курандан жана хадистен алышат.",
+   "reused_from": "002:ch06-s03#4",
+   "raw_file": "ch06-s03_4_28db7da9ecf5c657.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7901,
+     "dc": -0.00048,
+     "head5ms": 0.0,
+     "tail5ms": 0.345,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7663,
+     "dc": -1e-05,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "tail",
+      6.39,
+      0.01
+     ]
+    ]
+   }
+  },
+  "ch06-s03#5": {
+   "file": "ch06-s03_5_ad5c50c927f8ef94.c1.mp3",
+   "hash": "ad5c50c927f8ef94",
+   "seconds": 6.609,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 79,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Бир табышмак: пайгамбарлар жөнүндө кайсы жылдыздын ичинде үйрөнөбүз? Ойлонгула.",
+   "reused_from": "002:ch06-s03#5",
+   "raw_file": "ch06-s03_5_ad5c50c927f8ef94.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6542,
+     "dc": -0.00048,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6342,
+     "dc": 0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch06-s03#7": {
+   "file": "ch06-s03_7_297a9012306889ce.c1.mp3",
+   "hash": "297a9012306889ce",
+   "seconds": 3.553,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 39,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ыйман! Анткени пайгамбарларга ишенебиз.",
+   "reused_from": "002:ch06-s03#7",
+   "raw_file": "ch06-s03_7_297a9012306889ce.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.8708,
+     "dc": -0.0006,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.8242,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "gain_db",
+      -0.2,
+      0
+     ]
+    ]
+   }
+  },
+  "ch06-s03#8": {
+   "file": "ch06-s03_8_bdabdddbb068b68e.c1.mp3",
+   "hash": "bdabdddbb068b68e",
+   "seconds": 7.549,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 101,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Туура! Ыймандын ичинде пайгамбарларга ыйман келтирүү бар. Пайгамбарлар жөнүндө ошол жерден үйрөнөбүз.",
+   "reused_from": "002:ch06-s03#8",
+   "raw_file": "ch06-s03_8_bdabdddbb068b68e.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.784,
+     "dc": -0.00048,
+     "head5ms": 0.006,
+     "tail5ms": 0.371,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7598,
+     "dc": -0.0,
+     "head5ms": 0.002,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "tail",
+      7.51,
+      0.01
+     ]
+    ]
+   }
+  },
+  "ch06-s04#0": {
+   "file": "ch06-s04_0_b3f3889f8647c5ff.c1.mp3",
+   "hash": "b3f3889f8647c5ff",
+   "seconds": 8.829,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 112,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Ихсан бизге дагы эмнени үйрөтөт? Такыбалыкты. Аллахтын койгон чектери бар. Ихсан ошол чектерден өтпөөнү үйрөтөт.",
+   "reused_from": "002:ch06-s04#0",
+   "raw_file": "ch06-s04_0_b3f3889f8647c5ff.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6706,
+     "dc": -0.00047,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6509,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch06-s04#1": {
+   "file": "ch06-s04_1_53f52a36454245ff.c1.mp3",
+   "hash": "53f52a36454245ff",
+   "seconds": 7.889,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 105,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Жолдо светофор бар эмеспи. Кызыл жанганда токтойбуз, ал бизди коргойт. Аллахтын чектери да бизди коргойт.",
+   "reused_from": "002:ch06-s04#1",
+   "raw_file": "ch06-s04_1_53f52a36454245ff.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7645,
+     "dc": -0.00051,
+     "head5ms": 0.001,
+     "tail5ms": 0.001,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7418,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch06-s04#2": {
+   "file": "ch06-s04_2_c600caed4c1dd09d.c1.mp3",
+   "hash": "c600caed4c1dd09d",
+   "seconds": 3.553,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 34,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Кызылда токтойбуз, жашылда өтөбүз!",
+   "reused_from": "002:ch06-s04#2",
+   "raw_file": "ch06-s04_2_c600caed4c1dd09d.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.9263,
+     "dc": -0.00059,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.8244,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "gain_db",
+      -0.75,
+      0
+     ]
+    ]
+   }
+  },
+  "ch06-s04#3": {
+   "file": "ch06-s04_3_c9e3be2e012e8b3e.c1.mp3",
+   "hash": "c9e3be2e012e8b3e",
+   "seconds": 8.516,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 106,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Ихсан бизди Аллахка жакындатат. Ихсандын мааниси эмне эле? Аллахты көрүп тургандай ибадат кылууга жетишүү.",
+   "reused_from": "002:ch06-s04#3",
+   "raw_file": "ch06-s04_3_c9e3be2e012e8b3e.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7257,
+     "dc": -0.00049,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7047,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch06-s04#4": {
+   "file": "ch06-s04_4_bca933575e5a2aa5.c1.mp3",
+   "hash": "bca933575e5a2aa5",
+   "seconds": 4.284,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 50,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Кана, баарыбыз чогуу кайталайлы: ихсан деген эмне?",
+   "reused_from": "002:ch06-s04#4",
+   "raw_file": "ch06-s04_4_bca933575e5a2aa5.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6849,
+     "dc": -0.00046,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6646,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch06-s04#5": {
+   "file": "ch06-s04_5_8bd4ddb22e694bc4.c1.mp3",
+   "hash": "8bd4ddb22e694bc4",
+   "seconds": 6.583,
+   "speaker": "both_children",
+   "credits": 0,
+   "chars": 80,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Аллахты көрүп тургандай ибадат кылуу! Биз Аны көрбөсөк да, Ал бизди көрүп турат!",
+   "reused_from": "002:ch06-s04#5",
+   "raw_file": "ch06-s04_5_8bd4ddb22e694bc4.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.9232,
+     "dc": -0.00083,
+     "head5ms": 0.002,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.8244,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "gain_db",
+      -0.71,
+      0
+     ]
+    ]
+   }
+  },
+  "ch06-s04#6": {
+   "file": "ch06-s04_6_b1d2fe574e72b672.c1.mp3",
+   "hash": "b1d2fe574e72b672",
+   "seconds": 7.001,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 97,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Азаматсыңар! Бүгүн бир жакшы ишти «Аллах мени көрүп турат» деп, эч кимге көрсөтпөй кылып көргүлө.",
+   "reused_from": "002:ch06-s04#6",
+   "raw_file": "ch06-s04_6_b1d2fe574e72b672.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7132,
+     "dc": -0.00052,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6924,
+     "dc": 0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch06-s04#7": {
+   "file": "ch06-s04_7_a6f0d1a9c4fbaedd.c1.mp3",
+   "hash": "a6f0d1a9c4fbaedd",
+   "seconds": 2.194,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 28,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Эми үчүнчү жылдызды жагабыз!",
+   "reused_from": "002:ch06-s04#7",
+   "raw_file": "ch06-s04_7_a6f0d1a9c4fbaedd.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6795,
+     "dc": -0.00075,
+     "head5ms": 0.005,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6597,
+     "dc": -0.0,
+     "head5ms": 0.003,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch07-s01#0": {
+   "file": "ch07-s01_0_be8a57e2fb718296.c1.mp3",
+   "hash": "be8a57e2fb718296",
+   "seconds": 7.811,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 89,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Балдар, ушул үч нерсе — ислам, ыйман жана ихсан — үчөө тең Курандан жана хадистен алынат.",
+   "reused_from": "002:ch08-s01#0",
+   "raw_file": "ch07-s01_0_be8a57e2fb718296.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7424,
+     "dc": -0.00048,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.72,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch07-s01#1": {
+   "file": "ch07-s01_1_af8eadfc9c667542.c1.mp3",
+   "hash": "af8eadfc9c667542",
+   "seconds": 5.956,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 78,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Жашоодо мындай адамдарды көрөсүң. Бирөө көп билет, бирок ибадатында ыклас жок.",
+   "reused_from": "002:ch08-s01#1",
+   "raw_file": "ch07-s01_1_af8eadfc9c667542.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7117,
+     "dc": -0.00047,
+     "head5ms": 0.003,
+     "tail5ms": 0.008,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6909,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.003,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch07-s01#2": {
+   "file": "ch07-s01_2_f5b25419eb7b4203.c1.mp3",
+   "hash": "f5b25419eb7b4203",
+   "seconds": 4.833,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 58,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Экинчиси абдан ыкластуу, берилип аткарат, бирок илими жок.",
+   "reused_from": "002:ch08-s01#2",
+   "raw_file": "ch07-s01_2_f5b25419eb7b4203.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.693,
+     "dc": -0.00046,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6723,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch07-s01#3": {
+   "file": "ch07-s01_3_9c590b5fbf466486.c1.mp3",
+   "hash": "9c590b5fbf466486",
+   "seconds": 2.194,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 21,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Анда кайсынысы туура?",
+   "reused_from": "002:ch08-s01#3",
+   "raw_file": "ch07-s01_3_9c590b5fbf466486.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7764,
+     "dc": -0.00055,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7537,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch07-s01#4": {
+   "file": "ch07-s01_4_ea5ecb7cb56a8bb7.c1.mp3",
+   "hash": "ea5ecb7cb56a8bb7",
+   "seconds": 6.034,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 74,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Экөө тең керек: билим да, таза жүрөк да. Куш эки канаты менен учат эмеспи.",
+   "reused_from": "002:ch08-s01#4",
+   "raw_file": "ch07-s01_4_ea5ecb7cb56a8bb7.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7362,
+     "dc": -0.00044,
+     "head5ms": 0.0,
+     "tail5ms": 0.007,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7147,
+     "dc": 0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.002,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch07-s01#6": {
+   "file": "ch07-s01_6_a5cb4bc80e27ac6a.c1.mp3",
+   "hash": "a5cb4bc80e27ac6a",
+   "seconds": 5.799,
+   "speaker": "bektur",
+   "credits": 0,
+   "chars": 77,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Анда мен эки канатты тең өстүрөм: сабакты да окуйм, ниетимди да таза кармайм!",
+   "reused_from": "002:ch08-s01#6",
+   "raw_file": "ch07-s01_6_a5cb4bc80e27ac6a.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6814,
+     "dc": -0.00044,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6615,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch07-s01#7": {
+   "file": "ch07-s01_7_ad9502a281c91f59.c1.mp3",
+   "hash": "ad9502a281c91f59",
+   "seconds": 1.724,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 18,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Азаматсың, Бектур!",
+   "reused_from": "002:ch08-s01#7",
+   "raw_file": "ch07-s01_7_ad9502a281c91f59.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6773,
+     "dc": -0.00042,
+     "head5ms": 0.0,
+     "tail5ms": 0.016,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6559,
+     "dc": -1e-05,
+     "head5ms": 0.0,
+     "tail5ms": 0.001,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch07-s01#8": {
+   "file": "ch07-s01_8_525df4b48e2c718b.c1.mp3",
+   "hash": "525df4b48e2c718b",
+   "seconds": 7.079,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 88,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Бул үчөө бири-бири менен тыгыз байланышкан. Булар өз-өзүнчө эмес, баары исламдын ичинде.",
+   "reused_from": "002:ch08-s01#8",
+   "raw_file": "ch07-s01_8_525df4b48e2c718b.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7011,
+     "dc": -0.00077,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6807,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch07-s01#9": {
+   "file": "ch07-s01_9_418545ed81ce7593.c1.mp3",
+   "hash": "418545ed81ce7593",
+   "seconds": 11.468,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 136,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Ыйман исламдын ичиндеби? Ичинде. Ихсан да исламдын ичинде. Ыйманың жогорулап, Аллахты көрүп тургандай абалга жетесиң. Ошону ихсан дешет.",
+   "reused_from": "002:ch08-s01#9",
+   "raw_file": "ch07-s01_9_418545ed81ce7593.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7242,
+     "dc": -0.00046,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7031,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch07-s02#1": {
+   "file": "ch07-s02_1_ddb081ad268df710.c1.mp3",
+   "hash": "ddb081ad268df710",
+   "seconds": 7.158,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 99,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Эми окуянын аягы. Мейман суроолорун берип, кетип калды. Ал ким болду экен? Силер кандай ойлойсуңар?",
+   "reused_from": "002:ch08-s02#1",
+   "raw_file": "ch07-s02_1_ddb081ad268df710.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7537,
+     "dc": -0.00043,
+     "head5ms": 0.0,
+     "tail5ms": 0.02,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7343,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.002,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch07-s02#3": {
+   "file": "ch07-s02_3_78ea6f682d8c8cf9.c1.mp3",
+   "hash": "78ea6f682d8c8cf9",
+   "seconds": 4.284,
+   "speaker": "bektur",
+   "credits": 0,
+   "chars": 59,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ал кадимки адам эмес окшойт. Алыстан келгендей эмес эле да.",
+   "reused_from": "002:ch08-s02#3",
+   "raw_file": "ch07-s02_3_78ea6f682d8c8cf9.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.5236,
+     "dc": -0.00046,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.5082,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch07-s02#4": {
+   "file": "ch07-s02_4_b4e6558cf32702d9.c1.mp3",
+   "hash": "b4e6558cf32702d9",
+   "seconds": 2.351,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 25,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Аны эч ким тааныган эмес!",
+   "reused_from": "002:ch08-s02#4",
+   "raw_file": "ch07-s02_4_b4e6558cf32702d9.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.837,
+     "dc": -0.00074,
+     "head5ms": 0.007,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.8125,
+     "dc": -0.0,
+     "head5ms": 0.003,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch07-s02#5": {
+   "file": "ch07-s02_5_4abe5247fb39e3f6.c1.mp3",
+   "hash": "4abe5247fb39e3f6",
+   "seconds": 10.371,
+   "speaker": "ustaz",
+   "credits": 29,
+   "chars": 133,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Пайгамбарыбыз, саллаллаху алейхи ва саллам, Умардан, радыяллаху анху, сурады: «Эй Умар, азыр келип кеткен киши ким экенин билесиңби?»",
+   "raw_file": "ch07-s02_5_4abe5247fb39e3f6.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7581,
+     "dc": -0.00048,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7355,
+     "dc": 0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch07-s02#6": {
+   "file": "ch07-s02_6_c5b024161dcaec19.c1.mp3",
+   "hash": "c5b024161dcaec19",
+   "seconds": 5.329,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 58,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Умар: «Аллах жана Анын Элчиси жакшы билет» деп жооп берди.",
+   "reused_from": "002:ch08-s02#6",
+   "raw_file": "ch07-s02_6_c5b024161dcaec19.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6896,
+     "dc": -0.00047,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6676,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch07-s02#7": {
+   "file": "ch07-s02_7_333542f98788cc68.c1.mp3",
+   "hash": "333542f98788cc68",
+   "seconds": 7.314,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 85,
+   "ped": false,
+   "replaced_from": null,
+   "text": "Ошондо Пайгамбарыбыз айтты: «Ал Жебирейил эле. Силерге диниңерди үйрөтүү үчүн келди».",
+   "reused_from": "002:ch08-s02#7",
+   "raw_file": "ch07-s02_7_333542f98788cc68.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7116,
+     "dc": -0.00046,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6898,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch07-s02#9": {
+   "file": "ch07-s02_9_af1937549f441c2c.c1.mp3",
+   "hash": "af1937549f441c2c",
+   "seconds": 1.463,
+   "speaker": "both_children",
+   "credits": 0,
+   "chars": 13,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Периште экен!",
+   "reused_from": "002:ch08-s02#9",
+   "raw_file": "ch07-s02_9_af1937549f441c2c.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.8157,
+     "dc": -0.00074,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7903,
+     "dc": -1e-05,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch07-s02#10": {
+   "file": "ch07-s02_10_8b4d6cc66f7ed26b.c1.mp3",
+   "hash": "8b4d6cc66f7ed26b",
+   "seconds": 10.266,
+   "speaker": "ustaz",
+   "credits": 28,
+   "chars": 127,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ооба. Жебирейил алейхиссалам — Аллахтын алдында даражасы эң жогору улуу периште. Ал пайгамбарларга Аллахтын кабарын алып келчү.",
+   "raw_file": "ch07-s02_10_8b4d6cc66f7ed26b.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6962,
+     "dc": -0.00054,
+     "head5ms": 0.0,
+     "tail5ms": 0.024,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.677,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.008,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch07-s02#11": {
+   "file": "ch07-s02_11_6dc972d73b7caaa7.c1.mp3",
+   "hash": "6dc972d73b7caaa7",
+   "seconds": 2.351,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 32,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Эмне үчүн ал суроо берип отурду?",
+   "reused_from": "002:ch08-s02#11",
+   "raw_file": "ch07-s02_11_6dc972d73b7caaa7.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.5489,
+     "dc": -0.00057,
+     "head5ms": 0.002,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.5317,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch07-s02#12": {
+   "file": "ch07-s02_12_fe1e92fb912746e6.c1.mp3",
+   "hash": "fe1e92fb912746e6",
+   "seconds": 8.673,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 102,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Жоопту баары уксун деп. Ошентип сахабалар, анан биз да динди үйрөнөбүз. Жакшы суроо — билимдин ачкычы.",
+   "reused_from": "002:ch08-s02#12",
+   "raw_file": "ch07-s02_12_fe1e92fb912746e6.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.666,
+     "dc": -0.00042,
+     "head5ms": 0.0,
+     "tail5ms": 0.361,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6464,
+     "dc": -2e-05,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "tail",
+      8.6,
+      0.04
+     ]
+    ]
+   }
+  },
+  "ch07-s02#13": {
+   "file": "ch07-s02_13_e9d98a5184614fdf.c1.mp3",
+   "hash": "e9d98a5184614fdf",
+   "seconds": 3.866,
+   "speaker": "bektur",
+   "credits": 0,
+   "chars": 50,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Демек, Жебирейил биз үчүн да сабак берген экен да!",
+   "reused_from": "002:ch08-s02#13",
+   "raw_file": "ch07-s02_13_e9d98a5184614fdf.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.5596,
+     "dc": -0.00048,
+     "head5ms": 0.004,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.543,
+     "dc": 0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch07-s02#14": {
+   "file": "ch07-s02_14_43e019193275db6c.c1.mp3",
+   "hash": "43e019193275db6c",
+   "seconds": 7.393,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 96,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ооба, ал үйрөткөн сабак бизге да жетти. Ошондуктан бул хадисти «Жебирейилдин хадиси» деп аташат.",
+   "reused_from": "002:ch08-s02#14",
+   "raw_file": "ch07-s02_14_43e019193275db6c.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6839,
+     "dc": -0.00046,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.664,
+     "dc": 0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch07-s02#15": {
+   "file": "ch07-s02_15_5c8cf577980d4d7e.c1.mp3",
+   "hash": "5c8cf577980d4d7e",
+   "seconds": 7.001,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 93,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Пайгамбарыбыз да кыска убакыттын ичинде адамдарды ушул динге, жакшылыкка жана илимге үйрөттү.",
+   "reused_from": "002:ch08-s02#15",
+   "raw_file": "ch07-s02_15_5c8cf577980d4d7e.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7484,
+     "dc": -0.00054,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7269,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch07-s03#0": {
+   "file": "ch07-s03_0_75c29977ac7c0b89.c1.mp3",
+   "hash": "75c29977ac7c0b89",
+   "seconds": 7.158,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 92,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Кана, Жебирейил бизге эмнелерди үйрөттү? Үч жылдызды эстейли. Биринчи жылдыз — эмне кылабыз?",
+   "reused_from": "002:ch08-s03#0",
+   "raw_file": "ch07-s03_0_75c29977ac7c0b89.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6652,
+     "dc": -0.00045,
+     "head5ms": 0.013,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6455,
+     "dc": -0.0,
+     "head5ms": 0.002,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch07-s03#2": {
+   "file": "ch07-s03_2_1faa6e704eb6fd19.c1.mp3",
+   "hash": "1faa6e704eb6fd19",
+   "seconds": 6.348,
+   "speaker": "bektur",
+   "credits": 0,
+   "chars": 71,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ислам! Намаз окуйбуз, орозо кармайбыз, зекет беребиз, ажылыкка барабыз!",
+   "reused_from": "002:ch08-s03#2",
+   "raw_file": "ch07-s03_2_1faa6e704eb6fd19.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6939,
+     "dc": -0.00041,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6726,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch07-s03#3": {
+   "file": "ch07-s03_3_7130742774661ead.c1.mp3",
+   "hash": "7130742774661ead",
+   "seconds": 3.004,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 32,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Экинчи жылдыз — эмнеге ишенебиз?",
+   "reused_from": "002:ch08-s03#3",
+   "raw_file": "ch07-s03_3_7130742774661ead.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6835,
+     "dc": -0.00051,
+     "head5ms": 0.083,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6647,
+     "dc": -1e-05,
+     "head5ms": 0.014,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch07-s03#5": {
+   "file": "ch07-s03_5_b93280c8aac32d90.c1.mp3",
+   "hash": "b93280c8aac32d90",
+   "seconds": 8.908,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 86,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ыйман! Аллахка, периштелерге, китептерге, пайгамбарларга, акырет күнүнө жана тагдырга.",
+   "reused_from": "002:ch08-s03#5",
+   "raw_file": "ch07-s03_5_b93280c8aac32d90.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6496,
+     "dc": -0.00048,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6303,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch07-s03#6": {
+   "file": "ch07-s03_6_ae158e4623308acb.c1.mp3",
+   "hash": "ae158e4623308acb",
+   "seconds": 3.004,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 35,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Үчүнчү жылдыз — кандай жүрөк менен?",
+   "reused_from": "002:ch08-s03#6",
+   "raw_file": "ch07-s03_6_ae158e4623308acb.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6607,
+     "dc": -0.00048,
+     "head5ms": 0.002,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6415,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch07-s03#8": {
+   "file": "ch07-s03_8_b6e52bf42e6242ca.c1.mp3",
+   "hash": "b6e52bf42e6242ca",
+   "seconds": 3.004,
+   "speaker": "both_children",
+   "credits": 0,
+   "chars": 31,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ихсан! Аллах бизди көрүп турат!",
+   "reused_from": "002:ch08-s03#8",
+   "raw_file": "ch07-s03_8_b6e52bf42e6242ca.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 1.1672,
+     "dc": -0.00133,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 47
+    },
+    "after": {
+     "peak": 0.8238,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "gain_db",
+      -2.76,
+      0
+     ]
+    ]
+   }
+  },
+  "ch07-s03#9": {
+   "file": "ch07-s03_9_5b1bb74ee283ae62.c1.mp3",
+   "hash": "5b1bb74ee283ae62",
+   "seconds": 10.919,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 144,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Азаматсыңар! Ак кийимчен мейман бизге ушул үч жылдызды калтырды. Аларды жүрөгүбүздө сактайлы. Бүгүн ушул окуяны үйдө ата-энеңерге айтып бергиле.",
+   "reused_from": "002:ch08-s03#9",
+   "raw_file": "ch07-s03_9_5b1bb74ee283ae62.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7118,
+     "dc": -0.00063,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6916,
+     "dc": 0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch08-s01#0": {
+   "file": "ch08-s01_0_782aae37bc410bec.c1.mp3",
+   "hash": "782aae37bc410bec",
+   "seconds": 9.482,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 123,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Эми кичинекей үй тапшырмасы. Эртең бир жакшылык кылгыла. Аны эч кимге көрсөтпөй, ичиңерден «Аллах көрүп турат» деп кылгыла.",
+   "reused_from": "002:ch12-s02#0",
+   "raw_file": "ch08-s01_0_782aae37bc410bec.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7509,
+     "dc": -0.00049,
+     "head5ms": 0.001,
+     "tail5ms": 0.004,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7283,
+     "dc": -0.0,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch08-s01#1": {
+   "file": "ch08-s01_1_88fa87c02d7bfe71.c1.mp3",
+   "hash": "88fa87c02d7bfe71",
+   "seconds": 2.116,
+   "speaker": "aizada",
+   "credits": 0,
+   "chars": 29,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Мен чоң энеме чай куюп берем.",
+   "reused_from": "002:ch12-s02#1",
+   "raw_file": "ch08-s01_1_88fa87c02d7bfe71.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.4331,
+     "dc": -0.00058,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.4212,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch08-s01#2": {
+   "file": "ch08-s01_2_061ec3ddc6b49b2a.c1.mp3",
+   "hash": "061ec3ddc6b49b2a",
+   "seconds": 3.004,
+   "speaker": "bektur",
+   "credits": 0,
+   "chars": 42,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Мен инимдин сабак жасаганына жардам берем.",
+   "reused_from": "002:ch12-s02#2",
+   "raw_file": "ch08-s01_2_061ec3ddc6b49b2a.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.5924,
+     "dc": -0.00056,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.575,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch08-s01#4": {
+   "file": "ch08-s01_4_a7067beaf77541a9.c1.mp3",
+   "hash": "a7067beaf77541a9",
+   "seconds": 7.079,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 84,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ушул үч жылдыз бир жолду жарык кылат. Ал жол — Аллахтын ыраазылыгына алып барчу жол.",
+   "reused_from": "002:ch12-s02#5",
+   "raw_file": "ch08-s01_4_a7067beaf77541a9.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7194,
+     "dc": -0.00041,
+     "head5ms": 0.0,
+     "tail5ms": 0.193,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6987,
+     "dc": 1e-05,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": [
+     [
+      "tail",
+      7.01,
+      0.03
+     ]
+    ]
+   }
+  },
+  "ch08-s01#5": {
+   "file": "ch08-s01_5_6d559da52667e96a.c1.mp3",
+   "hash": "6d559da52667e96a",
+   "seconds": 5.146,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 63,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Жүрөгүңөр таза, ыйманыңар бекем болсун. Аллах силерди колдосун!",
+   "reused_from": "002:ch12-s02#6",
+   "raw_file": "ch08-s01_5_6d559da52667e96a.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7933,
+     "dc": -0.00048,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7698,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch08-s01#6": {
+   "file": "ch08-s01_6_9576a5e16101dddd.c1.mp3",
+   "hash": "9576a5e16101dddd",
+   "seconds": 2.821,
+   "speaker": "both_children",
+   "credits": 0,
+   "chars": 23,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Оомийин! Рахмат, устаз!",
+   "reused_from": "002:ch12-s02#7",
+   "raw_file": "ch08-s01_6_9576a5e16101dddd.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7867,
+     "dc": -0.00075,
+     "head5ms": 0.0,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7643,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch08-s01#7": {
+   "file": "ch08-s01_7_21d8bbb01ed126e8.c1.mp3",
+   "hash": "21d8bbb01ed126e8",
+   "seconds": 2.769,
+   "speaker": "ustaz",
+   "credits": 0,
+   "chars": 37,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Ассалому алейкум, балдар! Көрүшкөнчө!",
+   "reused_from": "002:ch12-s02#8",
+   "raw_file": "ch08-s01_7_21d8bbb01ed126e8.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.6839,
+     "dc": -0.00055,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.6642,
+     "dc": -0.0,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  },
+  "ch08-s01#8": {
+   "file": "ch08-s01_8_b69e400dc05f8954.c1.mp3",
+   "hash": "b69e400dc05f8954",
+   "seconds": 1.698,
+   "speaker": "both_children",
+   "credits": 0,
+   "chars": 16,
+   "ped": true,
+   "replaced_from": null,
+   "text": "Алейкум ассалам!",
+   "reused_from": "002:ch12-s02#9",
+   "raw_file": "ch08-s01_8_b69e400dc05f8954.mp3",
+   "clean": {
+    "version": "c1",
+    "before": {
+     "peak": 0.7529,
+     "dc": -0.0009,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "after": {
+     "peak": 0.7304,
+     "dc": -1e-05,
+     "head5ms": 0.001,
+     "tail5ms": 0.0,
+     "clipped": 0
+    },
+    "removed": []
+   }
+  }
+ },
+ "settings": {
+  "model_id": "eleven_v4",
+  "language_code": "ky",
+  "output_format": "mp3_44100_128",
+  "voice_settings": {
+   "stability": 0.5,
+   "similarity_boost": 0.75,
+   "speed": 0.9
+  }
+ }
+}
