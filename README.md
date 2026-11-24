@@ -8,14 +8,26 @@
 **009 «Убакыт жана ийгиликтин төрт ачкычы: Аср сүрөсү»** (28:24). Статус — [lessons/VID-004/STATUS.md](lessons/VID-004/STATUS.md),
 производство — [production/lesson-008-009/HANDOFF.md](production/lesson-008-009/HANDOFF.md), отчёт — [production/lesson-008-009/REPORT.md](production/lesson-008-009/REPORT.md).
 
-## Реестр уроков курса
+## Реестр уроков курса (main, 2026-11-24)
 
-| Уроки | Studio | Статус |
-|---|---|---|
-| 001–003 | VID-002 (Issue #3) | PR #4 |
-| 004–005 | VID-001 (Issue #1) | PR #6 |
-| 006–007 | VID-003 (Issue #8) | PR #9 |
-| 008–009 | VID-004 (Issue #10) | релизы `lesson-008-final`, `lesson-009-final` |
+Все PR #2, #4, #5, #6, #7, #9, #11, #12 слиты в main; ветки других чатов сохранены. Готовые файлы — в релизах GitHub.
+
+| Урок | Тема | Studio / исходник | Длит. | Релиз | Производство |
+|---|---|---|---|---|---|
+| 001 | Ислам — беш түркүктүү үй | VID-002 (Issue #3) | 33:47 | [lesson-001-final](https://github.com/adiletgpt6-beep/lesson-80/releases/tag/lesson-001-final) | `lessons/R01`, `production/vid-002*` |
+| 002 | Ак кийимчен мейман: Ислам, Ыйман, Ихсан | VID-002 | 31:13 | [lesson-002-final](https://github.com/adiletgpt6-beep/lesson-80/releases/tag/lesson-002-final) | `lessons/R02` |
+| 003 | Таза жүрөк — ыймандын даамы | VID-002 | 26:54 | [lesson-003-final](https://github.com/adiletgpt6-beep/lesson-80/releases/tag/lesson-003-final) | `lessons/R03` |
+| 004 | Эмне үчүн жаралдык? Аллахты таануу жана сүйүү | VID-001 (Issue #1) | 30:07 | [lesson-004-final](https://github.com/adiletgpt6-beep/lesson-80/releases/tag/lesson-004-final) | `lessons/R04`, `production/lesson-004-005` |
+| 005 | Эмне үчүн жаралдык? Кулчулук, жакшылык, сабыр | VID-001 | 32:45 | [lesson-005-final](https://github.com/adiletgpt6-beep/lesson-80/releases/tag/lesson-005-final) | `lessons/R05` |
+| 006 | Ыйман жана анын алты шарты | VID-003 (Issue #8) | 29:10 | [lesson-006-final](https://github.com/adiletgpt6-beep/lesson-80/releases/tag/lesson-006-final) | `lessons/R06`, `production/lesson-006-007` |
+| 007 | Жан дүйнө кантип өсөт? Ыймандын 11 тепкичи | VID-003 | 28:35 | [lesson-007-final](https://github.com/adiletgpt6-beep/lesson-80/releases/tag/lesson-007-final) | `lessons/R07` |
+| 008 | Аллах — Жалгыз: таухид жана Ыклас сүрөсү | VID-004 (Issue #10) | 31:12 | [lesson-008-final](https://github.com/adiletgpt6-beep/lesson-80/releases/tag/lesson-008-final) | `lessons/R08`, `production/lesson-008-009` |
+| 009 | Убакыт жана ийгиликтин төрт ачкычы: Аср сүрөсү | VID-004 | 28:24 | [lesson-009-final](https://github.com/adiletgpt6-beep/lesson-80/releases/tag/lesson-009-final) | `lessons/R09` |
+
+Темы обложек — `shared/lesson-cover/lessons/001–009.json` (один шаблон для всех 80 уроков).
+**О «003»:** опубликованный урок 003 — «Таза жүрөк» из VID-002 (`lessons/R03`). Папка `lessons/003` — внутренний
+производственный проект старого часового урока VID-001, разделённого на 004–005; его озвучка переиспользуется R04/R05 по
+хешу, поэтому папка сохраняется. Следующий исходник Studio → уроки **010+**.
 
 ## Уроки 006 и 007 — Studio VID-003 (Issue #8)
 

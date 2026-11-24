@@ -67,3 +67,14 @@ VID-004 (Issue #10) сделать два самостоятельных уро�
 [lesson-009-final](https://github.com/adiletgpt6-beep/lesson-80/releases/tag/lesson-009-final) (00:28:24); страницы просмотра
 [008](https://claude.ai/artifact/NSyrXTUnz6JBqLYarCMkEe) и [009](https://claude.ai/artifact/UJxswNWtA2amUiB5AwdacP) (приватные).
 Страница-плеер собирается вне репозитория: финальный MP4 из релиза → 960×540 части по 100 с → Artifact. Проверки — REPORT.md.
+
+## 7. Слияние в main (2026-11-24)
+
+По разрешению владельца проверены и слиты все открытые PR (метод merge, история сохранена):
+1. PR #11 (эта ветка) — включал по цепочке #2 (инфраструктура 003) → #6 (004–005) → #9 (006–007); #6 закрыт отдельным merge.
+2. PR #7 → в ветку PR #5, затем PR #5 → main (общая обложка `shared/lesson-cover`, `shared/audio`).
+3. PR #4 (001–003) — через интеграционную ветку `integrate-pr4-lessons-001-003` (PR #12): конфликты add/add в `shared/`
+   разрешены (json обложек и `join_qa.py` — версия PR #4, `.gitignore` — объединение).
+
+Проверено на main: validate + check_timeline R04–R09 OK; coverage 004–005 / 006–007 / 008–009 OK; `check_copies.py` OK
+(обе копии LessonCover); `tsc` и `remotion bundle` обоих Remotion-проектов OK. Рабочие ветки других чатов не удалялись.
