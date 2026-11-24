@@ -1,0 +1,9 @@
+{
+ "clip": "K005",
+ "source_start": "00:01:17",
+ "source_end": "00:01:38",
+ "model": "facebook/mms-1b-all",
+ "adapter": "kir",
+ "text": "бул бриниакандаишенимдедига эми имандын алты шартыу бар алты шартбара алты шартубар биринчисибул алла таалага",
+ "note": "machine cross-check, not human listening; audio_verified stays false"
+}

@@ -1,0 +1,324 @@
+{
+ "id": "a07",
+ "title_ky": "Жыйынтык",
+ "planned_seconds": 130,
+ "source_ideas": [
+  "I03"
+ ],
+ "scenes": [
+  {
+   "id": "a07-s01",
+   "title_ky": "Алты тиректи кайталайбыз",
+   "setting": "класс, доска",
+   "camera": "балдарга",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "ЫЙМАНДЫН ҮЙҮ: 1 Аллах · 2 Периштелер · 3 Китептер · 4 Пайгамбарлар · 5 Тагдыр · 6 Акырет"
+   ],
+   "animation": [
+    "Ар бир жооптон кийин тиректин жанында белги жанат",
+    "балдар кол чабышат"
+   ],
+   "beats": [
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Балдар, бүгүн ыймандын үйүн курдук. Келгиле, алты тиректи бирге кайталайлы. Биринчиси?",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Аллахка ишенүү!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Экинчиси?",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Периштелерге ишенүү!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Үчүнчүсү?",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Китептерге ишенүү!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Төртүнчүсү?",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Пайгамбарларга ишенүү!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бешинчиси?",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Тагдырга ишенүү!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Жана алтынчысы?",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Акыретке ишенүү!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Азаматсыңар! Ушул алты шартка жүрөгү менен ишенген адам — ыймандуу адам.",
+     "source": [
+      "I03 00:01:14–00:01:35"
+     ],
+     "ped": true,
+     "blocked": null
+    }
+   ]
+  },
+  {
+   "id": "a07-s03",
+   "title_ky": "Кичинекей сынак",
+   "setting": "класс, доска",
+   "camera": "балдарга",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "СЫНАК: ? → ✓ ✓ ✓ ✓ ✓"
+   ],
+   "animation": [
+    "Ар бир туура жооптон кийин доскада жашыл белги пайда болот",
+    "балдар кубанышат"
+   ],
+   "beats": [
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Эми кичинекей сынак! Мен суроо берем, силер жооп бергиле. Периштелер эмнеден жаратылган?",
+     "source": [
+      "I08 00:03:10–00:03:50"
+     ],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Нурдан!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Куранда кайсы төрт китеп айтылат?",
+     "source": [
+      "I13 00:06:28–00:07:00"
+     ],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Тоорат, Забур, Инжил жана Куран!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Эң акыркы пайгамбар ким?",
+     "source": [
+      "I86 01:43:10–01:43:50"
+     ],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Пайгамбарыбыз Мухаммед саллаллаху алейхи ва саллам!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Адам дүйнөдөн өткөндө кайсы үч нерсенин сообу жете берет?",
+     "source": [
+      "I34 00:26:20–00:27:20"
+     ],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Садака жария, пайдалуу илим жана дуба кылган жакшы бала!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Таифтин эли Пайгамбарыбызга таш ыргытканда, ал эмне деп айткан?",
+     "source": [
+      "I89 01:46:50–01:48:40"
+     ],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Алардын урпактарынан Аллахка ибадат кылгандар чыгат деп үмүттөнөм деген!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Баракелде! Баарын туура таптыңар.",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    }
+   ]
+  },
+  {
+   "id": "a07-s02",
+   "title_ky": "Кийинки сабак",
+   "setting": "класс",
+   "camera": "жалпы план",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "Кийинки сабак: ЖҮРӨК КАНТИП ӨСӨТ? — 11 тепкич"
+   ],
+   "animation": [
+    "Доскада шатынын сулуэти пайда болот",
+    "устаз кол булгалайт"
+   ],
+   "beats": [
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ыйман келтирдик. Кийинки сабакта абдан кызыктуу суроого жооп издейбиз: ыйман жүрөктө кантип өсөт? Ал үчүн кандай тепкичтерден өтөбүз?",
+     "source": [
+      "I40 00:33:40–00:34:00"
+     ],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Тепкичтер? Кызык экен!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Үй тапшырма: бүгүн үйдөгүлөргө ыймандын алты шартын айтып бергиле. Ата-энеңер үчүн дуба кылгыла.",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Макул, устаз!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Көңүл бурганыңар үчүн Аллах ыраазы болсун! Ассалому алейкум!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Ваалейкум ассалам! Кош болуңуз, устаз!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    }
+   ]
+  }
+ ]
+}

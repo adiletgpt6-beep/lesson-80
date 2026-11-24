@@ -1,0 +1,9 @@
+{
+ "clip": "K05",
+ "source_start": "00:59:53",
+ "source_end": "01:00:12",
+ "model": "facebook/mms-1b-all",
+ "adapter": "kir",
+ "text": "жакшыларга тозок арамдейтдаалар демек санга тозок арам болсо эчен кайкы барасын бийишке арасын кейде болот да дайым эле бул дүйнөгө чөндөкө рөрбө акчан ахырэтке да калдыр",
+ "note": "machine cross-check, not human listening; audio_verified stays false"
+}

@@ -1,0 +1,489 @@
+{
+ "clip": "K16",
+ "source_start": "00:43:25",
+ "source_end": "00:43:47",
+ "model_id": "scribe_v2",
+ "language_code": "kir",
+ "response_headers": {
+  "character-cost": "8",
+  "fiat-cost-before-overages": "0.00132"
+ },
+ "response": {
+  "language_code": "kir",
+  "language_probability": 1.0,
+  "text": "Allah için, yürekten çıkarıp. Allah ona ne dedi? Muno da dedi ki: \"Vallahi yudai fulimen yeşa deyyet\" hayatın kullanışında. Allah kimin kalbini yedi yüzden daha aşırıp verirdi. Yedi yüzden daha. Alemi, bunu iki bin",
+  "words": [
+   {
+    "text": "Allah",
+    "start": 0.26,
+    "end": 0.48,
+    "type": "word",
+    "logprob": -0.08895821124315262
+   },
+   {
+    "text": " ",
+    "start": 0.48,
+    "end": 0.58,
+    "type": "spacing",
+    "logprob": -0.8178038597106934
+   },
+   {
+    "text": "için,",
+    "start": 0.58,
+    "end": 0.7,
+    "type": "word",
+    "logprob": -0.7582670211791992
+   },
+   {
+    "text": " ",
+    "start": 0.7,
+    "end": 0.76,
+    "type": "spacing",
+    "logprob": -0.8056268692016602
+   },
+   {
+    "text": "yürekten",
+    "start": 1.04,
+    "end": 1.44,
+    "type": "word",
+    "logprob": -0.20191261228387702
+   },
+   {
+    "text": " ",
+    "start": 1.44,
+    "end": 1.46,
+    "type": "spacing",
+    "logprob": -0.008197234943509102
+   },
+   {
+    "text": "çıkarıp.",
+    "start": 1.46,
+    "end": 1.8,
+    "type": "word",
+    "logprob": -0.009992787847295403
+   },
+   {
+    "text": " ",
+    "start": 1.8,
+    "end": 1.8,
+    "type": "spacing",
+    "logprob": -2.6464111215318553e-05
+   },
+   {
+    "text": "Allah",
+    "start": 2.46,
+    "end": 2.68,
+    "type": "word",
+    "logprob": -2.6464111215318553e-05
+   },
+   {
+    "text": " ",
+    "start": 2.68,
+    "end": 2.72,
+    "type": "spacing",
+    "logprob": -0.20262639224529266
+   },
+   {
+    "text": "ona",
+    "start": 2.72,
+    "end": 2.9,
+    "type": "word",
+    "logprob": -0.20262639224529266
+   },
+   {
+    "text": " ",
+    "start": 2.9,
+    "end": 3.26,
+    "type": "spacing",
+    "logprob": -1.2755313036905136e-05
+   },
+   {
+    "text": "ne",
+    "start": 3.26,
+    "end": 3.36,
+    "type": "word",
+    "logprob": -1.2755313036905136e-05
+   },
+   {
+    "text": " ",
+    "start": 3.36,
+    "end": 3.4,
+    "type": "spacing",
+    "logprob": -4.172316494077677e-06
+   },
+   {
+    "text": "dedi?",
+    "start": 3.4,
+    "end": 3.62,
+    "type": "word",
+    "logprob": -9.131340630119666e-06
+   },
+   {
+    "text": " ",
+    "start": 3.62,
+    "end": 3.64,
+    "type": "spacing",
+    "logprob": -1.6121522188186646
+   },
+   {
+    "text": "Muno",
+    "start": 4.66,
+    "end": 4.92,
+    "type": "word",
+    "logprob": -0.501019474118948
+   },
+   {
+    "text": " ",
+    "start": 4.92,
+    "end": 4.94,
+    "type": "spacing",
+    "logprob": -0.9180099964141846
+   },
+   {
+    "text": "da",
+    "start": 4.94,
+    "end": 5.04,
+    "type": "word",
+    "logprob": -0.9180099964141846
+   },
+   {
+    "text": " ",
+    "start": 5.04,
+    "end": 5.1,
+    "type": "spacing",
+    "logprob": -0.5180504322052002
+   },
+   {
+    "text": "dedi",
+    "start": 5.1,
+    "end": 5.26,
+    "type": "word",
+    "logprob": -0.5180504322052002
+   },
+   {
+    "text": " ",
+    "start": 5.26,
+    "end": 5.26,
+    "type": "spacing",
+    "logprob": -0.0009585791267454624
+   },
+   {
+    "text": "ki:",
+    "start": 5.26,
+    "end": 5.44,
+    "type": "word",
+    "logprob": -0.32041677987823886
+   },
+   {
+    "text": " ",
+    "start": 5.44,
+    "end": 5.62,
+    "type": "spacing",
+    "logprob": -0.004070331808179617
+   },
+   {
+    "text": "\"Vallahi",
+    "start": 5.62,
+    "end": 6.12,
+    "type": "word",
+    "logprob": -0.33776365843368694
+   },
+   {
+    "text": " ",
+    "start": 6.12,
+    "end": 6.18,
+    "type": "spacing",
+    "logprob": -0.38111385703086853
+   },
+   {
+    "text": "yudai",
+    "start": 6.18,
+    "end": 6.68,
+    "type": "word",
+    "logprob": -0.14709888398647308
+   },
+   {
+    "text": " ",
+    "start": 6.68,
+    "end": 6.74,
+    "type": "spacing",
+    "logprob": -0.3912155032157898
+   },
+   {
+    "text": "fulimen",
+    "start": 6.74,
+    "end": 7.12,
+    "type": "word",
+    "logprob": -0.36012219531195505
+   },
+   {
+    "text": " ",
+    "start": 7.12,
+    "end": 7.22,
+    "type": "spacing",
+    "logprob": -0.03959428146481514
+   },
+   {
+    "text": "yeşa",
+    "start": 7.22,
+    "end": 7.64,
+    "type": "word",
+    "logprob": -0.03484670165926218
+   },
+   {
+    "text": " ",
+    "start": 7.64,
+    "end": 7.68,
+    "type": "spacing",
+    "logprob": -0.010740331374108791
+   },
+   {
+    "text": "deyyet\"",
+    "start": 7.68,
+    "end": 7.92,
+    "type": "word",
+    "logprob": -0.3302552888968161
+   },
+   {
+    "text": " ",
+    "start": 7.92,
+    "end": 7.98,
+    "type": "spacing",
+    "logprob": -0.051184944808483124
+   },
+   {
+    "text": "hayatın",
+    "start": 7.98,
+    "end": 8.38,
+    "type": "word",
+    "logprob": -0.03727286242480789
+   },
+   {
+    "text": " ",
+    "start": 8.38,
+    "end": 8.6,
+    "type": "spacing",
+    "logprob": -0.7880062460899353
+   },
+   {
+    "text": "kullanışında.",
+    "start": 8.6,
+    "end": 9.28,
+    "type": "word",
+    "logprob": -0.521986932661653
+   },
+   {
+    "text": " ",
+    "start": 9.28,
+    "end": 9.28,
+    "type": "spacing",
+    "logprob": -0.043077558279037476
+   },
+   {
+    "text": "Allah",
+    "start": 11.7,
+    "end": 11.96,
+    "type": "word",
+    "logprob": -0.043077558279037476
+   },
+   {
+    "text": " ",
+    "start": 11.96,
+    "end": 12.06,
+    "type": "spacing",
+    "logprob": -0.04944600909948349
+   },
+   {
+    "text": "kimin",
+    "start": 12.06,
+    "end": 12.36,
+    "type": "word",
+    "logprob": -0.376766599714756
+   },
+   {
+    "text": " ",
+    "start": 12.36,
+    "end": 12.42,
+    "type": "spacing",
+    "logprob": -0.38007107377052307
+   },
+   {
+    "text": "kalbini",
+    "start": 12.42,
+    "end": 12.88,
+    "type": "word",
+    "logprob": -0.4380457358700888
+   },
+   {
+    "text": " ",
+    "start": 12.88,
+    "end": 12.94,
+    "type": "spacing",
+    "logprob": -1.2309569120407104
+   },
+   {
+    "text": "yedi",
+    "start": 12.94,
+    "end": 13.2,
+    "type": "word",
+    "logprob": -0.33169250283390284
+   },
+   {
+    "text": " ",
+    "start": 13.2,
+    "end": 13.28,
+    "type": "spacing",
+    "logprob": -0.7230396866798401
+   },
+   {
+    "text": "yüzden",
+    "start": 13.28,
+    "end": 13.62,
+    "type": "word",
+    "logprob": -0.7230396866798401
+   },
+   {
+    "text": " ",
+    "start": 13.62,
+    "end": 13.68,
+    "type": "spacing",
+    "logprob": -0.007698745932430029
+   },
+   {
+    "text": "daha",
+    "start": 13.68,
+    "end": 13.84,
+    "type": "word",
+    "logprob": -0.007698745932430029
+   },
+   {
+    "text": " ",
+    "start": 13.84,
+    "end": 13.9,
+    "type": "spacing",
+    "logprob": -0.011714360676705837
+   },
+   {
+    "text": "aşırıp",
+    "start": 13.9,
+    "end": 14.2,
+    "type": "word",
+    "logprob": -0.10648568874845903
+   },
+   {
+    "text": " ",
+    "start": 14.2,
+    "end": 14.22,
+    "type": "spacing",
+    "logprob": -0.02854613959789276
+   },
+   {
+    "text": "verirdi.",
+    "start": 14.22,
+    "end": 14.6,
+    "type": "word",
+    "logprob": -0.39180912263691425
+   },
+   {
+    "text": " ",
+    "start": 14.6,
+    "end": 14.78,
+    "type": "spacing",
+    "logprob": -0.030854076147079468
+   },
+   {
+    "text": "Yedi",
+    "start": 16.9,
+    "end": 17.2,
+    "type": "word",
+    "logprob": -0.008111721341265365
+   },
+   {
+    "text": " ",
+    "start": 17.2,
+    "end": 17.26,
+    "type": "spacing",
+    "logprob": -0.00011777184408856556
+   },
+   {
+    "text": "yüzden",
+    "start": 17.26,
+    "end": 17.66,
+    "type": "word",
+    "logprob": -0.00011777184408856556
+   },
+   {
+    "text": " ",
+    "start": 17.66,
+    "end": 17.7,
+    "type": "spacing",
+    "logprob": -0.301223486661911
+   },
+   {
+    "text": "daha.",
+    "start": 17.7,
+    "end": 17.94,
+    "type": "word",
+    "logprob": -0.24100475142768119
+   },
+   {
+    "text": " ",
+    "start": 17.94,
+    "end": 18.06,
+    "type": "spacing",
+    "logprob": -2.0503786799963564e-05
+   },
+   {
+    "text": "Alemi,",
+    "start": 20.04,
+    "end": 20.44,
+    "type": "word",
+    "logprob": -0.08477556694924715
+   },
+   {
+    "text": " ",
+    "start": 20.44,
+    "end": 20.44,
+    "type": "spacing",
+    "logprob": -0.9570561647415161
+   },
+   {
+    "text": "bunu",
+    "start": 21.08,
+    "end": 21.26,
+    "type": "word",
+    "logprob": -0.9570561647415161
+   },
+   {
+    "text": " ",
+    "start": 21.26,
+    "end": 21.48,
+    "type": "spacing",
+    "logprob": -0.8145413994789124
+   },
+   {
+    "text": "iki",
+    "start": 21.48,
+    "end": 21.7,
+    "type": "word",
+    "logprob": -0.8145413994789124
+   },
+   {
+    "text": " ",
+    "start": 21.7,
+    "end": 21.76,
+    "type": "spacing",
+    "logprob": -0.6585487723350525
+   },
+   {
+    "text": "bin",
+    "start": 21.76,
+    "end": 21.92,
+    "type": "word",
+    "logprob": -0.6585487723350525
+   }
+  ],
+  "transcription_id": "pgrqo7dj7oSkR1hyV8eu",
+  "audio_duration_secs": 22.0
+ }
+}

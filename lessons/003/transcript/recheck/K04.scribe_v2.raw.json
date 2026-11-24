@@ -1,0 +1,279 @@
+{
+ "clip": "K04",
+ "source_start": "00:57:35",
+ "source_end": "00:58:13",
+ "model_id": "scribe_v2",
+ "language_code": "kir",
+ "response_headers": {
+  "character-cost": "14",
+  "fiat-cost-before-overages": "0.00231"
+ },
+ "response": {
+  "language_code": "kir",
+  "language_probability": 1.0,
+  "text": "Алакала қызык кылып түйүп койгон. Қызык бир система кылып койду да. [телефонда сөйләшуү] Ооба. Эми мунучада биз эмне дедик? Биринчилер",
+  "words": [
+   {
+    "text": "Алакала",
+    "start": 0.12,
+    "end": 0.54,
+    "type": "word",
+    "logprob": -1.1795616426638194
+   },
+   {
+    "text": " ",
+    "start": 0.54,
+    "end": 0.56,
+    "type": "spacing",
+    "logprob": -0.05704418569803238
+   },
+   {
+    "text": "қызык",
+    "start": 0.56,
+    "end": 0.84,
+    "type": "word",
+    "logprob": -0.011862059298437089
+   },
+   {
+    "text": " ",
+    "start": 0.84,
+    "end": 0.92,
+    "type": "spacing",
+    "logprob": -0.22114169597625732
+   },
+   {
+    "text": "кылып",
+    "start": 0.92,
+    "end": 1.08,
+    "type": "word",
+    "logprob": -0.08938736224081367
+   },
+   {
+    "text": " ",
+    "start": 1.08,
+    "end": 1.14,
+    "type": "spacing",
+    "logprob": -0.8658451437950134
+   },
+   {
+    "text": "түйүп",
+    "start": 1.14,
+    "end": 1.4,
+    "type": "word",
+    "logprob": -0.34902968469250484
+   },
+   {
+    "text": " ",
+    "start": 1.4,
+    "end": 1.4,
+    "type": "spacing",
+    "logprob": -0.11358442157506943
+   },
+   {
+    "text": "койгон.",
+    "start": 1.4,
+    "end": 1.66,
+    "type": "word",
+    "logprob": -0.08728355169296265
+   },
+   {
+    "text": " ",
+    "start": 1.66,
+    "end": 2.12,
+    "type": "spacing",
+    "logprob": -0.35888659954071045
+   },
+   {
+    "text": "Қызык",
+    "start": 2.12,
+    "end": 2.36,
+    "type": "word",
+    "logprob": -0.09439960222898662
+   },
+   {
+    "text": " ",
+    "start": 2.36,
+    "end": 2.4,
+    "type": "spacing",
+    "logprob": -0.06683536618947983
+   },
+   {
+    "text": "бир",
+    "start": 2.4,
+    "end": 2.5,
+    "type": "word",
+    "logprob": -0.06683536618947983
+   },
+   {
+    "text": " ",
+    "start": 2.5,
+    "end": 2.56,
+    "type": "spacing",
+    "logprob": -0.0016790828667581081
+   },
+   {
+    "text": "система",
+    "start": 2.56,
+    "end": 2.96,
+    "type": "word",
+    "logprob": -0.0016790828667581081
+   },
+   {
+    "text": " ",
+    "start": 2.96,
+    "end": 3.0,
+    "type": "spacing",
+    "logprob": -0.42255502939224243
+   },
+   {
+    "text": "кылып",
+    "start": 3.0,
+    "end": 3.16,
+    "type": "word",
+    "logprob": -0.16949010703247042
+   },
+   {
+    "text": " ",
+    "start": 3.16,
+    "end": 3.16,
+    "type": "spacing",
+    "logprob": -0.0057409401051700115
+   },
+   {
+    "text": "койду",
+    "start": 3.16,
+    "end": 3.4,
+    "type": "word",
+    "logprob": -0.013626194465905428
+   },
+   {
+    "text": " ",
+    "start": 3.4,
+    "end": 3.44,
+    "type": "spacing",
+    "logprob": -0.0012153151910752058
+   },
+   {
+    "text": "да.",
+    "start": 3.44,
+    "end": 3.62,
+    "type": "word",
+    "logprob": -0.0009796429270257552
+   },
+   {
+    "text": " ",
+    "start": 3.62,
+    "end": 3.62,
+    "type": "spacing",
+    "logprob": -0.0013305629836395383
+   },
+   {
+    "text": "[телефонда сөйләшуү]",
+    "start": 3.62,
+    "end": 32.119,
+    "type": "audio_event",
+    "logprob": -0.32297316338081145
+   },
+   {
+    "text": " ",
+    "start": 32.119,
+    "end": 32.159,
+    "type": "spacing",
+    "logprob": -0.0017350156558677554
+   },
+   {
+    "text": "Ооба.",
+    "start": 32.18,
+    "end": 32.42,
+    "type": "word",
+    "logprob": -0.22353313732892274
+   },
+   {
+    "text": " ",
+    "start": 32.42,
+    "end": 32.72,
+    "type": "spacing",
+    "logprob": -0.44436919689178467
+   },
+   {
+    "text": "Эми",
+    "start": 33.88,
+    "end": 34.02,
+    "type": "word",
+    "logprob": -0.2915203372637431
+   },
+   {
+    "text": " ",
+    "start": 34.02,
+    "end": 34.1,
+    "type": "spacing",
+    "logprob": -0.4862966537475586
+   },
+   {
+    "text": "мунучада",
+    "start": 34.1,
+    "end": 34.52,
+    "type": "word",
+    "logprob": -0.6179574402049184
+   },
+   {
+    "text": " ",
+    "start": 34.52,
+    "end": 34.58,
+    "type": "spacing",
+    "logprob": -0.05106114223599434
+   },
+   {
+    "text": "биз",
+    "start": 35.36,
+    "end": 35.52,
+    "type": "word",
+    "logprob": -0.05106114223599434
+   },
+   {
+    "text": " ",
+    "start": 35.52,
+    "end": 35.58,
+    "type": "spacing",
+    "logprob": -2.042736768722534
+   },
+   {
+    "text": "эмне",
+    "start": 35.58,
+    "end": 35.72,
+    "type": "word",
+    "logprob": -2.042736768722534
+   },
+   {
+    "text": " ",
+    "start": 35.72,
+    "end": 35.76,
+    "type": "spacing",
+    "logprob": -0.009820717386901379
+   },
+   {
+    "text": "дедик?",
+    "start": 35.78,
+    "end": 36.06,
+    "type": "word",
+    "logprob": -0.05474871486755243
+   },
+   {
+    "text": " ",
+    "start": 36.06,
+    "end": 36.14,
+    "type": "spacing",
+    "logprob": -0.004813986364752054
+   },
+   {
+    "text": "Биринчилер",
+    "start": 37.26,
+    "end": 37.94,
+    "type": "word",
+    "logprob": -0.4603699308470823
+   }
+  ],
+  "transcription_id": "98ZiS8BkOqE9d0NAtsn8",
+  "audio_duration_secs": 38.0
+ }
+}

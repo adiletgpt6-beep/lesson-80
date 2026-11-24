@@ -1,0 +1,9 @@
+{
+ "clip": "M28",
+ "source_start": "01:42:50",
+ "source_end": "01:43:20",
+ "model": "facebook/mms-1b-all",
+ "adapter": "kir",
+ "text": "ибраим алесламдын окуясын барайсын бич бала келбей ат да балалуу болуп айтасын алар кантип балалуу болгон ал жеда эмелер сырлары турат да түрмөгө түш басаң небулот юсуф алесламдын дууасы юнус алесламдын дууасы  келет",
+ "note": "machine cross-check, not human listening; audio_verified stays false"
+}

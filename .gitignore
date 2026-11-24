@@ -13,3 +13,26 @@ dist/
 .env.*
 !.env.example
 __pycache__/
+
+# Voice clips of lesson 003 (ElevenLabs output, ~44 MB): kept in Git so CI can render without re-spending credits.
+!lessons/003/audio/clips/*.mp3
+lessons/003/audio/clips/*.v0.mp3
+lessons/003/audio/clips/*.v1.mp3
+
+# Voice clips of lessons 004/005 (R04/R05): only new/changed lines (the rest are reused from lessons/003 by hash)
+!lessons/R04/audio/clips/*.mp3
+!lessons/R05/audio/clips/*.mp3
+lessons/R0[45]/audio/clips/*.v0.mp3
+lessons/R0[45]/audio/clips/*.v1.mp3
+
+# Voice clips of lessons 006/007 (R06/R07, Studio VID-003): kept in Git so CI can render without re-spending credits
+!lessons/R06/audio/clips/*.mp3
+!lessons/R07/audio/clips/*.mp3
+lessons/R0[67]/audio/clips/*.v0.mp3
+lessons/R0[67]/audio/clips/*.v1.mp3
+
+# Voice clips of lessons 008/009 (R08/R09, Studio VID-004): kept in Git so CI can render without re-spending credits
+!lessons/R08/audio/clips/*.mp3
+!lessons/R09/audio/clips/*.mp3
+lessons/R0[89]/audio/clips/*.v0.mp3
+lessons/R0[89]/audio/clips/*.v1.mp3

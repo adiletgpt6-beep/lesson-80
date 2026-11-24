@@ -1,0 +1,81 @@
+{
+ "id": "d03",
+ "title_ky": "1-ачкыч: Ыйман",
+ "planned_seconds": 110,
+ "source_ideas": [
+  "J48"
+ ],
+ "scenes": [
+  {
+   "id": "d03-s01",
+   "title_ky": "Ким зыянда эмес?",
+   "setting": "доска",
+   "camera": "орто план: устаз + доска",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "«...бирок ыйман келтиргендер» (Аср, 3)",
+    "🔑 1. ЫЙМАН"
+   ],
+   "animation": [
+    "Доскада биринчи ачкыч алтын түскө боёлуп, жылдызча жаркырайт"
+   ],
+   "beats": [
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Анда ким жоготпойт? Баары кыйрап калабы?",
+     "source": [
+      "J48 00:39:40–00:40:15"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бул суроого Аллах Өзү ушул жерде жооп берет.",
+     "source": [
+      "J48 00:39:40–00:40:15"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "«Иллаллазина аману». Бир гана ыйман келтиргендер. Бул — биринчиси.",
+     "source": [
+      "J48 00:39:40–00:40:15"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ыйман — өткөн сабактарда үйрөнгөн алты шарт. Эң башкысы — Аллахтын жалгыздыгына ишенүү.",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Биринчи ачкыч — ыйман!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "visual",
+     "seconds": 3.0,
+     "description": "Доскада биринчи ачкыч алтын түскө боёлуп, жаркырайт"
+    }
+   ]
+  }
+ ]
+}

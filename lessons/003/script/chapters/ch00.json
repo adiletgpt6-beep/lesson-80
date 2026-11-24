@@ -1,0 +1,189 @@
+{
+ "id": "ch00",
+ "title_ky": "Ачылыш",
+ "planned_seconds": 90,
+ "source_ideas": [],
+ "scenes": [
+  {
+   "id": "ch00-s01",
+   "title_ky": "Класска кирүү",
+   "setting": "жарык класс, чоң ак доска, терезе",
+   "camera": "жалпы план → орто план",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "Доска таза"
+   ],
+   "animation": [
+    "Камера класстын эшигинен кирет",
+    "Устаз доскага жакын туруп балдарга жылмаят",
+    "Бектур менен Айзада партага отурат",
+    "Устаз ар бир баланы атаганда ал кол булгалайт"
+   ],
+   "beats": [
+    {
+     "type": "visual",
+     "seconds": 4,
+     "description": "Класстын жалпы көрүнүшү, терезеден күн нуру; музыка жок, жеңил куштардын үнү"
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ассалому алейкум, балдар!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Ваалейкум ассалам, устаз!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бүгүн менин жанымда эки жардамчым бар. Бул — Бектур, бул — Айзада. Алар да силер менен бирге үйрөнөт.",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Салам, достор!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Биз суроо берип, жооп издейбиз!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бүгүн биз абдан кызыктуу сабакка чогулдук. Мен доскага үч суроо жазам.",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    }
+   ]
+  },
+  {
+   "id": "ch00-s02",
+   "title_ky": "Үч суроо жана беш жылдыз",
+   "setting": "доска",
+   "camera": "доска ири план",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "КАЙДАН?",
+    "ЭМНЕГЕ?",
+    "КАЙДА?",
+    "Доскада ылдыйда беш бош жылдыз"
+   ],
+   "animation": [
+    "Устаз маркер менен үч суроону жазат (тамгалар бирден пайда болот)",
+    "Беш боз жылдыз доскага тизилет"
+   ],
+   "beats": [
+    {
+     "type": "visual",
+     "seconds": 5,
+     "description": "Доскага үч суроо бирден жазылат: КАЙДАН? · ЭМНЕГЕ? · КАЙДА?"
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Кайдан? Эмнеге? Кайда? Бул — үч чоң суроо. Дүйнөдөгү эң акылдуу адамдар да ушулар жөнүндө ойлонушат.",
+     "source": [
+      "I01 00:02:44–00:03:20"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Устаз, бул суроолорго жооп барбы?",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бар, Айзада. Жоопту бүгүн бирге табабыз.",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Адамдын бул дүйнөгө келишинин беш негизги максаты бар. Бүгүн ошол беш максатты айтып берем.",
+     "source": [
+      "I45 00:54:45–00:54:59"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "visual",
+     "seconds": 3,
+     "description": "Доскада беш боз жылдыз пайда болот"
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Сабактын аягында бул беш жылдыздын баары жанат. Даярсыңарбы?",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Даярбыз!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Силер да, экрандын алдындагы балдар, биз менен кошо ойлонгула. Суроо берсем, үйдөн жооп бергиле, макулбу?",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Анда «Бисмиллахир рахманир рахим» деп баштайлы.",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "pause",
+     "seconds": 2,
+     "reason": "тынч башталыш"
+    }
+   ]
+  }
+ ]
+}

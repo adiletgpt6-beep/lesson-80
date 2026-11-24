@@ -1,0 +1,9 @@
+{
+ "clip": "M05",
+ "source_start": "00:22:30",
+ "source_end": "00:23:00",
+ "model": "facebook/mms-1b-all",
+ "adapter": "kir",
+ "text": "эербашыңргабир жакшылык келсе алладан деп билгилер эгер башыңарга бир жамандык кыйынчылык кесе өзүңөрдөн карагыладейт өзүңөрдөн издекиледет бирок жакшылыктагы жамандыкты алладануөүөркандай түшүнөсүң",
+ "note": "machine cross-check, not human listening; audio_verified stays false"
+}

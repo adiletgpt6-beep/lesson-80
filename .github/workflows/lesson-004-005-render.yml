@@ -1,0 +1,216 @@
+name: Lessons 004/005 — render (split of lesson 003, 2 × ~30 min)
+
+# New lessons 004 and 005 (production ids R04 / R05) built from the one-hour lesson 003: same Remotion project,
+# same characters/boards/illustrations; voice clips reused from lessons/003/audio/clips by hash plus the new lines
+# in lessons/R04|R05/audio/clips. Picture: each chapter renders in parallel WITHOUT audio (--muted), chapters are
+# joined without re-encoding. Sound (AUDIO_JOIN_QA_RULES.md): the whole lesson soundtrack is built in one piece by
+# scripts/mix_audio.py (clips cleaned by scripts/audio_prep.py, sample-accurate positions) and muxed as AAC — no
+# per-chapter AAC joins. The final MP4 must pass scripts/audio_join_qa.py (blocking) before it is published as the
+# pre-release lesson-004-preview-v1 / lesson-005-preview-v1.
+# Lesson 003 files, workflow and releases are not touched.
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - "claude/lesson-004-005-split"
+    paths:
+      - "video/src/**"
+      - "shared/lesson-cover/**"
+      - "lessons/R04/**"
+      - "lessons/R05/**"
+      - "scripts/audio_prep.py"
+      - "scripts/mix_audio.py"
+      - "scripts/audio_join_qa.py"
+      - ".github/workflows/lesson-004-005-render.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    # On push, render only when the commit message asks for it ("[render-split]").
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[render-split]')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Timeline QA (blocked lines, audio sync, cutaway keys, 25–35 min) + canonical cover copy
+        run: |
+          python3 shared/lesson-cover/check_copies.py
+          python3 scripts/check_timeline.py
+          LESSON=R04 python3 scripts/check_timeline.py
+          LESSON=R05 python3 scripts/check_timeline.py
+
+  render:
+    needs: check
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { n: "004", chapter: ch00 }
+          - { n: "004", chapter: ch01 }
+          - { n: "004", chapter: ch02 }
+          - { n: "004", chapter: ch03 }
+          - { n: "004", chapter: ch04 }
+          - { n: "004", chapter: ch05 }
+          - { n: "004", chapter: ch06 }
+          - { n: "004", chapter: e04 }
+          - { n: "005", chapter: o05 }
+          - { n: "005", chapter: ch07 }
+          - { n: "005", chapter: ch08 }
+          - { n: "005", chapter: ch09 }
+          - { n: "005", chapter: ch10 }
+          - { n: "005", chapter: ch11 }
+          - { n: "005", chapter: ch12 }
+          - { n: "005", chapter: ch13 }
+          - { n: "005", chapter: ch14 }
+          - { n: "005", chapter: ch15 }
+          - { n: "005", chapter: ch16 }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: video/package-lock.json
+      - name: Install
+        working-directory: video
+        run: |
+          npm ci
+          mkdir -p public/audio
+          cp ../lessons/003/audio/clips/*.mp3 ../lessons/R04/audio/clips/*.mp3 ../lessons/R05/audio/clips/*.mp3 public/audio/
+          npx remotion browser ensure
+      - name: Render Lesson${{ matrix.n }}-${{ matrix.chapter }}
+        working-directory: video
+        run: |
+          mkdir -p out
+          npx remotion render src/index.ts Lesson${{ matrix.n }}-${{ matrix.chapter }} out/${{ matrix.n }}-${{ matrix.chapter }}.mp4 \
+            --concurrency=4 --codec=h264 --crf=20 --jpeg-quality=85 --pixel-format=yuv420p --muted --log=warn
+          npx remotion ffprobe -v error -show_entries format=duration:stream=codec_name,width,height,r_frame_rate -of default=nw=1 out/${{ matrix.n }}-${{ matrix.chapter }}.mp4
+      - name: Cover thumbnail 1280×720 (same design as the first 90 frames, OPENING_COVER_RULES.md)
+        if: matrix.chapter == 'ch00' || matrix.chapter == 'o05'
+        working-directory: video
+        run: |
+          npx remotion still src/index.ts Cover${{ matrix.n }} out/lesson-${{ matrix.n }}-thumbnail.jpg --image-format=jpeg --jpeg-quality=95 --log=warn
+      - uses: actions/upload-artifact@v4
+        if: matrix.chapter == 'ch00' || matrix.chapter == 'o05'
+        with:
+          name: cover-${{ matrix.n }}
+          path: video/out/lesson-${{ matrix.n }}-thumbnail.jpg
+          if-no-files-found: error
+      - uses: actions/upload-artifact@v4
+        with:
+          name: chapter-${{ matrix.n }}-${{ matrix.chapter }}
+          path: video/out/${{ matrix.n }}-${{ matrix.chapter }}.mp4
+          if-no-files-found: error
+          retention-days: 14
+
+  audio:
+    needs: check
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      matrix:
+        lesson: [R04, R05]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Whole-lesson soundtrack (clean clips, sample-accurate mix)
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          python3 -m pip install -q numpy
+          LESSON=${{ matrix.lesson }} python3 scripts/mix_audio.py ${{ matrix.lesson }}.wav --report ${{ matrix.lesson }}.mix.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: audio-${{ matrix.lesson }}
+          path: |
+            ${{ matrix.lesson }}.wav
+            ${{ matrix.lesson }}.mix.json
+          retention-days: 14
+
+  publish:
+    needs: [render, audio]
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { n: "004", lesson: R04, chapters: "ch00 ch01 ch02 ch03 ch04 ch05 ch06 e04", title: "80 САБАКТЫН 4-САБАГЫ | Эмне үчүн жаралдык? Аллахты таануу жана сүйүү" }
+          - { n: "005", lesson: R05, chapters: "o05 ch07 ch08 ch09 ch10 ch11 ch12 ch13 ch14 ch15 ch16", title: "80 САБАКТЫН 5-САБАГЫ | Эмне үчүн жаралдык? Кулчулук, жакшылык, сабыр" }
+    env:
+      OUT: lesson-${{ matrix.n }}-final
+      TAG: lesson-${{ matrix.n }}-final
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: chapter-${{ matrix.n }}-*
+          path: chapters
+          merge-multiple: true
+      - uses: actions/download-artifact@v4
+        with:
+          name: cover-${{ matrix.n }}
+          path: .
+      - uses: actions/download-artifact@v4
+        with:
+          name: audio-${{ matrix.lesson }}
+          path: .
+      - name: Join picture, mux the soundtrack, verify (audio join QA is blocking)
+        run: |
+          set -o pipefail
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          python3 -m pip install -q numpy
+          ls -la chapters
+          for c in ${{ matrix.chapters }}; do echo "file '$PWD/chapters/${{ matrix.n }}-$c.mp4'"; done > concat.txt
+          ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i concat.txt -an -c:v copy picture.mp4
+          ffmpeg -hide_banner -loglevel error -y -i picture.mp4 -i ${{ matrix.lesson }}.wav -map 0:v:0 -map 1:a:0 -c:v copy \
+            -c:a aac -b:a 192k -ar 48000 -ac 2 -movflags +faststart "$OUT.mp4"
+          V=$(ffprobe -v error -select_streams v -show_entries stream=duration -of csv=p=0 "$OUT.mp4")
+          A=$(ffprobe -v error -select_streams a -show_entries stream=duration -of csv=p=0 "$OUT.mp4")
+          python3 -c "import sys; v,a=float('$V'),float('$A'); print(f'- picture {v:.3f} s, sound {a:.3f} s, difference {abs(v-a)*1000:.0f} ms'); sys.exit(abs(v-a)>0.05)" | tee verify.txt
+          python3 scripts/audio_join_qa.py "$OUT.mp4" --timeline video/src/timeline-${{ matrix.lesson }}.json \
+            --clips lessons/003/audio/clips lessons/R04/audio/clips lessons/R05/audio/clips \
+            --mix-report ${{ matrix.lesson }}.mix.json --out audio-join-qa.json | tee audio-qa.txt
+          echo "- audio join QA: $(tail -1 audio-qa.txt)" >> verify.txt
+          ffmpeg -hide_banner -loglevel error -y -i "$OUT.mp4" -vf scale=960:540:flags=lanczos -c:v libx264 -preset fast -crf 24 \
+            -pix_fmt yuv420p -c:a aac -b:a 96k -movflags +faststart "$OUT-preview-960x540.mp4"
+          python3 scripts/verify_mp4.py "$OUT.mp4" --expect-min-seconds 1500 --expect-max-seconds 2100 | tee -a verify.txt
+          n=$(ffmpeg -hide_banner -i "$OUT-preview-960x540.mp4" -vf "freezedetect=n=0.001:d=8" -map 0:v -f null - 2>&1 | grep -c "freeze_start" || true)
+          echo "- frozen picture ≥8 s (freezedetect n=0.001): $n" | tee -a verify.txt
+          cp lessons/${{ matrix.lesson }}/youtube-title.txt lesson-${{ matrix.n }}-youtube-title.txt
+          python3 -c "import sys; t=open('lesson-${{ matrix.n }}-youtube-title.txt',encoding='utf-8').read().strip(); print('- YouTube title (' + str(len(t)) + ' chars): ' + t); sys.exit(len(t)>100)" | tee -a verify.txt
+          echo "- opening cover: frames 0–89 (3.00 s) from shared/lesson-cover/LessonCover.tsx; thumbnail lesson-${{ matrix.n }}-thumbnail.jpg" | tee -a verify.txt
+          sha256sum "$OUT.mp4" "$OUT-preview-960x540.mp4" lesson-${{ matrix.n }}-thumbnail.jpg lesson-${{ matrix.n }}-youtube-title.txt | tee SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: lesson-${{ matrix.n }}-full
+          path: |
+            ${{ env.OUT }}.mp4
+            ${{ env.OUT }}-preview-960x540.mp4
+            lesson-${{ matrix.n }}-thumbnail.jpg
+            lesson-${{ matrix.n }}-youtube-title.txt
+            SHA256SUMS.txt
+            verify.txt
+            audio-join-qa.json
+            ${{ matrix.lesson }}.mix.json
+          retention-days: 30
+      - name: Publish to pre-release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          {
+            echo "${{ matrix.title }}. Кыргызский, 1920×1080, 30 fps, H.264/AAC, без музыки."
+            echo "Переработка часового урока 003 в два урока (004 + 005). Ветка ${GITHUB_REF_NAME}, коммит ${GITHUB_SHA::7}, прогон ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}."
+            echo "Публикуемый мастер без служебных надписей (FINAL_VIDEO_USTAZ_REVIEW_RULES.md). Проверка устаза — после загрузки на YouTube; открытые вопросы — только в production/lesson-004-005/REPORT.md."
+            echo
+            cat verify.txt
+          } > notes.md
+          gh release view "$TAG" -R "$GITHUB_REPOSITORY" >/dev/null 2>&1 || \
+            gh release create "$TAG" -R "$GITHUB_REPOSITORY" --title "${{ matrix.title }}" --notes-file notes.md --target "$GITHUB_SHA"
+          gh release edit "$TAG" -R "$GITHUB_REPOSITORY" --notes-file notes.md
+          gh release upload "$TAG" -R "$GITHUB_REPOSITORY" --clobber "$OUT.mp4" "$OUT-preview-960x540.mp4" lesson-${{ matrix.n }}-thumbnail.jpg lesson-${{ matrix.n }}-youtube-title.txt SHA256SUMS.txt audio-join-qa.json
+          for f in "$OUT.mp4" "$OUT-preview-960x540.mp4" lesson-${{ matrix.n }}-thumbnail.jpg lesson-${{ matrix.n }}-youtube-title.txt SHA256SUMS.txt; do
+            echo "- ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases/download/$TAG/$f" >> "$GITHUB_STEP_SUMMARY"
+          done

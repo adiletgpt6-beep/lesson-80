@@ -1,0 +1,9 @@
+{
+ "clip": "K23",
+ "source_start": "01:01:05",
+ "source_end": "01:01:57",
+ "model": "facebook/mms-1b-all",
+ "adapter": "kir",
+ "text": "шакрардыешкеси окужок жакшыаамйте жок иман кертирбиз ахиретти ишнесе жокурмасакаркбаакрыаатаакта азмысалыа алнегизи чи мындай мурда адамдар аякбакка баарып окууса болоту эле негизи чи мурда азыр",
+ "note": "machine cross-check, not human listening; audio_verified stays false"
+}

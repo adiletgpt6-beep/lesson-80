@@ -1,0 +1,811 @@
+{
+ "clip": "K03",
+ "source_start": "00:51:05",
+ "source_end": "00:51:33",
+ "model_id": "scribe_v2",
+ "language_code": "kir",
+ "response_headers": {
+  "character-cost": "10",
+  "fiat-cost-before-overages": "0.00165"
+ },
+ "response": {
+  "language_code": "kir",
+  "language_probability": 1.0,
+  "text": "Жердегі жашооға таштап туруп, проблемадан проблемага, оттон ташка, таштан сууга чабып отуруп, кыйнап, оруп, эптеп күнү-түнү уккутабай акча таап, урсагызды араң тойго узуп, ушинтип жашап өтүп кетет экенбиз да анан барган дайын Аллатаала эгер туура жасап барган болсок, муналат аткарып барган болсок, Аллатаала ахыретте толтура акса өлтүрө анан эми бейишкә киргизип койгон болсо, жаннатка. Бай адам жаннат",
+  "words": [
+   {
+    "text": "Жердегі",
+    "start": 0.0,
+    "end": 0.34,
+    "type": "word",
+    "logprob": -0.15846505204847613
+   },
+   {
+    "text": " ",
+    "start": 0.34,
+    "end": 0.42,
+    "type": "spacing",
+    "logprob": -0.02488807402551174
+   },
+   {
+    "text": "жашооға",
+    "start": 0.42,
+    "end": 0.82,
+    "type": "word",
+    "logprob": -0.13733302322881563
+   },
+   {
+    "text": " ",
+    "start": 0.82,
+    "end": 0.88,
+    "type": "spacing",
+    "logprob": -0.00506321107968688
+   },
+   {
+    "text": "таштап",
+    "start": 0.88,
+    "end": 1.26,
+    "type": "word",
+    "logprob": -0.1395928255903224
+   },
+   {
+    "text": " ",
+    "start": 1.26,
+    "end": 1.3,
+    "type": "spacing",
+    "logprob": -0.7338685393333435
+   },
+   {
+    "text": "туруп,",
+    "start": 1.3,
+    "end": 1.5,
+    "type": "word",
+    "logprob": -0.24981935267957547
+   },
+   {
+    "text": " ",
+    "start": 1.5,
+    "end": 1.62,
+    "type": "spacing",
+    "logprob": -0.017738627269864082
+   },
+   {
+    "text": "проблемадан",
+    "start": 1.62,
+    "end": 2.34,
+    "type": "word",
+    "logprob": -0.012962552418519574
+   },
+   {
+    "text": " ",
+    "start": 2.34,
+    "end": 2.38,
+    "type": "spacing",
+    "logprob": -0.2153739035129547
+   },
+   {
+    "text": "проблемага,",
+    "start": 2.38,
+    "end": 2.94,
+    "type": "word",
+    "logprob": -0.23539977723901923
+   },
+   {
+    "text": " ",
+    "start": 2.94,
+    "end": 3.78,
+    "type": "spacing",
+    "logprob": -0.000962032878305763
+   },
+   {
+    "text": "оттон",
+    "start": 3.78,
+    "end": 4.16,
+    "type": "word",
+    "logprob": -0.002920821378938854
+   },
+   {
+    "text": " ",
+    "start": 4.16,
+    "end": 4.22,
+    "type": "spacing",
+    "logprob": -0.0027051304932683706
+   },
+   {
+    "text": "ташка,",
+    "start": 4.22,
+    "end": 4.64,
+    "type": "word",
+    "logprob": -0.04164268961176276
+   },
+   {
+    "text": " ",
+    "start": 4.64,
+    "end": 4.7,
+    "type": "spacing",
+    "logprob": -0.0006243425305001438
+   },
+   {
+    "text": "таштан",
+    "start": 4.7,
+    "end": 5.1,
+    "type": "word",
+    "logprob": -0.0003162777769224097
+   },
+   {
+    "text": " ",
+    "start": 5.1,
+    "end": 5.18,
+    "type": "spacing",
+    "logprob": -0.10400007665157318
+   },
+   {
+    "text": "сууга",
+    "start": 5.18,
+    "end": 5.5,
+    "type": "word",
+    "logprob": -0.042961761634796855
+   },
+   {
+    "text": " ",
+    "start": 5.5,
+    "end": 5.58,
+    "type": "spacing",
+    "logprob": -0.0019384894985705614
+   },
+   {
+    "text": "чабып",
+    "start": 5.58,
+    "end": 5.88,
+    "type": "word",
+    "logprob": -0.06103956690058112
+   },
+   {
+    "text": " ",
+    "start": 5.88,
+    "end": 5.96,
+    "type": "spacing",
+    "logprob": -0.04520321264863014
+   },
+   {
+    "text": "отуруп,",
+    "start": 5.96,
+    "end": 6.28,
+    "type": "word",
+    "logprob": -0.019030972824631526
+   },
+   {
+    "text": " ",
+    "start": 6.28,
+    "end": 6.28,
+    "type": "spacing",
+    "logprob": -0.004572531208395958
+   },
+   {
+    "text": "кыйнап,",
+    "start": 7.38,
+    "end": 7.86,
+    "type": "word",
+    "logprob": -0.002654410696517776
+   },
+   {
+    "text": " ",
+    "start": 7.86,
+    "end": 8.119,
+    "type": "spacing",
+    "logprob": -0.007399414665997028
+   },
+   {
+    "text": "оруп,",
+    "start": 8.119,
+    "end": 8.32,
+    "type": "word",
+    "logprob": -0.25319369826465843
+   },
+   {
+    "text": " ",
+    "start": 8.32,
+    "end": 8.32,
+    "type": "spacing",
+    "logprob": -0.07360080629587173
+   },
+   {
+    "text": "эптеп",
+    "start": 9.48,
+    "end": 9.84,
+    "type": "word",
+    "logprob": -0.0256931564072147
+   },
+   {
+    "text": " ",
+    "start": 9.84,
+    "end": 9.88,
+    "type": "spacing",
+    "logprob": -0.09531030803918839
+   },
+   {
+    "text": "күнү-түнү",
+    "start": 9.88,
+    "end": 10.26,
+    "type": "word",
+    "logprob": -0.036657692489421204
+   },
+   {
+    "text": " ",
+    "start": 10.26,
+    "end": 10.32,
+    "type": "spacing",
+    "logprob": -0.12121693044900894
+   },
+   {
+    "text": "уккутабай",
+    "start": 10.32,
+    "end": 10.66,
+    "type": "word",
+    "logprob": -0.11245397892263201
+   },
+   {
+    "text": " ",
+    "start": 10.66,
+    "end": 10.72,
+    "type": "spacing",
+    "logprob": -0.11005839705467224
+   },
+   {
+    "text": "акча",
+    "start": 10.72,
+    "end": 10.92,
+    "type": "word",
+    "logprob": -0.11005839705467224
+   },
+   {
+    "text": " ",
+    "start": 10.92,
+    "end": 10.98,
+    "type": "spacing",
+    "logprob": -0.17367452383041382
+   },
+   {
+    "text": "таап,",
+    "start": 10.98,
+    "end": 11.3,
+    "type": "word",
+    "logprob": -0.07698086428281385
+   },
+   {
+    "text": " ",
+    "start": 11.3,
+    "end": 11.62,
+    "type": "spacing",
+    "logprob": -0.4326852560043335
+   },
+   {
+    "text": "урсагызды",
+    "start": 11.62,
+    "end": 12.06,
+    "type": "word",
+    "logprob": -0.3111877590417862
+   },
+   {
+    "text": " ",
+    "start": 12.06,
+    "end": 12.12,
+    "type": "spacing",
+    "logprob": -0.022891314700245857
+   },
+   {
+    "text": "араң",
+    "start": 12.12,
+    "end": 12.36,
+    "type": "word",
+    "logprob": -0.17007152130827308
+   },
+   {
+    "text": " ",
+    "start": 12.36,
+    "end": 12.4,
+    "type": "spacing",
+    "logprob": -0.0032702796161174774
+   },
+   {
+    "text": "тойго",
+    "start": 12.4,
+    "end": 12.6,
+    "type": "word",
+    "logprob": -0.039836523681879045
+   },
+   {
+    "text": " ",
+    "start": 12.6,
+    "end": 12.66,
+    "type": "spacing",
+    "logprob": -0.4386005401611328
+   },
+   {
+    "text": "узуп,",
+    "start": 12.66,
+    "end": 12.84,
+    "type": "word",
+    "logprob": -0.2962589449540246
+   },
+   {
+    "text": " ",
+    "start": 12.84,
+    "end": 12.84,
+    "type": "spacing",
+    "logprob": -0.008959922008216381
+   },
+   {
+    "text": "ушинтип",
+    "start": 13.42,
+    "end": 13.7,
+    "type": "word",
+    "logprob": -0.2710967046607818
+   },
+   {
+    "text": " ",
+    "start": 13.7,
+    "end": 13.76,
+    "type": "spacing",
+    "logprob": -0.21280249953269958
+   },
+   {
+    "text": "жашап",
+    "start": 13.76,
+    "end": 14.04,
+    "type": "word",
+    "logprob": -0.09167622171808035
+   },
+   {
+    "text": " ",
+    "start": 14.04,
+    "end": 14.08,
+    "type": "spacing",
+    "logprob": -2.777537883957848e-05
+   },
+   {
+    "text": "өтүп",
+    "start": 14.08,
+    "end": 14.32,
+    "type": "word",
+    "logprob": -0.16914791687668185
+   },
+   {
+    "text": " ",
+    "start": 14.32,
+    "end": 14.34,
+    "type": "spacing",
+    "logprob": -0.00014351768186315894
+   },
+   {
+    "text": "кетет",
+    "start": 14.36,
+    "end": 14.58,
+    "type": "word",
+    "logprob": -0.2047953743254766
+   },
+   {
+    "text": " ",
+    "start": 14.58,
+    "end": 14.6,
+    "type": "spacing",
+    "logprob": -0.05866328999400139
+   },
+   {
+    "text": "экенбиз",
+    "start": 14.6,
+    "end": 14.9,
+    "type": "word",
+    "logprob": -0.04110000398941338
+   },
+   {
+    "text": " ",
+    "start": 14.9,
+    "end": 14.94,
+    "type": "spacing",
+    "logprob": -0.011780455708503723
+   },
+   {
+    "text": "да",
+    "start": 14.94,
+    "end": 15.0,
+    "type": "word",
+    "logprob": -0.011780455708503723
+   },
+   {
+    "text": " ",
+    "start": 15.0,
+    "end": 15.04,
+    "type": "spacing",
+    "logprob": -0.021520433947443962
+   },
+   {
+    "text": "анан",
+    "start": 15.04,
+    "end": 15.24,
+    "type": "word",
+    "logprob": -0.8904042090289295
+   },
+   {
+    "text": " ",
+    "start": 15.24,
+    "end": 15.28,
+    "type": "spacing",
+    "logprob": -0.37451210618019104
+   },
+   {
+    "text": "барган",
+    "start": 15.28,
+    "end": 15.58,
+    "type": "word",
+    "logprob": -0.6528153916200002
+   },
+   {
+    "text": " ",
+    "start": 15.58,
+    "end": 15.62,
+    "type": "spacing",
+    "logprob": -0.6444395184516907
+   },
+   {
+    "text": "дайын",
+    "start": 15.62,
+    "end": 15.78,
+    "type": "word",
+    "logprob": -1.1646236658096314
+   },
+   {
+    "text": " ",
+    "start": 15.78,
+    "end": 15.82,
+    "type": "spacing",
+    "logprob": -1.4784268140792847
+   },
+   {
+    "text": "Аллатаала",
+    "start": 15.82,
+    "end": 16.219,
+    "type": "word",
+    "logprob": -0.7893471800618701
+   },
+   {
+    "text": " ",
+    "start": 16.219,
+    "end": 16.26,
+    "type": "spacing",
+    "logprob": -0.8461710810661316
+   },
+   {
+    "text": "эгер",
+    "start": 16.26,
+    "end": 16.78,
+    "type": "word",
+    "logprob": -0.21835973300039768
+   },
+   {
+    "text": " ",
+    "start": 16.78,
+    "end": 16.86,
+    "type": "spacing",
+    "logprob": -0.000309657771140337
+   },
+   {
+    "text": "туура",
+    "start": 16.86,
+    "end": 17.08,
+    "type": "word",
+    "logprob": -0.0789871471002698
+   },
+   {
+    "text": " ",
+    "start": 17.08,
+    "end": 17.12,
+    "type": "spacing",
+    "logprob": -0.0007027302053757012
+   },
+   {
+    "text": "жасап",
+    "start": 17.12,
+    "end": 17.36,
+    "type": "word",
+    "logprob": -0.0007922687567770481
+   },
+   {
+    "text": " ",
+    "start": 17.36,
+    "end": 17.4,
+    "type": "spacing",
+    "logprob": -3.576272320060525e-06
+   },
+   {
+    "text": "барган",
+    "start": 17.4,
+    "end": 17.64,
+    "type": "word",
+    "logprob": -0.03568860143210865
+   },
+   {
+    "text": " ",
+    "start": 17.64,
+    "end": 17.68,
+    "type": "spacing",
+    "logprob": -0.001392705482430756
+   },
+   {
+    "text": "болсок,",
+    "start": 17.68,
+    "end": 17.96,
+    "type": "word",
+    "logprob": -0.014934158268650728
+   },
+   {
+    "text": " ",
+    "start": 17.96,
+    "end": 18.02,
+    "type": "spacing",
+    "logprob": -0.0036601710598915815
+   },
+   {
+    "text": "муналат",
+    "start": 18.02,
+    "end": 18.26,
+    "type": "word",
+    "logprob": -0.39501129696145654
+   },
+   {
+    "text": " ",
+    "start": 18.26,
+    "end": 18.32,
+    "type": "spacing",
+    "logprob": -0.07143750041723251
+   },
+   {
+    "text": "аткарып",
+    "start": 18.32,
+    "end": 18.62,
+    "type": "word",
+    "logprob": -0.03239086474890688
+   },
+   {
+    "text": " ",
+    "start": 18.62,
+    "end": 18.62,
+    "type": "spacing",
+    "logprob": -0.0021114691626280546
+   },
+   {
+    "text": "барган",
+    "start": 18.62,
+    "end": 18.9,
+    "type": "word",
+    "logprob": -0.0028126344550400972
+   },
+   {
+    "text": " ",
+    "start": 18.9,
+    "end": 18.9,
+    "type": "spacing",
+    "logprob": -6.317892984952778e-05
+   },
+   {
+    "text": "болсок,",
+    "start": 18.9,
+    "end": 19.2,
+    "type": "word",
+    "logprob": -0.0010610118229773694
+   },
+   {
+    "text": " ",
+    "start": 19.2,
+    "end": 19.78,
+    "type": "spacing",
+    "logprob": -0.022183723747730255
+   },
+   {
+    "text": "Аллатаала",
+    "start": 19.78,
+    "end": 20.12,
+    "type": "word",
+    "logprob": -0.011010315509338398
+   },
+   {
+    "text": " ",
+    "start": 20.12,
+    "end": 20.2,
+    "type": "spacing",
+    "logprob": -0.007316461764276028
+   },
+   {
+    "text": "ахыретте",
+    "start": 20.2,
+    "end": 20.58,
+    "type": "word",
+    "logprob": -0.0635681876228773
+   },
+   {
+    "text": " ",
+    "start": 20.58,
+    "end": 20.72,
+    "type": "spacing",
+    "logprob": -0.333925724029541
+   },
+   {
+    "text": "толтура",
+    "start": 20.72,
+    "end": 21.02,
+    "type": "word",
+    "logprob": -0.48584464618137907
+   },
+   {
+    "text": " ",
+    "start": 21.02,
+    "end": 21.08,
+    "type": "spacing",
+    "logprob": -0.01112225279211998
+   },
+   {
+    "text": "акса",
+    "start": 21.08,
+    "end": 21.26,
+    "type": "word",
+    "logprob": -0.38145078532397747
+   },
+   {
+    "text": " ",
+    "start": 21.26,
+    "end": 21.3,
+    "type": "spacing",
+    "logprob": -0.8630890846252441
+   },
+   {
+    "text": "өлтүрө",
+    "start": 21.3,
+    "end": 21.62,
+    "type": "word",
+    "logprob": -1.3570089461281896
+   },
+   {
+    "text": " ",
+    "start": 21.62,
+    "end": 21.66,
+    "type": "spacing",
+    "logprob": -0.07056651264429092
+   },
+   {
+    "text": "анан",
+    "start": 21.66,
+    "end": 21.88,
+    "type": "word",
+    "logprob": -0.024472411954775453
+   },
+   {
+    "text": " ",
+    "start": 21.88,
+    "end": 21.88,
+    "type": "spacing",
+    "logprob": -0.00023910524032544345
+   },
+   {
+    "text": "эми",
+    "start": 22.02,
+    "end": 23.74,
+    "type": "word",
+    "logprob": -0.00023910524032544345
+   },
+   {
+    "text": " ",
+    "start": 23.74,
+    "end": 23.76,
+    "type": "spacing",
+    "logprob": -2.1284608840942383
+   },
+   {
+    "text": "бейишкә",
+    "start": 23.76,
+    "end": 24.18,
+    "type": "word",
+    "logprob": -0.8041032411690269
+   },
+   {
+    "text": " ",
+    "start": 24.18,
+    "end": 24.2,
+    "type": "spacing",
+    "logprob": -1.9438910484313965
+   },
+   {
+    "text": "киргизип",
+    "start": 24.2,
+    "end": 24.56,
+    "type": "word",
+    "logprob": -0.7557990520726889
+   },
+   {
+    "text": " ",
+    "start": 24.56,
+    "end": 24.58,
+    "type": "spacing",
+    "logprob": -1.0609570381348021e-05
+   },
+   {
+    "text": "койгон",
+    "start": 24.58,
+    "end": 24.86,
+    "type": "word",
+    "logprob": -0.007508676470934006
+   },
+   {
+    "text": " ",
+    "start": 24.86,
+    "end": 24.9,
+    "type": "spacing",
+    "logprob": -0.0005411829333752394
+   },
+   {
+    "text": "болсо,",
+    "start": 24.9,
+    "end": 25.18,
+    "type": "word",
+    "logprob": -0.007304871493640046
+   },
+   {
+    "text": " ",
+    "start": 25.18,
+    "end": 25.32,
+    "type": "spacing",
+    "logprob": -0.6220475435256958
+   },
+   {
+    "text": "жаннатка.",
+    "start": 25.32,
+    "end": 25.86,
+    "type": "word",
+    "logprob": -0.4094412128130595
+   },
+   {
+    "text": " ",
+    "start": 25.86,
+    "end": 25.86,
+    "type": "spacing",
+    "logprob": -0.01783008873462677
+   },
+   {
+    "text": "Бай",
+    "start": 27.28,
+    "end": 27.44,
+    "type": "word",
+    "logprob": -0.01783008873462677
+   },
+   {
+    "text": " ",
+    "start": 27.44,
+    "end": 27.54,
+    "type": "spacing",
+    "logprob": -0.10527161508798599
+   },
+   {
+    "text": "адам",
+    "start": 27.54,
+    "end": 27.78,
+    "type": "word",
+    "logprob": -0.10527161508798599
+   },
+   {
+    "text": " ",
+    "start": 27.78,
+    "end": 27.82,
+    "type": "spacing",
+    "logprob": -0.014118432998657227
+   },
+   {
+    "text": "жаннат",
+    "start": 27.82,
+    "end": 27.98,
+    "type": "word",
+    "logprob": -0.11624526977539062
+   }
+  ],
+  "transcription_id": "NWdQPKHHteBW4bDw2GtR",
+  "audio_duration_secs": 28.0
+ }
+}

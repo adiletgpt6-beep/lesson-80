@@ -1,0 +1,181 @@
+{
+ "id": "b03",
+ "title_ky": "3–4-тепкич: Таануу жана кабыл алуу",
+ "planned_seconds": 180,
+ "source_ideas": [
+  "I44",
+  "I45"
+ ],
+ "scenes": [
+  {
+   "id": "b03-s01",
+   "title_ky": "Таануу",
+   "setting": "доска",
+   "camera": "орто план: устаз + доска",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "3. ТААНУУ: илим → ойлонуу → «А-а, мына эмне экен!»"
+   ],
+   "animation": [
+    "Доскада лампочка жанат"
+   ],
+   "beats": [
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Үчүнчү тепкич — таануу.",
+     "source": [
+      "I44 00:37:55–00:38:30"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ой жүгүрткөндө, үйрөнгөн нерсеңди тааный баштайсың.",
+     "source": [
+      "I44 00:37:55–00:38:30"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Мисалы, Аллах жөнүндө илим алдың. Аллах жөнүндө ойлондуң. Анан Аллахты тааныдың.",
+     "source": [
+      "I44 00:37:55–00:38:30"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Мисалы, апаңдын үнүн алыстан эле тааныйсың го. Анткени аны көп угуп, жакшы билесиң.",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Ооба, телефондон да дароо тааныйм!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллахты да ушундай — көп үйрөнүп, көп ойлонуп таанысак, Ал жүрөгүбүзгө жакын болот.",
+     "source": [
+      "I44 00:37:55–00:38:30"
+     ],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "visual",
+     "seconds": 3.0,
+     "description": "Үчүнчү тепкич жанат, жылдыз жаркырайт"
+    }
+   ]
+  },
+  {
+   "id": "b03-s02",
+   "title_ky": "Кабыл алуу",
+   "setting": "класс, доска",
+   "camera": "устаз → балдарга",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "4. КАБЫЛ АЛУУ: «Мен Исламды кабыл алдым» = илим ✓ ойлонуу ✓ таануу ✓"
+   ],
+   "animation": [
+    "Доскада жүрөк белгисинин эшиги ачылат"
+   ],
+   "beats": [
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Тааныгандан кийин төртүнчү тепкич — кабыл алуу.",
+     "source": [
+      "I45 00:38:30–00:39:00"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Таанып-билген нерсеңди жүрөгүңө кабыл аласыңбы, же жокпу?",
+     "source": [
+      "I45 00:38:30–00:39:00"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Мисалы, «мен Ислам динин кабыл алдым» деген адам мурунку үч тепкичтен өткөн.",
+     "source": [
+      "I45 00:38:30–00:39:00"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ал бир аз илим үйрөндү — бирөөдөн укту же китептен окуду. Ойлонду. Түнү бою ойлонуп жатты.",
+     "source": [
+      "I45 00:38:30–00:39:00"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "«А-а, мына эмне экен!» деп таанып, анан кабыл алды.",
+     "source": [
+      "I45 00:38:30–00:39:00"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Мен да ушундай кылдым! Апам намаз жөнүндө айтып берди, мен ойлондум, анан окуй баштадым.",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Азамат, Айзада!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "visual",
+     "seconds": 3.0,
+     "description": "Төртүнчү тепкич жанат, жылдыз жаркырайт"
+    }
+   ]
+  }
+ ]
+}

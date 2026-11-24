@@ -1,0 +1,140 @@
+{
+ "id": "c00",
+ "title_ky": "Ачылыш",
+ "planned_seconds": 100,
+ "source_ideas": [
+  "J01"
+ ],
+ "scenes": [
+  {
+   "id": "c00-s01",
+   "title_ky": "Салам, достор!",
+   "setting": "класс, доска",
+   "camera": "жалпы план → орто план",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "ЫЙМАНДЫН 6 ШАРТЫ → 1. АЛЛАХ",
+    "ТАУХИД"
+   ],
+   "animation": [
+    "Устаз кол булгалап учурашат",
+    "балдар жылмайып кол булгалашат"
+   ],
+   "beats": [
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ассалому алейкум, балдар!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Ваалейкум ассалам, устаз!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Кана, эстейличи: өткөн сабакта эмнени үйрөндүк эле?",
+     "source": [
+      "J01 00:00:20–00:00:58"
+     ],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Ыймандын алты шартын, устаз!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Туура! Аллахка, периштелерге, китептерге, пайгамбарларга, тагдырга жана акырет күнүнө ыйман келтирүү.",
+     "source": [
+      "J01 00:00:20–00:00:58"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Алтоосун тең манжаларым менен санап алдым!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бүгүн ошол алты шарттын биринчисине тереңирээк киребиз: Аллах Таала жалгыз.",
+     "source": [
+      "J01 00:00:20–00:00:58"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аллахты жалгыз деп билүүнү таухид дейбиз. Таухид!",
+     "source": [
+      "J01 00:00:20–00:00:58"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Кайталагылачы: таухид!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Таухид!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Азаматсыңар! Сабакты Аллахтын аты менен баштайлы: Бисмиллахир рахманир рахим.",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Силер да, экрандын алдындагы балдар, биз менен кошо ойлонгула. Суроо берсем, үйдөн жооп бергиле, макулбу?",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "visual",
+     "seconds": 3.0,
+     "description": "Доскада «ТАУХИД» деген сөз жазылат, жылдызча жаркырайт"
+    }
+   ]
+  }
+ ]
+}

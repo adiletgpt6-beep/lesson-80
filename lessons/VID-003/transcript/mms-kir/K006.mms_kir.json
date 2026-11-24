@@ -1,0 +1,9 @@
+{
+ "clip": "K006",
+ "source_start": "00:01:37",
+ "source_end": "00:01:58",
+ "model": "facebook/mms-1b-all",
+ "adapter": "kir",
+ "text": "алласубханотааляга ишенүү анын барлыгына бирлигине ишенүүадатавхитти кабылалуу тавыхитти үйрөнүалларнын жалгыздыгын алла талаынын эч кандай ишениги жок ал жаалгыз жаыа",
+ "note": "machine cross-check, not human listening; audio_verified stays false"
+}

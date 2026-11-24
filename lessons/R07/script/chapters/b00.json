@@ -1,0 +1,122 @@
+{
+ "id": "b00",
+ "title_ky": "Ачылыш",
+ "planned_seconds": 120,
+ "source_ideas": [
+  "I40"
+ ],
+ "scenes": [
+  {
+   "id": "b00-s01",
+   "title_ky": "Өткөн сабакты эстейбиз",
+   "setting": "класс, доска",
+   "camera": "жалпы план → орто план",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "ЫЙМАНДЫН 6 ШАРТЫ ✓",
+    "ЖАН ДҮЙНӨ КАНТИП ӨСӨТ?"
+   ],
+   "animation": [
+    "Устаз кол булгалап учурашат",
+    "доскада алты тиректүү үй кичирейип бурчка жылат"
+   ],
+   "beats": [
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ассалому алейкум, балдар!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Ваалейкум ассалам, устаз!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Өткөн сабакта ыймандын алты шартын үйрөндүк. Ким эстейт?",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Аллахка, периштелерге, китептерге, пайгамбарларга, тагдырга жана акыретке ишенүү!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Азамат, Бектур! Бул — ыйман илими, акыйда илими.",
+     "source": [
+      "I40 00:33:40–00:34:00"
+     ],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Биз ушуларга ишендик, ыйман келтирдик. Эми суроо: биздин рухий дүйнөбүз өсүп-өнүшү үчүн кандай этаптардан өтөбүз?",
+     "source": [
+      "I40 00:33:40–00:34:00"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Жүрөк да тепкич менен өйдө чыгабы?",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ооба, Айзада! Бүгүн доскага он бир тепкичтүү шаты тартам. Ар бир тепкичти бирден өтөбүз.",
+     "source": [
+      "I40 00:33:40–00:34:00"
+     ],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "visual",
+     "seconds": 4.0,
+     "description": "Доскада он бир тепкичтүү шаты тартылат"
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Экрандын алдындагы балдар, силер да биз менен кошо тепкичтерди санагыла!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бисмиллахир рахманир рахим. Баштадык!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    }
+   ]
+  }
+ ]
+}

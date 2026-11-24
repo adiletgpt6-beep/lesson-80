@@ -1,0 +1,9 @@
+{
+ "clip": "K002",
+ "source_start": "00:00:22",
+ "source_end": "00:00:24",
+ "model": "facebook/mms-1b-all",
+ "adapter": "kir",
+ "text": "mu u t usahan вastaessa",
+ "note": "machine cross-check, not human listening; audio_verified stays false"
+}

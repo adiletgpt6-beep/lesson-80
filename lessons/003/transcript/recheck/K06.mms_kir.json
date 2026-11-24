@@ -1,0 +1,9 @@
+{
+ "clip": "K06",
+ "source_start": "00:44:16",
+ "source_end": "00:44:28",
+ "model": "facebook/mms-1b-all",
+ "adapter": "kir",
+ "text": "миңалытасыншу аякча дагы бир миллион төрүз гылу алыптасын мне деген чоң соодабыла",
+ "note": "machine cross-check, not human listening; audio_verified stays false"
+}

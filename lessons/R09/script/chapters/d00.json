@@ -1,0 +1,112 @@
+{
+ "id": "d00",
+ "title_ky": "Ачылыш",
+ "planned_seconds": 90,
+ "source_ideas": [
+  "J40"
+ ],
+ "scenes": [
+  {
+   "id": "d00-s01",
+   "title_ky": "Убакыт деген эмне?",
+   "setting": "класс, доска",
+   "camera": "жалпы план → орто план",
+   "characters": [
+    "ustaz",
+    "bektur",
+    "aizada"
+   ],
+   "board": [
+    "⏳ УБАКЫТ",
+    "АСР СҮРӨСҮ"
+   ],
+   "animation": [
+    "Устаз кол булгалап учурашат",
+    "доскада кум саат тартылып, кум акырын агат"
+   ],
+   "beats": [
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ассалому алейкум, балдар!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "both_children",
+     "text": "Ваалейкум ассалам, устаз!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Өткөн сабакта Аллахтын жалгыздыгын — таухидди үйрөндүк. Аллахтын башталышы да, аягы да жок экенин билдик.",
+     "source": [
+      "J39 00:32:35–00:33:10"
+     ],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Ал эми биз — убакыттын ичинде жашайбыз. Бүгүн убакыт жөнүндөгү бир кыска, бирок абдан терең сүрөнү үйрөнөбүз.",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "aizada",
+     "text": "Кайсы сүрө, устаз?",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Аср сүрөсү. «Вал-аср».",
+     "source": [
+      "J40 00:33:10–00:34:10"
+     ],
+     "ped": false,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Бул сүрөдө ийгиликтин төрт ачкычы бар. Сабактын аягында төртөөнү тең табабыз!",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "bektur",
+     "text": "Ачкыч? Кандай ачкыч?",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "line",
+     "speaker": "ustaz",
+     "text": "Чыдагыла, азыр билесиңер! Бисмиллахир рахманир рахим.",
+     "source": [],
+     "ped": true,
+     "blocked": null
+    },
+    {
+     "type": "visual",
+     "seconds": 3.0,
+     "description": "Доскадагы кум саат айланып, жанында төрт бош ачкыч белгиси пайда болот"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,9 @@
+{
+ "clip": "K01",
+ "source_start": "00:48:22",
+ "source_end": "00:48:41",
+ "model": "facebook/mms-1b-all",
+ "adapter": "kir",
+ "text": "мени бир ничким чыгар албайт менмин дейт да мен э бул беш алланы кыдыжа мен эки деп калганга чейин бараткенда адам эми дагы бир мисал мисалы айт эли",
+ "note": "machine cross-check, not human listening; audio_verified stays false"
+}

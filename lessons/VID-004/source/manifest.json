@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "studio_id": "VID-004",
+  "github_issue": "https://github.com/adiletgpt6-beep/lesson-80/issues/10",
+  "r2_object_key": "live/raw/e5d21eb0-eb75-43f1-bb62-709362c7d230/source.mp4",
+  "studio_upload_id": "e5d21eb0-eb75-43f1-bb62-709362c7d230",
+  "filename": "source.mp4",
+  "size_bytes": 278031004,
+  "sha256": "695a20a2210e476243739ab6aa6b8ff74c200aef23656e594e237d86b3e85ad9",
+  "retrieval": "python3 scripts/studio_fetch.py adiletgpt6-beep/lesson-80 VID-004 <dest>/source.mp4 --expect-size 278031004 --expect-sha256 695a20a2210e476243739ab6aa6b8ff74c200aef23656e594e237d86b3e85ad9",
+  "verified": "2026-11-23: downloaded via Studio broker in Claude Code; size and SHA-256 match Issue #10 and broker metadata",
+  "media": {
+    "duration_seconds": 8137.897506,
+    "video_codec": "H.264",
+    "width": 640,
+    "height": 360,
+    "frame_rate": "7471/250 (~29.88)",
+    "audio_codec": "AAC",
+    "audio_sample_rate_hz": 44100,
+    "audio_channels": 2
+  }
+}
