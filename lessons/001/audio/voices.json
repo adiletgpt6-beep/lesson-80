@@ -1,0 +1,34 @@
+{
+ "model_id": "eleven_v4",
+ "language_code": "ky",
+ "output_format": "mp3_44100_128",
+ "voice_settings": {
+  "stability": 0.5,
+  "similarity_boost": 0.75,
+  "speed": 0.9
+ },
+ "credits_per_char_observed": 0.5,
+ "credits_note": "VID-002 trial 2026-11-08: 14 chars -> 7 credits, 686 chars -> 336 credits (character-cost header). Same voices as lesson 003.",
+ "voices": {
+  "ustaz": {
+   "voice_id": "NVEGeFqcDqc5o29VoAQm",
+   "name": "BalaGo KG husband",
+   "category": "generated (designed voice, not a clone)"
+  },
+  "bektur": {
+   "voice_id": "8QMDSJuOqCscZvQ6PqlL",
+   "name": "KG-boy a2-3",
+   "category": "generated"
+  },
+  "aizada": {
+   "voice_id": "4q3KVinKK1sxbDaHp5Le",
+   "name": "KG-girl g4-1",
+   "category": "generated"
+  },
+  "both_children": {
+   "voice_id": "8QMDSJuOqCscZvQ6PqlL",
+   "name": "mix of bektur + aizada (tts_generate.py mixes both)",
+   "category": "generated"
+  }
+ }
+}

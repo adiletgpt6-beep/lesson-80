@@ -38,6 +38,13 @@ def load(path):
     return np.frombuffer(r.stdout, np.float32)
 
 
+def max_abs_channels(path):
+    """Peak over the ORIGINAL channels (a mono downmix with the −3 dB pan law can exceed 1.0 for identical L/R)."""
+    r = subprocess.run(["ffmpeg", "-v", "error", "-i", str(path), "-vn", "-f", "f32le", "-"], capture_output=True, check=True)
+    y = np.frombuffer(r.stdout, np.float32)
+    return int(np.sum(np.abs(y) >= 0.999))
+
+
 def db(v):
     return 20 * np.log10(np.maximum(v, 1e-9))
 
@@ -105,7 +112,7 @@ def main():
     x = load(a.film)
     joins = sorted(json.load(open(a.joins)), key=lambda j: j["start"])
     problems = []
-    clipped = int(np.sum(np.abs(x) >= 0.999))
+    clipped = max_abs_channels(a.film)
     if clipped:
         problems.append({"type": "clipping", "samples": clipped})
     dc = float(np.mean(x))

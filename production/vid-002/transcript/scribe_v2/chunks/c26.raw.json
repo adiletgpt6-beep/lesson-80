@@ -1,0 +1,492 @@
+{
+ "language_code": "kir",
+ "language_probability": 1.0,
+ "text": "Allahumma ya muqallibal qulub tsabit qulubina ala dinik. Allahumma ya musarrifal qulub sarrif qulubina ala tuatık. Rabbana la tuzig qulubana ba'da iz hadaytana wahablana min ladunka rahmah, innaka antal wahhab. Walhamdulillahi rabbil alamin. Allahu akbar.",
+ "words": [
+  {
+   "text": "Allahumma",
+   "start": 2.12,
+   "end": 2.5,
+   "type": "word",
+   "logprob": -0.7192677193217807
+  },
+  {
+   "text": " ",
+   "start": 2.5,
+   "end": 2.54,
+   "type": "spacing",
+   "logprob": -0.007675559725612402
+  },
+  {
+   "text": "ya",
+   "start": 2.54,
+   "end": 2.66,
+   "type": "word",
+   "logprob": -0.007675559725612402
+  },
+  {
+   "text": " ",
+   "start": 2.66,
+   "end": 2.7,
+   "type": "spacing",
+   "logprob": -0.0007566926069557667
+  },
+  {
+   "text": "muqallibal",
+   "start": 2.7,
+   "end": 3.24,
+   "type": "word",
+   "logprob": -0.013569919858127832
+  },
+  {
+   "text": " ",
+   "start": 3.24,
+   "end": 3.3,
+   "type": "spacing",
+   "logprob": -0.004919448867440224
+  },
+  {
+   "text": "qulub",
+   "start": 3.3,
+   "end": 3.68,
+   "type": "word",
+   "logprob": -0.009075971180573105
+  },
+  {
+   "text": " ",
+   "start": 3.68,
+   "end": 3.84,
+   "type": "spacing",
+   "logprob": -0.2790580987930298
+  },
+  {
+   "text": "tsabit",
+   "start": 3.84,
+   "end": 4.18,
+   "type": "word",
+   "logprob": -0.1043276662627856
+  },
+  {
+   "text": " ",
+   "start": 4.18,
+   "end": 4.22,
+   "type": "spacing",
+   "logprob": -3.8742269680369645e-05
+  },
+  {
+   "text": "qulubina",
+   "start": 4.22,
+   "end": 4.54,
+   "type": "word",
+   "logprob": -0.1212324993330185
+  },
+  {
+   "text": " ",
+   "start": 4.54,
+   "end": 4.6,
+   "type": "spacing",
+   "logprob": -0.09523802250623703
+  },
+  {
+   "text": "ala",
+   "start": 4.6,
+   "end": 4.78,
+   "type": "word",
+   "logprob": -0.09523802250623703
+  },
+  {
+   "text": " ",
+   "start": 4.78,
+   "end": 4.82,
+   "type": "spacing",
+   "logprob": -0.013086621649563313
+  },
+  {
+   "text": "dinik.",
+   "start": 4.82,
+   "end": 5.12,
+   "type": "word",
+   "logprob": -0.006558092514751479
+  },
+  {
+   "text": " ",
+   "start": 5.12,
+   "end": 5.7,
+   "type": "spacing",
+   "logprob": -0.0001250427303602919
+  },
+  {
+   "text": "Allahumma",
+   "start": 5.7,
+   "end": 6.08,
+   "type": "word",
+   "logprob": -0.0011967638969912918
+  },
+  {
+   "text": " ",
+   "start": 6.08,
+   "end": 6.12,
+   "type": "spacing",
+   "logprob": -8.260862523457035e-05
+  },
+  {
+   "text": "ya",
+   "start": 6.12,
+   "end": 6.22,
+   "type": "word",
+   "logprob": -8.260862523457035e-05
+  },
+  {
+   "text": " ",
+   "start": 6.22,
+   "end": 6.26,
+   "type": "spacing",
+   "logprob": -0.0050018890760838985
+  },
+  {
+   "text": "musarrifal",
+   "start": 6.26,
+   "end": 6.84,
+   "type": "word",
+   "logprob": -0.06633612657897174
+  },
+  {
+   "text": " ",
+   "start": 6.84,
+   "end": 6.88,
+   "type": "spacing",
+   "logprob": -1.4305012882687151e-05
+  },
+  {
+   "text": "qulub",
+   "start": 6.88,
+   "end": 7.2,
+   "type": "word",
+   "logprob": -1.7452008069085424e-05
+  },
+  {
+   "text": " ",
+   "start": 7.2,
+   "end": 7.28,
+   "type": "spacing",
+   "logprob": -0.0504026859998703
+  },
+  {
+   "text": "sarrif",
+   "start": 7.28,
+   "end": 8.039,
+   "type": "word",
+   "logprob": -0.008486907608433588
+  },
+  {
+   "text": " ",
+   "start": 8.039,
+   "end": 8.08,
+   "type": "spacing",
+   "logprob": -5.125986263010418e-06
+  },
+  {
+   "text": "qulubina",
+   "start": 8.08,
+   "end": 8.38,
+   "type": "word",
+   "logprob": -0.0004403832228376814
+  },
+  {
+   "text": " ",
+   "start": 8.38,
+   "end": 8.44,
+   "type": "spacing",
+   "logprob": -0.004106423351913691
+  },
+  {
+   "text": "ala",
+   "start": 8.44,
+   "end": 8.62,
+   "type": "word",
+   "logprob": -0.004106423351913691
+  },
+  {
+   "text": " ",
+   "start": 8.62,
+   "end": 8.66,
+   "type": "spacing",
+   "logprob": -0.20531153678894043
+  },
+  {
+   "text": "tuatık.",
+   "start": 8.66,
+   "end": 9.12,
+   "type": "word",
+   "logprob": -0.5003106764359343
+  },
+  {
+   "text": " ",
+   "start": 9.12,
+   "end": 9.12,
+   "type": "spacing",
+   "logprob": -0.007789828814566135
+  },
+  {
+   "text": "Rabbana",
+   "start": 9.64,
+   "end": 10.06,
+   "type": "word",
+   "logprob": -0.0173231911446367
+  },
+  {
+   "text": " ",
+   "start": 10.06,
+   "end": 10.12,
+   "type": "spacing",
+   "logprob": -0.0007904027588665485
+  },
+  {
+   "text": "la",
+   "start": 10.12,
+   "end": 10.26,
+   "type": "word",
+   "logprob": -0.0007904027588665485
+  },
+  {
+   "text": " ",
+   "start": 10.26,
+   "end": 10.34,
+   "type": "spacing",
+   "logprob": -0.004225137177854776
+  },
+  {
+   "text": "tuzig",
+   "start": 10.34,
+   "end": 10.7,
+   "type": "word",
+   "logprob": -0.1423182382248342
+  },
+  {
+   "text": " ",
+   "start": 10.7,
+   "end": 10.74,
+   "type": "spacing",
+   "logprob": -1.2516897186287679e-05
+  },
+  {
+   "text": "qulubana",
+   "start": 10.74,
+   "end": 11.3,
+   "type": "word",
+   "logprob": -0.04394464035908641
+  },
+  {
+   "text": " ",
+   "start": 11.3,
+   "end": 11.36,
+   "type": "spacing",
+   "logprob": -0.033047713339328766
+  },
+  {
+   "text": "ba'da",
+   "start": 11.36,
+   "end": 11.68,
+   "type": "word",
+   "logprob": -0.015900744032114743
+  },
+  {
+   "text": " ",
+   "start": 11.68,
+   "end": 11.72,
+   "type": "spacing",
+   "logprob": -0.5013030767440796
+  },
+  {
+   "text": "iz",
+   "start": 11.72,
+   "end": 11.82,
+   "type": "word",
+   "logprob": -0.5013030767440796
+  },
+  {
+   "text": " ",
+   "start": 11.82,
+   "end": 11.86,
+   "type": "spacing",
+   "logprob": -0.003302954602986574
+  },
+  {
+   "text": "hadaytana",
+   "start": 11.86,
+   "end": 12.48,
+   "type": "word",
+   "logprob": -0.017550798438605852
+  },
+  {
+   "text": " ",
+   "start": 12.48,
+   "end": 12.52,
+   "type": "spacing",
+   "logprob": -0.6522756814956665
+  },
+  {
+   "text": "wahablana",
+   "start": 12.52,
+   "end": 13.12,
+   "type": "word",
+   "logprob": -0.30032436016093317
+  },
+  {
+   "text": " ",
+   "start": 13.12,
+   "end": 13.18,
+   "type": "spacing",
+   "logprob": -0.004183351527899504
+  },
+  {
+   "text": "min",
+   "start": 13.18,
+   "end": 13.3,
+   "type": "word",
+   "logprob": -0.004183351527899504
+  },
+  {
+   "text": " ",
+   "start": 13.3,
+   "end": 13.34,
+   "type": "spacing",
+   "logprob": -0.004486850928515196
+  },
+  {
+   "text": "ladunka",
+   "start": 13.34,
+   "end": 13.78,
+   "type": "word",
+   "logprob": -0.007368218353284257
+  },
+  {
+   "text": " ",
+   "start": 13.78,
+   "end": 13.82,
+   "type": "spacing",
+   "logprob": -0.022976480424404144
+  },
+  {
+   "text": "rahmah,",
+   "start": 13.82,
+   "end": 14.18,
+   "type": "word",
+   "logprob": -0.16698114999702998
+  },
+  {
+   "text": " ",
+   "start": 14.18,
+   "end": 14.8,
+   "type": "spacing",
+   "logprob": -2.372236667724792e-05
+  },
+  {
+   "text": "innaka",
+   "start": 14.8,
+   "end": 15.28,
+   "type": "word",
+   "logprob": -0.01135066603183077
+  },
+  {
+   "text": " ",
+   "start": 15.28,
+   "end": 15.32,
+   "type": "spacing",
+   "logprob": -0.40691617131233215
+  },
+  {
+   "text": "antal",
+   "start": 15.32,
+   "end": 15.62,
+   "type": "word",
+   "logprob": -0.40691617131233215
+  },
+  {
+   "text": " ",
+   "start": 15.62,
+   "end": 15.7,
+   "type": "spacing",
+   "logprob": -0.0029318227898329496
+  },
+  {
+   "text": "wahhab.",
+   "start": 15.7,
+   "end": 16.3,
+   "type": "word",
+   "logprob": -0.012006700267582866
+  },
+  {
+   "text": " ",
+   "start": 16.3,
+   "end": 16.36,
+   "type": "spacing",
+   "logprob": -0.08672856539487839
+  },
+  {
+   "text": "Walhamdulillahi",
+   "start": 16.36,
+   "end": 17.22,
+   "type": "word",
+   "logprob": -0.019322524673771112
+  },
+  {
+   "text": " ",
+   "start": 17.22,
+   "end": 17.26,
+   "type": "spacing",
+   "logprob": -1.0967194612021558e-05
+  },
+  {
+   "text": "rabbil",
+   "start": 17.26,
+   "end": 17.5,
+   "type": "word",
+   "logprob": -0.09875447547407627
+  },
+  {
+   "text": " ",
+   "start": 17.5,
+   "end": 17.58,
+   "type": "spacing",
+   "logprob": -0.0006920088781043887
+  },
+  {
+   "text": "alamin.",
+   "start": 17.58,
+   "end": 17.82,
+   "type": "word",
+   "logprob": -0.0005316060820145399
+  },
+  {
+   "text": " ",
+   "start": 17.82,
+   "end": 17.86,
+   "type": "spacing",
+   "logprob": -0.009126375429332256
+  },
+  {
+   "text": "Allahu",
+   "start": 17.92,
+   "end": 18.2,
+   "type": "word",
+   "logprob": -0.1624672100879252
+  },
+  {
+   "text": " ",
+   "start": 18.2,
+   "end": 18.28,
+   "type": "spacing",
+   "logprob": -2.1219027985353023e-05
+  },
+  {
+   "text": "akbar.",
+   "start": 18.28,
+   "end": 19.7,
+   "type": "word",
+   "logprob": -0.0014753848493758899
+  }
+ ],
+ "transcription_id": "QtamPy76sFKfZn3kpwCe",
+ "audio_duration_secs": 22.4188125
+}

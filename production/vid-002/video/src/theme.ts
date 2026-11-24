@@ -1,0 +1,33 @@
+// Unified 2D style for the 80-lesson course. Warm classroom, marker colours on a white board, no gradients that
+// are expensive to render. Allah and the prophets are never depicted (see CLAUDE.md).
+export const theme = {
+  wall: "#f6efe1",
+  wallDark: "#e8dcc6",
+  floor: "#cfae84",
+  floorLine: "#b8966c",
+  board: "#fcfcf8",
+  boardFrame: "#8a6240",
+  boardFrameDark: "#6b4a2e",
+  boardTray: "#a57a52",
+  ink: "#1f3b57", // blue marker
+  inkGreen: "#2a7f5a",
+  inkRed: "#c8443a",
+  inkGold: "#d9a21b",
+  inkBlack: "#2b2b2b",
+  star: "#f2b32a",
+  starOff: "#d7d9d4",
+  caption: "rgba(16, 28, 36, 0.86)",
+  captionText: "#ffffff",
+  ustazColor: "#f2c879",
+  bekturColor: "#8fd3ff",
+  aizadaColor: "#ffb3d1",
+  childrenColor: "#c9f0a4",
+  font: "'Noto Sans', 'DejaVu Sans', sans-serif",
+};
+
+export const SPEAKER_NAME: Record<string, string> = {
+  ustaz: "Устаз", bektur: "Бектур", aizada: "Айзада", both_children: "Балдар",
+};
+export const SPEAKER_COLOR: Record<string, string> = {
+  ustaz: theme.ustazColor, bektur: theme.bekturColor, aizada: theme.aizadaColor, both_children: theme.childrenColor,
+};

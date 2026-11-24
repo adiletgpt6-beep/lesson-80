@@ -1,0 +1,138 @@
+name: VID-002 — render lessons 001 / 002
+
+# Renders every chapter of one lesson in parallel (Remotion, 1920×1080, 30 fps, no music), concatenates without
+# re-encoding, verifies the MP4 (exactly 60:00) and publishes it to a GitHub pre-release. Lesson 003 has its own
+# workflow and is not touched. Voice clips come from lessons/NNN/audio/clips (ElevenLabs output).
+
+on:
+  workflow_dispatch:
+    inputs:
+      lesson:
+        description: "Lesson (001 or 002)"
+        required: true
+        default: "001"
+  push:
+    branches:
+      - "ccr-5178bfd2-62yy85"
+    paths:
+      - "production/vid-002/video/src/**"
+      - "lessons/001/audio/clips/**"
+      - "lessons/002/audio/clips/**"
+      - ".github/workflows/vid-002-render.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  plan:
+    # On push, render only when the commit message says "[render-001]" or "[render-002]".
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[render-00')
+    runs-on: ubuntu-latest
+    outputs:
+      lesson: ${{ steps.p.outputs.lesson }}
+      chapters: ${{ steps.p.outputs.chapters }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: p
+        env:
+          MSG: ${{ github.event.head_commit.message }}
+          IN: ${{ github.event.inputs.lesson }}
+        run: |
+          L="$IN"
+          if [ -z "$L" ]; then case "$MSG" in *"[render-002]"*) L=002;; *) L=001;; esac; fi
+          echo "lesson=$L" >> "$GITHUB_OUTPUT"
+          echo "chapters=$(python3 -c "import json;print(json.dumps([c['id'] for c in json.load(open('production/vid-002/video/src/lessons/l$L/timeline.json'))['chapters']]))")" >> "$GITHUB_OUTPUT"
+      - name: Timeline QA (blocked lines, audio sync, cutaway keys, exactly 60:00)
+        run: LESSON=${{ steps.p.outputs.lesson }} python3 production/vid-002/scripts/check_timeline.py
+
+  render:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        chapter: ${{ fromJson(needs.plan.outputs.chapters) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: production/vid-002/video/package-lock.json
+      - name: Install
+        working-directory: production/vid-002/video
+        run: |
+          npm ci
+          mkdir -p public
+          ln -sfn ../../../../lessons/${{ needs.plan.outputs.lesson }}/audio/clips public/audio
+          ls public/audio | head -3
+          npx remotion browser ensure
+      - name: Render ${{ matrix.chapter }}
+        working-directory: production/vid-002/video
+        run: |
+          mkdir -p out
+          npx remotion render src/index.ts Lesson${{ needs.plan.outputs.lesson }}-${{ matrix.chapter }} out/${{ matrix.chapter }}.mp4 \
+            --concurrency=4 --codec=h264 --crf=20 --jpeg-quality=85 --pixel-format=yuv420p --audio-codec=aac --log=warn
+          npx remotion ffprobe -v error -show_entries format=duration:stream=codec_name,width,height,r_frame_rate -of default=nw=1 out/${{ matrix.chapter }}.mp4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: l${{ needs.plan.outputs.lesson }}-chapter-${{ matrix.chapter }}
+          path: production/vid-002/video/out/${{ matrix.chapter }}.mp4
+          if-no-files-found: error
+          retention-days: 14
+
+  publish:
+    needs: [plan, render]
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      L: ${{ needs.plan.outputs.lesson }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: l${{ needs.plan.outputs.lesson }}-chapter-*
+          path: chapters
+          merge-multiple: true
+      - name: Concatenate chapters (no re-encoding) and verify
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+          OUT=lesson-80-$L-full-ky-preview-v1
+          echo "OUT=$OUT" >> "$GITHUB_ENV"
+          python3 -c "import json;[print(f\"file '$PWD/chapters/{c['id']}.mp4'\") for c in json.load(open('production/vid-002/video/src/lessons/l$L/timeline.json'))['chapters']]" > concat.txt
+          cat concat.txt
+          ffmpeg -hide_banner -loglevel error -y -f concat -safe 0 -i concat.txt -c copy -movflags +faststart "$OUT.mp4"
+          ffmpeg -hide_banner -loglevel error -y -i "$OUT.mp4" -vf scale=960:540:flags=lanczos -c:v libx264 -preset fast -crf 24 \
+            -pix_fmt yuv420p -c:a aac -b:a 96k -movflags +faststart "$OUT-preview-960x540.mp4"
+          python3 production/vid-002/scripts/verify_mp4.py "$OUT.mp4" --expect-min-seconds 3599.5 --expect-max-seconds 3600.5 | tee verify.txt
+          n=$(ffmpeg -hide_banner -i "$OUT-preview-960x540.mp4" -vf "freezedetect=n=0.001:d=8" -map 0:v -f null - 2>&1 | grep -c "freeze_start" || true)
+          echo "- frozen picture ≥8 s (freezedetect n=0.001): $n" | tee -a verify.txt
+          sha256sum "$OUT.mp4" "$OUT-preview-960x540.mp4" chapters/*.mp4 | tee SHA256SUMS.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: lesson-${{ needs.plan.outputs.lesson }}-full
+          path: |
+            ${{ env.OUT }}.mp4
+            ${{ env.OUT }}-preview-960x540.mp4
+            SHA256SUMS.txt
+            verify.txt
+          retention-days: 30
+      - name: Publish to pre-release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG=lesson-$L-preview-v1
+          if [ "$L" = "001" ]; then TITLE="Урок 001 — «Ислам — беш түркүктүү үй» — просмотровая версия v1 (preview)"; else TITLE="Урок 002 — «Ак кийимчен мейман: Ислам, Ыйман, Ихсан» — просмотровая версия v1 (preview)"; fi
+          {
+            echo "$TITLE. Кыргызский, 1920×1080, 30 fps, H.264/AAC, без музыки, ровно 60:00. Источник: VID-002."
+            echo "Ветка ${GITHUB_REF_NAME}, коммит ${GITHUB_SHA::7}, прогон ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}."
+            echo "НЕ утверждённый исламский учебный материал: требуется проверка устаза/богослова и носителя языка — см. lessons/$L/REVIEW_REGISTER.md."
+            echo
+            cat verify.txt
+          } > notes.md
+          gh release view "$TAG" -R "$GITHUB_REPOSITORY" >/dev/null 2>&1 || \
+            gh release create "$TAG" -R "$GITHUB_REPOSITORY" --title "$TITLE" --notes-file notes.md --prerelease --target "$GITHUB_SHA"
+          gh release edit "$TAG" -R "$GITHUB_REPOSITORY" --notes-file notes.md
+          gh release upload "$TAG" -R "$GITHUB_REPOSITORY" --clobber "$OUT.mp4" "$OUT-preview-960x540.mp4" SHA256SUMS.txt
+          for f in "$OUT.mp4" "$OUT-preview-960x540.mp4" SHA256SUMS.txt; do echo "- ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/releases/download/$TAG/$f" >> "$GITHUB_STEP_SUMMARY"; done
